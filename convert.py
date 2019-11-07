@@ -1,27 +1,29 @@
+
 import rdflib
 import gpxpy
 import gpxpy.gpx
 # https://pypi.org/project/gpxpy/
 # pip install gpxpy rdflib
-from pathlib import Path, PureWindowsPath
 
-gpx_file = open('GPX_Tracks/4sDDFdd4cjA.gpx', 'r')
 
-gpx = gpxpy.parse(gpx_file)
-for track in gpx.tracks:
-    for segment in track.segments:
-            for point in segment.points:
-                print('Point at ({0},{1}) -> {2}'.format(point.latitude, point.longitude, point.elevation))
 
-for waypoint in gpx.waypoints:
-    print('waypoint {0} -> ({1},{2})'.format(waypoint.name, waypoint.latitude, waypoint.longitude))
 
-for route in gpx.routes:
-    print('Route:')
-    for point in route.points:
-        print('Point at ({0},{1}) -> {2}'.format(point.latitude, point.longitude, point.elevation))
-#track = Path.cwd() / "GPX_Tracks" /"4sDDFdd4cjA.gpx"
-#f = open(track)
+def parse_gpx(gpx_file):
+    store = Graph()
+    gpx = gpxpy.parse(gpx_file)
+    for track in gpx.tracks:
+        for segment in track.segments:
+                for point in segment.points:
+                    print('Point at ({0},{1}) -> {2}'.format(point.latitude, point.longitude, point.elevation))
+
+    for waypoint in gpx.waypoints:
+        print('waypoint {0} -> ({1},{2})'.format(waypoint.name, waypoint.latitude, waypoint.longitude))
+
+    for route in gpx.routes:
+        print('Route:')
+        for point in route.points:
+            print('Point at ({0},{1}) -> {2}'.format(point.latitude, point.longitude, point.elevation))
+
 #g=rdflib.Graph()
 #semweb=rdflib.URIRef('http://dbpedia.org/resource/Semantic_Web')
 #type=g.value(semweb, rdflib.RDFS.label)
@@ -36,3 +38,10 @@ for route in gpx.routes:
 
 # Read XML file
 #print(f.read())
+def main():
+    gpx_file = open('GPX_Tracks/4sDDFdd4cjA.gpx', 'r')
+    print("python main function")
+    parse_gpx(gpx_file)
+
+if __name__ == '__main__':
+    main()
