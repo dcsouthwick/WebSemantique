@@ -1,10 +1,9 @@
 import xml.etree.ElementTree as ET
 
 from rdflib.namespace import RDF, FOAF, RDFS, XSD
-from rdflib import Graph
-from rdflib import URIRef, BNode, Literal
+from rdflib import URIRef, BNode, Literal, Graph, Namespace
 
-n= BNode()
+n = Namespace("http://cui.unige.ch/tws/tp1/")
 g = Graph()   # ttl output graph
 Track = URIRef("http://cui.unige/tws/tp1/Track")
 Natural = URIRef("http://cui.unige/tws/tp1/Natural")
