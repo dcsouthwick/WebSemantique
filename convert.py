@@ -1,21 +1,35 @@
 
 import rdflib
+from rdflib import Graph, Namespace, RDF, Literal, BNode, FOAF, RDFS, XSD, URIRef
 import gpxpy
 import gpxpy.gpx
 # https://pypi.org/project/gpxpy/
-# pip install gpxpy rdflib
+# pip3 install gpxpy rdflib --user
+
+geo = Namespace("http://www.w3.org/2003/01/geo/wgs84_pos/")
+Track = URIRef("https://www.w3.org/2003/01/geo/wgs84_pos/")
 
 
-
+graph = Graph()
 
 def parse_gpx(gpx_file):
-    store = Graph()
     gpx = gpxpy.parse(gpx_file)
     for track in gpx.tracks:
         for segment in track.segments:
+                geoNumber = 0
                 for point in segment.points:
                     print('Point at ({0},{1}) -> {2}'.format(point.latitude, point.longitude, point.elevation))
+                    node=BNode()
+                    geo.lat=point.latitude
+                    geo.long=point.longitude
+                    geo.elevation=point.elevation
+                    graph.add((node, RDF.type  , Literal(geo)))
 
+                    #graph.add((node, geo.lat, Literal(geo.lat)))
+                    #graph.add((node, geo.long, Literal(point.longitude)))
+
+                    geoNumber += 1
+                print("Created {0} points in RDF".format(geoNumber))
     for waypoint in gpx.waypoints:
         print('waypoint {0} -> ({1},{2})'.format(waypoint.name, waypoint.latitude, waypoint.longitude))
 
@@ -23,6 +37,10 @@ def parse_gpx(gpx_file):
         print('Route:')
         for point in route.points:
             print('Point at ({0},{1}) -> {2}'.format(point.latitude, point.longitude, point.elevation))
+
+def printGraph():
+    print(graph.serialize(format='turtle'))
+    graph.serialize(destination="./graph.ttl", format='turtle')
 
 #g=rdflib.Graph()
 #semweb=rdflib.URIRef('http://dbpedia.org/resource/Semantic_Web')
@@ -42,6 +60,7 @@ def main():
     gpx_file = open('GPX_Tracks/4sDDFdd4cjA.gpx', 'r')
     print("python main function")
     parse_gpx(gpx_file)
+    printGraph()
 
 if __name__ == '__main__':
     main()
