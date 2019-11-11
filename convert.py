@@ -21,6 +21,8 @@ def query_OSM(left, bottom, right, top):
     result = api.query("node({},{},{},{});out;".format(left, bottom, right, top))
     print("Returned {} nodes, {} ways, and {} relations from OSM".format(len(result.nodes), len(result.ways), len(result.relations)))
     #data = response.json()
+    #for node in result.nodes:
+        #graph.add()
 
 # https://pypi.org/project/gpxpy/
 # pip3 install gpxpy rdflib --user
@@ -66,13 +68,13 @@ def parse_gpx(gpx_file):
                     geoNumber += 1
                 print("Created {0} points in RDF".format(geoNumber))
                 print("Found area bounding box of {}, {}, {}, {}".format(left_bound, bottom_bound, right_bound, top_bound))
-    #for waypoint in gpx.waypoints:
-        #print('waypoint {0} -> ({1},{2})'.format(waypoint.name, waypoint.latitude, waypoint.longitude))
+    for waypoint in gpx.waypoints:
+        print('waypoint {0} -> ({1},{2})'.format(waypoint.name, waypoint.latitude, waypoint.longitude))
 
-    #for route in gpx.routes:
-        #print('Route:')
-        #for point in route.points:
-            #print('Point at ({0},{1}) -> {2}'.format(point.latitude, point.longitude, point.elevation))
+    for route in gpx.routes:
+        print('Route:')
+        for point in route.points:
+            print('Point at ({0},{1}) -> {2}'.format(point.latitude, point.longitude, point.elevation))
     return left_bound, bottom_bound, right_bound, top_bound
 
 
