@@ -20,9 +20,6 @@ geo:location rdfs:range geo:SpatialThing .
 
 geo:long rdfs:domain geo:SpatialThing .
 
-geo:Point rdfs:domain tp1:Place ;
-    rdfs:subClassOf geo:SpatialThing .
-
 tp1:Place a ns1:Class ;
     rdfs:label tp1:label ;
     rdf:Property geo:Point,
@@ -31,5 +28,11 @@ tp1:Place a ns1:Class ;
     rdfs:domain tp1:Track ;
     ns1:equivalentClass schema:Place .
 
+geo:Point rdfs:domain tp1:Place ;
+    rdfs:subClassOf geo:SpatialThing .
+
 geo:SpatialThing rdfs:subClassOf rdfs:Resource .
+
+[] a geo:Point ;
+    geo:lat "45"^^xsd:string .
 

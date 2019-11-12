@@ -1,221 +1,612 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos/> .
+@prefix ns1: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix tp1: <http://cui.unige.ch/tws/enriched_trails/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
-
-[] a "http://www.w3.org/2003/01/geo/wgs84_pos/" .
+tp1:Track a rdfs:Class ;
+    rdfs:range tp1:Place ;
+    rdfs:subClassOf rdfs:Resource .
+
+<http://cui.unige.ch/tws/enriched_trails/4sDDFdd4cjA.gpx> a tp1:Track .
+
+geo:alt rdfs:domain geo:SpatialThing .
+
+geo:lat rdfs:domain geo:SpatialThing .
+
+geo:location rdfs:range geo:SpatialThing .
+
+geo:long rdfs:domain geo:SpatialThing .
+
+geo:SpatialThing rdfs:subClassOf rdfs:Resource .
+
+tp1:Place a ns1:Class ;
+    rdfs:label tp1:label ;
+    rdf:Property schema:address ;
+    rdf:langString tp1:label ;
+    rdfs:domain tp1:Track ;
+    rdfs:range geo:Point ;
+    ns1:equivalentClass schema:Place .
+
+geo:Point rdfs:domain tp1:Place ;
+    rdfs:subClassOf geo:SpatialThing .
+
+[] a geo:Point ;
+    geo:alt "1393.0" ;
+    geo:lat "45.788513" ;
+    geo:long "6.951987" .
+
+[] a geo:Point ;
+    geo:alt "1955.0" ;
+    geo:lat "45.791196" ;
+    geo:long "6.932783" .
+
+[] a geo:Point ;
+    geo:alt "1516.0" ;
+    geo:lat "45.790772" ;
+    geo:long "6.951493" .
+
+[] a geo:Point ;
+    geo:alt "1181.0" ;
+    geo:lat "45.791794" ;
+    geo:long "6.965698" .
+
+[] a geo:Point ;
+    geo:alt "1465.0" ;
+    geo:lat "45.803403" ;
+    geo:long "6.985632" .
+
+[] a geo:Point ;
+    geo:alt "1201.0" ;
+    geo:lat "45.790952" ;
+    geo:long "6.971127" .
+
+[] a geo:Point ;
+    geo:alt "1507.0" ;
+    geo:lat "45.790772" ;
+    geo:long "6.953231" .
+
+[] a geo:Point ;
+    geo:alt "1453.0" ;
+    geo:lat "45.803059" ;
+    geo:long "6.985933" .
+
+[] a geo:Point ;
+    geo:alt "1923.0" ;
+    geo:lat "45.807905" ;
+    geo:long "6.977972" .
+
+[] a tp1:Place ;
+    rdfs:label "Dolonne" ;
+    geo:lat "45.790058" ;
+    geo:long "6.964475" .
+
+[] a geo:Point ;
+    geo:alt "1517.0" ;
+    geo:lat "45.790941" ;
+    geo:long "6.952073" .
+
+[] a tp1:Place ;
+    rdfs:label "Plan Chécrouit" ;
+    geo:lat "45.792119" ;
+    geo:long "6.945099" .
+
+[] a geo:Point ;
+    geo:alt "1940.0" ;
+    geo:lat "45.80807" ;
+    geo:long "6.977307" .
+
+[] a geo:Point ;
+    geo:alt "1433.0" ;
+    geo:lat "45.790099" ;
+    geo:long "6.954047" .
+
+[] a geo:Point ;
+    geo:alt "1675.0" ;
+    geo:lat "45.789729" ;
+    geo:long "6.944927" .
+
+[] a geo:Point ;
+    geo:alt "1198.0" ;
+    geo:lat "45.791266" ;
+    geo:long "6.970204" .
+
+[] a geo:Point ;
+    geo:alt "1485.0" ;
+    geo:lat "45.803702" ;
+    geo:long "6.985976" .
+
+[] a geo:Point ;
+    geo:alt "1692.0" ;
+    geo:lat "45.790907" ;
+    geo:long "6.945313" .
+
+[] a geo:Point ;
+    geo:alt "1665.0" ;
+    geo:lat "45.789206" ;
+    geo:long "6.945442" .
+
+[] a geo:Point ;
+    geo:alt "1216.0" ;
+    geo:lat "45.789905" ;
+    geo:long "6.963617" .
+
+[] a geo:Point ;
+    geo:alt "1212.0" ;
+    geo:lat "45.789381" ;
+    geo:long "6.964754" .
+
+[] a geo:Point ;
+    geo:alt "1497.0" ;
+    geo:lat "45.790757" ;
+    geo:long "6.954004" .
+
+[] a geo:Point ;
+    geo:alt "1344.0" ;
+    geo:lat "45.788184" ;
+    geo:long "6.954025" .
+
+[] a geo:Point ;
+    geo:alt "1899.0" ;
+    geo:lat "45.807419" ;
+    geo:long "6.97747" .
+
+[] a geo:Point ;
+    geo:alt "1311.0" ;
+    geo:lat "45.799094" ;
+    geo:long "6.978294" .
+
+[] a geo:Point ;
+    geo:alt "1520.0" ;
+    geo:lat "45.80421" ;
+    geo:long "6.985826" .
+
+[] a geo:Point ;
+    geo:alt "1244.0" ;
+    geo:lat "45.792164" ;
+    geo:long "6.973123" .
+
+[] a geo:Point ;
+    geo:alt "1841.0" ;
+    geo:lat "45.807127" ;
+    geo:long "6.979903" .
+
+[] a geo:Point ;
+    geo:alt "1173.0" ;
+    geo:lat "45.792493" ;
+    geo:long "6.966921" .
+
+[] a geo:Point ;
+    geo:alt "1893.0" ;
+    geo:lat "45.793051" ;
+    geo:long "6.936537" .
+
+[] a geo:Point ;
+    geo:alt "1920.0" ;
+    geo:lat "45.791495" ;
+    geo:long "6.935014" .
+
+[] a geo:Point ;
+    geo:alt "1208.0" ;
+    geo:lat "45.790742" ;
+    geo:long "6.972286" .
+
+[] a geo:Point ;
+    geo:alt "1187.0" ;
+    geo:lat "45.792003" ;
+    geo:long "6.968874" .
+
+[] a geo:Point ;
+    geo:alt "1222.0" ;
+    geo:lat "45.789519" ;
+    geo:long "6.962995" .
+
+[] a geo:Point ;
+    geo:alt "1851.0" ;
+    geo:lat "45.79179" ;
+    geo:long "6.93776" .
+
+[] a geo:Point ;
+    geo:alt "1386.0" ;
+    geo:lat "45.788289" ;
+    geo:long "6.952266" .
+
+[] a geo:Point ;
+    geo:alt "1320.0" ;
+    geo:lat "45.788827" ;
+    geo:long "6.955892" .
+
+[] a geo:Point ;
+    geo:alt "1954.0" ;
+    geo:lat "45.790956" ;
+    geo:long "6.931023" .
+
+[] a geo:Point ;
+    geo:alt "1846.0" ;
+    geo:lat "45.806963" ;
+    geo:long "6.979217" .
+
+[] a geo:Point ;
+    geo:alt "1230.0" ;
+    geo:lat "45.791685" ;
+    geo:long "6.972908" .
+
+[] a geo:Point ;
+    geo:alt "1291.0" ;
+    geo:lat "45.788468" ;
+    geo:long "6.957737" .
+
+[] a geo:Point ;
+    geo:alt "1390.0" ;
+    geo:lat "45.801772" ;
+    geo:long "6.983766" .
+
+[] a geo:Point ;
+    geo:alt "1627.0" ;
+    geo:lat "45.805707" ;
+    geo:long "6.984838" .
+
+[] a geo:Point ;
+    geo:alt "1575.0" ;
+    geo:lat "45.804809" ;
+    geo:long "6.983722" .
+
+[] a geo:Point ;
+    geo:alt "1875.0" ;
+    geo:lat "45.792542" ;
+    geo:long "6.937159" .
+
+[] a geo:Point ;
+    geo:alt "1271.0" ;
+    geo:lat "45.788906" ;
+    geo:long "6.958746" .
+
+[] a geo:Point ;
+    geo:alt "1523.0" ;
+    geo:lat "45.791072" ;
+    geo:long "6.952845" .
+
+[] a geo:Point ;
+    geo:alt "1626.0" ;
+    geo:lat "45.790249" ;
+    geo:long "6.946944" .
+
+[] a geo:Point ;
+    geo:alt "1355.0" ;
+    geo:lat "45.788124" ;
+    geo:long "6.953553" .
+
+[] a geo:Point ;
+    geo:alt "1281.0" ;
+    geo:lat "45.797415" ;
+    geo:long "6.976019" .
+
+[] a geo:Point ;
+    geo:alt "1245.0" ;
+    geo:lat "45.792957" ;
+    geo:long "6.973423" .
+
+[] a geo:Point ;
+    geo:alt "1377.0" ;
+    geo:lat "45.800501" ;
+    geo:long "6.982779" .
+
+[] a geo:Point ;
+    geo:alt "1762.0" ;
+    geo:lat "45.792254" ;
+    geo:long "6.943382" .
+
+[] a geo:Point ;
+    geo:alt "1233.0" ;
+    geo:lat "45.789097" ;
+    geo:long "6.9619" .
+
+[] a geo:Point ;
+    geo:alt "1778.0" ;
+    geo:lat "45.807157" ;
+    geo:long "6.982028" .
+
+[] a geo:Point ;
+    geo:alt "1352.0" ;
+    geo:lat "45.800979" ;
+    geo:long "6.981405" .
+
+[] a geo:Point ;
+    geo:alt "1657.0" ;
+    geo:lat "45.790141" ;
+    geo:long "6.945785" .
+
+[] a geo:Point ;
+    geo:alt "1396.0" ;
+    geo:lat "45.800665" ;
+    geo:long "6.984109" .
+
+[] a geo:Point ;
+    geo:alt "1342.0" ;
+    geo:lat "45.788954" ;
+    geo:long "6.954937" .
+
+[] a geo:Point ;
+    geo:alt "1397.0" ;
+    geo:lat "45.801458" ;
+    geo:long "6.985139" .
+
+[] a geo:Point ;
+    geo:alt "1703.0" ;
+    geo:lat "45.806754" ;
+    geo:long "6.983422" .
+
+[] a geo:Point ;
+    geo:alt "1520.0" ;
+    geo:lat "45.790605" ;
+    geo:long "6.951054" .
+
+[] a geo:Point ;
+    geo:alt "1246.0" ;
+    geo:lat "45.788857" ;
+    geo:long "6.960656" .
+
+[] a geo:Point ;
+    geo:alt "1819.0" ;
+    geo:lat "45.791824" ;
+    geo:long "6.939306" .
+
+[] a geo:Point ;
+    geo:alt "1426.0" ;
+    geo:lat "45.789759" ;
+    geo:long "6.953253" .
+
+[] a geo:Point ;
+    geo:alt "1462.0" ;
+    geo:lat "45.803193" ;
+    geo:long "6.984881" .
+
+[] a geo:Point ;
+    geo:alt "1266.0" ;
+    geo:lat "45.795994" ;
+    geo:long "6.975376" .
+
+[] a geo:Point ;
+    geo:alt "1656.0" ;
+    geo:lat "45.806021" ;
+    geo:long "6.983744" .
+
+[] a geo:Point ;
+    geo:alt "1705.0" ;
+    geo:lat "45.791525" ;
+    geo:long "6.945743" .
+
+[] a geo:Point ;
+    geo:alt "1683.0" ;
+    geo:lat "45.790717" ;
+    geo:long "6.945786" .
+
+[] a geo:Point ;
+    geo:alt "1253.0" ;
+    geo:lat "45.793989" ;
+    geo:long "6.97411" .
+
+[] a geo:Point ;
+    geo:alt "1581.0" ;
+    geo:lat "45.790728" ;
+    geo:long "6.949305" .
+
+[] a geo:Point ;
+    geo:alt "1569.0" ;
+    geo:lat "45.790877" ;
+    geo:long "6.950013" .
+
+[] a geo:Point ;
+    geo:alt "1950.0" ;
+    geo:lat "45.790777" ;
+    geo:long "6.932203" .
+
+[] a geo:Point ;
+    geo:alt "1647.0" ;
+    geo:lat "45.78968" ;
+    geo:long "6.945528" .
+
+[] a tp1:Place ;
+    rdfs:label "Carrefour Bertone" ;
+    geo:lat "45.803059" ;
+    geo:long "6.985933" .
+
+[] a geo:Point ;
+    geo:alt "1356.0" ;
+    geo:lat "45.801009" ;
+    geo:long "6.982178" .
+
+[] a geo:Point ;
+    geo:alt "1522.0" ;
+    geo:lat "45.790234" ;
+    geo:long "6.950807" .
+
+[] a geo:Point ;
+    geo:alt "1213.0" ;
+    geo:lat "45.790058" ;
+    geo:long "6.964475" .
+
+[] a tp1:Place ;
+    rdfs:label "Villair-dessus" ;
+    geo:lat "45.80077" ;
+    geo:long "6.980547" .
+
+[] a geo:Point ;
+    geo:alt "1741.0" ;
+    geo:lat "45.792119" ;
+    geo:long "6.945099" .
+
+[] a geo:Point ;
+    geo:alt "1209.0" ;
+    geo:lat "45.788741" ;
+    geo:long "6.965258" .
+
+[] a geo:Point ;
+    geo:alt "1734.0" ;
+    geo:lat "45.806544" ;
+    geo:long "6.982113" .
+
+[] a geo:Point ;
+    geo:alt "1416.0" ;
+    geo:lat "45.789246" ;
+    geo:long "6.952459" .
+
+[] a geo:Point ;
+    geo:alt "1382.0" ;
+    geo:lat "45.801323" ;
+    geo:long "6.984538" .
+
+[] a tp1:Place ;
+    rdfs:label "Refuge de Maison Vieille" ;
+    geo:lat "45.790956" ;
+    geo:long "6.931023" .
+
+[] a geo:Point ;
+    geo:alt "1174.0" ;
+    geo:lat "45.792643" ;
+    geo:long "6.967823" .
+
+[] a geo:Point ;
+    geo:alt "1343.0" ;
+    geo:lat "45.80077" ;
+    geo:long "6.980547" .
+
+[] a geo:Point ;
+    geo:alt "1195.0" ;
+    geo:lat "45.790477" ;
+    geo:long "6.96587" .
+
+[] a tp1:Place ;
+    rdfs:label "Refuge Bertone" ;
+    geo:lat "45.808638" ;
+    geo:long "6.9778" .
+
+[] a geo:Point ;
+    geo:alt "1800.0" ;
+    geo:lat "45.792104" ;
+    geo:long "6.941322" .
+
+[] a geo:Point ;
+    geo:alt "1392.0" ;
+    geo:lat "45.801697" ;
+    geo:long "6.984495" .
+
+[] a geo:Point ;
+    geo:alt "1329.0" ;
+    geo:lat "45.799932" ;
+    geo:long "6.979517" .
+
+[] a geo:Point ;
+    geo:alt "1892.0" ;
+    geo:lat "45.807367" ;
+    geo:long "6.978272" .
+
+[] a geo:Point ;
+    geo:alt "1681.0" ;
+    geo:lat "45.790309" ;
+    geo:long "6.94512" .
+
+[] a geo:Point ;
+    geo:alt "1403.0" ;
+    geo:lat "45.802162" ;
+    geo:long "6.982886" .
+
+[] a geo:Point ;
+    geo:alt "1452.0" ;
+    geo:lat "45.790477" ;
+    geo:long "6.955056" .
+
+[] a geo:Point ;
+    geo:alt "1370.0" ;
+    geo:lat "45.788756" ;
+    geo:long "6.95321" .
+
+[] a geo:Point ;
+    geo:alt "1254.0" ;
+    geo:lat "45.795085" ;
+    geo:long "6.97441" .
+
+[] a geo:Point ;
+    geo:alt "1959.0" ;
+    geo:lat "45.808638" ;
+    geo:long "6.9778" .
+
+[] a geo:Point ;
+    geo:alt "1806.0" ;
+    geo:lat "45.807262" ;
+    geo:long "6.981287" .
+
+[] a tp1:Place ;
+    rdfs:label "Courmayeur" ;
+    geo:lat "45.792164" ;
+    geo:long "6.972329" .
+
+[] a geo:Point ;
+    geo:alt "1194.0" ;
+    geo:lat "45.791281" ;
+    geo:long "6.969239" .
+
+[] a geo:Point ;
+    geo:alt "1873.0" ;
+    geo:lat "45.807128" ;
+    geo:long "6.978599" .
+
+[] a geo:Point ;
+    geo:alt "1309.0" ;
+    geo:lat "45.788618" ;
+    geo:long "6.956686" .
+
+[] a geo:Point ;
+    geo:alt "1409.0" ;
+    geo:lat "45.801219" ;
+    geo:long "6.985225" .
+
+[] a geo:Point ;
+    geo:alt "1600.0" ;
+    geo:lat "45.790353" ;
+    geo:long "6.948682" .
+
+[] a geo:Point ;
+    geo:alt "1554.0" ;
+    geo:lat "45.790129" ;
+    geo:long "6.949326" .
+
+[] a geo:Point ;
+    geo:alt "1489.0" ;
+    geo:lat "45.803747" ;
+    geo:long "6.985504" .
+
+[] a geo:Point ;
+    geo:alt "1429.0" ;
+    geo:lat "45.80255" ;
+    geo:long "6.984624" .
+
+[] a geo:Point ;
+    geo:alt "1862.0" ;
+    geo:lat "45.792224" ;
+    geo:long "6.937589" .
+
+[] a geo:Point ;
+    geo:alt "1220.0" ;
+    geo:lat "45.792164" ;
+    geo:long "6.972329" .
+
+[] a geo:Point ;
+    geo:alt "1528.0" ;
+    geo:lat "45.80421" ;
+    geo:long "6.985246" .
+
+[] a geo:Point ;
+    geo:alt "1609.0" ;
+    geo:lat "45.790238" ;
+    geo:long "6.948017" .
+
+[] a geo:Point ;
+    geo:alt "1551.0" ;
+    geo:lat "45.804539" ;
+    geo:long "6.985311" .
 

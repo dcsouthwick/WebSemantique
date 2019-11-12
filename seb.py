@@ -43,6 +43,11 @@ g.add((tp1.Place, RDF.Property, schema.address))
 g.add((tp1.Place, RDF.langString, tp1.label))
 g.add((tp1.Place, RDFS.label, tp1.label))
 
+node = BNode()
+g.add((node, RDF.type, geo.Point))
+lat='45'
+print(type(lat))
+g.add((node, geo.lat, Literal(lat, datatype=XSD.string)))
 
 
 #g.add((geo.Point, RDFS. ))
