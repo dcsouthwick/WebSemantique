@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-from rdflib import Graph, Namespace, RDF, Literal, BNode, RDFS, XSD, URIRef
+from rdflib import Graph, Namespace, RDF, Literal, BNode, RDFS, XSD, URIRef, OWL
+
 #import sparqlwrapper
 import gpxpy
 import gpxpy.gpx
@@ -14,12 +15,13 @@ import overpy
 # NB: requires course .gpx files in ./GPX_Tracks/*
 ########################
 
+graph = Graph()
 
 
 def query_OSM(left, bottom, right, top):
     """ Query OSM api using box defined by edge long & lat """
     api = overpy.Overpass()
-    result = api.query("node({},{},{},{});out;".format(left, bottom, right, top))
+    result = api.query("way({},{},{},{})[\"name\"][!\"highway\"];out geom;".format(left, bottom, right, top))
     print("Returned {} nodes, {} ways, and {} relations from OSM".format(len(result.nodes), len(result.ways), len(result.relations)))
     #data = response.json()
     #for node in result.nodes:
@@ -31,8 +33,46 @@ def query_OSM(left, bottom, right, top):
 geo = Namespace("http://www.w3.org/2003/01/geo/wgs84_pos/")
 Track = URIRef("https://www.w3.org/2003/01/geo/wgs84_pos/")
 
+def construct_graph():
+    """ Initialize and construct ontology """
+    # Create the namespace for our project
+    tp1 = Namespace("http://cui.unige.ch/tws/enriched_trails/")
+    geo = Namespace("http://www.w3.org/2003/01/geo/wgs84_pos/")
+    dbo = Namespace("http://dbpedia.org/ontology/")
+    schema = Namespace("https://schema.org/")
+    # define tracks as sub graphs of our conjunctive graph (schema)
+    g = Graph()   # ttl output graph
 
-graph = Graph()
+    graph.bind("tp1", "http://cui.unige.ch/tws/enriched_trails/")
+    graph.bind("geo", "http://www.w3.org/2003/01/geo/wgs84_pos/")
+    graph.bind("dbo", "http://dbpedia.org/ontology/")
+    graph.bind("schema", "https://schema.org/")
+    # defind terms in our custom namespace
+    Track = URIRef("http://cui.unige/tws/enriched_trails/Track")
+    Place = URIRef("http://cui.unige/tws/enriched_trails/Place")
+    graph.add((tp1.Track, RDFS.subClassOf, RDFS.Resource))
+    graph.add((tp1.Track, RDF.type, RDFS.Class))
+    graph.add((tp1.Track, RDFS.range, tp1.Place))
+
+    graph.add((geo.SpatialThing, RDFS.subClassOf, RDFS.Resource))
+    graph.add((geo.Point, RDFS.subClassOf, geo.SpatialThing))
+    graph.add((geo.lat, RDFS.domain, geo.SpatialThing))
+    graph.add((geo.long, RDFS.domain, geo.SpatialThing))
+    graph.add((geo.alt, RDFS.domain, geo.SpatialThing))
+    graph.add((geo.location, RDFS.range, geo.SpatialThing))
+
+    graph.add((geo.Point, RDFS.domain, tp1.Place))
+
+    # http://dbpedia.org/ontology/Place
+    graph.add((tp1.Place, RDF.type, OWL.Class))
+    graph.add((tp1.Place, OWL.equivalentClass, schema.Place))
+    graph.add((tp1.Place, RDFS.domain, tp1.Track))
+    graph.add((tp1.Place, RDF.Property, geo.Point))
+    graph.add((tp1.Place, RDF.Property, schema.address))
+    graph.add((tp1.Place, RDF.langString, tp1.label))
+    graph.add((tp1.Place, RDFS.label, tp1.label))
+
+
 
 
 def parse_gpx(gpx_file):
