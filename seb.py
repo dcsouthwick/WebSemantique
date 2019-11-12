@@ -4,8 +4,9 @@ from rdflib.namespace import RDF, FOAF, RDFS, XSD
 from rdflib import URIRef, BNode, Literal, Graph, Namespace
 
 n = Namespace("http://cui.unige.ch/tws/tp1/")
-geo = Namespace("http://www.w3.org/2003/01/geo/wgs84_pos#")
+graph = ConjunctiveGraph()
 g = Graph()   # ttl output graph
+g.bind("geo", "http://www.w3.org/2003/01/geo/wgs84_pos/")
 Track = URIRef("http://cui.unige/tws/tp1/Track")
 Natural = URIRef("http://cui.unige/tws/tp1/Natural")
 g.add((n.Track, RDFS.Class, RDFS.Resource))
