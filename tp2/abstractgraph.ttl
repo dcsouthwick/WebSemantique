@@ -1,0 +1,660 @@
+@prefix : <http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14> .
+
+<http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14> rdf:type owl:Ontology .
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#acknowledgedOutput
+
+:acknowledgedOutput rdf:type owl:ObjectProperty ;
+                    
+                    rdfs:range :OutputItem ;
+                    
+                    rdfs:domain :Volunteer_Acknowledgment .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#acknowledgedVolunteer
+
+:acknowledgedVolunteer rdf:type owl:ObjectProperty ;
+                       
+                       rdfs:range :Volunteer ;
+                       
+                       rdfs:domain :Volunteer_Acknowledgment .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#addresses
+
+:addresses rdf:type owl:ObjectProperty ;
+           
+           rdfs:domain :Aim ;
+           
+           rdfs:range :ExternalGoal .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#contributes
+
+:contributes rdf:type owl:ObjectProperty ;
+             
+             rdfs:range :ExternalGoal ;
+             
+             rdfs:domain :Output .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#federates
+
+:federates rdf:type owl:ObjectProperty ,
+                    owl:ReflexiveProperty ;
+           
+           rdfs:range :Infrastructure ;
+           
+           rdfs:domain :Infrastructure .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#hasActivity
+
+:hasActivity rdf:type owl:ObjectProperty ;
+             
+             rdfs:range :Activity ;
+             
+             rdfs:domain :Project .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#hasAgent
+
+:hasAgent rdf:type owl:ObjectProperty ;
+          
+          rdfs:range :Agent ;
+          
+          rdfs:domain :Association .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#hasAim
+
+:hasAim rdf:type owl:ObjectProperty ;
+        
+        rdfs:range :Aim ;
+        
+        rdfs:domain :Project .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#hasAssociatedPublications
+
+:hasAssociatedPublications rdf:type owl:ObjectProperty ;
+                           
+                           rdfs:range :AssociatedPublications ;
+                           
+                           rdfs:domain :Dataset .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#hasAssociation
+
+:hasAssociation rdf:type owl:ObjectProperty ;
+                
+                rdfs:domain :Activity ;
+                
+                rdfs:range :Association .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#hasContributer
+
+:hasContributer rdf:type owl:ObjectProperty ;
+                
+                rdfs:range :Association ;
+                
+                rdfs:domain :Dataset .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#hasDataCollectionMethod
+
+:hasDataCollectionMethod rdf:type owl:ObjectProperty ;
+                         
+                         rdfs:range :DataColletionMethod ;
+                         
+                         rdfs:domain :Dataset .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#hasExecutionPlan
+
+:hasExecutionPlan rdf:type owl:ObjectProperty ;
+                  
+                  rdfs:range :Execution_Plan ;
+                  
+                  rdfs:domain :PartecipationTask .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#hasExtent
+
+:hasExtent rdf:type owl:ObjectProperty ;
+           
+           rdfs:range :Extent ;
+           
+           rdfs:domain :Project .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#hasFundingProgram
+
+:hasFundingProgram rdf:type owl:ObjectProperty ;
+                   
+                   rdfs:range :FundingProgram ;
+                   
+                   rdfs:domain :Project .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#hasIntendedOutcome
+
+:hasIntendedOutcome rdf:type owl:ObjectProperty ;
+                    
+                    rdfs:domain :Aim ;
+                    
+                    rdfs:range :IntendedOutcome .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#hasKnowledge
+
+:hasKnowledge rdf:type owl:ObjectProperty ;
+              
+              rdfs:range :KnowledgeItem ;
+              
+              rdfs:domain :Volunteer .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#hasMotivation
+
+:hasMotivation rdf:type owl:ObjectProperty ;
+               
+               rdfs:domain :Association ;
+               
+               rdfs:range :Motivation .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#hasObjective
+
+:hasObjective rdf:type owl:ObjectProperty ;
+              
+              rdfs:domain :Aim ;
+              
+              rdfs:range :Objective .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#hasPart
+
+:hasPart rdf:type owl:ObjectProperty ;
+         
+         rdfs:domain :Output ;
+         
+         rdfs:range :OutputItem ;
+         
+         rdfs:domain :OutputItem .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#hasPartecipationTask
+
+:hasPartecipationTask rdf:type owl:ObjectProperty ;
+                      
+                      rdfs:domain :Activity ;
+                      
+                      rdfs:range :PartecipationTask ;
+                      
+                      rdfs:domain :ProjectActivity .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#hasPrivacyProtectionPolicy
+
+:hasPrivacyProtectionPolicy rdf:type owl:ObjectProperty ;
+                            
+                            rdfs:range :Privacy_Protection_Policy ;
+                            
+                            rdfs:domain :Project .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#hasRecruitmentMethod
+
+:hasRecruitmentMethod rdf:type owl:ObjectProperty ;
+                      
+                      rdfs:domain :Project ;
+                      
+                      rdfs:range :Recruitement_Method .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#hasRole
+
+:hasRole rdf:type owl:ObjectProperty ;
+         
+         rdfs:domain :Association ;
+         
+         rdfs:range :Role .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#hasSkill
+
+:hasSkill rdf:type owl:ObjectProperty ;
+          
+          rdfs:range :Skill ;
+          
+          rdfs:domain :Volunteer .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#hasTemporalExtent
+
+:hasTemporalExtent rdf:type owl:ObjectProperty ;
+                   
+                   rdfs:domain :Association ;
+                   
+                   rdfs:range :TemporalExtent .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#hasTraining
+
+:hasTraining rdf:type owl:ObjectProperty ;
+             
+             rdfs:domain :PartecipationTask ;
+             
+             rdfs:range :Training .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#isPartOf
+
+:isPartOf rdf:type owl:ObjectProperty ;
+          
+          rdfs:range :Dataset ;
+          
+          rdfs:domain :Observation .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#produces
+
+:produces rdf:type owl:ObjectProperty ;
+          
+          rdfs:domain :Activity ;
+          
+          rdfs:range :Output ;
+          
+          rdfs:domain :ProjectActivity .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#requiredKnowledge
+
+:requiredKnowledge rdf:type owl:ObjectProperty ;
+                   
+                   rdfs:range :KnowledgeItem ;
+                   
+                   rdfs:domain :PartecipationTask .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#requiredSkill
+
+:requiredSkill rdf:type owl:ObjectProperty ;
+               
+               rdfs:domain :PartecipationTask ;
+               
+               rdfs:range :Skill .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#requiredTool
+
+:requiredTool rdf:type owl:ObjectProperty ;
+              
+              rdfs:domain :PartecipationTask ;
+              
+              rdfs:range :Tool .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#usesInInfrastructure
+
+:usesInInfrastructure rdf:type owl:ObjectProperty ;
+                      
+                      rdfs:range :Infrastructure ;
+                      
+                      rdfs:domain :Project .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#usesPPTTechnique
+
+:usesPPTTechnique rdf:type owl:ObjectProperty ;
+                  
+                  rdfs:domain :Privacy_Protection_Policy ;
+                  
+                  rdfs:range :Privacy_Protection_Technique .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Activity
+
+:Activity rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Agent
+
+:Agent rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Aim
+
+:Aim rdf:type owl:Class ;
+     
+     rdfs:comment "or better: Intention and hasIntention?" .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#AssociatedPublications
+
+:AssociatedPublications rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Association
+
+:Association rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#DataColletionMethod
+
+:DataColletionMethod rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Dataset
+
+:Dataset rdf:type owl:Class ;
+         
+         rdfs:subClassOf :Output .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Execution_Plan
+
+:Execution_Plan rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Extent
+
+:Extent rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#ExternalGoal
+
+:ExternalGoal rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#FundingProgram
+
+:FundingProgram rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Hardware
+
+:Hardware rdf:type owl:Class ;
+          
+          rdfs:subClassOf :Output .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Infrastructure
+
+:Infrastructure rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#IntendedOutcome
+
+:IntendedOutcome rdf:type owl:Class ;
+                 
+                 rdfs:comment "renamed from: IntendedOutcomes" .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#KnowledgeItem
+
+:KnowledgeItem rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Motivation
+
+:Motivation rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Objective
+
+:Objective rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Observation
+
+:Observation rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Output
+
+:Output rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#OutputItem
+
+:OutputItem rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#PartecipationTask
+
+:PartecipationTask rdf:type owl:Class ;
+                   
+                   rdfs:subClassOf :Activity ;
+                   
+                   rdfs:comment "Consider calling: Task" .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Person
+
+:Person rdf:type owl:Class ;
+        
+        rdfs:subClassOf :Agent .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Privacy_Protection_Policy
+
+:Privacy_Protection_Policy rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Privacy_Protection_Technique
+
+:Privacy_Protection_Technique rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Project
+
+:Project rdf:type owl:Class ;
+         
+         rdfs:subClassOf :Activity .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#ProjectActivity
+
+:ProjectActivity rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Publication
+
+:Publication rdf:type owl:Class ;
+             
+             rdfs:subClassOf :Output .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Recruitement_Method
+
+:Recruitement_Method rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Role
+
+:Role rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#SDG
+
+:SDG rdf:type owl:Class ;
+     
+     rdfs:subClassOf :ExternalGoal .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Skill
+
+:Skill rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Software
+
+:Software rdf:type owl:Class ;
+          
+          rdfs:subClassOf :Output .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#SpatialExtent
+
+:SpatialExtent rdf:type owl:Class ;
+               
+               rdfs:subClassOf :Extent .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#TemporalExtent
+
+:TemporalExtent rdf:type owl:Class ;
+                
+                rdfs:subClassOf :Extent .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Tool
+
+:Tool rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Training
+
+:Training rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Volunteer
+
+:Volunteer rdf:type owl:Class ;
+           
+           rdfs:subClassOf :Agent .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Volunteer_Acknowledgment
+
+:Volunteer_Acknowledgment rdf:type owl:Class .
+
+
+
+
+
+#################################################################
+#
+#    Individuals
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Hardware
+
+:Hardware rdf:type owl:NamedIndividual .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Publication
+
+:Publication rdf:type owl:NamedIndividual .
+
+
+
+###  http://www.semanticweb.org/esena/ontologies/2019/11/untitled-ontology-14#Software
+
+:Software rdf:type owl:NamedIndividual .
+
+
+
+
+###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
+
