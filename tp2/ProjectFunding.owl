@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#"
+     xml:base="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#hasCall -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#hasCall">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#Topic"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#Call"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#hasDescription -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#hasDescription">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#FundingProgram"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#Description"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#hasFundingProgram -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#hasFundingProgram">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#Infastructure"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#FundingProgram"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#InfastructureFundingProgram"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#hasFundingSourceType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#hasFundingSourceType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#FundingSource"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#FundingSourceType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#hasIdentifier -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#hasIdentifier">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#FundingProgram"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#GUID"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#hasName -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#hasName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#FundingProgram"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#FundingSource"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#Name"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#hasTopic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#hasTopic">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#FundingProgram"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#Topic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#Call -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#Call"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#CrowdFunder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#CrowdFunder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#FundingSource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#Description -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#Description"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#EUFrameworkProgramme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#EUFrameworkProgramme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#FundingSource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#EuropeanUnion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#EuropeanUnion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#InternationalSponsor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#FundingProgram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#FundingProgram"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#FundingSource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#FundingSource"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#FundingSourceType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#FundingSourceType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#GUID -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#GUID"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#Infastructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#Infastructure"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#InfastructureFundingProgram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#InfastructureFundingProgram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#FundingProgram"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#InternationalSponsor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#InternationalSponsor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#FundingSource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#Micro-Funder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#Micro-Funder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#FundingSource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#NASA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#NASA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#USFederalSponsor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#NASA_ROSES -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#NASA_ROSES">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#FundingSource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#Name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#NationalSponsor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#NationalSponsor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#FundingSource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#Project -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#Project"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#ProjectFundingProgram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#ProjectFundingProgram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#FundingProgram"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#Topic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#Topic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#USFederalSponsor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#USFederalSponsor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dsouthwi/ontologies/2019/11/untitled-ontology-17#NationalSponsor"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
