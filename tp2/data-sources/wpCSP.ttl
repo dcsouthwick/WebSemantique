@@ -1,0 +1,1919 @@
+@prefix : <http://cui.unige.ch/isi/swt/tp2a#> .
+@prefix di: <http://cui.unige.ch/isi/swt/tp2-disc#> .
+@prefix wp: <http://en.wikipedia.org/wiki/> .
+
+<https://www.zooniverse.org/projects/sandorkruk/hubble-asteroid-hunter> :projectName "Hubble Asteroid Hunter" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg wp:European_Space_Astronomy_Centre ;
+    :area :Worldwide ;
+    :began  2019 .
+
+
+<https://www.zooniverse.org/projects/dwright04/muon-hunters-2-dot-0> :projectName "Muon Hunters" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg wp:National_Science_Foundation, wp:Asterics ;
+    :area :Worldwide ;
+    :began  2017 .
+
+
+<https://www.zooniverse.org/projects/rswcit/zwickys-quirky-transients> :projectName "Zwicky's Quirky Transients" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg  wp:Zwicky_Transient_Facility ;
+    :area :Worldwide ;
+    :began  2019 .
+
+
+<https://www.zooniverse.org/projects/wkiri/cosmic> :projectName "COSMIC" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg wp:Jet_Propulsion_Laboratory ;
+    :area :Worldwide ;
+    :began  2019 .
+
+
+<https://www.zooniverse.org/projects/lcjohnso/local-group-cluster-search> :projectName "Local Group Cluster Search" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg wp:Panchromatic_Hubble_Andromeda_Treasury,  wp:Survey_of_the_MAgellanic_Stellar_History, wp:Northwestern_University ;
+    :area :Worldwide ;
+    :began  2019 .
+
+
+wp:Planet_Hunters :projectName "Planet_Hunters" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg wp:Zooniverse, wp:Yale_University ;
+    :area :Worldwide ;
+    :began  2012 .
+
+
+<https://www.zooniverse.org/projects/ajnorton/superwasp-variable-stars> :projectName "SuperWASP Variable Stars" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg  wp:Asterics ;
+    :area :Worldwide ;
+    :began  2018 .
+
+
+<https://www.zooniverse.org/projects/ilacerna/variable-star-zoo> :projectName "Variable Star Zoo" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg  wp:Instituto_Milenio_de_Astrofíscia ;
+    :area :Worldwide ;
+    :began  2018 .
+
+
+<https://www.zooniverse.org/projects/lepnoir/protect-our-planet-from-solar-storms> :projectName "Protect Our Planet From Solar Storms" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg wp:University_of_Reading, wp:Science_Museum_Group ;
+    :area :Worldwide ;
+    :began  2018 .
+
+
+<https://www.zooniverse.org/projects/aprajita/space-warps-hsc> :projectName "Space Warps" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg  wp:Zooniverse ;
+    :area :Worldwide ;
+    :began  2015 .
+
+
+wp:Solar_Stormwatch :projectName "Solar_Stormwatch" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg  wp:University_of_Reading ;
+    :area :Worldwide ;
+    :began  2009 .
+
+
+<https://www.zooniverse.org/projects/ianc2/exoplanet-explorers> :projectName "Exoplanet Explorers" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg  wp:BBC_Stargazing_Live ;
+    :area :Worldwide ;
+    :began  2017 .
+
+
+<https://www.zooniverse.org/projects/zooniverse/astronomy-rewind> :projectName "Astronomy Rewind" ;
+    :discipline  wp:Astronomy, wp:History ;
+    :sponsoringOrg wp:American_Astronomical_Society,  wp:ADS_All_Sky_Survey,  wp:Harvard_University,  wp:Adler_Planetarium, wp:NASA ;
+    :area :Worldwide ;
+    :began  2017 .
+
+
+<https://www.zooniverse.org/projects/zooniverse/gravity-spy> :projectName "Gravity Spy" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg wp:LIGO_Scientific_Collaboration,  wp:California_State_University_Fullerton,  wp:National_Science_Foundation,  wp:Northwestern_University, wp:Syracuse_University ;
+    :area :Worldwide ;
+    :began  2016 .
+
+
+<https://www.zooniverse.org/projects/zooniverse/radio-meteor-zoo> :projectName "Radio Meteor Zoo" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg  wp:European_Citizen_Science_Association ;
+    :area :Worldwide ;
+    :began  2016 .
+
+
+wp:Aurorasaurus :projectName "Aurorasaurus" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg wp:NASA_Goddard, wp:National_Science_Foundation ;
+    :area :Worldwide ;
+    :began  2011 .
+
+
+wp:Milky_Way_Project :projectName "Milky_Way_Project" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg wp:Adler_Planetarium,  wp:University_of_Oxford,  wp:National_Science_Foundation, wp:Cal_Poly_Pomona ;
+    :area :Worldwide ;
+    :began  2010 .
+
+
+wp:Backyard_Worlds :projectName "Backyard_Worlds" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg  wp:NASA ;
+    :area :Worldwide ;
+    :began  2017 .
+
+
+:AgeGuess :projectName "AgeGuess" ;
+    :discipline  wp:Biology, wp:Aging ;
+    :sponsoringOrg [:name "Center for Research and Interdiciplinarity"], wp:University_of_Southern_Denmark ;
+    :area :Worldwide ;
+    :began  2012 .
+
+
+:Agent_Exoplanet :projectName "Agent Exoplanet" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg  [:name "Las Cumbres Observatory Global Telescope Network"] ;
+    :area :Goleta_CA, :USA ;
+    .
+
+
+wp:Air_Quality_Eggs :projectName "Air_Quality_Eggs" ;
+    :discipline  wp:Air_Quality, wp:Pollution, wp:Climate_Change, wp:Health ;
+    :sponsoringOrg [:name "WickedDevices"], [:name "LLC"] ;
+    :area :Ithaca_NY, :USA ;
+    .
+
+
+:Anecdata :projectName "Anecdata" ;
+    :discipline  wp:Air_Quality, wp:Botany, wp:Entomology, wp:Ecology, wp:Lepidoptera, wp:Ornithology, wp:Phenology, wp:Water_Quality, wp:Zoology ;
+    :sponsoringOrg wp:MDI_Biological_Laboratory ;
+    :area :Worldwide ;
+    :year 2013 .
+
+
+:Amphibian_Migrations_and_Road_Crossings :projectName "Amphibian Migrations and Road Crossings" ;
+    :discipline  wp:Herpetology, wp:Ecology ;
+    :sponsoringOrg [:name "Department of Environmental Conservation"],  [:name " NY"], [:name "USA"] ;
+    :area :New_York, :USA ;
+    .
+
+
+:Aquila_Project :projectName "Aquila Project" ;
+    :discipline  wp:Environmental_Science ;
+    :sponsoringOrg  [:name "West Kimberley Rubber Vine Eradication Program"] ;
+    :area :Kimberley, :Western_Australia, :Australia ;
+    :began  2010 .
+
+
+:ARTigo :projectName "ARTigo" ;
+    :discipline  wp:Art_history, wp:Computer_science ;
+    :sponsoringOrg wp:Ludwig_Maximilian_University_of_Munich, [:name "Germany"] ;
+    :area :Worldwide ;
+    :began  2007 .
+
+
+:ARCS_Arenas_for_Co-operation_through_citizen_science :projectName "ARCS (Arenas for Co-operation through citizen science)" ;
+    :discipline  di:All_Fields_of_Science ;
+    :sponsoringOrg wp:University_of_Gothenburg, wp:Swedish_University_of_Agricultural_Sciences, wp:Umeå_University, [:name "non-profit organisation VA (Public & Science)."] ;
+    :area :wp:Sweden ;
+    :began  2018 .
+
+
+:Artportalen_Swedish_Species_Observation_System :projectName "Artportalen (Swedish Species Observation System)" ;
+    :discipline  wp:Biology, wp:biodiversity, di:species_distribution, di:Mapping ;
+    :sponsoringOrg  [:name "Swedish Species Information Centre / Swedish Environmental Protection Agency"] ;
+    :area :Sweden ;
+    :began  1999 .
+
+
+:Artsobservasjoner :projectName "Artsobservasjoner" ;
+    :discipline  wp:Botany, wp:Mycology, wp:Phenology, wp:Species_distribution, wp:Zoology ;
+    :sponsoringOrg wp:Norwegian_Directorate_for_Nature_Management ;
+    :area :Norway ;
+    :began  2008 .
+
+
+:Asteroid_Mappers:_Vesta :projectName "Asteroid Mappers: Vesta" ;
+    :discipline  wp:Planetary_science ;
+    :sponsoringOrg [:name "CosmoQuest.org" ; :desc "CosmoQuest is sponsored by wp:NASA_in_partnership_with_the_Astrosphere_New_Media_Association _the_STEM_Center  UniverseToday Astronomers_without_Borders the Planetary Society the wp:Youngstown State University#Ward Beecher Planetarium the Galileo Teachers Training Program Swinburne Astronomy Online Dark Skies Bright Kids the Canadian Astronomy Data Centre and its member organizations the Galileoscope Project and several NASA projects"] ;
+    :area :Worldwide ;
+    :began  2011 .
+
+
+wp:Asteroid_Zoo :projectName "Asteroid_Zoo" ;
+    :discipline  wp:Planetary_science ;
+    :sponsoringOrg  <https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)>   ;
+    :area :Worldwide ;
+    :began  2014 .
+
+
+wp:Atlas_of_Australian_Birds :projectName "Atlas_of_Australian_Birds" ;
+    :discipline  wp:Ornithology ;
+    :sponsoringOrg  wp:BirdLife_Australia ;
+    :area :Australia ;
+    :began  1973 .
+
+
+:AppEAR :projectName "AppEAR" ;
+    :discipline  wp:Ecology, wp:limnology, wp:water_quality ;
+    
+    :area :Argentina ;
+    :began  2015 .
+
+
+wp:Christmas_Bird_Count :projectName "Christmas_Bird_Count" ;
+    :discipline  wp:Ornithology ;
+    :sponsoringOrg  wp:National_Audubon_Society ;
+    :area :Western_Hemisphere ;
+    :began  1900 .
+
+
+wp:Aurorasaurus :projectName "Aurorasaurus" ;
+    :discipline  wp:Space_physics, wp:Aurora ;
+    :sponsoringOrg  wp:National_Science_Foundation ;
+    :area :Worldwide ;
+    :began  2014 .
+
+
+:Aussie_Backyard_Bird_Count :projectName "Aussie Backyard Bird Count" ;
+    :discipline  wp:Ornithology ;
+    :sponsoringOrg  wp:BirdLife_Australia ;
+    :area :Australia ;
+    :began  2014 .
+
+
+:B.C._Cetacean_Sightings_Network :projectName "B.C. Cetacean Sightings Network" ;
+    :discipline  wp:Cetology ;
+    :sponsoringOrg wp:Vancouver_Aquarium, wp:Fisheries_and_Oceans_Canada ;
+    :area :Canada_British_Columbia ;
+    :began  1999 .
+
+
+:Backyard_Bark_Beetles :projectName "Backyard Bark Beetles" ;
+    :discipline  wp:Entomology, wp:Invasive_Species ;
+    :sponsoringOrg [:name "Forest Entomology lab at the University of Florida, Gainesville, FL"] ;
+    :area :USA ;
+    :began  2014 .
+
+
+:Bauhinia_Genome :projectName "Bauhinia Genome" ;
+    :discipline wp:Biology, wp:Environmental_science ;
+    :sponsoringOrg :Community ;
+    :area :Hong_Kong ;
+    .
+
+
+:BeeSpotter :projectName "BeeSpotter" ;
+    :discipline  wp:Entomology ;
+    :sponsoringOrg  wp:University_of_Illinois_at_Urbana_Champaign ;
+    :area :USA_IL_IN_MO, :OH ;
+    :began  2007 .
+
+
+:Big_Bug_Hunt :projectName "Big Bug Hunt" ;
+    :discipline  wp:Entomology ;
+    :sponsoringOrg [:name "GrowVeg"],  [:name "University of York"],  [:name "Biotechnology and Biological Sciences Research Council"], [:name "Innovate UK"] ;
+    :area :USA, :UK ;
+    :began  2016 .
+
+
+:Big_Butterfly_Count :projectName "Big Butterfly Count" ;
+    :discipline  wp:Lepidoptera, wp:Entomology ;
+    :sponsoringOrg  wp:Butterfly_Conservation ;
+    :area :UK ;
+    :began  2010 .
+
+
+:Big_Moss_Map :projectName "Big Moss Map" ;
+    :discipline  wp:Botany, wp:Climatology, wp:Peatlands ;
+    :sponsoringOrg  wp:Moors_for_the_Future ;
+    :area :UK ;
+    :began  2015 .
+
+
+wp:SZTAKI_Desktop_Grid :projectName "SZTAKI_Desktop_Grid" ;
+    :discipline wp:Mathematics ;
+    :sponsoringOrg wp:Eötvös_Loránd_University, wp:Institute_for_Computer_Science_and_Control ;
+    :area :Hungary ;
+    :began 2005 .
+
+
+:BioBotz_TTA :projectName "BioBotz, TTA" ;
+    :discipline wp:Biology, wp:Ecology ;
+
+    :area :Bangladesh ;
+    .
+
+
+:BioDiversity_Heritage_Library_Flickr_Image_Tagging :projectName "BioDiversity Heritage Library Flickr Image Tagging" ;
+    :discipline  <https://en.wikipedia.org/wiki/Taxonomy_(biology)>, wp:Ornithology, wp:Entomology, wp:Zoology, wp:Botany ;
+    :sponsoringOrg  wp:Biodiversity_Heritage_Library ;
+    :area :Worldwide ;
+    .
+
+
+:BioNote :projectName "BioNote" ;
+    :discipline  wp:Biology, wp:Botany, wp:Zoology, wp:Biogeography, <https://en.wikipedia.org/wiki/Taxonomy_(biology)> ;
+    :sponsoringOrg [:name "BioNote"],  wp:University_of_Gothenburg,  [:name "Climate-KIC"], wp:European_Research_Council ;
+    :area :Worldwide ;
+    :began  2016 .
+
+:BioRiiDL :projectName "BioRiiDL" ;
+    :discipline wp:Biology, wp:Environmental_science ;
+    :sponsoringOrg :Community ;
+    :area :India ;
+    .
+
+:Birdcount_India :projectName "Birdcount India" ;
+    :discipline wp:Ornithology, wp:Biology, wp:Ecology, wp:Conservation_biology ;
+    :sponsoringOrg [:name "Bird Count India partnership"] ;
+    :area :India ;
+    :began 2019 .
+
+
+:BirdSleuth_K-12 :projectName "BirdSleuth K-12" ;
+    :discipline  wp:Ornithology ;
+    :sponsoringOrg  wp:Cornell_Lab_of_Ornithology ;
+    :area :USA ;
+    :began  2004 .
+
+
+:Birds_and_Windows_Project :projectName "Birds and Windows Project" ;
+    :discipline  wp:Ornithology, wp:Conservation_biology, wp:Ecology ;
+    :sponsoringOrg  wp:University_of_Alberta ;
+    :area :Canada  ;
+    :began  2013 .
+
+
+:Birds-Windows_Collisions_Project_Costa_Rica :projectName "Birds-Windows Collisions Project Costa Rica" ;
+    :discipline  wp:Ornithology, wp:Conservation_biology, wp:Ecology ;
+    :sponsoringOrg  [:name "Costa Rica Distance Learning University UNED"] ;
+    :area :Costa_Rica ;
+    :began  2013 .
+
+
+:Brooklyn_Atlantis :projectName "Brooklyn Atlantis" ;
+    :discipline  wp:Water_Quality, wp:Pollution, wp:Wildlife, wp:Robotics ;
+    :sponsoringOrg  wp:New_York_University_Polytechnic_School_of_Engineering ;
+    :area :USA ;
+    :began  2012 .
+
+
+wp:Environmental_groups_and_resources_serving_K-12_schools :projectName "Environmental_groups_and_resources_serving_K-12_schools#Project_BudBurst" ;
+    :discipline  di:Plant_Phenology ;
+    :sponsoringOrg wp:Chicago_Botanic_Garden, wp:National_Science_Foundation ;
+    :area :USA ;
+    :began  2007 .
+
+
+:Budworm_Tracker_Program :projectName "Budworm Tracker Program" ;
+    :discipline wp:Insect_Research ;
+    :sponsoringOrg wp:John_Hughs_Forestry_Center ;
+    :area :Fredericton_NB, :Maine_USA ;
+    :began 2015 .
+
+
+wp:BugGuide :projectName "BugGuide" ;
+    :discipline  wp:Entomology, wp:Arthropods ;
+    :sponsoringOrg  wp:Iowa_State_University ;
+    :area :USA, :Canada ;
+    :began  2003 .
+
+
+:Bumble_Bee_Watch :projectName "Bumble Bee Watch" ;
+    :discipline  wp:Entomology ;
+    :sponsoringOrg wp:Xerces_Society,  wp:University_of_Ottawa,  wp:Wildlife_Preservation_Canada,  wp:Natural_History_Museum,  [:name "_London"],  [:name "_BeeSpotter"], wp:Montréal_Insectarium ;
+    :area :Canada, :USA ;
+    :began  2014 .
+
+
+<https://www.spotteron.com/brushturkeys> :projectName "Brushturkeys - Birds of Suburbia" ;
+    :discipline wp:Ornithology, wp:City_Ecology ;
+    :sponsoringOrg wp:University_of_Sydney, [:name "SPOTTERON Collaboration"] ;
+    :area :Australia ;
+    :began 2018 .
+
+
+:Canadian_National_Wildlife_Disease_Surveillance :projectName "Canadian National Wildlife Disease Surveillance" ;
+    :discipline  wp:Wildlife, wp:Health ;
+    :sponsoringOrg  [:name "Canadian Wildlife Health Cooperative"] ;
+    :area :Canada ;
+    :began  1992 .
+
+
+:Canberra_Nature_Map :projectName "Canberra Nature Map" ;
+    :discipline  wp:Wildlife ;
+    :sponsoringOrg  [:name "NatureMapr"] ;
+    :area :Australia ;
+    :began  2013 .
+
+
+:Cape_Citizen_Science :projectName "Cape Citizen Science" ;
+    :discipline  wp:Biology, wp:Botany, wp:Plant_Disease ;
+    :sponsoringOrg  wp:University_of_Pretoria ;
+    :area :South_Africa ;
+    :began 2015 .
+
+
+:Celebrate_Urban_Birds :projectName "Celebrate Urban Birds" ;
+    :discipline  wp:Ornithology ;
+    :sponsoringOrg  wp:Cornell_Lab_of_Ornithology ;
+    :area :USA ;
+    .
+
+
+:Cicada_Watch_Brood_II :projectName "Cicada Watch: Brood II" ;
+    :discipline  wp:Entomology ;
+    :sponsoringOrg  wp:National_Geographic_Society ;
+    :area :Northeastern_America ;
+    :began  2013 .
+
+
+:Cidadão_Cientista :projectName "Cidadão Cientista" ;
+    :discipline  wp:Environmental_science ;
+    :sponsoringOrg  [:name "Save Brasil"] ;
+    :area :Brazil ;
+    :began  2004 .
+
+
+:Ciudadanos_Cientifícos :projectName "Ciudadanos Cientifícos" ;
+    :discipline  wp:Environmental_science ;
+    :sponsoringOrg  [:name "SIATA Área Metropolitana del Valle de Aburrá "] ;
+    :area :;
+    .
+
+
+<http://www.citclops.eu/> :projectName "Citclops/ <https://www.eyeonwater.org/> EyeOnWater" ;
+    :discipline  wp:Environmental_science ;
+    :sponsoringOrg  wp:European_Commission ;
+    :area :Worldwide ;
+    :began  2012 .
+
+
+<https://www.eyeonwater.org/> :projectName "EyeOnWater Australia" ;
+    :discipline  wp:Water_Colour, wp:Water_Quality, wp:Environmental_science ;
+    :sponsoringOrg  wp:CSIRO ;
+    :area :Australia ;
+    :began  2017 .
+
+
+:Cities_at_Night :projectName "Cities at Night" ;
+    :discipline  wp:Light_pollution ;
+    :sponsoringOrg  wp:Complutense_University_of_Madrid , :Crowdsourced ;
+    :area :Worldwide ;
+    :began  2014 .
+
+
+:Citizen_Seismology :projectName "Citizen Seismology" ;
+    :discipline  wp:Seismology ;
+    :sponsoringOrg  wp:European-Mediterranean_Seismological_Centre ;
+    :area :Bruyères-le-Châtel, :France ;
+    .
+
+
+wp:Citizen_Weather_Observer_Program :projectName "Citizen_Weather_Observer_Program (CWOP)" ;
+    :discipline  wp:Meteorology, wp:climatology, wp:hydrology ;
+    :sponsoringOrg  wp:National_Weather_Service ;
+    :area :United_States ;
+    .
+
+
+:Ciudadanos_Cientifícos :projectName "Ciudadanos Cientifícos" ;
+    :discipline  wp:Air_quality_index, wp:Air_pollution, wp:Meteorology ;
+    :sponsoringOrg  [:name "Área metropolitana del Valle de Aburrá|es|Área Metropolitana del Valle de Aburrá}} SIATA"] ;
+    :area :Valle_de_Aburrá_Colombia ;
+    :began  2015 .
+
+
+<https://www.inaturalist.org/projects/city-nature-challenge-2018-hong-kong> :projectName "City Nature Challenge 2018" ;
+    :discipline wp:Biology, wp:Computer_science, wp:Environmental_science ;
+    :sponsoringOrg :Community ;
+    :area :Hong_Kong ;
+    :began 2018 .
+
+
+<https://www.inaturalist.org/projects/city-nature-challenge-2018-hong-kong> :projectName "City Nature Challenge 2018" ;
+    :discipline wp:Biology, wp:Computer_science, wp:Environmental_science ;
+    :sponsoringOrg wp:University_of_Tokyo ;
+    :area :Tokyo ;
+    :began 2018 .
+
+
+<https://www.inaturalist.org/projects/city-nature-challenge-2018-ahmedabad-india> :projectName "City Nature Challenge 2018" ;
+    :discipline wp:Biology, wp:Computer_science, wp:Environmental_science ;
+    :sponsoringOrg wp:Ahmedabad_University ;
+    :area :India ;
+    :began 2018 .
+
+
+<https://www.inaturalist.org/projects/klang-valley-city-nature-challenge-2018> :projectName "City Nature Challenge 2018" ;
+    :discipline wp:Biology, wp:Computer_science, wp:Environmental_science ;
+    :sponsoringOrg wp:Bombay_Natural_History_Society ;
+    :area :India ;
+    :began 2018 .
+
+
+:City_Nature_Challenge_2019 :projectName "City Nature Challenge 2019" ;
+    :discipline wp:Biology, wp:Computer_science, wp:Environmental_science ;
+    :sponsoringOrg :Community ;
+    :area :Hong_Kong ;
+    :began 2019 .
+
+
+:City_Nature_Challenge_2019 :projectName "City Nature Challenge 2019" ;
+    :discipline wp:Biology, wp:Computer_science, wp:Environmental_science ;
+    :sponsoringOrg wp:University_of_Tokyo ;
+    :area :Tokyo ;
+    :began 2019 .
+
+
+:City_Nature_Challenge_2019 :projectName "City Nature Challenge 2019" ;
+    :discipline wp:Biology, wp:Computer_science, wp:Environmental_science ;
+    :sponsoringOrg wp:Ahmedabad_University ;
+    :area :India ;
+    :began 2019 .
+
+
+<https://www.inaturalist.org/projects/klang-valley-city-nature-challenge-2018> :projectName "City Nature Challenge 2018" ;
+    :discipline wp:Biology, wp:Computer_science, wp:Environmental_science ;
+    :sponsoringOrg [:name "The Rimba Project / Rimba Ilmu Botanic Garden"] ;
+    :area :Klang_Valley_Greater_Kuala_Lumpur, :Malaysia ;
+    :began 2018 .
+
+
+wp:Climatological_observers_link :projectName "Climatological_observers_link" ;
+    :discipline  wp:Climatology ;
+
+    :area :UK ;
+    :began  1970 .
+
+
+:Clumpy :projectName "Clumpy" ;
+    :discipline  wp:Biology, wp:Botany ;
+    :sponsoringOrg  wp:University_of_Exeter ;
+    :area :Worldwide ;
+    :began  2012 .
+
+
+:Cochrane_Crowd :projectName "Cochrane Crowd" ;
+    :discipline  di:Health, wp:Medicine, wp:Evidence-based_medicine ;
+    :sponsoringOrg  <https://en.wikipedia.org/wiki/Cochrane_(organisation)> ;
+    :area :Worldwide ;
+    :began  2016 .
+
+
+:Condor_Watch :projectName "Condor Watch" ;
+    :discipline  wp:Ornithology, wp:Conservation_biology  ;
+    :sponsoringOrg  <https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)>   ;
+    :area :California ;
+    :began  2014 .
+
+
+wp:Cooperative_Observer :projectName  "Cooperative_Observer Program" ;
+    :discipline  wp:Meteorology, wp:Climatology ;
+    :sponsoringOrg  wp:National_Weather_Service ;
+    :area :USA ;
+    :began  1890 .
+
+
+:Community_Snow_Observations :projectName "Community Snow Observations (CSO)<ref><http://communitysnowobs.org/> :Community Snow Observations: Citizen Science" ;
+    :discipline  di:Cryospheric_science, wp:hydrology, wp:atmospheric_science, wp:meteorology, wp:climatology ;
+    :sponsoringOrg  wp:NASA ;
+    :area :USA ;
+    :began  2017 .
+
+
+:Crowdcrafting :projectName "Crowdcrafting" ;
+    :discipline  wp:Biology, wp:Physics, wp:Economy, wp:Social, wp:Medicine, wp:Art, wp:Humanities, wp:Ecology, wp:Conservation_biology ;
+    :sponsoringOrg  [:name "SciFabric"] ;
+    :area :Worldwide ;
+    :began  2011 .
+
+
+:CrowdWater :projectName "CrowdWater" ;
+    :discipline  di:Hydrology ;
+    :sponsoringOrg [:name "University of Zurich"], [:name "Switzerland"] ;
+    :area :Worldwide ;
+    :began  2017 .
+
+
+:CyanoTracker :projectName "CyanoTracker" ;
+    :discipline  wp:Algal_Bloom, wp:Water_Quality ;
+    :sponsoringOrg  wp:University_of_Georgia ;
+    :area :Worldwide ;
+    :began  2014 .
+
+
+:Darwin_s_Ark :projectName "Darwin's Ark" ;
+    :discipline  wp:Genomics, wp:Health ;
+    :sponsoringOrg wp:Broad_Institute, wp:University_of_Massachusetts_Medical_School ;
+    :area :Worldwide ;
+    :began  2016 .
+
+
+:Did_You_Feel_It :projectName "Did You Feel It?" ;
+    :discipline  wp:Seismology ;
+    :sponsoringOrg  wp:United_States_Geological_Survey ;
+    :area :Worldwide ;
+    .
+
+
+wp:Digital_Access_to_a_Sky_Century_Harvard :projectName "Digital_Access_to_a_Sky_Century_@_Harvard" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg  wp:Harvard-Smithsonian_Center_for_Astrophysics ;
+    :area :USA ;
+    :began  2001 .
+
+
+wp:DigiVol :projectName "DigiVol" ;
+    :discipline  wp:Entomology, wp:Malacology, wp:Minerals, wp:Archives ;
+    :sponsoringOrg  wp:Australian_Museum_and_Atlas_of_Living_Australia ;
+    :area :Australia ;
+    :began  2011 .
+
+
+wp:Disk_Detective :projectName "Disk_Detective" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg wp:NASA, <https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)> ;
+    :area :Worldwide ;
+    :began  2014 .
+
+
+:Diver_Safety_Guardian :projectName "Diver Safety Guardian" ;
+    :discipline  wp:Decompression_theory ;
+    :sponsoringOrg  wp:DAN_Europe_and_wp:DAN_Southern_Africa ;
+    :area :Europe_and_Africa ;
+    :began  1994 .
+
+
+:DIY_BIO_Hong_Kong :projectName "DIY BIO Hong Kong" ;
+    :discipline wp:Biology, wp:Environmental_science ;
+    :sponsoringOrg :Community ;
+    :area :Hong_Kong ;
+    :began 2017 .
+
+
+:Doing_It_Together_Science_DITOs :projectName "Doing It Together Science DITOs" ;
+    :discipline  di:Biodesign, di:Environmental_Sustainability, di:Policy ;
+    :sponsoringOrg wp:University_College_London,  wp:Museum_of_Natural_Sciences,  wp:Université_Paris_Descartes,  wp:Waag_Society,  [:name "_ECSA"],  [:name "_Medialab_Prado"],  [:name "_Kersnikova_Institute"],  [:name "_Meritum"],  wp:University_of_Geneva,  [:name "Tekiu"], [:name "eutema"] ;
+    :area :Europe ;
+    :began  2016 .
+
+
+wp:Dog_Aging_Project :projectName "Dog_Aging_Project" ;
+    :discipline wp:Ageing, wp:Biology, wp:Health  ;
+    :sponsoringOrg wp:University_of_Washington,  <https://en.wikipedia.org/wiki/Texas_A&M_University>, wp:National_Institute_on_Aging ;
+    :area :USA ;
+    :began 2019 .
+
+
+:DrugsFromDirt :projectName "DrugsFromDirt" ;
+    :discipline  wp:Ecology, wp:Biology, wp:Genetics ;
+    :sponsoringOrg [:name "Laboratory of Genetically Encoded Small Molecules"], [:name "The Rockefeller University"] ;
+    :area :USA ;
+    :began  2017 .
+
+
+wp:eBird :projectName "eBird" ;
+    :discipline  wp:Ornithology ;
+    :sponsoringOrg wp:Cornell_Lab_of_Ornithology, wp:National_Audubon_Society ;
+    :area :Worldwide ;
+    :began  2002 .
+
+
+wp:eButterfly :projectName "eButterfly" ;
+    :discipline  wp:Lepidoptera, wp:Entomology ;
+    :sponsoringOrg wp:University_of_Ottawa,  wp:Oregon_State_University, [:name "Vermont Center for Ecostudies"] ;
+    :area :USA, :Canada ;
+    :began  2010 .
+
+
+:echidnaCSI :projectName "echidnaCSI" ;
+    :discipline wp:Conservation_biology, wp:Ecology, wp:Biology, wp:Genetics ;
+    :sponsoringOrg wp:University_of_Adelaide ;
+    :area :Australia ;
+    :began 2017 .
+
+
+:EDDMapS :projectName "EDDMapS" ;
+    :discipline  di:Tracking, wp:invasive_species, wp:Biology, wp:Botany, wp:Entomology, wp:Wildlife ;
+    :sponsoringOrg  wp:University_of_Georgia_Center_for_Invasive_Species_and_Ecosystem_Health ;
+    :area :USA, :Canada ;
+    :began  2005 .
+
+
+:eOceans :projectName "eOceans" ;
+    :discipline  wp:Marine_Ecology, wp:Marine_Debris, wp:Ornithology, wp:Climate_Change ;
+    :sponsoringOrg  wp:Private_company ;
+    :area :Global ;
+    :began  2014 .
+
+
+:eShark :projectName "eShark" ;
+    :discipline  wp:Marine_Ecology, wp:Marine_Management, wp:Tourism ;
+    :sponsoringOrg  wp:Crowd-sourced ;
+    :area :Global ;
+    :began  2005 .
+
+
+wp:EyeWire :projectName  "EyeWire" ;
+    :discipline  wp:Neuroscience ;
+    :sponsoringOrg wp:Massachusetts_Institute_of_Technology,  wp:Gatsby_Charitable_Foundation,  wp:National_Institutes_of_Health,  wp:Howard_Hughes_Medical_Institute, wp:Max_Planck_Society ;
+    :area :Worldwide ;
+    :began  2012 .
+
+
+:Explore_the_Seafloor :projectName "Explore the Seafloor" ;
+    :discipline  wp:Marine_Science ;
+    :sponsoringOrg [:name "National Science Week Australia"], wp:Australian_Broadcasting_Corporation ;
+    :area :Australia ;
+    :began  2013 .
+
+
+:Floating_Forests :projectName "Floating Forests" ;
+    :discipline  wp:Kelp, wp:Marine_Science ;
+    :sponsoringOrg wp:University_of_Massachusetts_Boston,  wp:UCLA, wp:Cal_State_Monterey_Bay ;
+    :area :US ;
+    :began  2014 .
+
+
+:Floodcrowd :projectName "Floodcrowd" ;
+    :discipline  wp:Floods ;
+    :sponsoringOrg  wp:Loughborough_University ;
+    :area :UK ;
+    :began  2015 .
+
+
+wp:Flying_ant_survey :projectName "Flying_ant_survey" ;
+    :discipline  wp:Biology, wp:Entomology, wp:Wildlife ;
+    :sponsoringOrg  wp:Society_of_Biology, wp:University_of_Gloucestershire ;
+    :area :UK ;
+    :began  2012 .
+
+
+wp:Foldit :projectName "Foldit" ;
+    :discipline  wp:Biology, wp:protein ;
+    :sponsoringOrg  wp:University_of_Washington ;
+    :area :Worldwide ;
+    :began  2008 .
+
+
+:Fossil_Atmospheres :projectName "Fossil Atmospheres" ;
+    :discipline  wp:Biology, wp:paleontology, wp:climate_change ;
+    :sponsoringOrg  wp:Smithsonian_Institution ;
+    :area :Worldwide ;
+    :began  2016 .
+
+
+wp:Fraxinus :projectName "Fraxinus" ;
+    :discipline  wp:Genetics ;
+    :sponsoringOrg wp:Sainsbury_Laboratory,  wp:BBSRC, wp:DEFRA ;
+    :area :Worldwide ;
+    :began  2013 .
+
+
+:FreshWater_Watch :projectName "FreshWater Watch" ;
+    :discipline  wp:Environmental_science ;
+    :sponsoringOrg  [:name "Earthwatch"] ;
+    :area :Global ;
+    :began  2012 .
+
+
+:FrogWatch_USA :projectName "FrogWatch USA<sup>TM</sup>" ;
+    :discipline  wp:Conservation_biology, wp:Ecology, wp:Herpetology ;
+    :sponsoringOrg  wp:Association_of_Zoos_and_Aquariums ;
+    :area :USA ;
+    :began  1998 .
+
+
+<http://indiabiodiversity.org/group/frog_watch/userGroup/show> :projectName "Frog Watch" ;
+    :discipline wp:Biology, wp:Environmental_science, wp:Herpetology ;
+    :sponsoringOrg :Community ;
+    :area :India ;
+    .
+
+
+:Galaxy_Explorer :projectName "Galaxy Explorer" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg [:name "National Science Week Australia"], wp:Australian_Broadcasting_Corporation ;
+    :area :Australia ;
+    :began  2015 .
+
+
+wp:Galaxy_Zoo :projectName "Galaxy_Zoo" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg  <https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)> ;
+    :area :Worldwide ;
+    :began  2007 .
+
+
+:Garden_Wildlife_Health :projectName "Garden Wildlife Health" ;
+    :discipline  wp:Conservation_biology, wp:Veterinary ;
+    :sponsoringOrg wp:Zoological_Society_of_London,  wp:British_Trust_for_Ornithology,  wp:Froglife, wp:Royal_Society_for_the_Protection_of_Birds ;
+    :area :UK ;
+    :began  2013 .
+
+
+wp:Geo-wiki :projectName "Geo-wiki" ;
+    :discipline  wp:Land_cover_validation ;
+    :sponsoringOrg  wp:IIASA ;
+    :area :Worldwide ;
+    :began  2008 .
+
+
+:Georgia_Adopt-A-Stream :projectName "Georgia Adopt-A-Stream" ;
+    :discipline  wp:Water_Quality ;
+    
+    :area :Georgia, :USA ;
+    :began  1995 .
+
+
+:GeoTag-X :projectName "GeoTag-X" ;
+    :discipline  wp:Disaster_risk_reduction  ;
+    :sponsoringOrg wp:United_Nations_Institute_for_Training_and_Research,  wp:UNOSAT,  [:name "_Citizen_Cyberlab"], wp:Seventh_Framework_Programme ;
+    :area :Worldwide ;
+    :began  2012 .
+
+
+wp:Globe_at_Night :projectName "Globe_at_Night" ;
+    :discipline  wp:Astronomy, wp:Light_Pollution ;
+    :sponsoringOrg wp:National_Optical_Astronomy_Observatory,  [:name "_CADIAS"], wp:International_Dark-Sky_Association ;
+    :area :Worldwide ;
+    .
+
+
+wp:Golden_Gate_Raptor_Observatory :projectName "Golden_Gate_Raptor_Observatory" ;
+    :discipline  wp:Ornithology, wp:Bird_migration, wp:Phenology, wp:Population_Change ;
+    :sponsoringOrg  wp:Golden_Gate_Natl_Parks_Conservancy ;
+    :area :Pacific_States ;
+    :began  1984 .
+
+
+:Great_Backyard_Bird_Count :projectName "Great Backyard Bird Count" ;
+    :discipline  wp:Ornithology ;
+    :sponsoringOrg wp:National_Audubon_Society, wp:Cornell_Lab_of_Ornithology ;
+    :area :Worldwide ;
+    .
+
+
+wp:Great_Cocky_Count :projectName "Great_Cocky_Count" ;
+    :discipline  wp:Ornithology ;
+    :sponsoringOrg  [:name "Birdlife Australia"] ;
+    :area :Western_Australia ;
+    :began  2009 .
+
+
+:Great_World_Wide_Star_Count :projectName "Great World Wide Star Count" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg wp:Windows_to_the_Universe, wp:National_Earth_Science_Teachers_Association ;
+    :area :Worldwide ;
+    .
+
+
+wp:Genographic_Project :projectName "Genographic_Project" ;
+    :discipline  wp:Population_genetics ;
+    :sponsoringOrg wp:National_Geographic_Society, wp:IBM ;
+    :area :Worldwide ;
+    :began  2005 .
+
+
+:Go_Viral_Study  :projectName "Go Viral Study " ;
+    :discipline  di:Infectious_Disease  ;
+    :sponsoringOrg [:name "National Science Foundation"],  [:name "OpenHumans"], [:name "New York University"] ;
+    :area :USA ;
+    :began  2013 .
+
+
+:Habitat_Network :projectName "Habitat Network" ;
+    :discipline  wp:Conservation_biology, wp:Ornithology, wp:Wildlife ;
+    :sponsoringOrg  wp:The_Nature_Conservancy_and_the_Cornell_Lab_of_Ornithology ;
+    :area :wp:North_America ;
+    :began  2012 .
+
+
+:Hare_Survey :projectName "Hare Survey" ;
+    :discipline  wp:Biology, wp:Wildlife ;
+    :sponsoringOrg  [:name "Moors for the Future Partnership"] ;
+    :area :UK ;
+    :began  2015 .
+
+
+:Hazelnut_Project :projectName "Hazelnut Project, The" ;
+    :discipline  wp:Botany, wp:Agronomy ;
+    :sponsoringOrg [:name "Hybrid Hazelnut Consortium"], wp:National_Arbor_Day_Foundation, wp:University_of_Nebraska-Lincoln, wp:Rutgers_University , wp:Oregon_State_University ;
+    :area :USA ;
+    :began  2000 .
+
+
+:Herbarium-at-home :projectName "Herbarium@home" ;
+    :discipline  wp:Botany ;
+    :sponsoringOrg  wp:Botanical_Society_of_Britain_and_Ireland ;
+    :area :UK ;
+    :began  2006 .
+
+
+<http://en.wikipedia.org/wiki/Herbonauten_(Pilot)> :projectName "Herbonauten (Pilot)" ;
+    :discipline  wp:Botany, wp:Natural_History ;
+    :sponsoringOrg  [:name "Verein der Freunde des Botanischen Gartens und Botanischen Museums Berlin-Dahlem"] ;
+    :area :Worldwide_Germany ;
+    :began  2016 .
+
+
+
+:Herpetological_Education_and_Research_Project :projectName "Herpetological Education and Research Project" ;
+    :discipline  wp:Herpetology ;
+    :sponsoringOrg  [:name "HERP Board of Trustees"] ;
+    :area :wp:North_America ;
+    :began  2007 .
+
+
+wp:HerpMapper :projectName "HerpMapper" ;
+    :discipline  wp:Herpetology, wp:Ecology, wp:Citizen_Science, <https://en.wikipedia.org/wiki/Conservation_(ethic)>, wp:Phenology, wp:Research ;
+    :sponsoringOrg  [:name "HerpMapper Advisory Committee"] ;
+    :area :Global ;
+    :began  2013  .
+
+
+wp:Higgs_Hunters :projectName "Higgs_Hunters" ;
+    :discipline wp:Physics, wp:Particle_Physics ;
+    :sponsoringOrg :Higgs_Hunters_Classify ;
+    :area :Global ;
+    :began 2014 .
+
+
+:Hong_Kong_Bird_Watching_Society :projectName "Hong Kong Bird Watching Society" ;
+    :discipline wp:Biology, wp:Ecology ;
+    :sponsoringOrg wp:Hong_Kong_Bird_Watching_Society ;
+    :area :Hong_Kong ;
+    :began 2019 .
+
+
+:Hummingbirds_at_Home :projectName "Hummingbirds at Home" ;
+    :discipline  wp:Ornithology ;
+    :sponsoringOrg  wp:National_Audubon_Society ;
+    :area :USA ;
+    :began  2013 .
+
+
+:Hummingbird_Migration_Tracker :projectName "Hummingbird Migration Tracker" ;
+    :discipline  wp:Ornithology ;
+    :sponsoringOrg  [:name "Birdfeeders.com"] ;
+    :area :USA ;
+    :began  2010 .
+
+
+:IDAH2O_Master_Water_Stewards :projectName "IDAH2O Master Water Stewards" ;
+    :discipline  wp:Water_Quality ;
+    :sponsoringOrg  wp:University_of_Idaho ;
+    :area :USA ;
+    :began  2010 .
+
+
+:Identify_animals :projectName "Identify animals" ;
+    :discipline  wp:Conservation_Biology ;
+    :sponsoringOrg  wp:Victoria_University_of_Wellington ;
+    :area :New_Zealand ;
+    :began  2015 .
+
+
+:ISeeChange :projectName "ISeeChange" ;
+    :discipline  wp:Meteorology, wp:Climatology, wp:Remote_Sensing, wp:Phenology, wp:Ecology, wp:Citizen_Journalism ;
+    :sponsoringOrg  [:name "ISeeChange"] ;
+    :area :Global ;
+    :began  2012 .
+
+
+:IceWatchUSA :projectName "IceWatchUSA" ;
+    :discipline  wp:Phenology ;
+    :sponsoringOrg  [:name "Nature Abounds"] ;
+    :area :USA ;
+    .
+
+
+wp:iNaturalist :projectName "iNaturalist" ;
+    :discipline  wp:Botany, wp:Entomology, wp:Ecology, wp:Lepidoptera, wp:Ornithology, wp:Phenology, wp:Zoology ;
+    :sponsoringOrg  wp:California_Academy_of_Sciences ;
+    :area :Global ;
+    :began  2008 .
+
+
+<http://indiabiodiversity.org/> :projectName "India Biodiversity Portal" ;
+    :discipline wp:Computer_science, wp:Biology, wp:Environmental_science ;
+    :sponsoringOrg [:name "Prabhakar / Thomas Vattakaven"] ;
+    :area :India ;
+    .
+
+
+:Instant_Wild :projectName "Instant Wild" ;
+    :discipline  wp:Wildlife, wp:Ecology, wp:Species_Diversity, <https://en.wikipedia.org/wiki/Conservation_(ethic)>, wp:Zoology ;
+    :sponsoringOrg  [:name "Zoological Society of London"] ;
+    :area :Global ;
+    :began  2011 .
+
+
+:iSeahorse :projectName "iSeahorse" ;
+    :discipline  wp:Ichthyology, wp:Ecology, wp:Marine_Biology, wp:Marine_Conservation, wp:Zoology ;
+    :sponsoringOrg wp:Project_Seahorse,  wp:Guylian_Belgian_Chocolate,  wp:iNaturalist,  wp:John_G._Shedd_Aquarium,  wp:The_University_of_British_Columbia, wp:Zoological_Society_of_London ;
+    :area :Global ;
+    :began  2013 .
+
+
+wp:iSpot :projectName "iSpot" ;
+    :discipline  wp:Nature ;
+    :sponsoringOrg  wp:The_Open_University ;
+    :area :Global ;
+    :began  2009 .
+
+
+:Kinsey_Reporter :projectName "Kinsey Reporter" ;
+    :discipline  di:Sex_and_Attraction ;
+    :sponsoringOrg  wp:The_Kinsey_Institute ;
+    :area :Worldwide ;
+    :began  2012 .
+
+
+:Koala_Count :projectName "Koala Count" ;
+    :discipline  wp:Wildlife ;
+    :sponsoringOrg  [:name "NatureMapr"] ;
+    :area :Australia ;
+    :began  2014 .
+
+
+:Landscape_Watch_Hampshire :projectName "Landscape Watch Hampshire" ;
+    :discipline  wp:Environmental_science, wp:Geography  ;
+    :sponsoringOrg  [:name "Crowdsourcing Landscape Change Consortium"] ;
+    :area :wp:Hampshire, :wp:UK ;
+    :began  2015 .
+
+
+:Landslide_Reporter :projectName "Landslide Reporter" ;
+    :discipline  wp:Natural_hazards, wp:Environmental_science, wp:Geography ;
+    :sponsoringOrg  wp:Goddard_Space_Flight_Center ;
+    :area :Worldwide ;
+    :began  2018 .
+
+
+:Lingscape :projectName "Lingscape" ;
+    :discipline  wp:Linguistic_landscape, wp:Sociolinguistics ;
+    :sponsoringOrg  wp:University_of_Luxembourg ;
+    :area :Worldwide ;
+    :began  2016 .
+
+
+:Litterati :projectName "Litterati" ;
+    :discipline  wp:Environmental_Science, wp:Pollution, wp:Human_Impact, wp:Biology ;
+  
+    :area :Worldwide ;
+    :began  [:first_photo 2012; :app_debut 2016] .
+
+
+<https://www.spotteron.com/dreckspotz> :projectName "Litterbug (Dreckspotz)" ;
+    :discipline wp:Environmental_Science, wp:Pollution, wp:Human_Impact, wp:Ressources ;
+    :sponsoringOrg [:name "Global 2000"],  [:name "Friends of Earth"], [:name "SPOTTERON Collaboration"] ;
+    :area :Europe ;
+    :began 2017 .
+
+
+:Local_Environmental_Observer_Network :projectName "Local Environmental Observer (LEO) Network" ;
+    :discipline  wp:Environmental_change, wp:Climate_change_impacts, wp:Ecology, wp:Human_well-being, wp:Knowledge_integration ;
+    :sponsoringOrg wp:Alaska_Native_Tribal_Health_Consortium,  wp:US_Environmental_Protection_Agency,  wp:Commission_for_Environmental_Cooperation, wp:First_Nations_Health_Authority ;
+    :area :Worldwide ;
+    :began  2012 .
+
+
+:Loss_of_the_Night_app :projectName "Loss_of_the_Night_app" ;
+    :discipline  wp:Astronomy, wp:Ecology, wp:Remote_Sensing ;
+    :sponsoringOrg <https://en.wikipedia.org/wiki/Federal_Ministry_of_Education_and_Research_(Germany)>,  wp:Freie_Universität_Berlin, wp:Leibniz_Institute_of_Freshwater_Ecology_and_Inland_Fisheries ;
+    :area :Germany ;
+    :began  2013 .
+
+
+:Massachusetts_Herpetological_Atlas :projectName "Massachusetts Herpetological Atlas" ;
+    :discipline  wp:Herpetology ;
+    :sponsoringOrg  wp:University_of_Massachusetts_Amherst ;
+    :area :USA ;
+    :began  1992 .
+
+
+:MammalMAP :projectName "MammalMAP" ;
+    :discipline  wp:Mammal_Conservation ;
+    :sponsoringOrg wp:Animal_Demography_Unit, wp:Marine_Research_Institute ;
+    :area :Africa ;
+    :began  2012 .
+
+
+:MangroveWatch :projectName "MangroveWatch" ;
+    :discipline  wp:Wetlands, wp:Surveillance, wp:Mangrove, wp:Habitat_conservation, wp:Ecology ;
+    :sponsoringOrg [:name "James Cook University"],  [:name "The University of Queensland"],  [:name "Australian Government National Landcare Programme"], [:name "The Burnett Mary Regional Group"],  [:name "Queensland Department of Primary Industries"],  [:name "OceanWatch Australia Ltd"], [:name "Earth Protect"] ;
+    :area :Worldwide ;
+    :began  2009 .
+
+
+wp:Manta_Matcher :projectName "Manta_Matcher" ;
+    :discipline  wp:Marine_Ecology, wp:Conservation_Biology, wp:Ecology ;
+    :sponsoringOrg wp:Wild_Me, [:name "Marine Megafauna Foundation"] ;
+    :area :Worldwide ;
+    :began  2012 .
+
+
+:MapIt :projectName "MapIt" ;
+    :discipline  wp:Environmental_Science, wp:Pollution, wp:Biology, wp:Trash_Blindness, wp:Cartography, wp:Human_geography ;
+    :sponsoringOrg [:name "Microsoft"],  [:name "Carto"],  [:name "QUALITANCE"],  [:name "Republic of Estonia Ministry of Environment"],  [:name "ISGF"],  [:name "JCI"],  [:name "AIESEC"], [:name "Let's Do It Foundation"] ;
+    :area :Worldwide ;
+    :began  2018 .
+
+
+:Marine_Metres_Squared :projectName "Marine Metres Squared" ;
+    :discipline  wp:Marine_Ecology, wp:Conservation_Biology ;
+    :sponsoringOrg  [:name "New Zealand Marine Studies Centre"] ;
+    :area :New_Zealand ;
+    .
+
+
+:Mark2Cure :projectName "Mark2Cure" ;
+    :discipline  wp:Biomedical_research ;
+    :sponsoringOrg  [:name "The Su Lab at Scripps Research Institute"] ;
+    :area :USA_CA ;
+    :began  2012 ;
+    :launch 2015 .
+
+
+:MeteorITo :projectName "MeteorITo" ;
+    :discipline  wp:Meteorological_phenomena ;
+    :sponsoringOrg  [:name "Hacedores"] ;
+    :area :Mexico ;
+    :began  2017 .
+
+
+
+:Michigan_Herp_Atlas_Project :projectName "Michigan Herp Atlas Project" ;
+    :discipline  wp:Herpetology ;
+    :sponsoringOrg  [:name "Michigan Department of Natural Resources"] ;
+    :area :Michigan ;
+    :began  2004 .
+
+
+<https://www.mics.tools/> :projectName "MICS" ;
+    :discipline  di:Impact_of_citizen_science ;
+    :sponsoringOrg  [:name "European Commission"] ;
+    :area :Worldwide ;
+    :began  2019 .
+
+
+:Mitten_Crab_Recording_Project :projectName "Mitten Crab Recording Project" ;
+    :discipline  wp:Marine_Biology, wp:Invasive_Species ;
+    :sponsoringOrg  wp:Marine_Biological_Association_of_the_United_Kingdom ;
+    :area :UK ;
+    .
+
+
+wp:Monarch_butterfly :projectName  "Monarch_butterfly Health" ;
+    :discipline  wp:Entomology, wp:Lepidoptera ;
+    :sponsoringOrg  wp:University_of_Georgia ;
+    :area :Canada, :USA ;
+    .
+
+
+wp:Monarch_butterfly_Larva :projectName "Monarch_butterfly Larva Monitoring Project" ;
+    :discipline  wp:Entomology, wp:Lepidoptera ;
+    :sponsoringOrg  wp:University_of_Minnesota ;
+    :area :Canada, :USA ;
+    .
+
+
+wp:Monarch_butterfly_Watch :projectName  "Monarch_butterfly Watch" ;
+    :discipline  wp:Entomology, wp:Lepidoptera ;
+    :sponsoringOrg  wp:University_of_Kansas ;
+    :area :Canada, :USA ;
+    :began  1992 .
+
+
+:Moon_Mappers :projectName "Moon Mappers" ;
+
+    :discipline  wp:Planetary_science ;
+    :area :Worldwide ;
+    :began 2011 .
+
+
+<http://www.mosquitoalert.com/> :projectName "Mosquito Alert" ;
+    :discipline  wp:Entomology, wp:Ecology, wp:Public_Health ;
+    :sponsoringOrg  <http://www.creaf.cat/>, <http://www.ceab.csic.es/en/>  ;
+    :area :Spain ;
+    :began  2013 .
+
+
+:Mozak :projectName "Mozak" ;
+    :discipline  wp:Neuroscience ;
+    :sponsoringOrg  [:name "Center for Game Science"] ;
+    :area :Worldwide ;
+    :began  2016 .
+
+
+wp:National_Moth_Week_NMW :projectName "National_Moth_Week (NMW)" ;
+    :discipline  wp:Entomology ;
+    :sponsoringOrg  [:name "Friends of the East Brunswick Environmental Commission"] ;
+    :area :Worldwide ;
+    :began  2012 .
+
+
+:Nature_s_Calendar :projectName "Nature's Calendar" ;
+    :discipline  wp:Phenology ;
+    :sponsoringOrg  wp:Woodland_Trust ;
+    :area :UK ;
+    .
+
+
+<https://www.naturkalender.at> :projectName "Nature's Calendar" ;
+    :discipline  wp:Phenology ;
+    :sponsoringOrg [:name "Zentralanstalt für Meteorologie und Geodynamik (ZAMG)"], [:name "SPOTTERON Collaboration"] ;
+    :area :Europe ;
+    :began  2018 .
+
+
+:Natures_Notebook :projectName "Nature's Notebook" ;
+    :discipline  wp:Phenology ;
+    :sponsoringOrg  [:name "USA National Phenology Network"] ;
+    :area :USA ;
+    :began  2009 .
+
+
+:NatureWatch :projectName "NatureWatch *FrogWatch *IceWatch *PlantWatch *WormWatch" ;
+    :discipline  wp:Ecology, wp:Phenology, wp:Herpetology ;
+    :sponsoringOrg  wp:Nature_Canada ;
+    :area :Canada .
+  
+
+
+:NatureWatch_NZ :projectName "NatureWatch NZ" ;
+    :discipline  wp:Botany, wp:Entomology, wp:Ecology, wp:Ornithology, wp:Phenology, wp:Zoology ;
+    :sponsoringOrg  [:name "New Zealand Bio-Diversity Recording Network Trust"] ;
+    :area :New_Zealand ;
+    :began   2006 .
+
+
+:Natusfera :projectName "Natusfera" ;
+    :discipline  wp:Biodiversity ;
+    :sponsoringOrg [:name "Spanish GBIF node"],  [:name "Center for Ecological Research and Forestry Applications (CREAF)"],  [:name "Institute of Marine Sciences (ICM-CSIC)"], wp:FECyT ;
+    :area :Europe ;
+    :began  2016 .
+
+
+:Neighborhood_Nestwatch :projectName "Neighborhood Nestwatch" ;
+    :discipline  wp:Ornithology ;
+    :sponsoringOrg wp:Smithsonian_Migratory_Bird_Center,  <https://en.wikipedia.org/wiki/National_Zoological_Park_(United_States)>, wp:Smithsonian_Institution ;
+    :area :USA ;
+    .
+
+
+:NestWatch :projectName "NestWatch" ;
+    :discipline  wp:Ornithology ;
+    :sponsoringOrg  wp:Cornell_Lab_of_Ornithology ;
+    :area :wp:Americas ;
+    :began  2008.
+
+:North_American_Field_Herping_Association :projectName "North American Field Herping Association" ;
+    :discipline  wp:Herpetology ;
+    :sponsoringOrg  [:name "North American field herping community"] ;
+    :area :wp:North_America ;
+    :began  2007 .
+
+
+:North_American_Bird_Phenology_Program :projectName "North American Bird Phenology Program" ;
+    :discipline  wp:Ornithology ;
+    :sponsoringOrg  wp:United_States_Geological_Survey ;
+    :area :wp:North_America ;
+    :began  2008 .
+
+
+:Notes_from_Nature :projectName "Notes from Nature" ;
+    :discipline  wp:Botany, wp:Entomology, wp:Ornithology, wp:Mycology ;
+    :sponsoringOrg  <https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)>  ;
+    :area :Worldwide ;
+    .
+
+
+:Observation.org :projectName "Observation.org" ;
+    :discipline  wp:Botany, wp:Entomology, wp:Ecology, wp:Lepidoptera, wp:Ornithology, wp:Phenology, wp:Zoology ;
+
+    :area :Worldwide ;
+    .
+
+
+:Odonata_Central :projectName "Odonata Central" ;
+    :discipline  wp:Odonata ;
+
+    :area :North_America ;
+    :began  2004 .
+
+
+wp:Old_Weather_seattle  :projectName  "Old_Weather seattle " ;
+    :discipline  wp:Climatology ;
+    :sponsoringOrg  <https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)>  ;
+    :area :Worldwide ;
+    .
+
+
+:Ontario_wp:BioBlitz :projectName "Ontario BioBlitz" ;
+    :discipline  wp:Botany, wp:Ecology, wp:Entomology, wp:Herpetology, wp:Ichthyology, wp:Lepidoptera, wp:Ornithology ;
+    :sponsoringOrg wp:Royal_Ontario_Museum,  wp:Canadian_Wildlife_Federation,  wp:Nature_Conservancy_of_Canada,  wp:Ontario_Nature,  wp:Toronto_Zoo, wp:Toronto_and_Region_Conservation_Authority ;
+    :area :Canada_Ontario ;
+    :began  2012 .
+
+
+:Ontario_Butterfly_Atlas_Online :projectName "Ontario Butterfly Atlas Online" ;
+    :discipline  wp:Lepidoptera, wp:Entomology ;
+    :sponsoringOrg  [:name "Toronto Entomologists’ Association "] ;
+    :area :Canada_Ontario ;
+    :began  1969 .
+
+
+:Ontario_Reptile_and_Amphibian_Atlas :projectName "Ontario Reptile and Amphibian Atlas" ;
+    :discipline  wp:Herpetology ;
+    :sponsoringOrg wp:Ontario_Nature, [:name "Ministry of Natural Resources’ Natural Heritage Information Centre (NHIC)"] ;
+    :area :Canada_Ontario ;
+    .
+
+
+:Operation_Wallacea :projectName "Operation Wallacea" ;
+    :discipline  wp:Biodiversity ;
+    :sponsoringOrg  [:name "Worldwide"] ;
+    :area :UK ;
+    :began  1996 .
+
+
+:Orca_Game :projectName "Orca Game" ;
+    :discipline  wp:Bioacoustics ;
+    :sponsoringOrg  [:name "Orchive"] ;
+    :area :Worldwide ;
+    :began  2013 .
+
+
+:Orchids:Terrestrial_Spiranthes_in_an_Urban_Environment :projectName "Orchids:Terrestrial Spiranthes in an Urban Environment" ;
+    :discipline  wp:Environmental_Conservation ;
+    :sponsoringOrg  [:name "Hoyt Arboretum"] ;
+    :area :Portland, :OR ;
+    :began  2014 .
+
+
+:Ornitho_Deutschland :projectName "Ornitho Deutschland" ;
+    :discipline  wp:Ornithology ;
+    :sponsoringOrg  [:name "{{ill|Dachverband Deutscher Avifaunisten|de|Dachverband Deutscher Avifaunisten (DDA) e.V.}}"] ;
+    :area :Austria, :France_part, :Germany, :Italy, :Luxemburg, :Poland, :Spain_part, :Switzerland ;
+    :began  2011 .
+
+
+:Painted_Lady_Migration_Project :projectName "Painted Lady Migration Project" ;
+    :discipline  wp:Lepidoptera ;
+    :sponsoringOrg [:name "Institut de Biologia Evolutiva"],  wp:National_Geographic,  wp:Marie_Skłodowska-Curie_Actions,  wp:British_Ecological_Society,  wp:Barcelona_zoo,  wp:Harvard_University, [:name "Zerynthia Association"] ;
+    :area :Worldwide ;
+    .
+
+
+:PARS_Pennsylvania_Amphibian_and_Reptile_Survey :projectName "PARS (Pennsylvania Amphibian and Reptile Survey)" ;
+    :discipline  wp:Biology, wp:Marine_biology, wp:Environmental_protection ;
+    :sponsoringOrg  [:name "MACHAC"] ;
+    :area :Pennsylvania ;
+    .
+
+
+:Penguin_Watch :projectName "Penguin Watch" ;
+    :discipline  wp:Ornithology ;
+    :sponsoringOrg  <https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)>  ;
+    :area :Worldwide ;
+    .
+
+
+<http://www.pierisproject.org/> :projectName "Pieris Project" ;
+    :discipline  wp:Lepidoptera, wp:Entomology ;
+    :sponsoringOrg  [:name "theryanlab.com"] ;
+    :area :Worldwide ;
+    :began  2014 .
+
+
+:Pl_at_ntNet :projectName "Pl@ntNet" ;
+    :discipline  wp:Botany ;
+    :sponsoringOrg  wp:Institut_national_de_la_recherche_agronomique_wp:Inria ;
+    :area :Global ;
+    :began  2008 .
+
+
+<https://www.pilzfinder.at> :projectName "Pilzfinder" ;
+    :discipline wp:Mycology ;
+    :sponsoringOrg [:name "Austrian Mycology Society"],  [:name "University of Vienna"], [:name "SPOTTERON collaboration"] ;
+    :area :Europe ;
+    :began 2019 .
+
+
+:Planet_Mappers:_Mercury :projectName "Planet Mappers: Mercury" ;
+    :discipline  wp:Planetary_science ;
+    :sponsoringOrg  [:name "CosmoQuest.org<ref :name cosmos group=note />"] ;
+    :area :Worldwide ;
+    :began  2011 .
+
+
+:Plankton_Project :projectName "Plankton Project" ;
+    :discipline  wp:Marine_biology, wp:Zoology ;
+    :sponsoringOrg  <https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)>  ;
+    :area :Worldwide ;
+    :began  2013 .
+
+
+:Portland_Urban_Coyote_Project :projectName "Portland Urban Coyote Project" ;
+    :discipline  wp:Ecology, wp:Geography, wp:Zoology, wp:Human_Dimensions_of_Wildlife, wp:Cartography ;
+    :sponsoringOrg  wp:Portland_State_University ;
+    :area :Portland, :Oregon ;
+    :began  2011 .
+
+
+wp:PressureNET :projectName "PressureNET" ;
+    :discipline  wp:Meteorology, wp:Climatology ;
+    :sponsoringOrg  [:name "Cumulonimbus Inc."] ;
+    :area :Worldwide ;
+    :began  2011 .
+
+
+:Project_Roadkill :projectName "Project Roadkill" ;
+    :discipline  wp:Ecology, wp:Road_Safety ;
+    :sponsoringOrg [:name "University of Natural Resources and Life Sciences"], [:name "Vienna"] ;
+    :area :Worldwide ;
+    :began  2014 .
+
+
+:Project_Discovery_I :projectName "Project Discovery I." ;
+    :discipline  wp:Biology, wp:Cellular_biology  ;
+    :sponsoringOrg [:name "Human Protein Atlas (KTH)"],  [:name "CCP Games"], [:name "MMOS"] ;
+    :area :Worldwide ;
+    :began  2016 .
+
+
+:Project_Discovery_II :projectName "Project Discovery II." ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg [:name "University of Geneva"],  [:name "CCP Games"], [:name "MMOS"] ;
+    :area :Worldwide ;
+    :began  2017 .
+
+
+wp:Project_Dive_Exploration :projectName "Project_Dive_Exploration (PDE)" ;
+    :discipline  wp:Decompression_theory ;
+    :sponsoringOrg  wp:Divers_Alert_Network ;
+    :area :North_America ;
+    .
+
+
+:Project_Soothe :projectName "Project Soothe" ;
+    :discipline  wp:Clinical_psychology, wp:Psychotherapy ;
+    :sponsoringOrg  wp:University_of_Edinburgh ;
+    :area :Worldwide ;
+    :began  2014 .
+
+
+:Project_Splatter :projectName "Project Splatter" ;
+    :discipline  wp:Ecology, wp:Conservation_biology ;
+    :sponsoringOrg  wp:Cardiff_University ;
+    :area :UK ;
+    :began  2013 .
+
+
+wp:Public_Lab :projectName "Public_Lab" ;
+    :discipline  wp:Ecology, wp:environmental_science ;
+    :sponsoringOrg  [:name "The Public Laboratory for Open Technology and Science"] ;
+    :area :USA ;
+    :began  2010 .
+
+
+:PurpleAir :projectName "PurpleAir" ;
+    :discipline  wp:Air_quality, wp:environmental_science ;
+  
+    :area :Worldwide ;
+    :began  2015 .
+
+
+wp:Quantum_Moves  :projectName "Quantum Moves" ;
+    :sponsoringOrg wp:Center_for_Community_Driven_Research, wp:Aarhus_University ;
+    :area :Worldwide ;
+    :began  2013 .
+
+
+wp:Radio_Galaxy_Zoo :projectName "Radio_Galaxy_Zoo" ;
+    :discipline  wp:Radio_Astronomy ;
+    :sponsoringOrg  wp:Zooniverse ;
+    :area :Worldwide ;
+    :began   2013 .
+
+
+:Redmap_Range_Extension_Database_and_Mapping_Project :projectName "Redmap (Range Extension Database and Mapping Project)" ;
+    :discipline  wp:Marine_Ecology, wp:Species_distribution, wp:Climate_Change ;
+    :sponsoringOrg wp:Institute_for_Marine_and_Antarctic_Studies, wp:University_of_Tasmania ;
+    :area :Australia ;
+    :began  2009 .
+
+
+:Redmet :projectName "Redmet" ;
+    :discipline  wp:Environmental_Meteorological_Network ;
+    :sponsoringOrg  [:name "Hacedores"] ;
+    :area :Mexico ;
+    :began  2017 .
+
+
+:Reading_Natures_Library :projectName "Reading Nature's Library" ;
+  
+    :sponsoringOrg wp:Manchester_Museum, wp:University_of_Manchester ;
+    :area :UK ;
+    .
+
+
+:Reef_Life_Survey_RLS :projectName "Reef Life Survey (RLS)" ;
+
+    :sponsoringOrg wp:Institute_for_Marine_and_Antarctic_Studies, wp:University_of_Tasmania ;
+    :area :Australia ;
+    .
+
+
+:Reef_Check_Med :projectName "Reef Check Med" ;
+    :discipline  di:Marine_Biology_and_Ecology, wp:Environmental_Science ;
+    :sponsoringOrg [:name "Reef Check Italia"],  [:name "Reef Check Deutschland"],  [:name "Reef Check France"], [:name "Reef Check Worldwide Foundation"] ;
+    :area :Mediterranean_Sea ;
+    :began  2016 .
+
+
+:Reef_Environmental_Education_Foundation_REEF :projectName "Reef Environmental Education Foundation (REEF)" ;
+    :discipline  wp:Marine_conservation, wp:Marine_biology ;
+    :sponsoringOrg  wp:Non-profit_organization ;
+    :area :Key_Largo, :FL_worldwide ;
+    :began  1990 .
+
+
+:Report-a-weed  :projectName "Report-a-weed " ;
+    :discipline  wp:Biodiversity  ;
+    :sponsoringOrg  [:name "British Columbia government"] ;
+    :area :Canada ;
+.
+
+
+<https://www.roadkill.at> :projectName "Roadkill" ;
+    :discipline  wp:Biodiversity, wp:Transportation ;
+    :sponsoringOrg [:name "University of Natural Resources and Life Sciences"],  [:name "Vienna"], [:name "SPOTTERON Collaboration"] ;
+    :area :Worldwide ;
+    :began  2015 .
+
+
+:SatCam  :projectName "SatCam " ;
+    :discipline  wp:Meteorology ;
+    :sponsoringOrg  [:name "University of Wisconsin - Madison"] ;
+    :area :Worldwide ;
+    .
+
+
+:Science_Gossip_Biodiversity_Heritage_Library :projectName "Science Gossip Biodiversity Heritage Library" ;
+    :discipline  wp:Biodiversity, wp:libraries, wp:art ;
+    :sponsoringOrg  <https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)>  ;
+    :area :Worldwide ;
+    :began  2015 .
+
+
+<https://en.wikipedia.org/wiki/Safecast_(organization)> :projectName "Safecast_(organization)" ;
+    :discipline  wp:Ionizing_radiation, wp:Air_Quality ;
+    :sponsoringOrg  [:name "Momoko Ito Foundation"] ;
+    :area :Worldwide ;
+    :began  2011 .
+
+
+wp:SciStarter :projectName "SciStarter" ;
+    :discipline  di:All_Fields_of_Science ;
+    :sponsoringOrg  [:name "Research affiliate Arizona_State_University"] ;
+    :area :Worldwide ;
+    :began  2011 .
+
+
+:SeagrassSpotter :projectName "SeagrassSpotter" ;
+    :discipline  wp:Seagrass ;
+    :sponsoringOrg  [:name "Project Seagrass"] ;
+    :area :Worldwide_Marine ;
+    :began  2016 .
+
+
+:Secchi_Disk :projectName "Secchi Disk" ;
+    :discipline  wp:Phytoplankton ;
+    :sponsoringOrg  [:name "Secchi Disk Project"] ;
+    :area :Worldwide_Marine ;
+    :began  2013 .
+
+
+<https://air.net.technion.ac.il/> :projectName "Sensing the Air" ;
+    :discipline wp:Biology ;
+    :area :Israel ;
+    .
+
+
+wp:SETI-at-home :projectName "SETI@home" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg wp:University_Of_California, [:name "_Berkeley"] ;
+    :area :Worldwide ;
+    :began  1999 .
+
+
+:The_Shore_Thing_Project :projectName "The Shore Thing Project" ;
+    :discipline  wp:Biology, wp:Marine_Biology, wp:Invasive_Species, wp:Climate_Change ;
+    :sponsoringOrg  wp:Marine_Biological_Association_of_the_United_Kingdom ;
+    :area :UK ;
+    :began  2006 .
+
+
+:Smithsonian_Transcription_Center :projectName "Smithsonian Transcription Center" ;
+    :discipline  wp:Astronomy, wp:Botany, wp:Entomology ;
+    :sponsoringOrg  wp:Smithsonian_Institution ;
+    :area :USA ;
+    :began  2014 .
+
+
+:Snowtweets :projectName "Snowtweets" ;
+    :discipline  wp:Meteorology ;
+    :sponsoringOrg  wp:University_of_Waterloo ;
+    :area :Canada ;
+    .
+
+
+:Socientize :projectName "Socientize" ;
+    :discipline  wp:Life_sciences ;
+    :sponsoringOrg  wp:European_Commission ;
+    :area :Worldwide ;
+    :began  2012 .
+
+
+:Speak_to_AI :projectName "Speak to AI" ;
+    :discipline  wp:Artificial_Intelligence, wp:Machine_Learning, wp:Linguistics ;
+    :sponsoringOrg wp:University_of_California, [:name "_Irvine_"] ;
+    :area :Worldwide ;
+    :began  2018 .
+
+
+:SPLASSH :projectName "SPLASSH" ;
+    :discipline  wp:Water_Quality, wp:Pollution ;
+    :sponsoringOrg  wp:Kennesaw_State_University ;
+    :area :Worldwide ;
+    :began  2013 .
+
+
+:Species_Observations_System :projectName "Species Observations System" ;
+    :discipline  wp:Botany, wp:Entomology, wp:Ecology, wp:Ornithology, wp:Phenology, wp:Zoology ;
+    :sponsoringOrg [:name "Norwegian Biodiversity Information Centre"], [:name "Norwegian Biodiversity Network"] ;
+    :area :Norway ;
+    :began  2008 .
+
+
+:Stall_Catchers :projectName "Stall Catchers" ;
+    :discipline  wp:Biomedical, wp:Alzheimers  ;
+    :sponsoringOrg  [:name "A game to accelerate Alzheimers research"] ;
+    :area :Worldwide ;
+    :began  2015 .
+
+
+:Striped_AmBASSadors :projectName "Striped AmBASSadors" ;
+    :discipline  wp:Fisheries, wp:Wildlife_conservation, wp:Ecology ;
+    :sponsoringOrg [:name "Striped Bass Research Team"], [:name "Acadia University"] ;
+    :area :NS, :Canada ;
+    :began  2010 .
+
+
+:Taiwan_Roadkill_Observation_Network :projectName "Taiwan Roadkill Observation Network" ;
+    :discipline wp:Engineering, wp:Environmental_science, wp:Ecology  ;
+    :sponsoringOrg [:name "Lusheng Society"] ;
+    :area :Taiwan ;
+    :began 2019 .
+
+
+:Taiwan_Breeding_Bird_Survey :projectName "Taiwan Breeding Bird Survey" ;
+    :discipline wp:Biology, wp:List_of_life_sciences, wp:Ecology ;
+    :sponsoringOrg [:name "The Bird Breeding Survey of Taiwan"] ;
+    :area :Taiwan ;
+    :began 2019 .
+
+
+:Target_Asteroids :projectName "Target Asteroids!" ;
+    :discipline  wp:Planetary_science ;
+    :sponsoringOrg  [:name "OSIRIS-REx asteroid sample return mission"] ;
+    :area :Worldwide ;
+    :began  2012 .
+
+
+:Target_NEOs :projectName "Target NEOs!" ;
+    :discipline  wp:Planetary_science ;
+    :sponsoringOrg  [:name "The Astronomical League"] ;
+    :area :USA ;
+    :began  2012 .
+
+
+:Taxon_expeditions :projectName "Taxon expeditions" ;
+    :discipline  wp:Biodiversity, wp:Ecology ;
+    :sponsoringOrg  [:name "Taxon Expeditions"] ;
+    :area :Borneo, :Montenegro ;
+    :began  2017 .
+
+
+:Teatime4Science :projectName "Teatime4Science" ;
+    :discipline  wp:Botany, wp:Climate_change, wp:Ecology, <https://en.wikipedia.org/wiki/Pedology_(soil_study)> ;
+    :sponsoringOrg [:name "The TBI team"], [:name "Utrecht University"] ;
+    :area :Worldwide ;
+    :began  2016 .
+
+
+:theSkyNet :projectName "theSkyNet" ;
+    :discipline  wp:Astronomy, wp:Computing ;
+    :sponsoringOrg  [:name "International Centre for Radio Astronomy Research"] ;
+    :area :Worldwide ;
+    :began  2011 .
+
+
+:TooLoud  :projectName "TooLoud" ;
+    :discipline wp:Computing, wp:Physics ;
+    :sponsoringOrg :Community ;
+    :area :Bangladesh ;
+    .
+
+
+:Track_a_Tree :projectName "Track a Tree" ;
+    :discipline  wp:Botany, wp:Ecology, wp:Phenology ;
+    :sponsoringOrg  [:name "University of Edinburgh and the Woodland Trust"] ;
+    :area :UK ;
+    :began  2014 .
+
+
+:Track_My_Fish :projectName "Track My Fish" ;
+    :discipline  wp:Fisheries, wp:Ecology, wp:Tagging ;
+    :sponsoringOrg [:name "Striped Bass Research Team"], [:name "Acadia University"] ;
+    :area :Canada ;
+    :began  2012 .
+
+
+:TreeSnap :projectName "TreeSnap" ;
+    :discipline  wp:Forestry, wp:Invasive_Species, wp:Botany ;
+    :sponsoringOrg wp:University_of_Kentucky, wp:University_of_Tennessee ;
+    :area :USA ;
+    :began  2017 .
+
+
+:Turtle_Survey_and_Analysis_Tools_TurtleSAT :projectName "Turtle Survey and Analysis Tools (TurtleSAT)" ;
+    :discipline  wp:Herpetology ;
+    :sponsoringOrg wp:University_of_Sydney, wp:University_of_Western_Sydney ;
+    :area :Australia ;
+    :began  2014 .
+
+
+wp:UBiome :projectName "UBione" ;
+    :discipline  wp:Microbiology ;
+    :sponsoringOrg  wp:uBiome ;
+    :area :USA ;
+    .
+
+
+<http://www.urwatair.gr/> :projectName "URwatair" ;
+    :discipline wp:Air_quality_index, wp:Air_pollution, wp:Hydrology ;
+    :sponsoringOrg <http://en.ellet.gr/> , wp:Aristotle_University_of_Thessaloniki,  wp:Aristotle_University_of_Thessaloniki ;
+    :area :Greece ;
+    :began 2019 .
+
+
+:VerbCorner :projectName "VerbCorner" ;
+    :discipline  wp:Linguistics ;
+    :sponsoringOrg  wp:Massachusetts_Institute_of_Technology ;
+    :area :Worldwide ;
+    :began  2013 .
+
+
+:VT_Fish_Diaries :projectName "VT Fish Diaries" ;
+    :discipline  wp:Fisheries ;
+    
+    :area :USA_VT ;
+    :began  2015 .
+
+
+:Vermont_Reptile_and_Amphibian_Atlas :projectName "Vermont Reptile & Amphibian Atlas" ;
+    :discipline  wp:Herpetology ;
+    
+    :area :USA_VT ;
+    :began  1995 .
+
+
+:Volunteer_Water_Quality_Monitoring_Programs_thousands :projectName "Volunteer Water Quality Monitoring Programs (thousands)" ;
+    :discipline  wp:Water_Quality ;
+    
+    :area :USA ;
+    :began  1969 .
+
+
+:Water_Action_Volunteers :projectName "Water Action Volunteers" ;
+    :discipline  wp:Water_Quality ;
+    :sponsoringOrg  [:name "University of Wisconsin-Extension and Wisconsin Department of Natural Resources"] ;
+    :area :USA_WI ;
+    :began  1996 .
+
+
+:Weather_Detective :projectName "Weather Detective" ;
+    :discipline  wp:Climatology, wp:Meteorology ;
+    :sponsoringOrg [:name "National Science Week Australia"], wp:Australian_Broadcasting_Corporation ;
+    :area :Australia ;
+    :began  2014 .
+
+
+:What_Do_Birds_Eat :projectName "What Do Birds Eat?" ;
+    :discipline  wp:Ornithology ;
+    :sponsoringOrg  [:name "University of Delaware"] ;
+    :area :United_States ;
+    :began  2015 .
+
+
+:Whistler_Biodiversity_Project :projectName "Whistler Biodiversity Project" ;
+    :discipline  wp:Biodiversity ;
+    :sponsoringOrg  [:name "Whistler Biodiversity Project"] ;
+    :area :Canada ;
+    :began  2004 .
+
+
+wp:Wikispecies :projectName "Wikispecies" ;
+    :discipline  wp:Biodiversity ;
+    :sponsoringOrg  wp:Wikimedia_Foundation ;
+    :area :Worldwide ;
+    :began  2004 .
+
+
+wp:Wildbook :projectName "Wildbook" ;
+    :discipline  wp:Wildlife, wp:Population_ecology, wp:Mark-recapture ;
+    :sponsoringOrg  wp:Wild_Me ;
+    :area :Worldwide ;
+    :began  2001 .
+
+
+:WildlifeLog.org :projectName "WildlifeLog.org" ;
+    :discipline  wp:Wildlife ;
+    :sponsoringOrg  [:name "WildlifeLog :Community Interest Company"] ;
+    :area :Worldwide ;
+    :began  2014 .
+
+
+:Wildsense_Tigers :projectName "Wildsense Tigers" ;
+    :discipline  wp:Wildlife ;
+    :sponsoringOrg [:name "The Wildsense Project"], [:name "University of Surrey"] ;
+    :area :Worldwide ;
+    :began  2015 .
+
+
+:Wisconsin_Odonata_Survey :projectName "Wisconsin Odonata Survey" ;
+    :discipline  di:Odonata, wp:Biology ;
+    :sponsoringOrg  [:name "Wisconsin Department of Natural Resources"] ;
+    :area :Wisconsin, :USA ;
+    .
+
+
+:Wombat_Survey_and_Analysis_Tools_WomSAT :projectName "Wombat Survey and Analysis Tools (WomSAT)" ;
+    :discipline  wp:Mammalogy ;
+    :sponsoringOrg  wp:WomSAT.org.au ;
+    :area :Australia ;
+    :began  2015 .
+
+
+wp:Stardust-at-home :projectName "Stardust@home" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg <https://en.wikipedia.org/wiki/University_of_California,_Berkeley> ;
+    :area :Worldwide ;
+    :began  2006 .
+
+
+:Yellowhammer_Dialects :projectName "Yellowhammer Dialects" ;
+    :discipline  wp:Bioacoustics ;
+    :sponsoringOrg  wp:Charles_University_in_Prague ;
+    :area :UK, :New_Zealand ;
+    :began  2013 .
+
+
+:Wakame_Watch :projectName "Wakame Watch" ;
+    :discipline  wp:Marine_Biology, wp:Invasive_Species ;
+    :sponsoringOrg  wp:Marine_Biological_Association_of_the_United_Kingdom ;
+    :area :UK ;
+    :began  2014 .
+
+
+:Wildlife_Spotter :projectName "Wildlife Spotter" ;
+    :discipline  wp:Ecology ;
+    :sponsoringOrg [:name "National Science Week Australia"], wp:Australian_Broadcasting_Corporation ;
+    :area :Australia ;
+    :began  2016 .
+
+
+<http://xperibird.be/en/home> :projectName "XperiBIRD.be" ;
+    :discipline wp:Ornithology, wp:Ecology  ;
+    :sponsoringOrg wp:Museum_of_Natural_Sciences ;
+    :area :Belgium ;
+    :began 2016 .
+
+
+:Zikathon_Mosquito_Alert :projectName "Zikathon / Mosquito Alert" ;
+    :discipline wp:Biology_Monte_Carlo_method, wp:Environmental_science ;
+    
+    :area :Hong_Kong ;
+    :began 2017 .
+

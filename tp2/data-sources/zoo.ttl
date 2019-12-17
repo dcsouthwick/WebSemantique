@@ -1,0 +1,101 @@
+@prefix : <http://cui.unige.ch/isi/swt/tp2c#> .
+
+<https://www.zooniverse.org/projects/haasarts/ensemble-at-yale> a :Project ;
+:name "Ensemble@Yale";
+
+:desc """What is the most-produced play at Yale? Who starred with Lupita Nyong'o, Meryl Streep, and Paul Giamatti when they were students? Ensemble@Yale is an experiment that aims to answer these questions and more by transforming historical theater programs from Yale’s archives into searchable text through crowdsourced transcription. Rather than reproducing all of the words in a digitized document, as with optical character recognition (OCR), crowdsourced transcription relies on human judgment to create structured data and identify features of interest to scholars and theater enthusiasts.""";
+
+:teamMember
+[:name "Catherine DeRose"; :role "Program Manager"; :institution "Yale Digital Humanities Laboratory"] ;
+
+:teamMember
+[:name "Douglas Duhaime"; :role "Digital Humanities Developer"; :institution "Yale Digital Humanities Laboratory"] ;
+
+:teamMember
+[:name "Lindsay King"; :role "Associate Director for Access and Research Services"; :institution "Robert B. Haas Family Arts Library"] ;
+
+:teamMember
+[:name "Peter Leonard"; :role "Director"; :institution "Yale Digital Humanities Laboratory"] ;
+
+:teamMember
+[:name "Alex O'Keefe"; :role "Arts Digital Projects Librarian"; :institution "Robert B. Haas Family Arts Library"] ;
+
+:teamMember
+[:name "Monica Ong Reed"; :role "User Experience Designer"; :institution "Yale Digital Humanities Laboratory"] ;
+
+:task "Transcription";
+:category "Arts";
+.
+
+<https://www.zooniverse.org/projects/sandorkruk/hubble-asteroid-hunter>  a :Project ;
+:name "Hubble Asteroid Hunter";
+
+:desc """Welcome to our project! The idea of the Hubble Asteroid Hunters is to identify asteroid trails in archival images from the NASA/ESA Hubble Space Telescope, which are stored in the European Space Agency (ESA)'s Hubble Science archive and accessible at ESA's ESASky Portal.""";
+
+:teamMember
+[:name "Max Mahlke"; :zoouserid "@maxmahlke"; :institution "Max is a Research Scientist at the Centro de Astrobiología (CAB), Madrid, working on data mining surveys for solar system objects."] ;
+
+:teamMember
+[:name "Sandor Kruk"; :zoouserid "@sandorkruk"; :institution "Sandor is a Research Fellow at the European Space Agency working on the space data science with upcoming Euclid mission, Galaxy Zoo and other citizen science projects."] ;
+
+:teamMember
+[:name "Bruno Merín"; :zoouserid "@bmerin"; :institution "Bruno is the head of ESAC Science Data Centre of the European Space Agency at ESAC, near Madrid, Spain. His interests are in space data science: exploiting data from ESA’s Space Science missions, scientific software and usability of user interfaces. He is part of the team who developed the science discovery portal ESASky"] ;
+
+:teamMember
+[:name "Deborah Baines"; :zoouserid "@dbaines"; :institution "Debbie is the Astronomy Archives Science Lead at ESAC Science Data Centre in Madrid and also part of the team who developed the science discovery portal ESASky."] ;
+
+:teamMember
+[:name "Elena Racero"; :institution "Elena is a software engineer at the ESAC Science Data Centre in Madrid and part of the ESASky team. She is the principal architect of the ESASky Solar System Objects pipeline (which outputs the images and positions used in this project)."] ;
+
+:teamMember
+[:name "Fabrizio Giordano"; :zoouserid "@fabrig"; :institution " Fabrizio is the head software engineer for ESASky at the ESAC Science Data Centre in Madrid, and co-developer of the ESASky Solar System Objects pipeline."] ;
+
+:teamMember
+[:name "Guido De Marchi"; :institution "Guido is an Astronomer and the Archives Head Scientist at the European Space Agency at ESTEC, in the Netherlands. He coordinates the scientific content of all the interfaces to the data from ESA Space Science Missions."] ;
+
+:teamMember
+[:name "Benoît Carry"; :institution "Benoît is a planetary scientist working at the Lagrange laboratory of the Observatoire de la Côte d'Azur (OCA) and the Institut de Mécanique Céleste et de Calcul des Éphémérides (IMCCE), Paris Observatory. Asteroid 8467 was named after him to recognize his contributions to the understanding of these objects."] ;
+
+:teamMember
+[:name "Jerôme Berthier";  :institution """Jerôme is a software engineer working at the "Institut de Mécanique Céleste et de Calcul des Éphémérides" (IMCCE), at the Paris Observatory. He developed, together with his collaborator Benoît Carry, ephemcc, the computer code that allowed to calculate precise Solar System Object positions as a function of time, which was the core of the ESASky Solar System Objects pipeline used to identified the images of this project."""] ;
+
+:teamMember
+[:name "Enrique Solano";  :institution "Enrique is an astrophysicist and head of the Spanish Virtual Observatory (SVO) organization, which pioneered the identification of asteroids in astronomical images with a citizen science project based on Ground based telescopes and Virtual Observatory tools."] ;
+
+:teamMember
+[:name "Belén Lopez Marti"; :zoouserid "@lopezmartib"; :institution """Belén is an astronomer, educator and science communicator at the ESAC Science Data Centre, supporting the ESASky portal and editor of the ESDC Newsletter."""] ;
+
+:task "Identification";
+:category "Space";
+.
+
+<https://www.zooniverse.org/projects/anaelisa24/sounds-of-new-york-city-sonyc> a :Project ;
+:name "Sounds of New York City (SONYC)";
+
+:desc """Our objectives are to create technological solutions for:
+
+    Monitoring noise pollution systematically and constantly, at a city scale.
+    Accurately describing acoustic environments in terms of their composing sources, using machine learning.
+    Supporting broad citizen participation in noise reporting and mitigation.
+    Helping city agencies to take effective, information-driven action to mitigate noise pollution.""";
+
+
+:teamMember
+[:name "Mark Cartwright"; :institution """NYU's Music and Audio Research Laboratory"""];
+
+:teamMember
+[:name "Ana Elisa Mendez Mendez"; :institution """New York University's Music and Audio Research Laboratory"""];
+
+:teamMember
+[:name "Oded Nov"; :institution """New York University"""];
+
+:teamMember
+[:name "Ayanna Seals"; :institution """New York University, Department of Technology Management and Innovations"""];
+
+:teamMember
+[:name "Graham Dove"; :institution """NYU"""];
+
+:category "Social Science";
+:task "Identification";
+
+.
