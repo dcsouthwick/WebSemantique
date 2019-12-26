@@ -1,0 +1,3068 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://cui.unige.ch/isi/swt/tp2a#"
+     xml:base="http://cui.unige.ch/isi/swt/tp2a"
+     xmlns:di="http://cui.unige.ch/isi/swt/tp2-disc#"
+     xmlns:wp="http://en.wikipedia.org/wiki/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cui.unige.ch/isi/swt/tp2a#app_debut -->
+
+    <owl:AnnotationProperty rdf:about="http://cui.unige.ch/isi/swt/tp2a#app_debut"/>
+    
+
+
+    <!-- http://cui.unige.ch/isi/swt/tp2a#area -->
+
+    <owl:AnnotationProperty rdf:about="http://cui.unige.ch/isi/swt/tp2a#area"/>
+    
+
+
+    <!-- http://cui.unige.ch/isi/swt/tp2a#began -->
+
+    <owl:AnnotationProperty rdf:about="http://cui.unige.ch/isi/swt/tp2a#began"/>
+    
+
+
+    <!-- http://cui.unige.ch/isi/swt/tp2a#desc -->
+
+    <owl:AnnotationProperty rdf:about="http://cui.unige.ch/isi/swt/tp2a#desc"/>
+    
+
+
+    <!-- http://cui.unige.ch/isi/swt/tp2a#discipline -->
+
+    <owl:AnnotationProperty rdf:about="http://cui.unige.ch/isi/swt/tp2a#discipline"/>
+    
+
+
+    <!-- http://cui.unige.ch/isi/swt/tp2a#first_photo -->
+
+    <owl:AnnotationProperty rdf:about="http://cui.unige.ch/isi/swt/tp2a#first_photo"/>
+    
+
+
+    <!-- http://cui.unige.ch/isi/swt/tp2a#launch -->
+
+    <owl:AnnotationProperty rdf:about="http://cui.unige.ch/isi/swt/tp2a#launch"/>
+    
+
+
+    <!-- http://cui.unige.ch/isi/swt/tp2a#name -->
+
+    <owl:AnnotationProperty rdf:about="http://cui.unige.ch/isi/swt/tp2a#name"/>
+    
+
+
+    <!-- http://cui.unige.ch/isi/swt/tp2a#projectName -->
+
+    <owl:AnnotationProperty rdf:about="http://cui.unige.ch/isi/swt/tp2a#projectName"/>
+    
+
+
+    <!-- http://cui.unige.ch/isi/swt/tp2a#sponsoringOrg -->
+
+    <owl:AnnotationProperty rdf:about="http://cui.unige.ch/isi/swt/tp2a#sponsoringOrg"/>
+    
+
+
+    <!-- http://cui.unige.ch/isi/swt/tp2a#year -->
+
+    <owl:AnnotationProperty rdf:about="http://cui.unige.ch/isi/swt/tp2a#year"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#ARCS_Arenas_for_Co-operation_through_citizen_science">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Swedish_University_of_Agricultural_Sciences"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Gothenburg"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>non-profit organisation VA (Public &amp; Science).</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://cui.unige.ch/isi/swt/tp2-disc#All_Fields_of_Science"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Umeå_University"/>
+        <projectName>ARCS (Arenas for Co-operation through citizen science)</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#wp:Sweden"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#ARTigo">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Art_history"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Ludwig_Maximilian_University_of_Munich"/>
+        <projectName>ARTigo</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Germany</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Computer_science"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#AgeGuess">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Aging"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Center for Research and Interdiciplinarity</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Southern_Denmark"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <projectName>AgeGuess</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Agent_Exoplanet">
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Las Cumbres Observatory Global Telescope Network</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <projectName>Agent Exoplanet</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Goleta_CA"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Amphibian_Migrations_and_Road_Crossings">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#New_York"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <projectName>Amphibian Migrations and Road Crossings</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Herpetology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Department of Environmental Conservation</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>USA</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name> NY</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Anecdata">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</year>
+        <projectName>Anecdata</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Air_Quality"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Botany"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Phenology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Lepidoptera"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Zoology"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/MDI_Biological_Laboratory"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Water_Quality"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#AppEAR">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Argentina"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/limnology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/water_quality"/>
+        <projectName>AppEAR</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Aquila_Project">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_Science"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Western_Australia"/>
+        <projectName>Aquila Project</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>West Kimberley Rubber Vine Eradication Program</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Kimberley"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Australia"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Artportalen_Swedish_Species_Observation_System">
+        <projectName>Artportalen (Swedish Species Observation System)</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</began>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Swedish Species Information Centre / Swedish Environmental Protection Agency</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Sweden"/>
+        <discipline rdf:resource="http://cui.unige.ch/isi/swt/tp2-disc#Mapping"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/biodiversity"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <discipline rdf:resource="http://cui.unige.ch/isi/swt/tp2-disc#species_distribution"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Artsobservasjoner">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Zoology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Norway"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Mycology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Botany"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Species_distribution"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Norwegian_Directorate_for_Nature_Management"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Phenology"/>
+        <projectName>Artsobservasjoner</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Aussie_Backyard_Bird_Count">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/BirdLife_Australia"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Australia"/>
+        <projectName>Aussie Backyard Bird Count</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#B.C._Cetacean_Sightings_Network">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Vancouver_Aquarium"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Canada_British_Columbia"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Fisheries_and_Oceans_Canada"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Cetology"/>
+        <projectName>B.C. Cetacean Sightings Network</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Backyard_Bark_Beetles">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Invasive_Species"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <projectName>Backyard Bark Beetles</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</began>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Forest Entomology lab at the University of Florida, Gainesville, FL</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Bauhinia_Genome">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <sponsoringOrg rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Community"/>
+        <projectName>Bauhinia Genome</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Hong_Kong"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_science"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#BeeSpotter">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA_IL_IN_MO"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#OH"/>
+        <projectName>BeeSpotter</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Illinois_at_Urbana_Champaign"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Big_Bug_Hunt">
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Innovate UK</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>GrowVeg</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#UK"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>University of York</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <projectName>Big Bug Hunt</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Biotechnology and Biological Sciences Research Council</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Big_Butterfly_Count">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Lepidoptera"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Butterfly_Conservation"/>
+        <projectName>Big Butterfly Count</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#UK"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Big_Moss_Map">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#UK"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Botany"/>
+        <projectName>Big Moss Map</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Climatology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Peatlands"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Moors_for_the_Future"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#BioBotz_TTA">
+        <projectName>BioBotz, TTA</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Bangladesh"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#BioDiversity_Heritage_Library_Flickr_Image_Tagging">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Biodiversity_Heritage_Library"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Zoology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Botany"/>
+        <projectName>BioDiversity Heritage Library Flickr Image Tagging</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <discipline rdf:resource="https://en.wikipedia.org/wiki/Taxonomy_(biology)"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#BioNote">
+        <discipline rdf:resource="https://en.wikipedia.org/wiki/Taxonomy_(biology)"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Zoology"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</began>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>BioNote</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Climate-KIC</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/European_Research_Council"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <projectName>BioNote</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biogeography"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Botany"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Gothenburg"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#BioRiiDL">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#India"/>
+        <projectName>BioRiiDL</projectName>
+        <sponsoringOrg rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Community"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_science"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#BirdSleuth_K-12">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Cornell_Lab_of_Ornithology"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</began>
+        <projectName>BirdSleuth K-12</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Birdcount_India">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#India"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Bird Count India partnership</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <projectName>Birdcount India</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Conservation_biology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Birds-Windows_Collisions_Project_Costa_Rica">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Costa_Rica"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</began>
+        <projectName>Birds-Windows Collisions Project Costa Rica</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Conservation_biology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Costa Rica Distance Learning University UNED</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Birds_and_Windows_Project">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Canada"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Alberta"/>
+        <projectName>Birds and Windows Project</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Conservation_biology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Brooklyn_Atlantis">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Water_Quality"/>
+        <projectName>Brooklyn Atlantis</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/New_York_University_Polytechnic_School_of_Engineering"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Pollution"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Robotics"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Wildlife"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Budworm_Tracker_Program">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Fredericton_NB"/>
+        <projectName>Budworm Tracker Program</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Insect_Research"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/John_Hughs_Forestry_Center"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Maine_USA"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Bumble_Bee_Watch">
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>_BeeSpotter</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Ottawa"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Montréal_Insectarium"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Natural_History_Museum"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Canada"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Wildlife_Preservation_Canada"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</began>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>_London</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Xerces_Society"/>
+        <projectName>Bumble Bee Watch</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Canadian_National_Wildlife_Disease_Surveillance">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Health"/>
+        <projectName>Canadian National Wildlife Disease Surveillance</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Canadian Wildlife Health Cooperative</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1992</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Wildlife"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Canada"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Canberra_Nature_Map">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Australia"/>
+        <projectName>Canberra Nature Map</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Wildlife"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</began>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>NatureMapr</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Cape_Citizen_Science">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Botany"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Pretoria"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Plant_Disease"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#South_Africa"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <projectName>Cape Citizen Science</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Celebrate_Urban_Birds">
+        <projectName>Celebrate Urban Birds</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Cornell_Lab_of_Ornithology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Cicada_Watch_Brood_II">
+        <projectName>Cicada Watch: Brood II</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/National_Geographic_Society"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Northeastern_America"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Cidadão_Cientista">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Brazil"/>
+        <projectName>Cidadão Cientista</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</began>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Save Brasil</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_science"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Cities_at_Night">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Complutense_University_of_Madrid"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Light_pollution"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</began>
+        <projectName>Cities at Night</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Crowdsourced"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Citizen_Seismology">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Bruyères-le-Châtel"/>
+        <projectName>Citizen Seismology</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/European-Mediterranean_Seismological_Centre"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Seismology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#France"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#City_Nature_Challenge_2019">
+        <projectName>City Nature Challenge 2019</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#India"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_science"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Hong_Kong"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Ahmedabad_University"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Computer_science"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Tokyo"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Tokyo"/>
+        <sponsoringOrg rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Community"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Ciudadanos_Cientifícos">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Air_quality_index"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_science"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Air_pollution"/>
+        <projectName>Ciudadanos Cientifícos</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</began>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Área metropolitana del Valle de Aburrá|es|Área Metropolitana del Valle de Aburrá}} SIATA</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>SIATA Área Metropolitana del Valle de Aburrá </name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Valle_de_Aburrá_Colombia"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Meteorology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Clumpy">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Botany"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Exeter"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <projectName>Clumpy</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Cochrane_Crowd">
+        <projectName>Cochrane Crowd</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg rdf:resource="https://en.wikipedia.org/wiki/Cochrane_(organisation)"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Evidence-based_medicine"/>
+        <discipline rdf:resource="http://cui.unige.ch/isi/swt/tp2-disc#Health"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Medicine"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Community_Snow_Observations">
+        <discipline rdf:resource="http://cui.unige.ch/isi/swt/tp2-disc#Cryospheric_science"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/hydrology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/climatology"/>
+        <projectName>Community Snow Observations (CSO)&lt;ref&gt;&lt;http://communitysnowobs.org/&gt; :Community Snow Observations: Citizen Science</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/meteorology"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/NASA"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/atmospheric_science"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Condor_Watch">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#California"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Conservation_biology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <sponsoringOrg rdf:resource="https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)"/>
+        <projectName>Condor Watch</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#CrowdWater">
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>University of Zurich</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Switzerland</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <projectName>CrowdWater</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</began>
+        <discipline rdf:resource="http://cui.unige.ch/isi/swt/tp2-disc#Hydrology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Crowdcrafting">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Medicine"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Physics"/>
+        <projectName>Crowdcrafting</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>SciFabric</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Social"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Humanities"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Economy"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Conservation_biology"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Art"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#CyanoTracker">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <projectName>CyanoTracker</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Water_Quality"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Georgia"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Algal_Bloom"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#DIY_BIO_Hong_Kong">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_science"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Hong_Kong"/>
+        <projectName>DIY BIO Hong Kong</projectName>
+        <sponsoringOrg rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Community"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Darwin_s_Ark">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Broad_Institute"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Genomics"/>
+        <projectName>Darwin&apos;s Ark</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Massachusetts_Medical_School"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Health"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Did_You_Feel_It">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Seismology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/United_States_Geological_Survey"/>
+        <projectName>Did You Feel It?</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Diver_Safety_Guardian">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/DAN_Europe_and_wp:DAN_Southern_Africa"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Europe_and_Africa"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Decompression_theory"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</began>
+        <projectName>Diver Safety Guardian</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Doing_It_Together_Science_DITOs">
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>_Meritum</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Waag_Society"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>_ECSA</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>eutema</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>_Kersnikova_Institute</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Tekiu</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Europe"/>
+        <discipline rdf:resource="http://cui.unige.ch/isi/swt/tp2-disc#Environmental_Sustainability"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Museum_of_Natural_Sciences"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>_Medialab_Prado</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Geneva"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</began>
+        <discipline rdf:resource="http://cui.unige.ch/isi/swt/tp2-disc#Policy"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_College_London"/>
+        <discipline rdf:resource="http://cui.unige.ch/isi/swt/tp2-disc#Biodesign"/>
+        <projectName>Doing It Together Science DITOs</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Université_Paris_Descartes"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#DrugsFromDirt">
+        <projectName>DrugsFromDirt</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Genetics"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>The Rockefeller University</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Laboratory of Genetically Encoded Small Molecules</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#EDDMapS">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <projectName>EDDMapS</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Botany"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Wildlife"/>
+        <discipline rdf:resource="http://cui.unige.ch/isi/swt/tp2-disc#Tracking"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Canada"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/invasive_species"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Georgia_Center_for_Invasive_Species_and_Ecosystem_Health"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Explore_the_Seafloor">
+        <projectName>Explore the Seafloor</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Australian_Broadcasting_Corporation"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Marine_Science"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Australia"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>National Science Week Australia</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Floating_Forests">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Marine_Science"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#US"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Massachusetts_Boston"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/UCLA"/>
+        <projectName>Floating Forests</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Cal_State_Monterey_Bay"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Kelp"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Floodcrowd">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#UK"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Loughborough_University"/>
+        <projectName>Floodcrowd</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Floods"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Fossil_Atmospheres">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/climate_change"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Smithsonian_Institution"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</began>
+        <projectName>Fossil Atmospheres</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/paleontology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#FreshWater_Watch">
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Earthwatch</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Global"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</began>
+        <projectName>FreshWater Watch</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_science"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#FrogWatch_USA">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Association_of_Zoos_and_Aquariums"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Conservation_biology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <projectName>FrogWatch USA&lt;sup&gt;TM&lt;/sup&gt;</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Herpetology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Galaxy_Explorer">
+        <projectName>Galaxy Explorer</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Australian_Broadcasting_Corporation"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>National Science Week Australia</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Australia"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Garden_Wildlife_Health">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Froglife"/>
+        <projectName>Garden Wildlife Health</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Veterinary"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Royal_Society_for_the_Protection_of_Birds"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#UK"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Zoological_Society_of_London"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Conservation_biology"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/British_Trust_for_Ornithology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#GeoTag-X">
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>_Citizen_Cyberlab</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/United_Nations_Institute_for_Training_and_Research"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Disaster_risk_reduction"/>
+        <projectName>GeoTag-X</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/UNOSAT"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Seventh_Framework_Programme"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Georgia_Adopt-A-Stream">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</began>
+        <projectName>Georgia Adopt-A-Stream</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Water_Quality"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Georgia"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Go_Viral_Study">
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>OpenHumans</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>New York University</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>National Science Foundation</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</began>
+        <discipline rdf:resource="http://cui.unige.ch/isi/swt/tp2-disc#Infectious_Disease"/>
+        <projectName>Go Viral Study </projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Great_Backyard_Bird_Count">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/National_Audubon_Society"/>
+        <projectName>Great Backyard Bird Count</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Cornell_Lab_of_Ornithology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Great_World_Wide_Star_Count">
+        <projectName>Great World Wide Star Count</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Windows_to_the_Universe"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/National_Earth_Science_Teachers_Association"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Habitat_Network">
+        <projectName>Habitat Network</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#wp:North_America"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/The_Nature_Conservancy_and_the_Cornell_Lab_of_Ornithology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Conservation_biology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Wildlife"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Hare_Survey">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Wildlife"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#UK"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</began>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Moors for the Future Partnership</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <projectName>Hare Survey</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Hazelnut_Project">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/National_Arbor_Day_Foundation"/>
+        <projectName>Hazelnut Project, The</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Oregon_State_University"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</began>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Hybrid Hazelnut Consortium</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Agronomy"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Botany"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Rutgers_University"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Nebraska-Lincoln"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Herbarium-at-home">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#UK"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Botanical_Society_of_Britain_and_Ireland"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</began>
+        <projectName>Herbarium@home</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Botany"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Herpetological_Education_and_Research_Project">
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>HERP Board of Trustees</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Herpetology"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#wp:North_America"/>
+        <projectName>Herpetological Education and Research Project</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Hong_Kong_Bird_Watching_Society">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Hong_Kong_Bird_Watching_Society"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <projectName>Hong Kong Bird Watching Society</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Hong_Kong"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Hummingbird_Migration_Tracker">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <projectName>Hummingbird Migration Tracker</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Birdfeeders.com</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Hummingbirds_at_Home">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/National_Audubon_Society"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</began>
+        <projectName>Hummingbirds at Home</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#IDAH2O_Master_Water_Stewards">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Water_Quality"/>
+        <projectName>IDAH2O Master Water Stewards</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Idaho"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#ISeeChange">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Phenology"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>ISeeChange</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <projectName>ISeeChange</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Citizen_Journalism"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Remote_Sensing"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Meteorology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Climatology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Global"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#IceWatchUSA">
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Nature Abounds</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <projectName>IceWatchUSA</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Phenology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Identify_animals">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Victoria_University_of_Wellington"/>
+        <projectName>Identify animals</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#New_Zealand"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Conservation_Biology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Instant_Wild">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Global"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Zoological Society of London</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Zoology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Wildlife"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Species_Diversity"/>
+        <projectName>Instant Wild</projectName>
+        <discipline rdf:resource="https://en.wikipedia.org/wiki/Conservation_(ethic)"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Kinsey_Reporter">
+        <discipline rdf:resource="http://cui.unige.ch/isi/swt/tp2-disc#Sex_and_Attraction"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/The_Kinsey_Institute"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</began>
+        <projectName>Kinsey Reporter</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Koala_Count">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Wildlife"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Australia"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</began>
+        <projectName>Koala Count</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>NatureMapr</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Landscape_Watch_Hampshire">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_science"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#wp:UK"/>
+        <projectName>Landscape Watch Hampshire</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Geography"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#wp:Hampshire"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Crowdsourcing Landscape Change Consortium</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Landslide_Reporter">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_science"/>
+        <projectName>Landslide Reporter</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Geography"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Goddard_Space_Flight_Center"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Natural_hazards"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Lingscape">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Luxembourg"/>
+        <projectName>Lingscape</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Sociolinguistics"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Linguistic_landscape"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Litterati">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Pollution"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_Science"/>
+        <projectName>Litterati</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Human_Impact"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <began>
+            <rdf:Description>
+                <app_debut rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</app_debut>
+                <first_photo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</first_photo>
+            </rdf:Description>
+        </began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Local_Environmental_Observer_Network">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Commission_for_Environmental_Cooperation"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_change"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/US_Environmental_Protection_Agency"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Climate_change_impacts"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Alaska_Native_Tribal_Health_Consortium"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/First_Nations_Health_Authority"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Knowledge_integration"/>
+        <projectName>Local Environmental Observer (LEO) Network</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Human_well-being"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Loss_of_the_Night_app">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Germany"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Remote_Sensing"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Freie_Universität_Berlin"/>
+        <sponsoringOrg rdf:resource="https://en.wikipedia.org/wiki/Federal_Ministry_of_Education_and_Research_(Germany)"/>
+        <projectName>Loss_of_the_Night_app</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Leibniz_Institute_of_Freshwater_Ecology_and_Inland_Fisheries"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#MammalMAP">
+        <projectName>MammalMAP</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Marine_Research_Institute"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Animal_Demography_Unit"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Africa"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Mammal_Conservation"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#MangroveWatch">
+        <projectName>MangroveWatch</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Wetlands"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Habitat_conservation"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Australian Government National Landcare Programme</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>The Burnett Mary Regional Group</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Mangrove"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Queensland Department of Primary Industries</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>OceanWatch Australia Ltd</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Surveillance"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>The University of Queensland</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>James Cook University</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Earth Protect</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#MapIt">
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Let&apos;s Do It Foundation</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>JCI</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>AIESEC</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Trash_Blindness"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>ISGF</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>QUALITANCE</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Republic of Estonia Ministry of Environment</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Microsoft</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Carto</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Human_geography"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Pollution"/>
+        <projectName>MapIt</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Cartography"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_Science"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Marine_Metres_Squared">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#New_Zealand"/>
+        <projectName>Marine Metres Squared</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>New Zealand Marine Studies Centre</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Marine_Ecology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Conservation_Biology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Mark2Cure">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA_CA"/>
+        <projectName>Mark2Cure</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biomedical_research"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</began>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>The Su Lab at Scripps Research Institute</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <launch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</launch>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Massachusetts_Herpetological_Atlas">
+        <projectName>Massachusetts Herpetological Atlas</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Massachusetts_Amherst"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Herpetology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1992</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#MeteorITo">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Meteorological_phenomena"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Hacedores</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Mexico"/>
+        <projectName>MeteorITo</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Michigan_Herp_Atlas_Project">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</began>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Michigan Department of Natural Resources</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <projectName>Michigan Herp Atlas Project</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Michigan"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Herpetology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Mitten_Crab_Recording_Project">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Marine_Biological_Association_of_the_United_Kingdom"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Invasive_Species"/>
+        <projectName>Mitten Crab Recording Project</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#UK"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Marine_Biology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Moon_Mappers">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Planetary_science"/>
+        <projectName>Moon Mappers</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Mozak">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Neuroscience"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Center for Game Science</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <projectName>Mozak</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#NatureWatch">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Herpetology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Canada"/>
+        <projectName>NatureWatch *FrogWatch *IceWatch *PlantWatch *WormWatch</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Phenology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Nature_Canada"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#NatureWatch_NZ">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Botany"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Zoology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#New_Zealand"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>New Zealand Bio-Diversity Recording Network Trust</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <projectName>NatureWatch NZ</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Phenology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Nature_s_Calendar">
+        <projectName>Nature&apos;s Calendar</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Woodland_Trust"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#UK"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Phenology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Natures_Notebook">
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>USA National Phenology Network</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <projectName>Nature&apos;s Notebook</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Phenology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Natusfera">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/FECyT"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Europe"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biodiversity"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Institute of Marine Sciences (ICM-CSIC)</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Spanish GBIF node</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <projectName>Natusfera</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Center for Ecological Research and Forestry Applications (CREAF)</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Neighborhood_Nestwatch">
+        <sponsoringOrg rdf:resource="https://en.wikipedia.org/wiki/National_Zoological_Park_(United_States)"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Smithsonian_Migratory_Bird_Center"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Smithsonian_Institution"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <projectName>Neighborhood Nestwatch</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#NestWatch">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <projectName>NestWatch</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Cornell_Lab_of_Ornithology"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#wp:Americas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#North_American_Bird_Phenology_Program">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/United_States_Geological_Survey"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <projectName>North American Bird Phenology Program</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#wp:North_America"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#North_American_Field_Herping_Association">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Herpetology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#wp:North_America"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</began>
+        <projectName>North American Field Herping Association</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>North American field herping community</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Notes_from_Nature">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg rdf:resource="https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Botany"/>
+        <projectName>Notes from Nature</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Mycology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Observation.org">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Botany"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Zoology"/>
+        <projectName>Observation.org</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Lepidoptera"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Phenology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Odonata_Central">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Odonata"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#North_America"/>
+        <projectName>Odonata Central</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Ontario_Butterfly_Atlas_Online">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Lepidoptera"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Toronto Entomologists’ Association </name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <projectName>Ontario Butterfly Atlas Online</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Canada_Ontario"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1969</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Ontario_Reptile_and_Amphibian_Atlas">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Ontario_Nature"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Herpetology"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Ministry of Natural Resources’ Natural Heritage Information Centre (NHIC)</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Canada_Ontario"/>
+        <projectName>Ontario Reptile and Amphibian Atlas</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Operation_Wallacea">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biodiversity"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#UK"/>
+        <projectName>Operation Wallacea</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</began>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Worldwide</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Orca_Game">
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Orchive</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <projectName>Orca Game</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Bioacoustics"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Ornitho_Deutschland">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Austria"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Germany"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Luxemburg"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>{{ill|Dachverband Deutscher Avifaunisten|de|Dachverband Deutscher Avifaunisten (DDA) e.V.}}</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#France_part"/>
+        <projectName>Ornitho Deutschland</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Italy"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Poland"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Switzerland"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Spain_part"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#PARS_Pennsylvania_Amphibian_and_Reptile_Survey">
+        <projectName>PARS (Pennsylvania Amphibian and Reptile Survey)</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Pennsylvania"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>MACHAC</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Marine_biology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_protection"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Painted_Lady_Migration_Project">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Lepidoptera"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/British_Ecological_Society"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Institut de Biologia Evolutiva</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Harvard_University"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Zerynthia Association</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <projectName>Painted Lady Migration Project</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Barcelona_zoo"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Marie_Skłodowska-Curie_Actions"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/National_Geographic"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Penguin_Watch">
+        <sponsoringOrg rdf:resource="https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <projectName>Penguin Watch</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Pl_at_ntNet">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Global"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</began>
+        <projectName>Pl@ntNet</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Institut_national_de_la_recherche_agronomique_wp:Inria"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Botany"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Plankton_Project">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Zoology"/>
+        <sponsoringOrg rdf:resource="https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Marine_biology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <projectName>Plankton Project</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Portland_Urban_Coyote_Project">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Portland"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Zoology"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Oregon"/>
+        <projectName>Portland Urban Coyote Project</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Geography"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Portland_State_University"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Human_Dimensions_of_Wildlife"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Cartography"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Project_Discovery_I">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Cellular_biology"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Human Protein Atlas (KTH)</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>MMOS</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>CCP Games</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</began>
+        <projectName>Project Discovery I.</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Project_Discovery_II">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</began>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>University of Geneva</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>CCP Games</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>MMOS</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <projectName>Project Discovery II.</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Project_Roadkill">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Road_Safety"/>
+        <projectName>Project Roadkill</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</began>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>University of Natural Resources and Life Sciences</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Vienna</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Project_Soothe">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Edinburgh"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Psychotherapy"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</began>
+        <projectName>Project Soothe</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Clinical_psychology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Project_Splatter">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Conservation_biology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Cardiff_University"/>
+        <projectName>Project Splatter</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#UK"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#PurpleAir">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</began>
+        <projectName>PurpleAir</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/environmental_science"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Air_quality"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Reading_Natures_Library">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#UK"/>
+        <projectName>Reading Nature&apos;s Library</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Manchester_Museum"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Manchester"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Redmap_Range_Extension_Database_and_Mapping_Project">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Australia"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Climate_Change"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Species_distribution"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Institute_for_Marine_and_Antarctic_Studies"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Marine_Ecology"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Tasmania"/>
+        <projectName>Redmap (Range Extension Database and Mapping Project)</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Redmet">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_Meteorological_Network"/>
+        <projectName>Redmet</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Hacedores</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Mexico"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Reef_Check_Med">
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Reef Check Italia</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Reef Check Deutschland</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <projectName>Reef Check Med</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Reef Check France</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Reef Check Worldwide Foundation</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Mediterranean_Sea"/>
+        <discipline rdf:resource="http://cui.unige.ch/isi/swt/tp2-disc#Marine_Biology_and_Ecology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_Science"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Reef_Environmental_Education_Foundation_REEF">
+        <projectName>Reef Environmental Education Foundation (REEF)</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Marine_biology"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Non-profit_organization"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Key_Largo"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Marine_conservation"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#FL_worldwide"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Reef_Life_Survey_RLS">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Tasmania"/>
+        <projectName>Reef Life Survey (RLS)</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Australia"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Institute_for_Marine_and_Antarctic_Studies"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Report-a-weed">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biodiversity"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>British Columbia government</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <projectName>Report-a-weed </projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Canada"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#SPLASSH">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Water_Quality"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Kennesaw_State_University"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Pollution"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <projectName>SPLASSH</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#SatCam">
+        <projectName>SatCam </projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Meteorology"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>University of Wisconsin - Madison</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Science_Gossip_Biodiversity_Heritage_Library">
+        <projectName>Science Gossip Biodiversity Heritage Library</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/art"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biodiversity"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/libraries"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg rdf:resource="https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#SeagrassSpotter">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Seagrass"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Project Seagrass</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide_Marine"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</began>
+        <projectName>SeagrassSpotter</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Secchi_Disk">
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Secchi Disk Project</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Phytoplankton"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide_Marine"/>
+        <projectName>Secchi Disk</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Smithsonian_Transcription_Center">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Smithsonian_Institution"/>
+        <projectName>Smithsonian Transcription Center</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Botany"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Snowtweets">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Meteorology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Canada"/>
+        <projectName>Snowtweets</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Waterloo"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Socientize">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <projectName>Socientize</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/European_Commission"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Life_sciences"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Speak_to_AI">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Artificial_Intelligence"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_California"/>
+        <projectName>Speak to AI</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Machine_Learning"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>_Irvine_</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Linguistics"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Species_Observations_System">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Zoology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Botany"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Phenology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Norway"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</began>
+        <projectName>Species Observations System</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Norwegian Biodiversity Network</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Norwegian Biodiversity Information Centre</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Stall_Catchers">
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>A game to accelerate Alzheimers research</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biomedical"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</began>
+        <projectName>Stall Catchers</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Alzheimers"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Striped_AmBASSadors">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Canada"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Wildlife_conservation"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <projectName>Striped AmBASSadors</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Fisheries"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</began>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Striped Bass Research Team</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Acadia University</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#NS"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Taiwan_Breeding_Bird_Survey">
+        <projectName>Taiwan Breeding Bird Survey</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/List_of_life_sciences"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Taiwan"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>The Bird Breeding Survey of Taiwan</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Taiwan_Roadkill_Observation_Network">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <projectName>Taiwan Roadkill Observation Network</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Lusheng Society</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Engineering"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_science"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Taiwan"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Target_Asteroids">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Planetary_science"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>OSIRIS-REx asteroid sample return mission</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <projectName>Target Asteroids!</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Target_NEOs">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</began>
+        <projectName>Target NEOs!</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Planetary_science"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>The Astronomical League</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Taxon_expeditions">
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Taxon Expeditions</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</began>
+        <projectName>Taxon expeditions</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Montenegro"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biodiversity"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Borneo"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Teatime4Science">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Botany"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <projectName>Teatime4Science</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Utrecht University</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>The TBI team</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <discipline rdf:resource="https://en.wikipedia.org/wiki/Pedology_(soil_study)"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Climate_change"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#The_Shore_Thing_Project">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Climate_Change"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Marine_Biological_Association_of_the_United_Kingdom"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Invasive_Species"/>
+        <projectName>The Shore Thing Project</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Marine_Biology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#UK"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#TooLoud">
+        <sponsoringOrg rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Community"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Physics"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Bangladesh"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Computing"/>
+        <projectName>TooLoud</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Track_My_Fish">
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Striped Bass Research Team</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Fisheries"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Canada"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Tagging"/>
+        <projectName>Track My Fish</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Acadia University</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Track_a_Tree">
+        <projectName>Track a Tree</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Botany"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Phenology"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#UK"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>University of Edinburgh and the Woodland Trust</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#TreeSnap">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Invasive_Species"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Botany"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Forestry"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Tennessee"/>
+        <projectName>TreeSnap</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Kentucky"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Turtle_Survey_and_Analysis_Tools_TurtleSAT">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Australia"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Sydney"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Western_Sydney"/>
+        <projectName>Turtle Survey and Analysis Tools (TurtleSAT)</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Herpetology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#VT_Fish_Diaries">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Fisheries"/>
+        <projectName>VT Fish Diaries</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA_VT"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#VerbCorner">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Linguistics"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <projectName>VerbCorner</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Vermont_Reptile_and_Amphibian_Atlas">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA_VT"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Herpetology"/>
+        <projectName>Vermont Reptile &amp; Amphibian Atlas</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Volunteer_Water_Quality_Monitoring_Programs_thousands">
+        <projectName>Volunteer Water Quality Monitoring Programs (thousands)</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1969</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Water_Quality"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Wakame_Watch">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#UK"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Invasive_Species"/>
+        <projectName>Wakame Watch</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Marine_Biological_Association_of_the_United_Kingdom"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Marine_Biology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Water_Action_Volunteers">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA_WI"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</began>
+        <projectName>Water Action Volunteers</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>University of Wisconsin-Extension and Wisconsin Department of Natural Resources</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Water_Quality"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Weather_Detective">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</began>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>National Science Week Australia</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Australia"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Meteorology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Climatology"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Australian_Broadcasting_Corporation"/>
+        <projectName>Weather Detective</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#What_Do_Birds_Eat">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#United_States"/>
+        <projectName>What Do Birds Eat?</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>University of Delaware</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Whistler_Biodiversity_Project">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Canada"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biodiversity"/>
+        <projectName>Whistler Biodiversity Project</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Whistler Biodiversity Project</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#WildlifeLog.org">
+        <projectName>WildlifeLog.org</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>WildlifeLog :Community Interest Company</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Wildlife"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Wildlife_Spotter">
+        <projectName>Wildlife Spotter</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</began>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>National Science Week Australia</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Australia"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Australian_Broadcasting_Corporation"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Wildsense_Tigers">
+        <projectName>Wildsense Tigers</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Wildlife"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>The Wildsense Project</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>University of Surrey</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Wisconsin_Odonata_Survey">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Wisconsin Department of Natural Resources</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://cui.unige.ch/isi/swt/tp2-disc#Odonata"/>
+        <projectName>Wisconsin Odonata Survey</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Wisconsin"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Wombat_Survey_and_Analysis_Tools_WomSAT">
+        <projectName>Wombat Survey and Analysis Tools (WomSAT)</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Mammalogy"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Australia"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/WomSAT.org.au"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Yellowhammer_Dialects">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Bioacoustics"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Charles_University_in_Prague"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#UK"/>
+        <projectName>Yellowhammer Dialects</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#New_Zealand"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Zikathon_Mosquito_Alert">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_science"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology_Monte_Carlo_method"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Hong_Kong"/>
+        <projectName>Zikathon / Mosquito Alert</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#eOceans">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Global"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Marine_Debris"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Private_company"/>
+        <projectName>eOceans</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Marine_Ecology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Climate_Change"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#eShark">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Tourism"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Global"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Marine_Management"/>
+        <projectName>eShark</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Crowd-sourced"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Marine_Ecology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#echidnaCSI">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Australia"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Genetics"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Conservation_biology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Adelaide"/>
+        <projectName>echidnaCSI</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#iSeahorse">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/iNaturalist"/>
+        <projectName>iSeahorse</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Marine_Conservation"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Project_Seahorse"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/John_G._Shedd_Aquarium"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Marine_Biology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/The_University_of_British_Columbia"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Zoological_Society_of_London"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Guylian_Belgian_Chocolate"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Global"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ichthyology"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Zoology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#theSkyNet">
+        <projectName>theSkyNet</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Computing"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>International Centre for Radio Astronomy Research</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Asteroid_Mappers:_Vesta">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Planetary_science"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <desc>CosmoQuest is sponsored by wp:NASA_in_partnership_with_the_Astrosphere_New_Media_Association _the_STEM_Center  UniverseToday Astronomers_without_Borders the Planetary Society the wp:Youngstown State University#Ward Beecher Planetarium the Galileo Teachers Training Program Swinburne Astronomy Online Dark Skies Bright Kids the Canadian Astronomy Data Centre and its member organizations the Galileoscope Project and several NASA projects</desc>
+                <name>CosmoQuest.org</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <projectName>Asteroid Mappers: Vesta</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Ontario_wp:BioBlitz">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Nature_Conservancy_of_Canada"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Canadian_Wildlife_Federation"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Toronto_and_Region_Conservation_Authority"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Royal_Ontario_Museum"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Toronto_Zoo"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Botany"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ichthyology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Canada_Ontario"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Ontario_Nature"/>
+        <projectName>Ontario BioBlitz</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Lepidoptera"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Herpetology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Orchids:Terrestrial_Spiranthes_in_an_Urban_Environment">
+        <projectName>Orchids:Terrestrial Spiranthes in an Urban Environment</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_Conservation"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Hoyt Arboretum</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#OR"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Portland"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://cui.unige.ch/isi/swt/tp2a#Planet_Mappers:_Mercury">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Planetary_science"/>
+        <projectName>Planet Mappers: Mercury</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>CosmoQuest.org&lt;ref :name cosmos group=note /&gt;</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Air_Quality_Eggs">
+        <projectName>Air_Quality_Eggs</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Pollution"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Ithaca_NY"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Air_Quality"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Health"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>WickedDevices</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Climate_Change"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>LLC</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Asteroid_Zoo">
+        <sponsoringOrg rdf:resource="https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Planetary_science"/>
+        <projectName>Asteroid_Zoo</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Atlas_of_Australian_Birds">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Australia"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1973</began>
+        <projectName>Atlas_of_Australian_Birds</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/BirdLife_Australia"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Aurorasaurus">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Aurora"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/NASA_Goddard"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Space_physics"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</began>
+        <projectName>Aurorasaurus</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/National_Science_Foundation"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Backyard_Worlds">
+        <projectName>Backyard_Worlds</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/NASA"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/BugGuide">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <projectName>BugGuide</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Canada"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Iowa_State_University"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Arthropods"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Christmas_Bird_Count">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Western_Hemisphere"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/National_Audubon_Society"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1900</began>
+        <projectName>Christmas_Bird_Count</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Citizen_Weather_Observer_Program">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/National_Weather_Service"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/hydrology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#United_States"/>
+        <projectName>Citizen_Weather_Observer_Program (CWOP)</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/climatology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Meteorology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Climatological_observers_link">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1970</began>
+        <projectName>Climatological_observers_link</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Climatology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#UK"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Cooperative_Observer">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <projectName>Cooperative_Observer Program</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/National_Weather_Service"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Meteorology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Climatology"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1890</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/DigiVol">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Malacology"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Australian_Museum_and_Atlas_of_Living_Australia"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Australia"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Archives"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Minerals"/>
+        <projectName>DigiVol</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Digital_Access_to_a_Sky_Century_Harvard">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Harvard-Smithsonian_Center_for_Astrophysics"/>
+        <projectName>Digital_Access_to_a_Sky_Century_@_Harvard</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Disk_Detective">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</began>
+        <sponsoringOrg rdf:resource="https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/NASA"/>
+        <projectName>Disk_Detective</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Dog_Aging_Project">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Washington"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/National_Institute_on_Aging"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</began>
+        <projectName>Dog_Aging_Project</projectName>
+        <sponsoringOrg rdf:resource="https://en.wikipedia.org/wiki/Texas_A&amp;M_University"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Health"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ageing"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Environmental_groups_and_resources_serving_K-12_schools">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Chicago_Botanic_Garden"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/National_Science_Foundation"/>
+        <projectName>Environmental_groups_and_resources_serving_K-12_schools#Project_BudBurst</projectName>
+        <discipline rdf:resource="http://cui.unige.ch/isi/swt/tp2-disc#Plant_Phenology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/EyeWire">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/National_Institutes_of_Health"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Max_Planck_Society"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Howard_Hughes_Medical_Institute"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Neuroscience"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Gatsby_Charitable_Foundation"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <projectName>EyeWire</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Flying_ant_survey">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Wildlife"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#UK"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Gloucestershire"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Society_of_Biology"/>
+        <projectName>Flying_ant_survey</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Foldit">
+        <projectName>Foldit</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/protein"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Washington"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Fraxinus">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <projectName>Fraxinus</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Sainsbury_Laboratory"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/BBSRC"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Genetics"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/DEFRA"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Galaxy_Zoo">
+        <projectName>Galaxy_Zoo</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</began>
+        <sponsoringOrg rdf:resource="https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Genographic_Project">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <projectName>Genographic_Project</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/National_Geographic_Society"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Population_genetics"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/IBM"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Geo-wiki">
+        <projectName>Geo-wiki</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/IIASA"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Land_cover_validation"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Globe_at_Night">
+        <projectName>Globe_at_Night</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Light_Pollution"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/International_Dark-Sky_Association"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/National_Optical_Astronomy_Observatory"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>_CADIAS</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Golden_Gate_Raptor_Observatory">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Bird_migration"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1984</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Golden_Gate_Natl_Parks_Conservancy"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Population_Change"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Pacific_States"/>
+        <projectName>Golden_Gate_Raptor_Observatory</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Phenology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Great_Cocky_Count">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Western_Australia"/>
+        <projectName>Great_Cocky_Count</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Birdlife Australia</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/HerpMapper">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</began>
+        <projectName>HerpMapper</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Research"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Herpetology"/>
+        <discipline rdf:resource="https://en.wikipedia.org/wiki/Conservation_(ethic)"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>HerpMapper Advisory Committee</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Phenology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Citizen_Science"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Global"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Higgs_Hunters">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Global"/>
+        <sponsoringOrg rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Higgs_Hunters_Classify"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Physics"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Particle_Physics"/>
+        <projectName>Higgs_Hunters</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Manta_Matcher">
+        <projectName>Manta_Matcher</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Wild_Me"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Marine_Ecology"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Conservation_Biology"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Marine Megafauna Foundation</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Milky_Way_Project">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <projectName>Milky_Way_Project</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Adler_Planetarium"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Oxford"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/National_Science_Foundation"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Cal_Poly_Pomona"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Monarch_butterfly">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Lepidoptera"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Georgia"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Canada"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <projectName>Monarch_butterfly Health</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Monarch_butterfly_Larva">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Canada"/>
+        <projectName>Monarch_butterfly Larva Monitoring Project</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Lepidoptera"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Minnesota"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Monarch_butterfly_Watch">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <projectName>Monarch_butterfly Watch</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1992</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Canada"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Lepidoptera"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Kansas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/National_Moth_Week_NMW">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</began>
+        <projectName>National_Moth_Week (NMW)</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Friends of the East Brunswick Environmental Commission</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Old_Weather_seattle">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Climatology"/>
+        <projectName>Old_Weather seattle </projectName>
+        <sponsoringOrg rdf:resource="https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Planet_Hunters">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Zooniverse"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Yale_University"/>
+        <projectName>Planet_Hunters</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/PressureNET">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <projectName>PressureNET</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Cumulonimbus Inc.</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Meteorology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Climatology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Project_Dive_Exploration">
+        <projectName>Project_Dive_Exploration (PDE)</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Divers_Alert_Network"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Decompression_theory"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#North_America"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Public_Lab">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>The Public Laboratory for Open Technology and Science</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <projectName>Public_Lab</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/environmental_science"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Quantum_Moves">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Center_for_Community_Driven_Research"/>
+        <projectName>Quantum Moves</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Aarhus_University"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Radio_Galaxy_Zoo">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Zooniverse"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</began>
+        <projectName>Radio_Galaxy_Zoo</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Radio_Astronomy"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/SETI-at-home">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_Of_California"/>
+        <projectName>SETI@home</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>_Berkeley</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/SZTAKI_Desktop_Grid">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Hungary"/>
+        <projectName>SZTAKI_Desktop_Grid</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Institute_for_Computer_Science_and_Control"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Mathematics"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Eötvös_Loránd_University"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/SciStarter">
+        <discipline rdf:resource="http://cui.unige.ch/isi/swt/tp2-disc#All_Fields_of_Science"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <projectName>SciStarter</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Research affiliate Arizona_State_University</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Solar_Stormwatch">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Reading"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</began>
+        <projectName>Solar_Stormwatch</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Stardust-at-home">
+        <projectName>Stardust@home</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <sponsoringOrg rdf:resource="https://en.wikipedia.org/wiki/University_of_California,_Berkeley"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/UBiome">
+        <projectName>UBione</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Microbiology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/uBiome"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Wikispecies">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biodiversity"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Wikimedia_Foundation"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</began>
+        <projectName>Wikispecies</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Wildbook">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Wildlife"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Wild_Me"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Mark-recapture"/>
+        <projectName>Wildbook</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Population_ecology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/eBird">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Cornell_Lab_of_Ornithology"/>
+        <projectName>eBird</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2002</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/National_Audubon_Society"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/eButterfly">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Canada"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</began>
+        <projectName>eButterfly</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Vermont Center for Ecostudies</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Ottawa"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Lepidoptera"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Oregon_State_University"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#USA"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/iNaturalist">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Global"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/California_Academy_of_Sciences"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Zoology"/>
+        <projectName>iNaturalist</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Lepidoptera"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Phenology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Botany"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/iSpot">
+        <projectName>iSpot</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/The_Open_University"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Nature"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Global"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Herbonauten_(Pilot)">
+        <projectName>Herbonauten (Pilot)</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Natural_History"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Botany"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Verein der Freunde des Botanischen Gartens und Botanischen Museums Berlin-Dahlem</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide_Germany"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://indiabiodiversity.org/">
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Prabhakar / Thomas Vattakaven</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#India"/>
+        <projectName>India Biodiversity Portal</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_science"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Computer_science"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://indiabiodiversity.org/group/frog_watch/userGroup/show">
+        <projectName>Frog Watch</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <sponsoringOrg rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Community"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#India"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_science"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Herpetology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.citclops.eu/">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/European_Commission"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</began>
+        <projectName>Citclops/ &lt;https://www.eyeonwater.org/&gt; EyeOnWater</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_science"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.mosquitoalert.com/">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Spain"/>
+        <sponsoringOrg rdf:resource="http://www.creaf.cat/"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</began>
+        <projectName>Mosquito Alert</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+        <sponsoringOrg rdf:resource="http://www.ceab.csic.es/en/"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Public_Health"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.pierisproject.org/">
+        <projectName>Pieris Project</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>theryanlab.com</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</began>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Entomology"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Lepidoptera"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.urwatair.gr/">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Air_pollution"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Greece"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Air_quality_index"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Hydrology"/>
+        <projectName>URwatair</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Aristotle_University_of_Thessaloniki"/>
+        <sponsoringOrg rdf:resource="http://en.ellet.gr/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://xperibird.be/en/home">
+        <projectName>XperiBIRD.be</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Belgium"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Museum_of_Natural_Sciences"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ecology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.naturkalender.at">
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>SPOTTERON Collaboration</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <projectName>Nature&apos;s Calendar</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Zentralanstalt für Meteorologie und Geodynamik (ZAMG)</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Phenology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Europe"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.pilzfinder.at">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Mycology"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</began>
+        <projectName>Pilzfinder</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>SPOTTERON collaboration</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Europe"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>University of Vienna</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Austrian Mycology Society</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.roadkill.at">
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>SPOTTERON Collaboration</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biodiversity"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</began>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Vienna</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <projectName>Roadkill</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Transportation"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>University of Natural Resources and Life Sciences</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://air.net.technion.ac.il/">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Israel"/>
+        <projectName>Sensing the Air</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Safecast_(organization)">
+        <projectName>Safecast_(organization)</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Air_Quality"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ionizing_radiation"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Momoko Ito Foundation</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.eyeonwater.org/">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Water_Colour"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_science"/>
+        <projectName>EyeOnWater Australia</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/CSIRO"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Water_Quality"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Australia"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.inaturalist.org/projects/city-nature-challenge-2018-ahmedabad-india">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Ahmedabad_University"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Computer_science"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#India"/>
+        <projectName>City Nature Challenge 2018</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_science"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.inaturalist.org/projects/city-nature-challenge-2018-hong-kong">
+        <sponsoringOrg rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Community"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</began>
+        <projectName>City Nature Challenge 2018</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_science"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Tokyo"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Computer_science"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Tokyo"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Hong_Kong"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.inaturalist.org/projects/klang-valley-city-nature-challenge-2018">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Computer_science"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Biology"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Malaysia"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Klang_Valley_Greater_Kuala_Lumpur"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#India"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Bombay_Natural_History_Society"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_science"/>
+        <projectName>City Nature Challenge 2018</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>The Rimba Project / Rimba Ilmu Botanic Garden</name>
+            </rdf:Description>
+        </sponsoringOrg>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.mics.tools/">
+        <discipline rdf:resource="http://cui.unige.ch/isi/swt/tp2-disc#Impact_of_citizen_science"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</began>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>European Commission</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <projectName>MICS</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.spotteron.com/brushturkeys">
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Sydney"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ornithology"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</began>
+        <projectName>Brushturkeys - Birds of Suburbia</projectName>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>SPOTTERON Collaboration</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Australia"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/City_Ecology"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.spotteron.com/dreckspotz">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Pollution"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Europe"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Ressources"/>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>SPOTTERON Collaboration</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Global 2000</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</began>
+        <sponsoringOrg>
+            <rdf:Description>
+                <name>Friends of Earth</name>
+            </rdf:Description>
+        </sponsoringOrg>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Human_Impact"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Environmental_Science"/>
+        <projectName>Litterbug (Dreckspotz)</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.zooniverse.org/projects/ajnorton/superwasp-variable-stars">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <projectName>SuperWASP Variable Stars</projectName>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Asterics"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.zooniverse.org/projects/aprajita/space-warps-hsc">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Zooniverse"/>
+        <projectName>Space Warps</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.zooniverse.org/projects/dwright04/muon-hunters-2-dot-0">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Asterics"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/National_Science_Foundation"/>
+        <projectName>Muon Hunters</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.zooniverse.org/projects/ianc2/exoplanet-explorers">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/BBC_Stargazing_Live"/>
+        <projectName>Exoplanet Explorers</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.zooniverse.org/projects/ilacerna/variable-star-zoo">
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</began>
+        <projectName>Variable Star Zoo</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Instituto_Milenio_de_Astrofíscia"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.zooniverse.org/projects/lcjohnso/local-group-cluster-search">
+        <projectName>Local Group Cluster Search</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Panchromatic_Hubble_Andromeda_Treasury"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Northwestern_University"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Survey_of_the_MAgellanic_Stellar_History"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.zooniverse.org/projects/lepnoir/protect-our-planet-from-solar-storms">
+        <projectName>Protect Our Planet From Solar Storms</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Science_Museum_Group"/>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/University_of_Reading"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.zooniverse.org/projects/rswcit/zwickys-quirky-transients">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Zwicky_Transient_Facility"/>
+        <projectName>Zwicky&apos;s Quirky Transients</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.zooniverse.org/projects/sandorkruk/hubble-asteroid-hunter">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <projectName>Hubble Asteroid Hunter</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/European_Space_Astronomy_Centre"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</began>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.zooniverse.org/projects/wkiri/cosmic">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Jet_Propulsion_Laboratory"/>
+        <projectName>COSMIC</projectName>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.zooniverse.org/projects/zooniverse/astronomy-rewind">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Harvard_University"/>
+        <projectName>Astronomy Rewind</projectName>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/History"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Adler_Planetarium"/>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/American_Astronomical_Society"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/ADS_All_Sky_Survey"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/NASA"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.zooniverse.org/projects/zooniverse/gravity-spy">
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/LIGO_Scientific_Collaboration"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/National_Science_Foundation"/>
+        <projectName>Gravity Spy</projectName>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/California_State_University_Fullerton"/>
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</began>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Syracuse_University"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/Northwestern_University"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.zooniverse.org/projects/zooniverse/radio-meteor-zoo">
+        <began rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</began>
+        <discipline rdf:resource="http://en.wikipedia.org/wiki/Astronomy"/>
+        <projectName>Radio Meteor Zoo</projectName>
+        <area rdf:resource="http://cui.unige.ch/isi/swt/tp2a#Worldwide"/>
+        <sponsoringOrg rdf:resource="http://en.wikipedia.org/wiki/European_Citizen_Science_Association"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,124 @@
+@prefix : <http://cui.unige.ch/isi/swt/tp2c#> .
+@prefix cui: <http://cui.unige.ch/isi/swt/tp2c#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cui:hasCategory a owl:ObjectProperty .
+
+cui:hasDesc a owl:ObjectProperty .
+
+cui:hasInstitution a owl:ObjectProperty .
+
+cui:hasName a owl:ObjectProperty .
+
+cui:hasProject a owl:ObjectProperty .
+
+cui:hasRole a owl:ObjectProperty .
+
+cui:hasTask a owl:ObjectProperty .
+
+cui:hasTeammember a owl:ObjectProperty .
+
+cui:hasZoouserid a owl:ObjectProperty .
+
+cui:institution a owl:Class .
+
+cui:name a owl:Class .
+
+cui:role a owl:Class .
+
+cui:task a owl:Class .
+
+cui:teamMember a owl:Class .
+
+cui:zoouserid a owl:Class .
+
+<https://www.zooniverse.org/projects/sandorkruk/hubble-asteroid-hunter> a cui:Project,
+        owl:NamedIndividual ;
+    cui:hasCategory cui:Space ;
+    cui:hasDesc <http://cui.unige.ch/isi/swt/tp2c#Welcome_to_our_project!_The_idea_of_the_Hubble_Asteroid_Hunters_is_to_identify_asteroid_trails_in_archival_images_from_the_NASA/ESA_Hubble_Space_Telescope,_which_are_stored_in_the_European_Space_Agency_(ESA)'s_Hubble_Science_archive_and_accessible_at_ESA's_ESASky_Portal.> ;
+    cui:name "Hubble Asteroid Hunter" ;
+    cui:task "Identification" ;
+    cui:teamMember [ cui:institution "Bruno is the head of ESAC Science Data Centre of the European Space Agency at ESAC, near Madrid, Spain. His interests are in space data science: exploiting data from ESA’s Space Science missions, scientific software and usability of user interfaces. He is part of the team who developed the science discovery portal ESASky" ;
+            cui:name "Bruno Merín" ;
+            cui:zoouserid "@bmerin" ],
+        [ cui:institution "Jerôme is a software engineer working at the \"Institut de Mécanique Céleste et de Calcul des Éphémérides\" (IMCCE), at the Paris Observatory. He developed, together with his collaborator Benoît Carry, ephemcc, the computer code that allowed to calculate precise Solar System Object positions as a function of time, which was the core of the ESASky Solar System Objects pipeline used to identified the images of this project." ;
+            cui:name "Jerôme Berthier" ],
+        [ cui:institution "Benoît is a planetary scientist working at the Lagrange laboratory of the Observatoire de la Côte d'Azur (OCA) and the Institut de Mécanique Céleste et de Calcul des Éphémérides (IMCCE), Paris Observatory. Asteroid 8467 was named after him to recognize his contributions to the understanding of these objects." ;
+            cui:name "Benoît Carry" ],
+        [ cui:institution "Sandor is a Research Fellow at the European Space Agency working on the space data science with upcoming Euclid mission, Galaxy Zoo and other citizen science projects." ;
+            cui:name "Sandor Kruk" ;
+            cui:zoouserid "@sandorkruk" ],
+        [ cui:institution "Belén is an astronomer, educator and science communicator at the ESAC Science Data Centre, supporting the ESASky portal and editor of the ESDC Newsletter." ;
+            cui:name "Belén Lopez Marti" ;
+            cui:zoouserid "@lopezmartib" ],
+        [ cui:institution "Max is a Research Scientist at the Centro de Astrobiología (CAB), Madrid, working on data mining surveys for solar system objects." ;
+            cui:name "Max Mahlke" ;
+            cui:zoouserid "@maxmahlke" ],
+        [ cui:institution "Enrique is an astrophysicist and head of the Spanish Virtual Observatory (SVO) organization, which pioneered the identification of asteroids in astronomical images with a citizen science project based on Ground based telescopes and Virtual Observatory tools." ;
+            cui:name "Enrique Solano" ],
+        [ cui:institution "Elena is a software engineer at the ESAC Science Data Centre in Madrid and part of the ESASky team. She is the principal architect of the ESASky Solar System Objects pipeline (which outputs the images and positions used in this project)." ;
+            cui:name "Elena Racero" ],
+        [ cui:institution "Debbie is the Astronomy Archives Science Lead at ESAC Science Data Centre in Madrid and also part of the team who developed the science discovery portal ESASky." ;
+            cui:name "Deborah Baines" ;
+            cui:zoouserid "@dbaines" ],
+        [ cui:institution "Guido is an Astronomer and the Archives Head Scientist at the European Space Agency at ESTEC, in the Netherlands. He coordinates the scientific content of all the interfaces to the data from ESA Space Science Missions." ;
+            cui:name "Guido De Marchi" ],
+        [ cui:institution " Fabrizio is the head software engineer for ESASky at the ESAC Science Data Centre in Madrid, and co-developer of the ESASky Solar System Objects pipeline." ;
+            cui:name "Fabrizio Giordano" ;
+            cui:zoouserid "@fabrig" ] .
+
+cui:Project a owl:Class .
+
+cui:Space a cui:category .
+
+<http://cui.unige.ch/isi/swt/tp2c#Welcome_to_our_project!_The_idea_of_the_Hubble_Asteroid_Hunters_is_to_identify_asteroid_trails_in_archival_images_from_the_NASA/ESA_Hubble_Space_Telescope,_which_are_stored_in_the_European_Space_Agency_(ESA)'s_Hubble_Science_archive_and_accessible_at_ESA's_ESASky_Portal.> a cui:desc .
+
+cui:category a owl:Class .
+
+cui:desc a owl:Class .
+
+[] cui:institution "Yale Digital Humanities Laboratory" ;
+    cui:name "Monica Ong Reed" ;
+    cui:role "User Experience Designer" .
+
+[] cui:institution "Robert B. Haas Family Arts Library" ;
+    cui:name "Alex O'Keefe" ;
+    cui:role "Arts Digital Projects Librarian" .
+
+[] cui:institution "Yale Digital Humanities Laboratory" ;
+    cui:name "Douglas Duhaime" ;
+    cui:role "Digital Humanities Developer" .
+
+[] cui:institution "Yale Digital Humanities Laboratory" ;
+    cui:name "Catherine DeRose" ;
+    cui:role "Program Manager" .
+
+[] cui:institution "Yale Digital Humanities Laboratory" ;
+    cui:name "Peter Leonard" ;
+    cui:role "Director" .
+
+[] cui:institution "Robert B. Haas Family Arts Library" ;
+    cui:name "Lindsay King" ;
+    cui:role "Associate Director for Access and Research Services" .
+
+[] cui:institution "NYU" ;
+    cui:name "Graham Dove" .
+
+[] cui:institution "New York University, Department of Technology Management and Innovations" ;
+    cui:name "Ayanna Seals" .
+
+[] cui:institution "New York University" ;
+    cui:name "Oded Nov" .
+
+[] cui:institution "New York University's Music and Audio Research Laboratory" ;
+    cui:name "Ana Elisa Mendez Mendez" .
+
+[] cui:institution "NYU's Music and Audio Research Laboratory" ;
+    cui:name "Mark Cartwright" .
+
+[] a owl:Ontology .
+
