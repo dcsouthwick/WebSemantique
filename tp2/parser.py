@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# David Southwick - UNIGE Dec 2019
 
 from rdflib import *
 from pprint import pprint
@@ -46,6 +47,8 @@ for s,p,o in g.triples( (None, cui.desc, None) ):
     g.add((s,cui.hasDesc, cui[o.replace(" ", "_")]))
     g.set((cui[o.replace(" ", "_")], RDF.type, cui.desc))
     g.remove((s,p,o))
+
+# TODO: Generalize above steps for all predicates
 
 # print( g.serialize(format='turtle'))
 g.serialize(destination='zoo_parsed.ttl', format='turtle')
