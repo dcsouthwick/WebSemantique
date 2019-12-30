@@ -1,0 +1,47 @@
+@prefix : <http://cui.unige.ch/isi/swt/tp2b#> .
+
+:SDG-1 a :SDG ; :title "SDG 1 - Poverty".
+:SDG-2 a :SDG ; :title "SDG 2 - Food, sustainable agriculture".
+:SDG-3 a :SDG ; :title "SDG 3 - Health and well-being".
+:SDG-4 a :SDG ; :title "SDG 4 - Education".
+:SDG-5 a :SDG ; :title "SDG 5 - Gender equality".
+:SDG-6 a :SDG ; :title "SDG 6 - Water availability and sustainable management".
+:SDG-7 a :SDG ; :title "SDG 7 - Energy affordable, reliable, sustainable".
+:SDG-8 a :SDG ; :title "SDG 8 - Sustainable economic growth and employment".
+:SDG-9 a :SDG ; :title "SDG 9 - Resilient infrastructure, innovation".
+:SDG-10 a :SDG ; :title "SDG 10 - Reduce inequality".
+:SDG-11 a :SDG ; :title "SDG 11 - Sustainable, resilient cities/settlements".
+:SDG-12 a :SDG ; :title "SDG 12 - Sustainable consumption and production".
+:SDG-13 a :SDG ; :title "SDG 13 - Action to combat climate change and its impacts".
+:SDG-14 a :SDG ; :title "SDG 14 - Marine conservation and sustainable development".
+:SDG-15 a :SDG ; :title "SDG 15 - Terrestrial biodiversity conservation, sustainable forest management and land use management".
+:SDG-16 a :SDG ; :title "SDG 16 - Peace, justice for all".
+:SDG-17 a :SDG ; :title "SDG 17 - Strengthen Global Partnership for Sustainable Development".
+
+
+:csp-1
+   :name  """Hedgehogstreet""";
+   :website  <https://www.hedgehogstreet.org/>;
+   :contact  """info@britishhedgehogs.org.uk""";
+   :briefDescription  """Hedgehog Street is a campaign aimed at ensuring the hedgehog, the UKs only spiny mammal, remains a common and familiar part of British life. We know hedgehogs are in trouble. Weve lost a third of all our hedgehogs in ten years.  """;
+   :geographicalExtent  """National""";
+   :geographicCoverage  """United Kingdom of Great Britain and Northern Ireland (the)""";
+   :leadOrganisationName  """British Hedgehog Preservation Society """;
+   :leadOrganisationCategory  """Non-governmental""";
+   :startYear  """2011""";
+   :stillActive  """Yes""";
+   :endYear  """Unknown""";
+   :primaryEnvironmentalDomain  """Terrestrial""";
+   :primaryEnvironmentalField  """Biodiversity, nature and landscapes""";
+   :primaryCategoryOfProject  """Monitoring""";
+   :socialUptake  """Very large""";
+   :policyUptake  """No""";
+   :policyUptakeExplanation  """Unknown""";
+   :policyRelevance  """Problem definition""";
+   :stronglyRelatedToSDG  :SDG-3 ;
+   :stronglyRelatedToSDG  :SDG-4 ;
+   :stronglyRelatedToSDG  :SDG-9 ;
+   :stronglyRelatedToSDG  :SDG-13 ;
+   :relatedToSDG  :SDG-15 ;
+   :stronglyRelatedToSDG  :SDG-16 ;
+.

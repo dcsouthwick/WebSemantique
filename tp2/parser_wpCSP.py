@@ -8,7 +8,7 @@ import urllib.parse
 from pprint import pprint
 
 g = Graph()
-g.parse("/home/dsouthwi/WebSemantiquePriv/tp2/data-sources/zoo.ttl", format="turtle")
+g.parse("/home/dsouthwi/WebSemantiquePriv/tp2/data-sources/wpCSP.ttl", format="turtle")
 
 print("Running....")
 # Default namespace binding - use what's already in the turtle file!
@@ -18,7 +18,6 @@ for n in g.namespaces():
         DEFAULT  = Namespace(n[1])
         g.bind('', DEFAULT)
         break
-
 
 def print_all():
     # print all
@@ -47,6 +46,10 @@ for p in g.predicates():
         continue
     objects.add(split_uri(p)[1])
     
+# wpCSP projects
+for project in g.subject_objects(predicate=DEFAULT.projectName):
+    g.add((project[0], RDF.type, DEFAULT.Project))
+
 # Create individuals and link them
 for term in objects:
 #for term in {'institution', 'teamMember'}:
@@ -54,22 +57,21 @@ for term in objects:
         #print("{} {} {}".format(s,p,o))
         #print("{} {} {}".format(s, hasProp(term), DEFAULT[urllib.parse.quote(o)]))
         #print("{} {} {}".format(DEFAULT[urllib.parse.quote(o)], RDF.type, DEFAULT[term]))
-        g.add((DEFAULT[urllib.parse.quote(o)], RDF.type, DEFAULT[term]))
-        g.add((s, hasProp(term), DEFAULT[urllib.parse.quote(o)]))
-        #print(s, hasProp(term), DEFAULT[urllib.parse.quote(o)])
+        if not isinstance(o, URIRef):
+            o = DEFAULT[urllib.parse.quote(o)]
+        g.add((o, RDF.type, DEFAULT[term]))
+        g.add((s, hasProp(term), o))
+        #print(s, hasProp(term), o])
         g.remove((s,p,o))
         if p == DEFAULT.teamMember:
             #print("parsing person {}".format(o))
             for sub,pred,obj in g.triples (( o, None, None)):
-                print("{} {} {}".format(sub,pred,obj))
                 # parse recursive statements
                 if not isinstance(obj, URIRef):
-                    print("making {} instance".format(obj))
                     obj = DEFAULT[urllib.parse.quote(obj)]
                 g.add((DEFAULT[sub], RDF.type, OWL.NamedIndividual))
                 g.add((DEFAULT[sub], hasProp(pred), obj))
                 g.add((obj, RDF.type, pred))
-                print("{} {} {}".format(obj, RDF.type, pred))
                 
 
-g.serialize(destination='zoo_parsed.ttl', format='turtle')
+g.serialize(destination='wpCSP-parsed.ttl', format='turtle')

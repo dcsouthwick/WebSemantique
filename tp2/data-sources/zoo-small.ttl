@@ -1,0 +1,28 @@
+@prefix : <http://cui.unige.ch/isi/swt/tp2c#> .
+
+<https://www.zooniverse.org/projects/haasarts/ensemble-at-yale> a :Project ;
+:name "Ensemble@Yale";
+
+:desc """What is the most-produced play at Yale? Who starred with Lupita Nyong'o, Meryl Streep, and Paul Giamatti when they were students? Ensemble@Yale is an experiment that aims to answer these questions and more by transforming historical theater programs from Yale’s archives into searchable text through crowdsourced transcription. Rather than reproducing all of the words in a digitized document, as with optical character recognition (OCR), crowdsourced transcription relies on human judgment to create structured data and identify features of interest to scholars and theater enthusiasts.""";
+
+:teamMember
+[:name "Catherine DeRose"; :role "Program Manager"; :institution "Yale Digital Humanities Laboratory"] ;
+
+:teamMember
+[:name "Douglas Duhaime"; :role "Digital Humanities Developer"; :institution "Yale Digital Humanities Laboratory"] ;
+
+:teamMember
+[:name "Lindsay King"; :role "Associate Director for Access and Research Services"; :institution "Robert B. Haas Family Arts Library"] ;
+
+:teamMember
+[:name "Peter Leonard"; :role "Director"; :institution "Yale Digital Humanities Laboratory"] ;
+
+:teamMember
+[:name "Alex O'Keefe"; :role "Arts Digital Projects Librarian"; :institution "Robert B. Haas Family Arts Library"] ;
+
+:teamMember
+[:name "Monica Ong Reed"; :role "User Experience Designer"; :institution "Yale Digital Humanities Laboratory"] ;
+
+:task "Transcription";
+:category "Arts";
+.

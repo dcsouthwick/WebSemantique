@@ -1,124 +1,414 @@
 @prefix : <http://cui.unige.ch/isi/swt/tp2c#> .
-@prefix cui: <http://cui.unige.ch/isi/swt/tp2c#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-cui:hasCategory a owl:ObjectProperty .
+:hasCategory a owl:ObjectProperty .
 
-cui:hasDesc a owl:ObjectProperty .
+:hasDesc a owl:ObjectProperty .
 
-cui:hasInstitution a owl:ObjectProperty .
+:hasInstitution a owl:ObjectProperty .
 
-cui:hasName a owl:ObjectProperty .
+:hasName a owl:ObjectProperty .
 
-cui:hasProject a owl:ObjectProperty .
+:hasProject a owl:ObjectProperty .
 
-cui:hasRole a owl:ObjectProperty .
+:hasRole a owl:ObjectProperty .
 
-cui:hasTask a owl:ObjectProperty .
+:hasTask a owl:ObjectProperty .
 
-cui:hasTeammember a owl:ObjectProperty .
+:hasTeammember a owl:ObjectProperty .
 
-cui:hasZoouserid a owl:ObjectProperty .
+:hasZoouserid a owl:ObjectProperty .
 
-cui:institution a owl:Class .
-
-cui:name a owl:Class .
-
-cui:role a owl:Class .
-
-cui:task a owl:Class .
-
-cui:teamMember a owl:Class .
-
-cui:zoouserid a owl:Class .
-
-<https://www.zooniverse.org/projects/sandorkruk/hubble-asteroid-hunter> a cui:Project,
+<https://www.zooniverse.org/projects/anaelisa24/sounds-of-new-york-city-sonyc> a :Project,
         owl:NamedIndividual ;
-    cui:hasCategory cui:Space ;
-    cui:hasDesc <http://cui.unige.ch/isi/swt/tp2c#Welcome_to_our_project!_The_idea_of_the_Hubble_Asteroid_Hunters_is_to_identify_asteroid_trails_in_archival_images_from_the_NASA/ESA_Hubble_Space_Telescope,_which_are_stored_in_the_European_Space_Agency_(ESA)'s_Hubble_Science_archive_and_accessible_at_ESA's_ESASky_Portal.> ;
-    cui:name "Hubble Asteroid Hunter" ;
-    cui:task "Identification" ;
-    cui:teamMember [ cui:institution "Bruno is the head of ESAC Science Data Centre of the European Space Agency at ESAC, near Madrid, Spain. His interests are in space data science: exploiting data from ESA’s Space Science missions, scientific software and usability of user interfaces. He is part of the team who developed the science discovery portal ESASky" ;
-            cui:name "Bruno Merín" ;
-            cui:zoouserid "@bmerin" ],
-        [ cui:institution "Jerôme is a software engineer working at the \"Institut de Mécanique Céleste et de Calcul des Éphémérides\" (IMCCE), at the Paris Observatory. He developed, together with his collaborator Benoît Carry, ephemcc, the computer code that allowed to calculate precise Solar System Object positions as a function of time, which was the core of the ESASky Solar System Objects pipeline used to identified the images of this project." ;
-            cui:name "Jerôme Berthier" ],
-        [ cui:institution "Benoît is a planetary scientist working at the Lagrange laboratory of the Observatoire de la Côte d'Azur (OCA) and the Institut de Mécanique Céleste et de Calcul des Éphémérides (IMCCE), Paris Observatory. Asteroid 8467 was named after him to recognize his contributions to the understanding of these objects." ;
-            cui:name "Benoît Carry" ],
-        [ cui:institution "Sandor is a Research Fellow at the European Space Agency working on the space data science with upcoming Euclid mission, Galaxy Zoo and other citizen science projects." ;
-            cui:name "Sandor Kruk" ;
-            cui:zoouserid "@sandorkruk" ],
-        [ cui:institution "Belén is an astronomer, educator and science communicator at the ESAC Science Data Centre, supporting the ESASky portal and editor of the ESDC Newsletter." ;
-            cui:name "Belén Lopez Marti" ;
-            cui:zoouserid "@lopezmartib" ],
-        [ cui:institution "Max is a Research Scientist at the Centro de Astrobiología (CAB), Madrid, working on data mining surveys for solar system objects." ;
-            cui:name "Max Mahlke" ;
-            cui:zoouserid "@maxmahlke" ],
-        [ cui:institution "Enrique is an astrophysicist and head of the Spanish Virtual Observatory (SVO) organization, which pioneered the identification of asteroids in astronomical images with a citizen science project based on Ground based telescopes and Virtual Observatory tools." ;
-            cui:name "Enrique Solano" ],
-        [ cui:institution "Elena is a software engineer at the ESAC Science Data Centre in Madrid and part of the ESASky team. She is the principal architect of the ESASky Solar System Objects pipeline (which outputs the images and positions used in this project)." ;
-            cui:name "Elena Racero" ],
-        [ cui:institution "Debbie is the Astronomy Archives Science Lead at ESAC Science Data Centre in Madrid and also part of the team who developed the science discovery portal ESASky." ;
-            cui:name "Deborah Baines" ;
-            cui:zoouserid "@dbaines" ],
-        [ cui:institution "Guido is an Astronomer and the Archives Head Scientist at the European Space Agency at ESTEC, in the Netherlands. He coordinates the scientific content of all the interfaces to the data from ESA Space Science Missions." ;
-            cui:name "Guido De Marchi" ],
-        [ cui:institution " Fabrizio is the head software engineer for ESASky at the ESAC Science Data Centre in Madrid, and co-developer of the ESASky Solar System Objects pipeline." ;
-            cui:name "Fabrizio Giordano" ;
-            cui:zoouserid "@fabrig" ] .
+    :hasCategory <http://cui.unige.ch/isi/swt/tp2c#Social%20Science> ;
+    :hasDesc <http://cui.unige.ch/isi/swt/tp2c#Our%20objectives%20are%20to%20create%20technological%20solutions%20for%3A%0A%0A%20%20%20%20Monitoring%20noise%20pollution%20systematically%20and%20constantly%2C%20at%20a%20city%20scale.%0A%20%20%20%20Accurately%20describing%20acoustic%20environments%20in%20terms%20of%20their%20composing%20sources%2C%20using%20machine%20learning.%0A%20%20%20%20Supporting%20broad%20citizen%20participation%20in%20noise%20reporting%20and%20mitigation.%0A%20%20%20%20Helping%20city%20agencies%20to%20take%20effective%2C%20information-driven%20action%20to%20mitigate%20noise%20pollution.> ;
+    :hasName <http://cui.unige.ch/isi/swt/tp2c#Sounds%20of%20New%20York%20City%20%28SONYC%29> ;
+    :hasTask :Identification ;
+    :hasTeammember :ub1bL71C92,
+        :ub1bL74C92,
+        :ub1bL77C92,
+        :ub1bL80C92,
+        :ub1bL83C92 .
 
-cui:Project a owl:Class .
+<https://www.zooniverse.org/projects/haasarts/ensemble-at-yale> a :Project,
+        owl:NamedIndividual ;
+    :hasCategory :Arts ;
+    :hasDesc <http://cui.unige.ch/isi/swt/tp2c#What%20is%20the%20most-produced%20play%20at%20Yale%3F%20Who%20starred%20with%20Lupita%20Nyong%27o%2C%20Meryl%20Streep%2C%20and%20Paul%20Giamatti%20when%20they%20were%20students%3F%20Ensemble%40Yale%20is%20an%20experiment%20that%20aims%20to%20answer%20these%20questions%20and%20more%20by%20transforming%20historical%20theater%20programs%20from%20Yale%E2%80%99s%20archives%20into%20searchable%20text%20through%20crowdsourced%20transcription.%20Rather%20than%20reproducing%20all%20of%20the%20words%20in%20a%20digitized%20document%2C%20as%20with%20optical%20character%20recognition%20%28OCR%29%2C%20crowdsourced%20transcription%20relies%20on%20human%20judgment%20to%20create%20structured%20data%20and%20identify%20features%20of%20interest%20to%20scholars%20and%20theater%20enthusiasts.> ;
+    :hasName <http://cui.unige.ch/isi/swt/tp2c#Ensemble%40Yale> ;
+    :hasTask :Transcription ;
+    :hasTeammember :ub1bL103C77,
+        :ub1bL107C77,
+        :ub1bL111C77,
+        :ub1bL115C77,
+        :ub1bL95C77,
+        :ub1bL99C77 .
 
-cui:Space a cui:category .
+<https://www.zooniverse.org/projects/sandorkruk/hubble-asteroid-hunter> a :Project,
+        owl:NamedIndividual ;
+    :hasCategory :Space ;
+    :hasDesc <http://cui.unige.ch/isi/swt/tp2c#Welcome%20to%20our%20project%21%20The%20idea%20of%20the%20Hubble%20Asteroid%20Hunters%20is%20to%20identify%20asteroid%20trails%20in%20archival%20images%20from%20the%20NASA/ESA%20Hubble%20Space%20Telescope%2C%20which%20are%20stored%20in%20the%20European%20Space%20Agency%20%28ESA%29%27s%20Hubble%20Science%20archive%20and%20accessible%20at%20ESA%27s%20ESASky%20Portal.> ;
+    :hasName <http://cui.unige.ch/isi/swt/tp2c#Hubble%20Asteroid%20Hunter> ;
+    :hasTask :Identification ;
+    :hasTeammember :ub1bL128C85,
+        :ub1bL131C85,
+        :ub1bL134C85,
+        :ub1bL138C85,
+        :ub1bL142C85,
+        :ub1bL146C85,
+        :ub1bL149C85,
+        :ub1bL152C85,
+        :ub1bL156C85,
+        :ub1bL159C85,
+        :ub1bL163C85 .
 
-<http://cui.unige.ch/isi/swt/tp2c#Welcome_to_our_project!_The_idea_of_the_Hubble_Asteroid_Hunters_is_to_identify_asteroid_trails_in_archival_images_from_the_NASA/ESA_Hubble_Space_Telescope,_which_are_stored_in_the_European_Space_Agency_(ESA)'s_Hubble_Science_archive_and_accessible_at_ESA's_ESASky_Portal.> a cui:desc .
+<http://cui.unige.ch/isi/swt/tp2c#%20Fabrizio%20is%20the%20head%20software%20engineer%20for%20ESASky%20at%20the%20ESAC%20Science%20Data%20Centre%20in%20Madrid%2C%20and%20co-developer%20of%20the%20ESASky%20Solar%20System%20Objects%20pipeline.> a :institution .
 
-cui:category a owl:Class .
+<http://cui.unige.ch/isi/swt/tp2c#%40bmerin> a :zoouserid .
 
-cui:desc a owl:Class .
+<http://cui.unige.ch/isi/swt/tp2c#%40dbaines> a :zoouserid .
 
-[] cui:institution "Yale Digital Humanities Laboratory" ;
-    cui:name "Monica Ong Reed" ;
-    cui:role "User Experience Designer" .
+<http://cui.unige.ch/isi/swt/tp2c#%40fabrig> a :zoouserid .
 
-[] cui:institution "Robert B. Haas Family Arts Library" ;
-    cui:name "Alex O'Keefe" ;
-    cui:role "Arts Digital Projects Librarian" .
+<http://cui.unige.ch/isi/swt/tp2c#%40lopezmartib> a :zoouserid .
 
-[] cui:institution "Yale Digital Humanities Laboratory" ;
-    cui:name "Douglas Duhaime" ;
-    cui:role "Digital Humanities Developer" .
+<http://cui.unige.ch/isi/swt/tp2c#%40maxmahlke> a :zoouserid .
 
-[] cui:institution "Yale Digital Humanities Laboratory" ;
-    cui:name "Catherine DeRose" ;
-    cui:role "Program Manager" .
+<http://cui.unige.ch/isi/swt/tp2c#%40sandorkruk> a :zoouserid .
 
-[] cui:institution "Yale Digital Humanities Laboratory" ;
-    cui:name "Peter Leonard" ;
-    cui:role "Director" .
+:Arts a :category .
 
-[] cui:institution "Robert B. Haas Family Arts Library" ;
-    cui:name "Lindsay King" ;
-    cui:role "Associate Director for Access and Research Services" .
+<http://cui.unige.ch/isi/swt/tp2c#Arts%20Digital%20Projects%20Librarian> a :role .
 
-[] cui:institution "NYU" ;
-    cui:name "Graham Dove" .
+<http://cui.unige.ch/isi/swt/tp2c#Associate%20Director%20for%20Access%20and%20Research%20Services> a :role .
 
-[] cui:institution "New York University, Department of Technology Management and Innovations" ;
-    cui:name "Ayanna Seals" .
+<http://cui.unige.ch/isi/swt/tp2c#Bel%C3%A9n%20is%20an%20astronomer%2C%20educator%20and%20science%20communicator%20at%20the%20ESAC%20Science%20Data%20Centre%2C%20supporting%20the%20ESASky%20portal%20and%20editor%20of%20the%20ESDC%20Newsletter.> a :institution .
 
-[] cui:institution "New York University" ;
-    cui:name "Oded Nov" .
+<http://cui.unige.ch/isi/swt/tp2c#Beno%C3%AEt%20is%20a%20planetary%20scientist%20working%20at%20the%20Lagrange%20laboratory%20of%20the%20Observatoire%20de%20la%20C%C3%B4te%20d%27Azur%20%28OCA%29%20and%20the%20Institut%20de%20M%C3%A9canique%20C%C3%A9leste%20et%20de%20Calcul%20des%20%C3%89ph%C3%A9m%C3%A9rides%20%28IMCCE%29%2C%20Paris%20Observatory.%20Asteroid%208467%20was%20named%20after%20him%20to%20recognize%20his%20contributions%20to%20the%20understanding%20of%20these%20objects.> a :institution .
 
-[] cui:institution "New York University's Music and Audio Research Laboratory" ;
-    cui:name "Ana Elisa Mendez Mendez" .
+<http://cui.unige.ch/isi/swt/tp2c#Bruno%20is%20the%20head%20of%20ESAC%20Science%20Data%20Centre%20of%20the%20European%20Space%20Agency%20at%20ESAC%2C%20near%20Madrid%2C%20Spain.%20His%20interests%20are%20in%20space%20data%20science%3A%20exploiting%20data%20from%20ESA%E2%80%99s%20Space%20Science%20missions%2C%20scientific%20software%20and%20usability%20of%20user%20interfaces.%20He%20is%20part%20of%20the%20team%20who%20developed%20the%20science%20discovery%20portal%20ESASky> a :institution .
 
-[] cui:institution "NYU's Music and Audio Research Laboratory" ;
-    cui:name "Mark Cartwright" .
+<http://cui.unige.ch/isi/swt/tp2c#Debbie%20is%20the%20Astronomy%20Archives%20Science%20Lead%20at%20ESAC%20Science%20Data%20Centre%20in%20Madrid%20and%20also%20part%20of%20the%20team%20who%20developed%20the%20science%20discovery%20portal%20ESASky.> a :institution .
+
+<http://cui.unige.ch/isi/swt/tp2c#Digital%20Humanities%20Developer> a :role .
+
+:Director a :role .
+
+<http://cui.unige.ch/isi/swt/tp2c#Elena%20is%20a%20software%20engineer%20at%20the%20ESAC%20Science%20Data%20Centre%20in%20Madrid%20and%20part%20of%20the%20ESASky%20team.%20She%20is%20the%20principal%20architect%20of%20the%20ESASky%20Solar%20System%20Objects%20pipeline%20%28which%20outputs%20the%20images%20and%20positions%20used%20in%20this%20project%29.> a :institution .
+
+<http://cui.unige.ch/isi/swt/tp2c#Enrique%20is%20an%20astrophysicist%20and%20head%20of%20the%20Spanish%20Virtual%20Observatory%20%28SVO%29%20organization%2C%20which%20pioneered%20the%20identification%20of%20asteroids%20in%20astronomical%20images%20with%20a%20citizen%20science%20project%20based%20on%20Ground%20based%20telescopes%20and%20Virtual%20Observatory%20tools.> a :institution .
+
+<http://cui.unige.ch/isi/swt/tp2c#Ensemble%40Yale> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2c#Guido%20is%20an%20Astronomer%20and%20the%20Archives%20Head%20Scientist%20at%20the%20European%20Space%20Agency%20at%20ESTEC%2C%20in%20the%20Netherlands.%20He%20coordinates%20the%20scientific%20content%20of%20all%20the%20interfaces%20to%20the%20data%20from%20ESA%20Space%20Science%20Missions.> a :institution .
+
+<http://cui.unige.ch/isi/swt/tp2c#Hubble%20Asteroid%20Hunter> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2c#Jer%C3%B4me%20is%20a%20software%20engineer%20working%20at%20the%20%22Institut%20de%20M%C3%A9canique%20C%C3%A9leste%20et%20de%20Calcul%20des%20%C3%89ph%C3%A9m%C3%A9rides%22%20%28IMCCE%29%2C%20at%20the%20Paris%20Observatory.%20He%20developed%2C%20together%20with%20his%20collaborator%20Beno%C3%AEt%20Carry%2C%20ephemcc%2C%20the%20computer%20code%20that%20allowed%20to%20calculate%20precise%20Solar%20System%20Object%20positions%20as%20a%20function%20of%20time%2C%20which%20was%20the%20core%20of%20the%20ESASky%20Solar%20System%20Objects%20pipeline%20used%20to%20identified%20the%20images%20of%20this%20project.> a :institution .
+
+<http://cui.unige.ch/isi/swt/tp2c#Max%20is%20a%20Research%20Scientist%20at%20the%20Centro%20de%20Astrobiolog%C3%ADa%20%28CAB%29%2C%20Madrid%2C%20working%20on%20data%20mining%20surveys%20for%20solar%20system%20objects.> a :institution .
+
+:NYU a :institution .
+
+<http://cui.unige.ch/isi/swt/tp2c#NYU%27s%20Music%20and%20Audio%20Research%20Laboratory> a :institution .
+
+<http://cui.unige.ch/isi/swt/tp2c#New%20York%20University> a :institution .
+
+<http://cui.unige.ch/isi/swt/tp2c#New%20York%20University%27s%20Music%20and%20Audio%20Research%20Laboratory> a :institution .
+
+<http://cui.unige.ch/isi/swt/tp2c#New%20York%20University%2C%20Department%20of%20Technology%20Management%20and%20Innovations> a :institution .
+
+<http://cui.unige.ch/isi/swt/tp2c#Our%20objectives%20are%20to%20create%20technological%20solutions%20for%3A%0A%0A%20%20%20%20Monitoring%20noise%20pollution%20systematically%20and%20constantly%2C%20at%20a%20city%20scale.%0A%20%20%20%20Accurately%20describing%20acoustic%20environments%20in%20terms%20of%20their%20composing%20sources%2C%20using%20machine%20learning.%0A%20%20%20%20Supporting%20broad%20citizen%20participation%20in%20noise%20reporting%20and%20mitigation.%0A%20%20%20%20Helping%20city%20agencies%20to%20take%20effective%2C%20information-driven%20action%20to%20mitigate%20noise%20pollution.> a :desc .
+
+<http://cui.unige.ch/isi/swt/tp2c#Program%20Manager> a :role .
+
+<http://cui.unige.ch/isi/swt/tp2c#Sandor%20is%20a%20Research%20Fellow%20at%20the%20European%20Space%20Agency%20working%20on%20the%20space%20data%20science%20with%20upcoming%20Euclid%20mission%2C%20Galaxy%20Zoo%20and%20other%20citizen%20science%20projects.> a :institution .
+
+<http://cui.unige.ch/isi/swt/tp2c#Social%20Science> a :category .
+
+<http://cui.unige.ch/isi/swt/tp2c#Sounds%20of%20New%20York%20City%20%28SONYC%29> a :name .
+
+:Space a :category .
+
+:Transcription a :task .
+
+<http://cui.unige.ch/isi/swt/tp2c#User%20Experience%20Designer> a :role .
+
+<http://cui.unige.ch/isi/swt/tp2c#Welcome%20to%20our%20project%21%20The%20idea%20of%20the%20Hubble%20Asteroid%20Hunters%20is%20to%20identify%20asteroid%20trails%20in%20archival%20images%20from%20the%20NASA/ESA%20Hubble%20Space%20Telescope%2C%20which%20are%20stored%20in%20the%20European%20Space%20Agency%20%28ESA%29%27s%20Hubble%20Science%20archive%20and%20accessible%20at%20ESA%27s%20ESASky%20Portal.> a :desc .
+
+<http://cui.unige.ch/isi/swt/tp2c#What%20is%20the%20most-produced%20play%20at%20Yale%3F%20Who%20starred%20with%20Lupita%20Nyong%27o%2C%20Meryl%20Streep%2C%20and%20Paul%20Giamatti%20when%20they%20were%20students%3F%20Ensemble%40Yale%20is%20an%20experiment%20that%20aims%20to%20answer%20these%20questions%20and%20more%20by%20transforming%20historical%20theater%20programs%20from%20Yale%E2%80%99s%20archives%20into%20searchable%20text%20through%20crowdsourced%20transcription.%20Rather%20than%20reproducing%20all%20of%20the%20words%20in%20a%20digitized%20document%2C%20as%20with%20optical%20character%20recognition%20%28OCR%29%2C%20crowdsourced%20transcription%20relies%20on%20human%20judgment%20to%20create%20structured%20data%20and%20identify%20features%20of%20interest%20to%20scholars%20and%20theater%20enthusiasts.> a :desc .
+
+:ub1bL103C77 a :teamMember,
+        owl:NamedIndividual ;
+    :hasInstitution <http://cui.unige.ch/isi/swt/tp2c#Yale%20Digital%20Humanities%20Laboratory> ;
+    :hasName <http://cui.unige.ch/isi/swt/tp2c#Douglas%20Duhaime> ;
+    :hasRole <http://cui.unige.ch/isi/swt/tp2c#Digital%20Humanities%20Developer> .
+
+:ub1bL107C77 a :teamMember,
+        owl:NamedIndividual ;
+    :hasInstitution <http://cui.unige.ch/isi/swt/tp2c#Yale%20Digital%20Humanities%20Laboratory> ;
+    :hasName <http://cui.unige.ch/isi/swt/tp2c#Catherine%20DeRose> ;
+    :hasRole <http://cui.unige.ch/isi/swt/tp2c#Program%20Manager> .
+
+:ub1bL111C77 a :teamMember,
+        owl:NamedIndividual ;
+    :hasInstitution <http://cui.unige.ch/isi/swt/tp2c#Yale%20Digital%20Humanities%20Laboratory> ;
+    :hasName <http://cui.unige.ch/isi/swt/tp2c#Peter%20Leonard> ;
+    :hasRole :Director .
+
+:ub1bL115C77 a :teamMember,
+        owl:NamedIndividual ;
+    :hasInstitution <http://cui.unige.ch/isi/swt/tp2c#Robert%20B.%20Haas%20Family%20Arts%20Library> ;
+    :hasName <http://cui.unige.ch/isi/swt/tp2c#Lindsay%20King> ;
+    :hasRole <http://cui.unige.ch/isi/swt/tp2c#Associate%20Director%20for%20Access%20and%20Research%20Services> .
+
+:ub1bL128C85 a :teamMember,
+        owl:NamedIndividual ;
+    :hasInstitution <http://cui.unige.ch/isi/swt/tp2c#Jer%C3%B4me%20is%20a%20software%20engineer%20working%20at%20the%20%22Institut%20de%20M%C3%A9canique%20C%C3%A9leste%20et%20de%20Calcul%20des%20%C3%89ph%C3%A9m%C3%A9rides%22%20%28IMCCE%29%2C%20at%20the%20Paris%20Observatory.%20He%20developed%2C%20together%20with%20his%20collaborator%20Beno%C3%AEt%20Carry%2C%20ephemcc%2C%20the%20computer%20code%20that%20allowed%20to%20calculate%20precise%20Solar%20System%20Object%20positions%20as%20a%20function%20of%20time%2C%20which%20was%20the%20core%20of%20the%20ESASky%20Solar%20System%20Objects%20pipeline%20used%20to%20identified%20the%20images%20of%20this%20project.> ;
+    :hasName <http://cui.unige.ch/isi/swt/tp2c#Jer%C3%B4me%20Berthier> .
+
+:ub1bL131C85 a :teamMember,
+        owl:NamedIndividual ;
+    :hasInstitution <http://cui.unige.ch/isi/swt/tp2c#Beno%C3%AEt%20is%20a%20planetary%20scientist%20working%20at%20the%20Lagrange%20laboratory%20of%20the%20Observatoire%20de%20la%20C%C3%B4te%20d%27Azur%20%28OCA%29%20and%20the%20Institut%20de%20M%C3%A9canique%20C%C3%A9leste%20et%20de%20Calcul%20des%20%C3%89ph%C3%A9m%C3%A9rides%20%28IMCCE%29%2C%20Paris%20Observatory.%20Asteroid%208467%20was%20named%20after%20him%20to%20recognize%20his%20contributions%20to%20the%20understanding%20of%20these%20objects.> ;
+    :hasName <http://cui.unige.ch/isi/swt/tp2c#Beno%C3%AEt%20Carry> .
+
+:ub1bL134C85 a :teamMember,
+        owl:NamedIndividual ;
+    :hasInstitution <http://cui.unige.ch/isi/swt/tp2c#Sandor%20is%20a%20Research%20Fellow%20at%20the%20European%20Space%20Agency%20working%20on%20the%20space%20data%20science%20with%20upcoming%20Euclid%20mission%2C%20Galaxy%20Zoo%20and%20other%20citizen%20science%20projects.> ;
+    :hasName <http://cui.unige.ch/isi/swt/tp2c#Sandor%20Kruk> ;
+    :hasZoouserid <http://cui.unige.ch/isi/swt/tp2c#%40sandorkruk> .
+
+:ub1bL138C85 a :teamMember,
+        owl:NamedIndividual ;
+    :hasInstitution <http://cui.unige.ch/isi/swt/tp2c#Bel%C3%A9n%20is%20an%20astronomer%2C%20educator%20and%20science%20communicator%20at%20the%20ESAC%20Science%20Data%20Centre%2C%20supporting%20the%20ESASky%20portal%20and%20editor%20of%20the%20ESDC%20Newsletter.> ;
+    :hasName <http://cui.unige.ch/isi/swt/tp2c#Bel%C3%A9n%20Lopez%20Marti> ;
+    :hasZoouserid <http://cui.unige.ch/isi/swt/tp2c#%40lopezmartib> .
+
+:ub1bL142C85 a :teamMember,
+        owl:NamedIndividual ;
+    :hasInstitution <http://cui.unige.ch/isi/swt/tp2c#Max%20is%20a%20Research%20Scientist%20at%20the%20Centro%20de%20Astrobiolog%C3%ADa%20%28CAB%29%2C%20Madrid%2C%20working%20on%20data%20mining%20surveys%20for%20solar%20system%20objects.> ;
+    :hasName <http://cui.unige.ch/isi/swt/tp2c#Max%20Mahlke> ;
+    :hasZoouserid <http://cui.unige.ch/isi/swt/tp2c#%40maxmahlke> .
+
+:ub1bL146C85 a :teamMember,
+        owl:NamedIndividual ;
+    :hasInstitution <http://cui.unige.ch/isi/swt/tp2c#Enrique%20is%20an%20astrophysicist%20and%20head%20of%20the%20Spanish%20Virtual%20Observatory%20%28SVO%29%20organization%2C%20which%20pioneered%20the%20identification%20of%20asteroids%20in%20astronomical%20images%20with%20a%20citizen%20science%20project%20based%20on%20Ground%20based%20telescopes%20and%20Virtual%20Observatory%20tools.> ;
+    :hasName <http://cui.unige.ch/isi/swt/tp2c#Enrique%20Solano> .
+
+:ub1bL149C85 a :teamMember,
+        owl:NamedIndividual ;
+    :hasInstitution <http://cui.unige.ch/isi/swt/tp2c#Elena%20is%20a%20software%20engineer%20at%20the%20ESAC%20Science%20Data%20Centre%20in%20Madrid%20and%20part%20of%20the%20ESASky%20team.%20She%20is%20the%20principal%20architect%20of%20the%20ESASky%20Solar%20System%20Objects%20pipeline%20%28which%20outputs%20the%20images%20and%20positions%20used%20in%20this%20project%29.> ;
+    :hasName <http://cui.unige.ch/isi/swt/tp2c#Elena%20Racero> .
+
+:ub1bL152C85 a :teamMember,
+        owl:NamedIndividual ;
+    :hasInstitution <http://cui.unige.ch/isi/swt/tp2c#Debbie%20is%20the%20Astronomy%20Archives%20Science%20Lead%20at%20ESAC%20Science%20Data%20Centre%20in%20Madrid%20and%20also%20part%20of%20the%20team%20who%20developed%20the%20science%20discovery%20portal%20ESASky.> ;
+    :hasName <http://cui.unige.ch/isi/swt/tp2c#Deborah%20Baines> ;
+    :hasZoouserid <http://cui.unige.ch/isi/swt/tp2c#%40dbaines> .
+
+:ub1bL156C85 a :teamMember,
+        owl:NamedIndividual ;
+    :hasInstitution <http://cui.unige.ch/isi/swt/tp2c#Guido%20is%20an%20Astronomer%20and%20the%20Archives%20Head%20Scientist%20at%20the%20European%20Space%20Agency%20at%20ESTEC%2C%20in%20the%20Netherlands.%20He%20coordinates%20the%20scientific%20content%20of%20all%20the%20interfaces%20to%20the%20data%20from%20ESA%20Space%20Science%20Missions.> ;
+    :hasName <http://cui.unige.ch/isi/swt/tp2c#Guido%20De%20Marchi> .
+
+:ub1bL159C85 a :teamMember,
+        owl:NamedIndividual ;
+    :hasInstitution <http://cui.unige.ch/isi/swt/tp2c#%20Fabrizio%20is%20the%20head%20software%20engineer%20for%20ESASky%20at%20the%20ESAC%20Science%20Data%20Centre%20in%20Madrid%2C%20and%20co-developer%20of%20the%20ESASky%20Solar%20System%20Objects%20pipeline.> ;
+    :hasName <http://cui.unige.ch/isi/swt/tp2c#Fabrizio%20Giordano> ;
+    :hasZoouserid <http://cui.unige.ch/isi/swt/tp2c#%40fabrig> .
+
+:ub1bL163C85 a :teamMember,
+        owl:NamedIndividual ;
+    :hasInstitution <http://cui.unige.ch/isi/swt/tp2c#Bruno%20is%20the%20head%20of%20ESAC%20Science%20Data%20Centre%20of%20the%20European%20Space%20Agency%20at%20ESAC%2C%20near%20Madrid%2C%20Spain.%20His%20interests%20are%20in%20space%20data%20science%3A%20exploiting%20data%20from%20ESA%E2%80%99s%20Space%20Science%20missions%2C%20scientific%20software%20and%20usability%20of%20user%20interfaces.%20He%20is%20part%20of%20the%20team%20who%20developed%20the%20science%20discovery%20portal%20ESASky> ;
+    :hasName <http://cui.unige.ch/isi/swt/tp2c#Bruno%20Mer%C3%ADn> ;
+    :hasZoouserid <http://cui.unige.ch/isi/swt/tp2c#%40bmerin> .
+
+:ub1bL71C92 a :teamMember,
+        owl:NamedIndividual ;
+    :hasInstitution :NYU ;
+    :hasName <http://cui.unige.ch/isi/swt/tp2c#Graham%20Dove> .
+
+:ub1bL74C92 a :teamMember,
+        owl:NamedIndividual ;
+    :hasInstitution <http://cui.unige.ch/isi/swt/tp2c#New%20York%20University%2C%20Department%20of%20Technology%20Management%20and%20Innovations> ;
+    :hasName <http://cui.unige.ch/isi/swt/tp2c#Ayanna%20Seals> .
+
+:ub1bL77C92 a :teamMember,
+        owl:NamedIndividual ;
+    :hasInstitution <http://cui.unige.ch/isi/swt/tp2c#New%20York%20University> ;
+    :hasName <http://cui.unige.ch/isi/swt/tp2c#Oded%20Nov> .
+
+:ub1bL80C92 a :teamMember,
+        owl:NamedIndividual ;
+    :hasInstitution <http://cui.unige.ch/isi/swt/tp2c#New%20York%20University%27s%20Music%20and%20Audio%20Research%20Laboratory> ;
+    :hasName <http://cui.unige.ch/isi/swt/tp2c#Ana%20Elisa%20Mendez%20Mendez> .
+
+:ub1bL83C92 a :teamMember,
+        owl:NamedIndividual ;
+    :hasInstitution <http://cui.unige.ch/isi/swt/tp2c#NYU%27s%20Music%20and%20Audio%20Research%20Laboratory> ;
+    :hasName <http://cui.unige.ch/isi/swt/tp2c#Mark%20Cartwright> .
+
+:ub1bL95C77 a :teamMember,
+        owl:NamedIndividual ;
+    :hasInstitution <http://cui.unige.ch/isi/swt/tp2c#Yale%20Digital%20Humanities%20Laboratory> ;
+    :hasName <http://cui.unige.ch/isi/swt/tp2c#Monica%20Ong%20Reed> ;
+    :hasRole <http://cui.unige.ch/isi/swt/tp2c#User%20Experience%20Designer> .
+
+:ub1bL99C77 a :teamMember,
+        owl:NamedIndividual ;
+    :hasInstitution <http://cui.unige.ch/isi/swt/tp2c#Robert%20B.%20Haas%20Family%20Arts%20Library> ;
+    :hasName <http://cui.unige.ch/isi/swt/tp2c#Alex%20O%27Keefe> ;
+    :hasRole <http://cui.unige.ch/isi/swt/tp2c#Arts%20Digital%20Projects%20Librarian> .
+
+<http://cui.unige.ch/isi/swt/tp2c#Alex%20O%27Keefe> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2c#Ana%20Elisa%20Mendez%20Mendez> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2c#Ayanna%20Seals> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2c#Bel%C3%A9n%20Lopez%20Marti> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2c#Beno%C3%AEt%20Carry> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2c#Bruno%20Mer%C3%ADn> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2c#Catherine%20DeRose> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2c#Deborah%20Baines> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2c#Douglas%20Duhaime> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2c#Elena%20Racero> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2c#Enrique%20Solano> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2c#Fabrizio%20Giordano> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2c#Graham%20Dove> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2c#Guido%20De%20Marchi> a :name .
+
+:Identification a :task .
+
+<http://cui.unige.ch/isi/swt/tp2c#Jer%C3%B4me%20Berthier> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2c#Lindsay%20King> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2c#Mark%20Cartwright> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2c#Max%20Mahlke> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2c#Monica%20Ong%20Reed> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2c#Oded%20Nov> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2c#Peter%20Leonard> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2c#Robert%20B.%20Haas%20Family%20Arts%20Library> a :institution .
+
+<http://cui.unige.ch/isi/swt/tp2c#Sandor%20Kruk> a :name .
+
+:task a owl:Class .
+
+:Project a owl:Class .
+
+:category a owl:Class .
+
+:desc a owl:Class .
+
+<http://cui.unige.ch/isi/swt/tp2c#Yale%20Digital%20Humanities%20Laboratory> a :institution .
+
+:role a owl:Class .
+
+:zoouserid a owl:Class .
+
+:institution a owl:Class .
+
+:teamMember a owl:Class .
+
+:name a owl:Class .
+
+[] :hasName <http://cui.unige.ch/isi/swt/tp2c#Douglas%20Duhaime> ;
+    :institution "Yale Digital Humanities Laboratory" ;
+    :role "Digital Humanities Developer" .
+
+[] :hasName <http://cui.unige.ch/isi/swt/tp2c#Catherine%20DeRose> ;
+    :institution "Yale Digital Humanities Laboratory" ;
+    :role "Program Manager" .
+
+[] :hasName <http://cui.unige.ch/isi/swt/tp2c#Peter%20Leonard> ;
+    :institution "Yale Digital Humanities Laboratory" ;
+    :role "Director" .
+
+[] :hasName <http://cui.unige.ch/isi/swt/tp2c#Lindsay%20King> ;
+    :institution "Robert B. Haas Family Arts Library" ;
+    :role "Associate Director for Access and Research Services" .
+
+[] :hasName <http://cui.unige.ch/isi/swt/tp2c#Jer%C3%B4me%20Berthier> ;
+    :institution "Jerôme is a software engineer working at the \"Institut de Mécanique Céleste et de Calcul des Éphémérides\" (IMCCE), at the Paris Observatory. He developed, together with his collaborator Benoît Carry, ephemcc, the computer code that allowed to calculate precise Solar System Object positions as a function of time, which was the core of the ESASky Solar System Objects pipeline used to identified the images of this project." .
+
+[] :hasName <http://cui.unige.ch/isi/swt/tp2c#Beno%C3%AEt%20Carry> ;
+    :institution "Benoît is a planetary scientist working at the Lagrange laboratory of the Observatoire de la Côte d'Azur (OCA) and the Institut de Mécanique Céleste et de Calcul des Éphémérides (IMCCE), Paris Observatory. Asteroid 8467 was named after him to recognize his contributions to the understanding of these objects." .
+
+[] :hasName <http://cui.unige.ch/isi/swt/tp2c#Sandor%20Kruk> ;
+    :institution "Sandor is a Research Fellow at the European Space Agency working on the space data science with upcoming Euclid mission, Galaxy Zoo and other citizen science projects." ;
+    :zoouserid "@sandorkruk" .
+
+[] :hasName <http://cui.unige.ch/isi/swt/tp2c#Bel%C3%A9n%20Lopez%20Marti> ;
+    :institution "Belén is an astronomer, educator and science communicator at the ESAC Science Data Centre, supporting the ESASky portal and editor of the ESDC Newsletter." ;
+    :zoouserid "@lopezmartib" .
+
+[] :hasName <http://cui.unige.ch/isi/swt/tp2c#Max%20Mahlke> ;
+    :institution "Max is a Research Scientist at the Centro de Astrobiología (CAB), Madrid, working on data mining surveys for solar system objects." ;
+    :zoouserid "@maxmahlke" .
+
+[] :hasName <http://cui.unige.ch/isi/swt/tp2c#Enrique%20Solano> ;
+    :institution "Enrique is an astrophysicist and head of the Spanish Virtual Observatory (SVO) organization, which pioneered the identification of asteroids in astronomical images with a citizen science project based on Ground based telescopes and Virtual Observatory tools." .
+
+[] :hasName <http://cui.unige.ch/isi/swt/tp2c#Elena%20Racero> ;
+    :institution "Elena is a software engineer at the ESAC Science Data Centre in Madrid and part of the ESASky team. She is the principal architect of the ESASky Solar System Objects pipeline (which outputs the images and positions used in this project)." .
+
+[] :hasName <http://cui.unige.ch/isi/swt/tp2c#Deborah%20Baines> ;
+    :institution "Debbie is the Astronomy Archives Science Lead at ESAC Science Data Centre in Madrid and also part of the team who developed the science discovery portal ESASky." ;
+    :zoouserid "@dbaines" .
+
+[] :hasName <http://cui.unige.ch/isi/swt/tp2c#Guido%20De%20Marchi> ;
+    :institution "Guido is an Astronomer and the Archives Head Scientist at the European Space Agency at ESTEC, in the Netherlands. He coordinates the scientific content of all the interfaces to the data from ESA Space Science Missions." .
+
+[] :hasName <http://cui.unige.ch/isi/swt/tp2c#Fabrizio%20Giordano> ;
+    :institution " Fabrizio is the head software engineer for ESASky at the ESAC Science Data Centre in Madrid, and co-developer of the ESASky Solar System Objects pipeline." ;
+    :zoouserid "@fabrig" .
+
+[] :hasName <http://cui.unige.ch/isi/swt/tp2c#Bruno%20Mer%C3%ADn> ;
+    :institution "Bruno is the head of ESAC Science Data Centre of the European Space Agency at ESAC, near Madrid, Spain. His interests are in space data science: exploiting data from ESA’s Space Science missions, scientific software and usability of user interfaces. He is part of the team who developed the science discovery portal ESASky" ;
+    :zoouserid "@bmerin" .
+
+[] :hasName <http://cui.unige.ch/isi/swt/tp2c#Graham%20Dove> ;
+    :institution "NYU" .
+
+[] :hasName <http://cui.unige.ch/isi/swt/tp2c#Ayanna%20Seals> ;
+    :institution "New York University, Department of Technology Management and Innovations" .
+
+[] :hasName <http://cui.unige.ch/isi/swt/tp2c#Oded%20Nov> ;
+    :institution "New York University" .
+
+[] :hasName <http://cui.unige.ch/isi/swt/tp2c#Ana%20Elisa%20Mendez%20Mendez> ;
+    :institution "New York University's Music and Audio Research Laboratory" .
+
+[] :hasName <http://cui.unige.ch/isi/swt/tp2c#Mark%20Cartwright> ;
+    :institution "NYU's Music and Audio Research Laboratory" .
 
 [] a owl:Ontology .
+
+[] :hasName <http://cui.unige.ch/isi/swt/tp2c#Monica%20Ong%20Reed> ;
+    :institution "Yale Digital Humanities Laboratory" ;
+    :role "User Experience Designer" .
+
+[] :hasName <http://cui.unige.ch/isi/swt/tp2c#Alex%20O%27Keefe> ;
+    :institution "Robert B. Haas Family Arts Library" ;
+    :role "Arts Digital Projects Librarian" .
 

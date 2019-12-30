@@ -1,0 +1,29 @@
+@prefix : <http://cui.unige.ch/isi/swt/tp2a#> .
+@prefix di: <http://cui.unige.ch/isi/swt/tp2-disc#> .
+@prefix wp: <http://en.wikipedia.org/wiki/> .
+
+<https://www.zooniverse.org/projects/sandorkruk/hubble-asteroid-hunter> :projectName "Hubble Asteroid Hunter" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg wp:European_Space_Astronomy_Centre ;
+    :area :Worldwide ;
+    :began  2019 .
+
+
+<https://www.zooniverse.org/projects/dwright04/muon-hunters-2-dot-0> :projectName "Muon Hunters" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg wp:National_Science_Foundation, wp:Asterics ;
+    :area :Worldwide ;
+    :began  2017 .
+
+
+<https://www.zooniverse.org/projects/rswcit/zwickys-quirky-transients> :projectName "Zwicky's Quirky Transients" ;
+    :discipline  wp:Astronomy ;
+    :sponsoringOrg  wp:Zwicky_Transient_Facility ;
+    :area :Worldwide ;
+    :began  2019 .
+
+:Zikathon_Mosquito_Alert :projectName "Zikathon / Mosquito Alert" ;
+    :discipline wp:Biology_Monte_Carlo_method, wp:Environmental_science ;
+    
+    :area :Hong_Kong ;
+    :began 2017 .
