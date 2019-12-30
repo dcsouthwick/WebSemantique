@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # David Southwick - UNIGE Dec 2019
 
+# here is a comment
+
 from rdflib import Namespace, Graph, OWL, RDF
 from rdflib.namespace import split_uri
 from rdflib.term import URIRef
@@ -8,7 +10,7 @@ import urllib.parse
 from pprint import pprint
 
 g = Graph()
-g.parse("/home/dsouthwi/WebSemantiquePriv/tp2/data-sources/zoo.ttl", format="turtle")
+g.parse("/root/WebSemantique/tp2/data-sources/zoo.ttl", format="turtle")
 
 print("Running....")
 # Default namespace binding - use what's already in the turtle file!
