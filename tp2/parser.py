@@ -61,15 +61,15 @@ for term in objects:
         if p == DEFAULT.teamMember:
             #print("parsing person {}".format(o))
             for sub,pred,obj in g.triples (( o, None, None)):
-                print("{} {} {}".format(sub,pred,obj))
+                #print("{} {} {}".format(sub,pred,obj))
                 # parse recursive statements
                 if not isinstance(obj, URIRef):
-                    print("making {} instance".format(obj))
+                   # print("making {} instance".format(obj))
                     obj = DEFAULT[urllib.parse.quote(obj)]
                 g.add((DEFAULT[sub], RDF.type, OWL.NamedIndividual))
                 g.add((DEFAULT[sub], hasProp(pred), obj))
                 g.add((obj, RDF.type, pred))
-                print("{} {} {}".format(obj, RDF.type, pred))
+                #print("{} {} {}".format(obj, RDF.type, pred))
                 
 
 g.serialize(destination='zoo_parsed.ttl', format='turtle')

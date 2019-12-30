@@ -1,0 +1,5257 @@
+@prefix : <http://cui.unige.ch/isi/swt/tp2a#> .
+@prefix di: <http://cui.unige.ch/isi/swt/tp2-disc#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wp: <http://en.wikipedia.org/wiki/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:ARCS_Arenas_for_Co-operation_through_citizen_science a :Project ;
+    :began 2018 ;
+    :hasArea <http://cui.unige.ch/isi/swt/tp2a#wp:Sweden> ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2018> ;
+    :hasDiscipline di:All_Fields_of_Science ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#ARCS%20%28Arenas%20for%20Co-operation%20through%20citizen%20science%29> ;
+    :hasSponsoringorg :ub1bL181C117,
+        wp:Swedish_University_of_Agricultural_Sciences,
+        wp:Umeå_University,
+        wp:University_of_Gothenburg ;
+    :projectName "ARCS (Arenas for Co-operation through citizen science)" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#non-profit%20organisation%20VA%20%28Public%20%26%20Science%29.> ;
+            :name "non-profit organisation VA (Public & Science)." ] .
+
+:Agent_Exoplanet a :Project ;
+    :hasArea :Goleta_CA,
+        :USA ;
+    :hasDiscipline wp:Astronomy ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Agent%20Exoplanet> ;
+    :hasSponsoringorg :ub1bL139C21 ;
+    :projectName "Agent Exoplanet" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Las%20Cumbres%20Observatory%20Global%20Telescope%20Network> ;
+            :name "Las Cumbres Observatory Global Telescope Network" ] .
+
+:Amphibian_Migrations_and_Road_Crossings a :Project ;
+    :hasArea :New_York,
+        :USA ;
+    :hasDiscipline wp:Ecology,
+        wp:Herpetology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Amphibian%20Migrations%20and%20Road%20Crossings> ;
+    :hasSponsoringorg :ub1bL160C20,
+        :ub1bL160C73,
+        :ub1bL160C88 ;
+    :projectName "Amphibian Migrations and Road Crossings" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Department%20of%20Environmental%20Conservation> ;
+            :name "Department of Environmental Conservation" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#%20NY> ;
+            :name " NY" ],
+        [ :hasName :USA ;
+            :name "USA" ] .
+
+:Aquila_Project a :Project ;
+    :began 2010 ;
+    :hasArea :Australia,
+        :Kimberley,
+        :Western_Australia ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2010> ;
+    :hasDiscipline wp:Environmental_Science ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Aquila%20Project> ;
+    :hasSponsoringorg :ub1bL167C21 ;
+    :projectName "Aquila Project" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#West%20Kimberley%20Rubber%20Vine%20Eradication%20Program> ;
+            :name "West Kimberley Rubber Vine Eradication Program" ] .
+
+:Artportalen_Swedish_Species_Observation_System a :Project ;
+    :began 1999 ;
+    :hasArea :Sweden ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#1999> ;
+    :hasDiscipline di:Mapping,
+        di:species_distribution,
+        wp:Biology,
+        wp:biodiversity ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Artportalen%20%28Swedish%20Species%20Observation%20System%29> ;
+    :hasSponsoringorg :ub1bL188C21 ;
+    :projectName "Artportalen (Swedish Species Observation System)" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Swedish%20Species%20Information%20Centre%20/%20Swedish%20Environmental%20Protection%20Agency> ;
+            :name "Swedish Species Information Centre / Swedish Environmental Protection Agency" ] .
+
+<http://cui.unige.ch/isi/swt/tp2a#Asteroid_Mappers:_Vesta> a :Project ;
+    :began 2011 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2011> ;
+    :hasDiscipline wp:Planetary_science ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Asteroid%20Mappers%3A%20Vesta> ;
+    :hasSponsoringorg :ub1bL202C20 ;
+    :projectName "Asteroid Mappers: Vesta" ;
+    :sponsoringOrg [ :desc "CosmoQuest is sponsored by wp:NASA_in_partnership_with_the_Astrosphere_New_Media_Association _the_STEM_Center  UniverseToday Astronomers_without_Borders the Planetary Society the wp:Youngstown State University#Ward Beecher Planetarium the Galileo Teachers Training Program Swinburne Astronomy Online Dark Skies Bright Kids the Canadian Astronomy Data Centre and its member organizations the Galileoscope Project and several NASA projects" ;
+            :hasDesc <http://cui.unige.ch/isi/swt/tp2a#CosmoQuest%20is%20sponsored%20by%20wp%3ANASA_in_partnership_with_the_Astrosphere_New_Media_Association%20_the_STEM_Center%20%20UniverseToday%20Astronomers_without_Borders%20the%20Planetary%20Society%20the%20wp%3AYoungstown%20State%20University%23Ward%20Beecher%20Planetarium%20the%20Galileo%20Teachers%20Training%20Program%20Swinburne%20Astronomy%20Online%20Dark%20Skies%20Bright%20Kids%20the%20Canadian%20Astronomy%20Data%20Centre%20and%20its%20member%20organizations%20the%20Galileoscope%20Project%20and%20several%20NASA%20projects> ;
+            :hasName :CosmoQuest.org ;
+            :name "CosmoQuest.org" ] .
+
+:Aussie_Backyard_Bird_Count a :Project ;
+    :began 2014 ;
+    :hasArea :Australia ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2014> ;
+    :hasDiscipline wp:Ornithology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Aussie%20Backyard%20Bird%20Count> ;
+    :hasSponsoringorg wp:BirdLife_Australia ;
+    :projectName "Aussie Backyard Bird Count" .
+
+:B.C._Cetacean_Sightings_Network a :Project ;
+    :began 1999 ;
+    :hasArea :Canada_British_Columbia ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#1999> ;
+    :hasDiscipline wp:Cetology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#B.C.%20Cetacean%20Sightings%20Network> ;
+    :hasSponsoringorg wp:Fisheries_and_Oceans_Canada,
+        wp:Vancouver_Aquarium ;
+    :projectName "B.C. Cetacean Sightings Network" .
+
+:Backyard_Bark_Beetles a :Project ;
+    :began 2014 ;
+    :hasArea :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2014> ;
+    :hasDiscipline wp:Entomology,
+        wp:Invasive_Species ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Backyard%20Bark%20Beetles> ;
+    :hasSponsoringorg :ub1bL258C20 ;
+    :projectName "Backyard Bark Beetles" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Forest%20Entomology%20lab%20at%20the%20University%20of%20Florida%2C%20Gainesville%2C%20FL> ;
+            :name "Forest Entomology lab at the University of Florida, Gainesville, FL" ] .
+
+:Bauhinia_Genome a :Project ;
+    :hasArea :Hong_Kong ;
+    :hasDiscipline wp:Biology,
+        wp:Environmental_science ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Bauhinia%20Genome> ;
+    :hasSponsoringorg :Community ;
+    :projectName "Bauhinia Genome" .
+
+:Big_Bug_Hunt a :Project ;
+    :began 2016 ;
+    :hasArea :UK,
+        :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2016> ;
+    :hasDiscipline wp:Entomology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Big%20Bug%20Hunt> ;
+    :hasSponsoringorg :ub1bL279C137,
+        :ub1bL279C20,
+        :ub1bL279C40,
+        :ub1bL279C71 ;
+    :projectName "Big Bug Hunt" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Innovate%20UK> ;
+            :name "Innovate UK" ],
+        [ :hasName :GrowVeg ;
+            :name "GrowVeg" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#University%20of%20York> ;
+            :name "University of York" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Biotechnology%20and%20Biological%20Sciences%20Research%20Council> ;
+            :name "Biotechnology and Biological Sciences Research Council" ] .
+
+:Big_Butterfly_Count a :Project ;
+    :began 2010 ;
+    :hasArea :UK ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2010> ;
+    :hasDiscipline wp:Entomology,
+        wp:Lepidoptera ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Big%20Butterfly%20Count> ;
+    :hasSponsoringorg wp:Butterfly_Conservation ;
+    :projectName "Big Butterfly Count" .
+
+:Big_Moss_Map a :Project ;
+    :began 2015 ;
+    :hasArea :UK ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2015> ;
+    :hasDiscipline wp:Botany,
+        wp:Climatology,
+        wp:Peatlands ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Big%20Moss%20Map> ;
+    :hasSponsoringorg wp:Moors_for_the_Future ;
+    :projectName "Big Moss Map" .
+
+:BioBotz_TTA a :Project ;
+    :hasArea :Bangladesh ;
+    :hasDiscipline wp:Biology,
+        wp:Ecology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#BioBotz%2C%20TTA> ;
+    :projectName "BioBotz, TTA" .
+
+:BioDiversity_Heritage_Library_Flickr_Image_Tagging a :Project ;
+    :hasArea :Worldwide ;
+    :hasDiscipline wp:Botany,
+        wp:Entomology,
+        wp:Ornithology,
+        wp:Zoology,
+        <https://en.wikipedia.org/wiki/Taxonomy_(biology)> ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#BioDiversity%20Heritage%20Library%20Flickr%20Image%20Tagging> ;
+    :hasSponsoringorg wp:Biodiversity_Heritage_Library ;
+    :projectName "BioDiversity Heritage Library Flickr Image Tagging" .
+
+:BirdSleuth_K-12 a :Project ;
+    :began 2004 ;
+    :hasArea :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2004> ;
+    :hasDiscipline wp:Ornithology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#BirdSleuth%20K-12> ;
+    :hasSponsoringorg wp:Cornell_Lab_of_Ornithology ;
+    :projectName "BirdSleuth K-12" .
+
+:Birdcount_India a :Project ;
+    :began 2019 ;
+    :hasArea :India ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2019> ;
+    :hasDiscipline wp:Biology,
+        wp:Conservation_biology,
+        wp:Ecology,
+        wp:Ornithology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Birdcount%20India> ;
+    :hasSponsoringorg :ub1bL333C20 ;
+    :projectName "Birdcount India" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Bird%20Count%20India%20partnership> ;
+            :name "Bird Count India partnership" ] .
+
+:Birds-Windows_Collisions_Project_Costa_Rica a :Project ;
+    :began 2013 ;
+    :hasArea :Costa_Rica ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2013> ;
+    :hasDiscipline wp:Conservation_biology,
+        wp:Ecology,
+        wp:Ornithology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Birds-Windows%20Collisions%20Project%20Costa%20Rica> ;
+    :hasSponsoringorg :ub1bL354C21 ;
+    :projectName "Birds-Windows Collisions Project Costa Rica" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Costa%20Rica%20Distance%20Learning%20University%20UNED> ;
+            :name "Costa Rica Distance Learning University UNED" ] .
+
+:Birds_and_Windows_Project a :Project ;
+    :began 2013 ;
+    :hasArea :Canada ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2013> ;
+    :hasDiscipline wp:Conservation_biology,
+        wp:Ecology,
+        wp:Ornithology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Birds%20and%20Windows%20Project> ;
+    :hasSponsoringorg wp:University_of_Alberta ;
+    :projectName "Birds and Windows Project" .
+
+:Brooklyn_Atlantis a :Project ;
+    :began 2012 ;
+    :hasArea :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2012> ;
+    :hasDiscipline wp:Pollution,
+        wp:Robotics,
+        wp:Water_Quality,
+        wp:Wildlife ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Brooklyn%20Atlantis> ;
+    :hasSponsoringorg wp:New_York_University_Polytechnic_School_of_Engineering ;
+    :projectName "Brooklyn Atlantis" .
+
+:Budworm_Tracker_Program a :Project ;
+    :began 2015 ;
+    :hasArea :Fredericton_NB,
+        :Maine_USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2015> ;
+    :hasDiscipline wp:Insect_Research ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Budworm%20Tracker%20Program> ;
+    :hasSponsoringorg wp:John_Hughs_Forestry_Center ;
+    :projectName "Budworm Tracker Program" .
+
+:Bumble_Bee_Watch a :Project ;
+    :began 2014 ;
+    :hasArea :Canada,
+        :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2014> ;
+    :hasDiscipline wp:Entomology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Bumble%20Bee%20Watch> ;
+    :hasSponsoringorg :ub1bL389C128,
+        :ub1bL389C148,
+        wp:Montréal_Insectarium,
+        wp:Natural_History_Museum,
+        wp:University_of_Ottawa,
+        wp:Wildlife_Preservation_Canada,
+        wp:Xerces_Society ;
+    :projectName "Bumble Bee Watch" ;
+    :sponsoringOrg [ :hasName :_London ;
+            :name "_London" ],
+        [ :hasName :_BeeSpotter ;
+            :name "_BeeSpotter" ] .
+
+:Canadian_National_Wildlife_Disease_Surveillance a :Project ;
+    :began 1992 ;
+    :hasArea :Canada ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#1992> ;
+    :hasDiscipline wp:Health,
+        wp:Wildlife ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Canadian%20National%20Wildlife%20Disease%20Surveillance> ;
+    :hasSponsoringorg :ub1bL403C21 ;
+    :projectName "Canadian National Wildlife Disease Surveillance" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Canadian%20Wildlife%20Health%20Cooperative> ;
+            :name "Canadian Wildlife Health Cooperative" ] .
+
+:Canberra_Nature_Map a :Project ;
+    :began 2013 ;
+    :hasArea :Australia ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2013> ;
+    :hasDiscipline wp:Wildlife ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Canberra%20Nature%20Map> ;
+    :hasSponsoringorg :ub1bL410C21 ;
+    :projectName "Canberra Nature Map" ;
+    :sponsoringOrg [ :hasName :NatureMapr ;
+            :name "NatureMapr" ] .
+
+:Cape_Citizen_Science a :Project ;
+    :began 2015 ;
+    :hasArea :South_Africa ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2015> ;
+    :hasDiscipline wp:Biology,
+        wp:Botany,
+        wp:Plant_Disease ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Cape%20Citizen%20Science> ;
+    :hasSponsoringorg wp:University_of_Pretoria ;
+    :projectName "Cape Citizen Science" .
+
+:Celebrate_Urban_Birds a :Project ;
+    :hasArea :USA ;
+    :hasDiscipline wp:Ornithology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Celebrate%20Urban%20Birds> ;
+    :hasSponsoringorg wp:Cornell_Lab_of_Ornithology ;
+    :projectName "Celebrate Urban Birds" .
+
+:Cicada_Watch_Brood_II a :Project ;
+    :began 2013 ;
+    :hasArea :Northeastern_America ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2013> ;
+    :hasDiscipline wp:Entomology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Cicada%20Watch%3A%20Brood%20II> ;
+    :hasSponsoringorg wp:National_Geographic_Society ;
+    :projectName "Cicada Watch: Brood II" .
+
+:Cidadão_Cientista a :Project ;
+    :began 2004 ;
+    :hasArea :Brazil ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2004> ;
+    :hasDiscipline wp:Environmental_science ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Cidad%C3%A3o%20Cientista> ;
+    :hasSponsoringorg :ub1bL438C21 ;
+    :projectName "Cidadão Cientista" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Save%20Brasil> ;
+            :name "Save Brasil" ] .
+
+:Cities_at_Night a :Project ;
+    :began 2014 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2014> ;
+    :hasDiscipline wp:Light_pollution ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Cities%20at%20Night> ;
+    :hasSponsoringorg :Crowdsourced,
+        wp:Complutense_University_of_Madrid ;
+    :projectName "Cities at Night" .
+
+:Citizen_Seismology a :Project ;
+    :hasArea :Bruyères-le-Châtel,
+        :France ;
+    :hasDiscipline wp:Seismology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Citizen%20Seismology> ;
+    :hasSponsoringorg wp:European-Mediterranean_Seismological_Centre ;
+    :projectName "Citizen Seismology" .
+
+:City_Nature_Challenge_2019 a :Project ;
+    :began 2019 ;
+    :hasArea :Hong_Kong,
+        :India,
+        :Tokyo ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2019> ;
+    :hasDiscipline wp:Biology,
+        wp:Computer_science,
+        wp:Environmental_science ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#City%20Nature%20Challenge%202019> ;
+    :hasSponsoringorg :Community,
+        wp:Ahmedabad_University,
+        wp:University_of_Tokyo ;
+    :projectName "City Nature Challenge 2019" .
+
+:Ciudadanos_Cientifícos a :Project ;
+    :began 2015 ;
+    :hasArea :,
+        :Valle_de_Aburrá_Colombia ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2015> ;
+    :hasDiscipline wp:Air_pollution,
+        wp:Air_quality_index,
+        wp:Environmental_science,
+        wp:Meteorology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Ciudadanos%20Cientif%C3%ADcos> ;
+    :hasSponsoringorg :ub1bL445C21,
+        :ub1bL487C21 ;
+    :projectName "Ciudadanos Cientifícos" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#SIATA%20%C3%81rea%20Metropolitana%20del%20Valle%20de%20Aburr%C3%A1%20> ;
+            :name "SIATA Área Metropolitana del Valle de Aburrá " ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#%C3%81rea%20metropolitana%20del%20Valle%20de%20Aburr%C3%A1%7Ces%7C%C3%81rea%20Metropolitana%20del%20Valle%20de%20Aburr%C3%A1%7D%7D%20SIATA> ;
+            :name "Área metropolitana del Valle de Aburrá|es|Área Metropolitana del Valle de Aburrá}} SIATA" ] .
+
+:Cochrane_Crowd a :Project ;
+    :began 2016 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2016> ;
+    :hasDiscipline di:Health,
+        wp:Evidence-based_medicine,
+        wp:Medicine ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Cochrane%20Crowd> ;
+    :hasSponsoringorg <https://en.wikipedia.org/wiki/Cochrane_(organisation)> ;
+    :projectName "Cochrane Crowd" .
+
+:Community_Snow_Observations a :Project ;
+    :began 2017 ;
+    :hasArea :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2017> ;
+    :hasDiscipline di:Cryospheric_science,
+        wp:atmospheric_science,
+        wp:climatology,
+        wp:hydrology,
+        wp:meteorology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Community%20Snow%20Observations%20%28CSO%29%3Cref%3E%3Chttp%3A//communitysnowobs.org/%3E%20%3ACommunity%20Snow%20Observations%3A%20Citizen%20Science> ;
+    :hasSponsoringorg wp:NASA ;
+    :projectName "Community Snow Observations (CSO)<ref><http://communitysnowobs.org/> :Community Snow Observations: Citizen Science" .
+
+:Condor_Watch a :Project ;
+    :began 2014 ;
+    :hasArea :California ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2014> ;
+    :hasDiscipline wp:Conservation_biology,
+        wp:Ornithology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Condor%20Watch> ;
+    :hasSponsoringorg <https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)> ;
+    :projectName "Condor Watch" .
+
+:DIY_BIO_Hong_Kong a :Project ;
+    :began 2017 ;
+    :hasArea :Hong_Kong ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2017> ;
+    :hasDiscipline wp:Biology,
+        wp:Environmental_science ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#DIY%20BIO%20Hong%20Kong> ;
+    :hasSponsoringorg :Community ;
+    :projectName "DIY BIO Hong Kong" .
+
+:Darwin_s_Ark a :Project ;
+    :began 2016 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2016> ;
+    :hasDiscipline wp:Genomics,
+        wp:Health ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Darwin%27s%20Ark> ;
+    :hasSponsoringorg wp:Broad_Institute,
+        wp:University_of_Massachusetts_Medical_School ;
+    :projectName "Darwin's Ark" .
+
+:Did_You_Feel_It a :Project ;
+    :hasArea :Worldwide ;
+    :hasDiscipline wp:Seismology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Did%20You%20Feel%20It%3F> ;
+    :hasSponsoringorg wp:United_States_Geological_Survey ;
+    :projectName "Did You Feel It?" .
+
+:Diver_Safety_Guardian a :Project ;
+    :began 1994 ;
+    :hasArea :Europe_and_Africa ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#1994> ;
+    :hasDiscipline wp:Decompression_theory ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Diver%20Safety%20Guardian> ;
+    :hasSponsoringorg <http://en.wikipedia.org/wiki/DAN_Europe_and_wp:DAN_Southern_Africa> ;
+    :projectName "Diver Safety Guardian" .
+
+:Doing_It_Together_Science_DITOs a :Project ;
+    :began 2016 ;
+    :hasArea :Europe ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2016> ;
+    :hasDiscipline di:Biodesign,
+        di:Environmental_Sustainability,
+        di:Policy ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Doing%20It%20Together%20Science%20DITOs> ;
+    :hasSponsoringorg :ub1bL662C133,
+        :ub1bL662C151,
+        :ub1bL662C179,
+        :ub1bL662C213,
+        :ub1bL662C260,
+        :ub1bL662C277,
+        wp:Museum_of_Natural_Sciences,
+        wp:University_College_London,
+        wp:University_of_Geneva,
+        wp:Université_Paris_Descartes,
+        wp:Waag_Society ;
+    :projectName "Doing It Together Science DITOs" ;
+    :sponsoringOrg [ :hasName :_ECSA ;
+            :name "_ECSA" ],
+        [ :hasName :_Medialab_Prado ;
+            :name "_Medialab_Prado" ],
+        [ :hasName :_Kersnikova_Institute ;
+            :name "_Kersnikova_Institute" ],
+        [ :hasName :_Meritum ;
+            :name "_Meritum" ],
+        [ :hasName :Tekiu ;
+            :name "Tekiu" ],
+        [ :hasName :eutema ;
+            :name "eutema" ] .
+
+:Explore_the_Seafloor a :Project ;
+    :began 2013 ;
+    :hasArea :Australia ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2013> ;
+    :hasDiscipline wp:Marine_Science ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Explore%20the%20Seafloor> ;
+    :hasSponsoringorg :ub1bL732C20,
+        wp:Australian_Broadcasting_Corporation ;
+    :projectName "Explore the Seafloor" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#National%20Science%20Week%20Australia> ;
+            :name "National Science Week Australia" ] .
+
+:Floating_Forests a :Project ;
+    :began 2014 ;
+    :hasArea :US ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2014> ;
+    :hasDiscipline wp:Kelp,
+        wp:Marine_Science ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Floating%20Forests> ;
+    :hasSponsoringorg wp:Cal_State_Monterey_Bay,
+        wp:UCLA,
+        wp:University_of_Massachusetts_Boston ;
+    :projectName "Floating Forests" .
+
+:Fossil_Atmospheres a :Project ;
+    :began 2016 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2016> ;
+    :hasDiscipline wp:Biology,
+        wp:climate_change,
+        wp:paleontology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Fossil%20Atmospheres> ;
+    :hasSponsoringorg wp:Smithsonian_Institution ;
+    :projectName "Fossil Atmospheres" .
+
+:FreshWater_Watch a :Project ;
+    :began 2012 ;
+    :hasArea :Global ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2012> ;
+    :hasDiscipline wp:Environmental_science ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#FreshWater%20Watch> ;
+    :hasSponsoringorg :ub1bL781C21 ;
+    :projectName "FreshWater Watch" ;
+    :sponsoringOrg [ :hasName :Earthwatch ;
+            :name "Earthwatch" ] .
+
+:FrogWatch_USA a :Project ;
+    :began 1998 ;
+    :hasArea :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#1998> ;
+    :hasDiscipline wp:Conservation_biology,
+        wp:Ecology,
+        wp:Herpetology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#FrogWatch%20USA%3Csup%3ETM%3C/sup%3E> ;
+    :hasSponsoringorg wp:Association_of_Zoos_and_Aquariums ;
+    :projectName "FrogWatch USA<sup>TM</sup>" .
+
+:Galaxy_Explorer a :Project ;
+    :began 2015 ;
+    :hasArea :Australia ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2015> ;
+    :hasDiscipline wp:Astronomy ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Galaxy%20Explorer> ;
+    :hasSponsoringorg :ub1bL802C20,
+        wp:Australian_Broadcasting_Corporation ;
+    :projectName "Galaxy Explorer" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#National%20Science%20Week%20Australia> ;
+            :name "National Science Week Australia" ] .
+
+:Garden_Wildlife_Health a :Project ;
+    :began 2013 ;
+    :hasArea :UK ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2013> ;
+    :hasDiscipline wp:Conservation_biology,
+        wp:Veterinary ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Garden%20Wildlife%20Health> ;
+    :hasSponsoringorg wp:British_Trust_for_Ornithology,
+        wp:Froglife,
+        wp:Royal_Society_for_the_Protection_of_Birds,
+        wp:Zoological_Society_of_London ;
+    :projectName "Garden Wildlife Health" .
+
+:Georgia_Adopt-A-Stream a :Project ;
+    :began 1995 ;
+    :hasArea :Georgia,
+        :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#1995> ;
+    :hasDiscipline wp:Water_Quality ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Georgia%20Adopt-A-Stream> ;
+    :projectName "Georgia Adopt-A-Stream" .
+
+:Go_Viral_Study a :Project ;
+    :began 2013 ;
+    :hasArea :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2013> ;
+    :hasDiscipline di:Infectious_Disease ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Go%20Viral%20Study%20> ;
+    :hasSponsoringorg :ub1bL886C20,
+        :ub1bL886C60,
+        :ub1bL886C82 ;
+    :projectName "Go Viral Study " ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#National%20Science%20Foundation> ;
+            :name "National Science Foundation" ],
+        [ :hasName :OpenHumans ;
+            :name "OpenHumans" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#New%20York%20University> ;
+            :name "New York University" ] .
+
+:Great_Backyard_Bird_Count a :Project ;
+    :hasArea :Worldwide ;
+    :hasDiscipline wp:Ornithology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Great%20Backyard%20Bird%20Count> ;
+    :hasSponsoringorg wp:Cornell_Lab_of_Ornithology,
+        wp:National_Audubon_Society ;
+    :projectName "Great Backyard Bird Count" .
+
+:Great_World_Wide_Star_Count a :Project ;
+    :hasArea :Worldwide ;
+    :hasDiscipline wp:Astronomy ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Great%20World%20Wide%20Star%20Count> ;
+    :hasSponsoringorg wp:National_Earth_Science_Teachers_Association,
+        wp:Windows_to_the_Universe ;
+    :projectName "Great World Wide Star Count" .
+
+:Habitat_Network a :Project ;
+    :began 2012 ;
+    :hasArea <http://cui.unige.ch/isi/swt/tp2a#wp:North_America> ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2012> ;
+    :hasDiscipline wp:Conservation_biology,
+        wp:Ornithology,
+        wp:Wildlife ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Habitat%20Network> ;
+    :hasSponsoringorg wp:The_Nature_Conservancy_and_the_Cornell_Lab_of_Ornithology ;
+    :projectName "Habitat Network" .
+
+:Hare_Survey a :Project ;
+    :began 2015 ;
+    :hasArea :UK ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2015> ;
+    :hasDiscipline wp:Biology,
+        wp:Wildlife ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Hare%20Survey> ;
+    :hasSponsoringorg :ub1bL900C21 ;
+    :projectName "Hare Survey" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Moors%20for%20the%20Future%20Partnership> ;
+            :name "Moors for the Future Partnership" ] .
+
+:Hazelnut_Project a :Project ;
+    :began 2000 ;
+    :hasArea :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2000> ;
+    :hasDiscipline wp:Agronomy,
+        wp:Botany ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Hazelnut%20Project%2C%20The> ;
+    :hasSponsoringorg :ub1bL907C20,
+        wp:National_Arbor_Day_Foundation,
+        wp:Oregon_State_University,
+        wp:Rutgers_University,
+        wp:University_of_Nebraska-Lincoln ;
+    :projectName "Hazelnut Project, The" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Hybrid%20Hazelnut%20Consortium> ;
+            :name "Hybrid Hazelnut Consortium" ] .
+
+:Herbarium-at-home a :Project ;
+    :began 2006 ;
+    :hasArea :UK ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2006> ;
+    :hasDiscipline wp:Botany ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Herbarium%40home> ;
+    :hasSponsoringorg wp:Botanical_Society_of_Britain_and_Ireland ;
+    :projectName "Herbarium@home" .
+
+:Herpetological_Education_and_Research_Project a :Project ;
+    :began 2007 ;
+    :hasArea <http://cui.unige.ch/isi/swt/tp2a#wp:North_America> ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2007> ;
+    :hasDiscipline wp:Herpetology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Herpetological%20Education%20and%20Research%20Project> ;
+    :hasSponsoringorg :ub1bL929C21 ;
+    :projectName "Herpetological Education and Research Project" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#HERP%20Board%20of%20Trustees> ;
+            :name "HERP Board of Trustees" ] .
+
+:Hong_Kong_Bird_Watching_Society a :Project ;
+    :began 2019 ;
+    :hasArea :Hong_Kong ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2019> ;
+    :hasDiscipline wp:Biology,
+        wp:Ecology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Hong%20Kong%20Bird%20Watching%20Society> ;
+    :hasSponsoringorg wp:Hong_Kong_Bird_Watching_Society ;
+    :projectName "Hong Kong Bird Watching Society" .
+
+:Hummingbird_Migration_Tracker a :Project ;
+    :began 2010 ;
+    :hasArea :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2010> ;
+    :hasDiscipline wp:Ornithology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Hummingbird%20Migration%20Tracker> ;
+    :hasSponsoringorg :ub1bL964C21 ;
+    :projectName "Hummingbird Migration Tracker" ;
+    :sponsoringOrg [ :hasName :Birdfeeders.com ;
+            :name "Birdfeeders.com" ] .
+
+:Hummingbirds_at_Home a :Project ;
+    :began 2013 ;
+    :hasArea :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2013> ;
+    :hasDiscipline wp:Ornithology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Hummingbirds%20at%20Home> ;
+    :hasSponsoringorg wp:National_Audubon_Society ;
+    :projectName "Hummingbirds at Home" .
+
+:IDAH2O_Master_Water_Stewards a :Project ;
+    :began 2010 ;
+    :hasArea :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2010> ;
+    :hasDiscipline wp:Water_Quality ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#IDAH2O%20Master%20Water%20Stewards> ;
+    :hasSponsoringorg wp:University_of_Idaho ;
+    :projectName "IDAH2O Master Water Stewards" .
+
+:Identify_animals a :Project ;
+    :began 2015 ;
+    :hasArea :New_Zealand ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2015> ;
+    :hasDiscipline wp:Conservation_Biology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Identify%20animals> ;
+    :hasSponsoringorg wp:Victoria_University_of_Wellington ;
+    :projectName "Identify animals" .
+
+:Instant_Wild a :Project ;
+    :began 2011 ;
+    :hasArea :Global ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2011> ;
+    :hasDiscipline wp:Ecology,
+        wp:Species_Diversity,
+        wp:Wildlife,
+        wp:Zoology,
+        <https://en.wikipedia.org/wiki/Conservation_(ethic)> ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Instant%20Wild> ;
+    :hasSponsoringorg :ub1bL1013C21 ;
+    :projectName "Instant Wild" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Zoological%20Society%20of%20London> ;
+            :name "Zoological Society of London" ] .
+
+:Kinsey_Reporter a :Project ;
+    :began 2012 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2012> ;
+    :hasDiscipline di:Sex_and_Attraction ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Kinsey%20Reporter> ;
+    :hasSponsoringorg wp:The_Kinsey_Institute ;
+    :projectName "Kinsey Reporter" .
+
+:Koala_Count a :Project ;
+    :began 2014 ;
+    :hasArea :Australia ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2014> ;
+    :hasDiscipline wp:Wildlife ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Koala%20Count> ;
+    :hasSponsoringorg :ub1bL1041C21 ;
+    :projectName "Koala Count" ;
+    :sponsoringOrg [ :hasName :NatureMapr ;
+            :name "NatureMapr" ] .
+
+:Landscape_Watch_Hampshire a :Project ;
+    :began 2015 ;
+    :hasArea <http://cui.unige.ch/isi/swt/tp2a#wp:Hampshire>,
+        <http://cui.unige.ch/isi/swt/tp2a#wp:UK> ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2015> ;
+    :hasDiscipline wp:Environmental_science,
+        wp:Geography ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Landscape%20Watch%20Hampshire> ;
+    :hasSponsoringorg :ub1bL1048C21 ;
+    :projectName "Landscape Watch Hampshire" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Crowdsourcing%20Landscape%20Change%20Consortium> ;
+            :name "Crowdsourcing Landscape Change Consortium" ] .
+
+:Landslide_Reporter a :Project ;
+    :began 2018 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2018> ;
+    :hasDiscipline wp:Environmental_science,
+        wp:Geography,
+        wp:Natural_hazards ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Landslide%20Reporter> ;
+    :hasSponsoringorg wp:Goddard_Space_Flight_Center ;
+    :projectName "Landslide Reporter" .
+
+:Local_Environmental_Observer_Network a :Project ;
+    :began 2012 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2012> ;
+    :hasDiscipline wp:Climate_change_impacts,
+        wp:Ecology,
+        wp:Environmental_change,
+        wp:Human_well-being,
+        wp:Knowledge_integration ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Local%20Environmental%20Observer%20%28LEO%29%20Network> ;
+    :hasSponsoringorg wp:Alaska_Native_Tribal_Health_Consortium,
+        wp:Commission_for_Environmental_Cooperation,
+        wp:First_Nations_Health_Authority,
+        wp:US_Environmental_Protection_Agency ;
+    :projectName "Local Environmental Observer (LEO) Network" .
+
+:Marine_Metres_Squared a :Project ;
+    :hasArea :New_Zealand ;
+    :hasDiscipline wp:Conservation_Biology,
+        wp:Marine_Ecology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Marine%20Metres%20Squared> ;
+    :hasSponsoringorg :ub1bL1132C21 ;
+    :projectName "Marine Metres Squared" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#New%20Zealand%20Marine%20Studies%20Centre> ;
+            :name "New Zealand Marine Studies Centre" ] .
+
+:Massachusetts_Herpetological_Atlas a :Project ;
+    :began 1992 ;
+    :hasArea :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#1992> ;
+    :hasDiscipline wp:Herpetology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Massachusetts%20Herpetological%20Atlas> ;
+    :hasSponsoringorg wp:University_of_Massachusetts_Amherst ;
+    :projectName "Massachusetts Herpetological Atlas" .
+
+:Michigan_Herp_Atlas_Project a :Project ;
+    :began 2004 ;
+    :hasArea :Michigan ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2004> ;
+    :hasDiscipline wp:Herpetology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Michigan%20Herp%20Atlas%20Project> ;
+    :hasSponsoringorg :ub1bL1155C21 ;
+    :projectName "Michigan Herp Atlas Project" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Michigan%20Department%20of%20Natural%20Resources> ;
+            :name "Michigan Department of Natural Resources" ] .
+
+:Mitten_Crab_Recording_Project a :Project ;
+    :hasArea :UK ;
+    :hasDiscipline wp:Invasive_Species,
+        wp:Marine_Biology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Mitten%20Crab%20Recording%20Project> ;
+    :hasSponsoringorg wp:Marine_Biological_Association_of_the_United_Kingdom ;
+    :projectName "Mitten Crab Recording Project" .
+
+:Moon_Mappers a :Project ;
+    :began 2011 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2011> ;
+    :hasDiscipline wp:Planetary_science ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Moon%20Mappers> ;
+    :projectName "Moon Mappers" .
+
+:NatureWatch a :Project ;
+    :hasArea :Canada ;
+    :hasDiscipline wp:Ecology,
+        wp:Herpetology,
+        wp:Phenology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#NatureWatch%20%2AFrogWatch%20%2AIceWatch%20%2APlantWatch%20%2AWormWatch> ;
+    :hasSponsoringorg wp:Nature_Canada ;
+    :projectName "NatureWatch *FrogWatch *IceWatch *PlantWatch *WormWatch" .
+
+:NatureWatch_NZ a :Project ;
+    :began 2006 ;
+    :hasArea :New_Zealand ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2006> ;
+    :hasDiscipline wp:Botany,
+        wp:Ecology,
+        wp:Entomology,
+        wp:Ornithology,
+        wp:Phenology,
+        wp:Zoology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#NatureWatch%20NZ> ;
+    :hasSponsoringorg :ub1bL1253C21 ;
+    :projectName "NatureWatch NZ" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#New%20Zealand%20Bio-Diversity%20Recording%20Network%20Trust> ;
+            :name "New Zealand Bio-Diversity Recording Network Trust" ] .
+
+:Nature_s_Calendar a :Project ;
+    :hasArea :UK ;
+    :hasDiscipline wp:Phenology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Nature%27s%20Calendar> ;
+    :hasSponsoringorg wp:Woodland_Trust ;
+    :projectName "Nature's Calendar" .
+
+:Natures_Notebook a :Project ;
+    :began 2009 ;
+    :hasArea :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2009> ;
+    :hasDiscipline wp:Phenology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Nature%27s%20Notebook> ;
+    :hasSponsoringorg :ub1bL1239C21 ;
+    :projectName "Nature's Notebook" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#USA%20National%20Phenology%20Network> ;
+            :name "USA National Phenology Network" ] .
+
+:Neighborhood_Nestwatch a :Project ;
+    :hasArea :USA ;
+    :hasDiscipline wp:Ornithology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Neighborhood%20Nestwatch> ;
+    :hasSponsoringorg wp:Smithsonian_Institution,
+        wp:Smithsonian_Migratory_Bird_Center,
+        <https://en.wikipedia.org/wiki/National_Zoological_Park_(United_States)> ;
+    :projectName "Neighborhood Nestwatch" .
+
+:North_American_Bird_Phenology_Program a :Project ;
+    :began 2008 ;
+    :hasArea <http://cui.unige.ch/isi/swt/tp2a#wp:North_America> ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2008> ;
+    :hasDiscipline wp:Ornithology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#North%20American%20Bird%20Phenology%20Program> ;
+    :hasSponsoringorg wp:United_States_Geological_Survey ;
+    :projectName "North American Bird Phenology Program" .
+
+:North_American_Field_Herping_Association a :Project ;
+    :began 2007 ;
+    :hasArea <http://cui.unige.ch/isi/swt/tp2a#wp:North_America> ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2007> ;
+    :hasDiscipline wp:Herpetology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#North%20American%20Field%20Herping%20Association> ;
+    :hasSponsoringorg :ub1bL1280C21 ;
+    :projectName "North American Field Herping Association" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#North%20American%20field%20herping%20community> ;
+            :name "North American field herping community" ] .
+
+:Notes_from_Nature a :Project ;
+    :hasArea :Worldwide ;
+    :hasDiscipline wp:Botany,
+        wp:Entomology,
+        wp:Mycology,
+        wp:Ornithology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Notes%20from%20Nature> ;
+    :hasSponsoringorg <https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)> ;
+    :projectName "Notes from Nature" .
+
+:Odonata_Central a :Project ;
+    :began 2004 ;
+    :hasArea :North_America ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2004> ;
+    :hasDiscipline wp:Odonata ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Odonata%20Central> ;
+    :projectName "Odonata Central" .
+
+:Ontario_Butterfly_Atlas_Online a :Project ;
+    :began 1969 ;
+    :hasArea :Canada_Ontario ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#1969> ;
+    :hasDiscipline wp:Entomology,
+        wp:Lepidoptera ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Ontario%20Butterfly%20Atlas%20Online> ;
+    :hasSponsoringorg :ub1bL1329C21 ;
+    :projectName "Ontario Butterfly Atlas Online" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Toronto%20Entomologists%E2%80%99%20Association%20> ;
+            :name "Toronto Entomologists’ Association " ] .
+
+:Ontario_Reptile_and_Amphibian_Atlas a :Project ;
+    :hasArea :Canada_Ontario ;
+    :hasDiscipline wp:Herpetology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Ontario%20Reptile%20and%20Amphibian%20Atlas> ;
+    :hasSponsoringorg :ub1bL1336C39,
+        wp:Ontario_Nature ;
+    :projectName "Ontario Reptile and Amphibian Atlas" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Ministry%20of%20Natural%20Resources%E2%80%99%20Natural%20Heritage%20Information%20Centre%20%28NHIC%29> ;
+            :name "Ministry of Natural Resources’ Natural Heritage Information Centre (NHIC)" ] .
+
+<http://cui.unige.ch/isi/swt/tp2a#Ontario_wp:BioBlitz> a :Project ;
+    :began 2012 ;
+    :hasArea :Canada_Ontario ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2012> ;
+    :hasDiscipline wp:Botany,
+        wp:Ecology,
+        wp:Entomology,
+        wp:Herpetology,
+        wp:Ichthyology,
+        wp:Lepidoptera,
+        wp:Ornithology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Ontario%20BioBlitz> ;
+    :hasSponsoringorg wp:Canadian_Wildlife_Federation,
+        wp:Nature_Conservancy_of_Canada,
+        wp:Ontario_Nature,
+        wp:Royal_Ontario_Museum,
+        wp:Toronto_Zoo,
+        wp:Toronto_and_Region_Conservation_Authority ;
+    :projectName "Ontario BioBlitz" .
+
+:Operation_Wallacea a :Project ;
+    :began 1996 ;
+    :hasArea :UK ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#1996> ;
+    :hasDiscipline wp:Biodiversity ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Operation%20Wallacea> ;
+    :hasSponsoringorg :ub1bL1343C21 ;
+    :projectName "Operation Wallacea" ;
+    :sponsoringOrg [ :hasName :Worldwide ;
+            :name "Worldwide" ] .
+
+:Orca_Game a :Project ;
+    :began 2013 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2013> ;
+    :hasDiscipline wp:Bioacoustics ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Orca%20Game> ;
+    :hasSponsoringorg :ub1bL1350C21 ;
+    :projectName "Orca Game" ;
+    :sponsoringOrg [ :hasName :Orchive ;
+            :name "Orchive" ] .
+
+<http://cui.unige.ch/isi/swt/tp2a#Orchids:Terrestrial_Spiranthes_in_an_Urban_Environment> a :Project ;
+    :began 2014 ;
+    :hasArea :OR,
+        :Portland ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2014> ;
+    :hasDiscipline wp:Environmental_Conservation ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Orchids%3ATerrestrial%20Spiranthes%20in%20an%20Urban%20Environment> ;
+    :hasSponsoringorg :ub1bL1357C21 ;
+    :projectName "Orchids:Terrestrial Spiranthes in an Urban Environment" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Hoyt%20Arboretum> ;
+            :name "Hoyt Arboretum" ] .
+
+:Ornitho_Deutschland a :Project ;
+    :began 2011 ;
+    :hasArea :Austria,
+        :France_part,
+        :Germany,
+        :Italy,
+        :Luxemburg,
+        :Poland,
+        :Spain_part,
+        :Switzerland ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2011> ;
+    :hasDiscipline wp:Ornithology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Ornitho%20Deutschland> ;
+    :hasSponsoringorg :ub1bL1364C21 ;
+    :projectName "Ornitho Deutschland" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#%7B%7Bill%7CDachverband%20Deutscher%20Avifaunisten%7Cde%7CDachverband%20Deutscher%20Avifaunisten%20%28DDA%29%20e.V.%7D%7D> ;
+            :name "{{ill|Dachverband Deutscher Avifaunisten|de|Dachverband Deutscher Avifaunisten (DDA) e.V.}}" ] .
+
+:PARS_Pennsylvania_Amphibian_and_Reptile_Survey a :Project ;
+    :hasArea :Pennsylvania ;
+    :hasDiscipline wp:Biology,
+        wp:Environmental_protection,
+        wp:Marine_biology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#PARS%20%28Pennsylvania%20Amphibian%20and%20Reptile%20Survey%29> ;
+    :hasSponsoringorg :ub1bL1378C21 ;
+    :projectName "PARS (Pennsylvania Amphibian and Reptile Survey)" ;
+    :sponsoringOrg [ :hasName :MACHAC ;
+            :name "MACHAC" ] .
+
+:Painted_Lady_Migration_Project a :Project ;
+    :hasArea :Worldwide ;
+    :hasDiscipline wp:Lepidoptera ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Painted%20Lady%20Migration%20Project> ;
+    :hasSponsoringorg :ub1bL1371C198,
+        :ub1bL1371C20,
+        wp:Barcelona_zoo,
+        wp:British_Ecological_Society,
+        wp:Harvard_University,
+        wp:Marie_Skłodowska-Curie_Actions,
+        wp:National_Geographic ;
+    :projectName "Painted Lady Migration Project" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Zerynthia%20Association> ;
+            :name "Zerynthia Association" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Institut%20de%20Biologia%20Evolutiva> ;
+            :name "Institut de Biologia Evolutiva" ] .
+
+:Penguin_Watch a :Project ;
+    :hasArea :Worldwide ;
+    :hasDiscipline wp:Ornithology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Penguin%20Watch> ;
+    :hasSponsoringorg <https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)> ;
+    :projectName "Penguin Watch" .
+
+:Pl_at_ntNet a :Project ;
+    :began 2008 ;
+    :hasArea :Global ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2008> ;
+    :hasDiscipline wp:Botany ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Pl%40ntNet> ;
+    :hasSponsoringorg <http://en.wikipedia.org/wiki/Institut_national_de_la_recherche_agronomique_wp:Inria> ;
+    :projectName "Pl@ntNet" .
+
+<http://cui.unige.ch/isi/swt/tp2a#Planet_Mappers:_Mercury> a :Project ;
+    :began 2011 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2011> ;
+    :hasDiscipline wp:Planetary_science ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Planet%20Mappers%3A%20Mercury> ;
+    :hasSponsoringorg :ub1bL1413C21 ;
+    :projectName "Planet Mappers: Mercury" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#CosmoQuest.org%3Cref%20%3Aname%20cosmos%20group%3Dnote%20/%3E> ;
+            :name "CosmoQuest.org<ref :name cosmos group=note />" ] .
+
+:Plankton_Project a :Project ;
+    :began 2013 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2013> ;
+    :hasDiscipline wp:Marine_biology,
+        wp:Zoology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Plankton%20Project> ;
+    :hasSponsoringorg <https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)> ;
+    :projectName "Plankton Project" .
+
+:Portland_Urban_Coyote_Project a :Project ;
+    :began 2011 ;
+    :hasArea :Oregon,
+        :Portland ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2011> ;
+    :hasDiscipline wp:Cartography,
+        wp:Ecology,
+        wp:Geography,
+        wp:Human_Dimensions_of_Wildlife,
+        wp:Zoology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Portland%20Urban%20Coyote%20Project> ;
+    :hasSponsoringorg wp:Portland_State_University ;
+    :projectName "Portland Urban Coyote Project" .
+
+:Project_Discovery_I a :Project ;
+    :began 2016 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2016> ;
+    :hasDiscipline wp:Biology,
+        wp:Cellular_biology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Project%20Discovery%20I.> ;
+    :hasSponsoringorg :ub1bL1448C20,
+        :ub1bL1448C58,
+        :ub1bL1448C79 ;
+    :projectName "Project Discovery I." ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Human%20Protein%20Atlas%20%28KTH%29> ;
+            :name "Human Protein Atlas (KTH)" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#CCP%20Games> ;
+            :name "CCP Games" ],
+        [ :hasName :MMOS ;
+            :name "MMOS" ] .
+
+:Project_Discovery_II a :Project ;
+    :began 2017 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2017> ;
+    :hasDiscipline wp:Astronomy ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Project%20Discovery%20II.> ;
+    :hasSponsoringorg :ub1bL1455C20,
+        :ub1bL1455C53,
+        :ub1bL1455C74 ;
+    :projectName "Project Discovery II." ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#University%20of%20Geneva> ;
+            :name "University of Geneva" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#CCP%20Games> ;
+            :name "CCP Games" ],
+        [ :hasName :MMOS ;
+            :name "MMOS" ] .
+
+:Project_Roadkill a :Project ;
+    :began 2014 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2014> ;
+    :hasDiscipline wp:Ecology,
+        wp:Road_Safety ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Project%20Roadkill> ;
+    :hasSponsoringorg :ub1bL1441C20,
+        :ub1bL1441C81 ;
+    :projectName "Project Roadkill" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#University%20of%20Natural%20Resources%20and%20Life%20Sciences> ;
+            :name "University of Natural Resources and Life Sciences" ],
+        [ :hasName :Vienna ;
+            :name "Vienna" ] .
+
+:Project_Soothe a :Project ;
+    :began 2014 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2014> ;
+    :hasDiscipline wp:Clinical_psychology,
+        wp:Psychotherapy ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Project%20Soothe> ;
+    :hasSponsoringorg wp:University_of_Edinburgh ;
+    :projectName "Project Soothe" .
+
+:Project_Splatter a :Project ;
+    :began 2013 ;
+    :hasArea :UK ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2013> ;
+    :hasDiscipline wp:Conservation_biology,
+        wp:Ecology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Project%20Splatter> ;
+    :hasSponsoringorg wp:Cardiff_University ;
+    :projectName "Project Splatter" .
+
+:Reading_Natures_Library a :Project ;
+    :hasArea :UK ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Reading%20Nature%27s%20Library> ;
+    :hasSponsoringorg wp:Manchester_Museum,
+        wp:University_of_Manchester ;
+    :projectName "Reading Nature's Library" .
+
+:Redmap_Range_Extension_Database_and_Mapping_Project a :Project ;
+    :began 2009 ;
+    :hasArea :Australia ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2009> ;
+    :hasDiscipline wp:Climate_Change,
+        wp:Marine_Ecology,
+        wp:Species_distribution ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Redmap%20%28Range%20Extension%20Database%20and%20Mapping%20Project%29> ;
+    :hasSponsoringorg wp:Institute_for_Marine_and_Antarctic_Studies,
+        wp:University_of_Tasmania ;
+    :projectName "Redmap (Range Extension Database and Mapping Project)" .
+
+:Reef_Check_Med a :Project ;
+    :began 2016 ;
+    :hasArea :Mediterranean_Sea ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2016> ;
+    :hasDiscipline di:Marine_Biology_and_Ecology,
+        wp:Environmental_Science ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Reef%20Check%20Med> ;
+    :hasSponsoringorg :ub1bL1538C114,
+        :ub1bL1538C20,
+        :ub1bL1538C50,
+        :ub1bL1538C85 ;
+    :projectName "Reef Check Med" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Reef%20Check%20Worldwide%20Foundation> ;
+            :name "Reef Check Worldwide Foundation" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Reef%20Check%20Italia> ;
+            :name "Reef Check Italia" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Reef%20Check%20Deutschland> ;
+            :name "Reef Check Deutschland" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Reef%20Check%20France> ;
+            :name "Reef Check France" ] .
+
+:Reef_Environmental_Education_Foundation_REEF a :Project ;
+    :began 1990 ;
+    :hasArea :FL_worldwide,
+        :Key_Largo ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#1990> ;
+    :hasDiscipline wp:Marine_biology,
+        wp:Marine_conservation ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Reef%20Environmental%20Education%20Foundation%20%28REEF%29> ;
+    :hasSponsoringorg wp:Non-profit_organization ;
+    :projectName "Reef Environmental Education Foundation (REEF)" .
+
+:Reef_Life_Survey_RLS a :Project ;
+    :hasArea :Australia ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Reef%20Life%20Survey%20%28RLS%29> ;
+    :hasSponsoringorg wp:Institute_for_Marine_and_Antarctic_Studies,
+        wp:University_of_Tasmania ;
+    :projectName "Reef Life Survey (RLS)" .
+
+:Report-a-weed a :Project ;
+    :hasArea :Canada ;
+    :hasDiscipline wp:Biodiversity ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Report-a-weed%20> ;
+    :hasSponsoringorg :ub1bL1552C21 ;
+    :projectName "Report-a-weed " ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#British%20Columbia%20government> ;
+            :name "British Columbia government" ] .
+
+:SatCam a :Project ;
+    :hasArea :Worldwide ;
+    :hasDiscipline wp:Meteorology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#SatCam%20> ;
+    :hasSponsoringorg :ub1bL1566C21 ;
+    :projectName "SatCam " ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#University%20of%20Wisconsin%20-%20Madison> ;
+            :name "University of Wisconsin - Madison" ] .
+
+:Science_Gossip_Biodiversity_Heritage_Library a :Project ;
+    :began 2015 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2015> ;
+    :hasDiscipline wp:Biodiversity,
+        wp:art,
+        wp:libraries ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Science%20Gossip%20Biodiversity%20Heritage%20Library> ;
+    :hasSponsoringorg <https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)> ;
+    :projectName "Science Gossip Biodiversity Heritage Library" .
+
+:Secchi_Disk a :Project ;
+    :began 2013 ;
+    :hasArea :Worldwide_Marine ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2013> ;
+    :hasDiscipline wp:Phytoplankton ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Secchi%20Disk> ;
+    :hasSponsoringorg :ub1bL1601C21 ;
+    :projectName "Secchi Disk" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Secchi%20Disk%20Project> ;
+            :name "Secchi Disk Project" ] .
+
+:Smithsonian_Transcription_Center a :Project ;
+    :began 2014 ;
+    :hasArea :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2014> ;
+    :hasDiscipline wp:Astronomy,
+        wp:Botany,
+        wp:Entomology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Smithsonian%20Transcription%20Center> ;
+    :hasSponsoringorg wp:Smithsonian_Institution ;
+    :projectName "Smithsonian Transcription Center" .
+
+:Speak_to_AI a :Project ;
+    :began 2018 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2018> ;
+    :hasDiscipline wp:Artificial_Intelligence,
+        wp:Linguistics,
+        wp:Machine_Learning ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Speak%20to%20AI> ;
+    :hasSponsoringorg :ub1bL1649C49,
+        wp:University_of_California ;
+    :projectName "Speak to AI" ;
+    :sponsoringOrg [ :hasName :_Irvine_ ;
+            :name "_Irvine_" ] .
+
+:Species_Observations_System a :Project ;
+    :began 2008 ;
+    :hasArea :Norway ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2008> ;
+    :hasDiscipline wp:Botany,
+        wp:Ecology,
+        wp:Entomology,
+        wp:Ornithology,
+        wp:Phenology,
+        wp:Zoology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Species%20Observations%20System> ;
+    :hasSponsoringorg :ub1bL1663C20,
+        :ub1bL1663C73 ;
+    :projectName "Species Observations System" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Norwegian%20Biodiversity%20Information%20Centre> ;
+            :name "Norwegian Biodiversity Information Centre" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Norwegian%20Biodiversity%20Network> ;
+            :name "Norwegian Biodiversity Network" ] .
+
+:Stall_Catchers a :Project ;
+    :began 2015 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2015> ;
+    :hasDiscipline wp:Alzheimers,
+        wp:Biomedical ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Stall%20Catchers> ;
+    :hasSponsoringorg :ub1bL1670C21 ;
+    :projectName "Stall Catchers" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#A%20game%20to%20accelerate%20Alzheimers%20research> ;
+            :name "A game to accelerate Alzheimers research" ] .
+
+:Striped_AmBASSadors a :Project ;
+    :began 2010 ;
+    :hasArea :Canada,
+        :NS ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2010> ;
+    :hasDiscipline wp:Ecology,
+        wp:Fisheries,
+        wp:Wildlife_conservation ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Striped%20AmBASSadors> ;
+    :hasSponsoringorg :ub1bL1677C20,
+        :ub1bL1677C58 ;
+    :projectName "Striped AmBASSadors" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Striped%20Bass%20Research%20Team> ;
+            :name "Striped Bass Research Team" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Acadia%20University> ;
+            :name "Acadia University" ] .
+
+:Taiwan_Breeding_Bird_Survey a :Project ;
+    :began 2019 ;
+    :hasArea :Taiwan ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2019> ;
+    :hasDiscipline wp:Biology,
+        wp:Ecology,
+        wp:List_of_life_sciences ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Taiwan%20Breeding%20Bird%20Survey> ;
+    :hasSponsoringorg :ub1bL1691C20 ;
+    :projectName "Taiwan Breeding Bird Survey" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#The%20Bird%20Breeding%20Survey%20of%20Taiwan> ;
+            :name "The Bird Breeding Survey of Taiwan" ] .
+
+:Taiwan_Roadkill_Observation_Network a :Project ;
+    :began 2019 ;
+    :hasArea :Taiwan ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2019> ;
+    :hasDiscipline wp:Ecology,
+        wp:Engineering,
+        wp:Environmental_science ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Taiwan%20Roadkill%20Observation%20Network> ;
+    :hasSponsoringorg :ub1bL1684C20 ;
+    :projectName "Taiwan Roadkill Observation Network" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Lusheng%20Society> ;
+            :name "Lusheng Society" ] .
+
+:Target_Asteroids a :Project ;
+    :began 2012 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2012> ;
+    :hasDiscipline wp:Planetary_science ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Target%20Asteroids%21> ;
+    :hasSponsoringorg :ub1bL1698C21 ;
+    :projectName "Target Asteroids!" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#OSIRIS-REx%20asteroid%20sample%20return%20mission> ;
+            :name "OSIRIS-REx asteroid sample return mission" ] .
+
+:Target_NEOs a :Project ;
+    :began 2012 ;
+    :hasArea :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2012> ;
+    :hasDiscipline wp:Planetary_science ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Target%20NEOs%21> ;
+    :hasSponsoringorg :ub1bL1705C21 ;
+    :projectName "Target NEOs!" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#The%20Astronomical%20League> ;
+            :name "The Astronomical League" ] .
+
+:Taxon_expeditions a :Project ;
+    :began 2017 ;
+    :hasArea :Borneo,
+        :Montenegro ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2017> ;
+    :hasDiscipline wp:Biodiversity,
+        wp:Ecology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Taxon%20expeditions> ;
+    :hasSponsoringorg :ub1bL1712C21 ;
+    :projectName "Taxon expeditions" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Taxon%20Expeditions> ;
+            :name "Taxon Expeditions" ] .
+
+:The_Shore_Thing_Project a :Project ;
+    :began 2006 ;
+    :hasArea :UK ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2006> ;
+    :hasDiscipline wp:Biology,
+        wp:Climate_Change,
+        wp:Invasive_Species,
+        wp:Marine_Biology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#The%20Shore%20Thing%20Project> ;
+    :hasSponsoringorg wp:Marine_Biological_Association_of_the_United_Kingdom ;
+    :projectName "The Shore Thing Project" .
+
+:Track_My_Fish a :Project ;
+    :began 2012 ;
+    :hasArea :Canada ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2012> ;
+    :hasDiscipline wp:Ecology,
+        wp:Fisheries,
+        wp:Tagging ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Track%20My%20Fish> ;
+    :hasSponsoringorg :ub1bL1747C20,
+        :ub1bL1747C58 ;
+    :projectName "Track My Fish" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Striped%20Bass%20Research%20Team> ;
+            :name "Striped Bass Research Team" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Acadia%20University> ;
+            :name "Acadia University" ] .
+
+:Track_a_Tree a :Project ;
+    :began 2014 ;
+    :hasArea :UK ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2014> ;
+    :hasDiscipline wp:Botany,
+        wp:Ecology,
+        wp:Phenology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Track%20a%20Tree> ;
+    :hasSponsoringorg :ub1bL1740C21 ;
+    :projectName "Track a Tree" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#University%20of%20Edinburgh%20and%20the%20Woodland%20Trust> ;
+            :name "University of Edinburgh and the Woodland Trust" ] .
+
+:Turtle_Survey_and_Analysis_Tools_TurtleSAT a :Project ;
+    :began 2014 ;
+    :hasArea :Australia ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2014> ;
+    :hasDiscipline wp:Herpetology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Turtle%20Survey%20and%20Analysis%20Tools%20%28TurtleSAT%29> ;
+    :hasSponsoringorg wp:University_of_Sydney,
+        wp:University_of_Western_Sydney ;
+    :projectName "Turtle Survey and Analysis Tools (TurtleSAT)" .
+
+:VT_Fish_Diaries a :Project ;
+    :began 2015 ;
+    :hasArea :USA_VT ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2015> ;
+    :hasDiscipline wp:Fisheries ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#VT%20Fish%20Diaries> ;
+    :projectName "VT Fish Diaries" .
+
+:Vermont_Reptile_and_Amphibian_Atlas a :Project ;
+    :began 1995 ;
+    :hasArea :USA_VT ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#1995> ;
+    :hasDiscipline wp:Herpetology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Vermont%20Reptile%20%26%20Amphibian%20Atlas> ;
+    :projectName "Vermont Reptile & Amphibian Atlas" .
+
+:Volunteer_Water_Quality_Monitoring_Programs_thousands a :Project ;
+    :began 1969 ;
+    :hasArea :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#1969> ;
+    :hasDiscipline wp:Water_Quality ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Volunteer%20Water%20Quality%20Monitoring%20Programs%20%28thousands%29> ;
+    :projectName "Volunteer Water Quality Monitoring Programs (thousands)" .
+
+:Wakame_Watch a :Project ;
+    :began 2014 ;
+    :hasArea :UK ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2014> ;
+    :hasDiscipline wp:Invasive_Species,
+        wp:Marine_Biology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Wakame%20Watch> ;
+    :hasSponsoringorg wp:Marine_Biological_Association_of_the_United_Kingdom ;
+    :projectName "Wakame Watch" .
+
+:Water_Action_Volunteers a :Project ;
+    :began 1996 ;
+    :hasArea :USA_WI ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#1996> ;
+    :hasDiscipline wp:Water_Quality ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Water%20Action%20Volunteers> ;
+    :hasSponsoringorg :ub1bL1810C21 ;
+    :projectName "Water Action Volunteers" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#University%20of%20Wisconsin-Extension%20and%20Wisconsin%20Department%20of%20Natural%20Resources> ;
+            :name "University of Wisconsin-Extension and Wisconsin Department of Natural Resources" ] .
+
+:Weather_Detective a :Project ;
+    :began 2014 ;
+    :hasArea :Australia ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2014> ;
+    :hasDiscipline wp:Climatology,
+        wp:Meteorology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Weather%20Detective> ;
+    :hasSponsoringorg :ub1bL1817C20,
+        wp:Australian_Broadcasting_Corporation ;
+    :projectName "Weather Detective" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#National%20Science%20Week%20Australia> ;
+            :name "National Science Week Australia" ] .
+
+:What_Do_Birds_Eat a :Project ;
+    :began 2015 ;
+    :hasArea :United_States ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2015> ;
+    :hasDiscipline wp:Ornithology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#What%20Do%20Birds%20Eat%3F> ;
+    :hasSponsoringorg :ub1bL1824C21 ;
+    :projectName "What Do Birds Eat?" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#University%20of%20Delaware> ;
+            :name "University of Delaware" ] .
+
+:Whistler_Biodiversity_Project a :Project ;
+    :began 2004 ;
+    :hasArea :Canada ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2004> ;
+    :hasDiscipline wp:Biodiversity ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Whistler%20Biodiversity%20Project> ;
+    :hasSponsoringorg :ub1bL1831C21 ;
+    :projectName "Whistler Biodiversity Project" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Whistler%20Biodiversity%20Project> ;
+            :name "Whistler Biodiversity Project" ] .
+
+:Wildlife_Spotter a :Project ;
+    :began 2016 ;
+    :hasArea :Australia ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2016> ;
+    :hasDiscipline wp:Ecology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Wildlife%20Spotter> ;
+    :hasSponsoringorg :ub1bL1901C20,
+        wp:Australian_Broadcasting_Corporation ;
+    :projectName "Wildlife Spotter" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#National%20Science%20Week%20Australia> ;
+            :name "National Science Week Australia" ] .
+
+:Wildsense_Tigers a :Project ;
+    :began 2015 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2015> ;
+    :hasDiscipline wp:Wildlife ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Wildsense%20Tigers> ;
+    :hasSponsoringorg :ub1bL1859C20,
+        :ub1bL1859C53 ;
+    :projectName "Wildsense Tigers" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#The%20Wildsense%20Project> ;
+            :name "The Wildsense Project" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#University%20of%20Surrey> ;
+            :name "University of Surrey" ] .
+
+:Wisconsin_Odonata_Survey a :Project ;
+    :hasArea :USA,
+        :Wisconsin ;
+    :hasDiscipline di:Odonata,
+        wp:Biology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Wisconsin%20Odonata%20Survey> ;
+    :hasSponsoringorg :ub1bL1866C21 ;
+    :projectName "Wisconsin Odonata Survey" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Wisconsin%20Department%20of%20Natural%20Resources> ;
+            :name "Wisconsin Department of Natural Resources" ] .
+
+:Wombat_Survey_and_Analysis_Tools_WomSAT a :Project ;
+    :began 2015 ;
+    :hasArea :Australia ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2015> ;
+    :hasDiscipline wp:Mammalogy ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Wombat%20Survey%20and%20Analysis%20Tools%20%28WomSAT%29> ;
+    :hasSponsoringorg wp:WomSAT.org.au ;
+    :projectName "Wombat Survey and Analysis Tools (WomSAT)" .
+
+:Yellowhammer_Dialects a :Project ;
+    :began 2013 ;
+    :hasArea :New_Zealand,
+        :UK ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2013> ;
+    :hasDiscipline wp:Bioacoustics ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Yellowhammer%20Dialects> ;
+    :hasSponsoringorg wp:Charles_University_in_Prague ;
+    :projectName "Yellowhammer Dialects" .
+
+:Zikathon_Mosquito_Alert a :Project ;
+    :began 2017 ;
+    :hasArea :Hong_Kong ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2017> ;
+    :hasDiscipline wp:Biology_Monte_Carlo_method,
+        wp:Environmental_science ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Zikathon%20/%20Mosquito%20Alert> ;
+    :projectName "Zikathon / Mosquito Alert" .
+
+:hasApp_debut a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+:hasArea a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+:hasBegan a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+:hasDesc a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+:hasDiscipline a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+:hasFirst_photo a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+:hasLaunch a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+:hasName a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+:hasProjectname a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+:hasSponsoringorg a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+:hasYear a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+wp:Air_Quality_Eggs a :Project ;
+    :hasArea :Ithaca_NY,
+        :USA ;
+    :hasDiscipline wp:Air_Quality,
+        wp:Climate_Change,
+        wp:Health,
+        wp:Pollution ;
+    :hasProjectname :Air_Quality_Eggs ;
+    :hasSponsoringorg :ub1bL146C20,
+        :ub1bL146C45 ;
+    :projectName "Air_Quality_Eggs" ;
+    :sponsoringOrg [ :hasName :WickedDevices ;
+            :name "WickedDevices" ],
+        [ :hasName :LLC ;
+            :name "LLC" ] .
+
+wp:Asteroid_Zoo a :Project ;
+    :began 2014 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2014> ;
+    :hasDiscipline wp:Planetary_science ;
+    :hasProjectname :Asteroid_Zoo ;
+    :hasSponsoringorg <https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)> ;
+    :projectName "Asteroid_Zoo" .
+
+wp:Atlas_of_Australian_Birds a :Project ;
+    :began 1973 ;
+    :hasArea :Australia ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#1973> ;
+    :hasDiscipline wp:Ornithology ;
+    :hasProjectname :Atlas_of_Australian_Birds ;
+    :hasSponsoringorg wp:BirdLife_Australia ;
+    :projectName "Atlas_of_Australian_Birds" .
+
+wp:Aurorasaurus a :Project ;
+    :began 2011,
+        2014 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2011>,
+        <http://cui.unige.ch/isi/swt/tp2a#2014> ;
+    :hasDiscipline wp:Astronomy,
+        wp:Aurora,
+        wp:Space_physics ;
+    :hasProjectname :Aurorasaurus ;
+    :hasSponsoringorg wp:NASA_Goddard,
+        wp:National_Science_Foundation ;
+    :projectName "Aurorasaurus" .
+
+wp:Backyard_Worlds a :Project ;
+    :began 2017 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2017> ;
+    :hasDiscipline wp:Astronomy ;
+    :hasProjectname :Backyard_Worlds ;
+    :hasSponsoringorg wp:NASA ;
+    :projectName "Backyard_Worlds" .
+
+wp:BugGuide a :Project ;
+    :began 2003 ;
+    :hasArea :Canada,
+        :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2003> ;
+    :hasDiscipline wp:Arthropods,
+        wp:Entomology ;
+    :hasProjectname :BugGuide ;
+    :hasSponsoringorg wp:Iowa_State_University ;
+    :projectName "BugGuide" .
+
+wp:Christmas_Bird_Count a :Project ;
+    :began 1900 ;
+    :hasArea :Western_Hemisphere ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#1900> ;
+    :hasDiscipline wp:Ornithology ;
+    :hasProjectname :Christmas_Bird_Count ;
+    :hasSponsoringorg wp:National_Audubon_Society ;
+    :projectName "Christmas_Bird_Count" .
+
+wp:Citizen_Weather_Observer_Program a :Project ;
+    :hasArea :United_States ;
+    :hasDiscipline wp:Meteorology,
+        wp:climatology,
+        wp:hydrology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Citizen_Weather_Observer_Program%20%28CWOP%29> ;
+    :hasSponsoringorg wp:National_Weather_Service ;
+    :projectName "Citizen_Weather_Observer_Program (CWOP)" .
+
+wp:Climatological_observers_link a :Project ;
+    :began 1970 ;
+    :hasArea :UK ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#1970> ;
+    :hasDiscipline wp:Climatology ;
+    :hasProjectname :Climatological_observers_link ;
+    :projectName "Climatological_observers_link" .
+
+wp:Cooperative_Observer a :Project ;
+    :began 1890 ;
+    :hasArea :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#1890> ;
+    :hasDiscipline wp:Climatology,
+        wp:Meteorology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Cooperative_Observer%20Program> ;
+    :hasSponsoringorg wp:National_Weather_Service ;
+    :projectName "Cooperative_Observer Program" .
+
+wp:DigiVol a :Project ;
+    :began 2011 ;
+    :hasArea :Australia ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2011> ;
+    :hasDiscipline wp:Archives,
+        wp:Entomology,
+        wp:Malacology,
+        wp:Minerals ;
+    :hasProjectname :DigiVol ;
+    :hasSponsoringorg wp:Australian_Museum_and_Atlas_of_Living_Australia ;
+    :projectName "DigiVol" .
+
+wp:Digital_Access_to_a_Sky_Century_Harvard a :Project ;
+    :began 2001 ;
+    :hasArea :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2001> ;
+    :hasDiscipline wp:Astronomy ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Digital_Access_to_a_Sky_Century_%40_Harvard> ;
+    :hasSponsoringorg wp:Harvard-Smithsonian_Center_for_Astrophysics ;
+    :projectName "Digital_Access_to_a_Sky_Century_@_Harvard" .
+
+wp:Disk_Detective a :Project ;
+    :began 2014 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2014> ;
+    :hasDiscipline wp:Astronomy ;
+    :hasProjectname :Disk_Detective ;
+    :hasSponsoringorg wp:NASA,
+        <https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)> ;
+    :projectName "Disk_Detective" .
+
+wp:Dog_Aging_Project a :Project ;
+    :began 2019 ;
+    :hasArea :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2019> ;
+    :hasDiscipline wp:Ageing,
+        wp:Biology,
+        wp:Health ;
+    :hasProjectname :Dog_Aging_Project ;
+    :hasSponsoringorg wp:National_Institute_on_Aging,
+        wp:University_of_Washington,
+        <https://en.wikipedia.org/wiki/Texas_A&M_University> ;
+    :projectName "Dog_Aging_Project" .
+
+wp:Environmental_groups_and_resources_serving_K-12_schools a :Project ;
+    :began 2007 ;
+    :hasArea :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2007> ;
+    :hasDiscipline di:Plant_Phenology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Environmental_groups_and_resources_serving_K-12_schools%23Project_BudBurst> ;
+    :hasSponsoringorg wp:Chicago_Botanic_Garden,
+        wp:National_Science_Foundation ;
+    :projectName "Environmental_groups_and_resources_serving_K-12_schools#Project_BudBurst" .
+
+wp:EyeWire a :Project ;
+    :began 2012 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2012> ;
+    :hasDiscipline wp:Neuroscience ;
+    :hasProjectname :EyeWire ;
+    :hasSponsoringorg wp:Gatsby_Charitable_Foundation,
+        wp:Howard_Hughes_Medical_Institute,
+        wp:Massachusetts_Institute_of_Technology,
+        wp:Max_Planck_Society,
+        wp:National_Institutes_of_Health ;
+    :projectName "EyeWire" .
+
+wp:Flying_ant_survey a :Project ;
+    :began 2012 ;
+    :hasArea :UK ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2012> ;
+    :hasDiscipline wp:Biology,
+        wp:Entomology,
+        wp:Wildlife ;
+    :hasProjectname :Flying_ant_survey ;
+    :hasSponsoringorg wp:Society_of_Biology,
+        wp:University_of_Gloucestershire ;
+    :projectName "Flying_ant_survey" .
+
+wp:Foldit a :Project ;
+    :began 2008 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2008> ;
+    :hasDiscipline wp:Biology,
+        wp:protein ;
+    :hasProjectname :Foldit ;
+    :hasSponsoringorg wp:University_of_Washington ;
+    :projectName "Foldit" .
+
+wp:Fraxinus a :Project ;
+    :began 2013 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2013> ;
+    :hasDiscipline wp:Genetics ;
+    :hasProjectname :Fraxinus ;
+    :hasSponsoringorg wp:BBSRC,
+        wp:DEFRA,
+        wp:Sainsbury_Laboratory ;
+    :projectName "Fraxinus" .
+
+wp:Galaxy_Zoo a :Project ;
+    :began 2007 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2007> ;
+    :hasDiscipline wp:Astronomy ;
+    :hasProjectname :Galaxy_Zoo ;
+    :hasSponsoringorg <https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)> ;
+    :projectName "Galaxy_Zoo" .
+
+wp:Genographic_Project a :Project ;
+    :began 2005 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2005> ;
+    :hasDiscipline wp:Population_genetics ;
+    :hasProjectname :Genographic_Project ;
+    :hasSponsoringorg wp:IBM,
+        wp:National_Geographic_Society ;
+    :projectName "Genographic_Project" .
+
+wp:Geo-wiki a :Project ;
+    :began 2008 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2008> ;
+    :hasDiscipline wp:Land_cover_validation ;
+    :hasProjectname :Geo-wiki ;
+    :hasSponsoringorg wp:IIASA ;
+    :projectName "Geo-wiki" .
+
+wp:Globe_at_Night a :Project ;
+    :hasArea :Worldwide ;
+    :hasDiscipline wp:Astronomy,
+        wp:Light_Pollution ;
+    :hasProjectname :Globe_at_Night ;
+    :hasSponsoringorg :ub1bL844C64,
+        wp:International_Dark-Sky_Association,
+        wp:National_Optical_Astronomy_Observatory ;
+    :projectName "Globe_at_Night" ;
+    :sponsoringOrg [ :hasName :_CADIAS ;
+            :name "_CADIAS" ] .
+
+wp:Golden_Gate_Raptor_Observatory a :Project ;
+    :began 1984 ;
+    :hasArea :Pacific_States ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#1984> ;
+    :hasDiscipline wp:Bird_migration,
+        wp:Ornithology,
+        wp:Phenology,
+        wp:Population_Change ;
+    :hasProjectname :Golden_Gate_Raptor_Observatory ;
+    :hasSponsoringorg wp:Golden_Gate_Natl_Parks_Conservancy ;
+    :projectName "Golden_Gate_Raptor_Observatory" .
+
+wp:Great_Cocky_Count a :Project ;
+    :began 2009 ;
+    :hasArea :Western_Australia ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2009> ;
+    :hasDiscipline wp:Ornithology ;
+    :hasProjectname :Great_Cocky_Count ;
+    :hasSponsoringorg :ub1bL865C21 ;
+    :projectName "Great_Cocky_Count" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Birdlife%20Australia> ;
+            :name "Birdlife Australia" ] .
+
+<http://en.wikipedia.org/wiki/Herbonauten_(Pilot)> a :Project ;
+    :began 2016 ;
+    :hasArea :Worldwide_Germany ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2016> ;
+    :hasDiscipline wp:Botany,
+        wp:Natural_History ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Herbonauten%20%28Pilot%29> ;
+    :hasSponsoringorg :ub1bL921C21 ;
+    :projectName "Herbonauten (Pilot)" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Verein%20der%20Freunde%20des%20Botanischen%20Gartens%20und%20Botanischen%20Museums%20Berlin-Dahlem> ;
+            :name "Verein der Freunde des Botanischen Gartens und Botanischen Museums Berlin-Dahlem" ] .
+
+wp:HerpMapper a :Project ;
+    :began 2013 ;
+    :hasArea :Global ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2013> ;
+    :hasDiscipline wp:Citizen_Science,
+        wp:Ecology,
+        wp:Herpetology,
+        wp:Phenology,
+        wp:Research,
+        <https://en.wikipedia.org/wiki/Conservation_(ethic)> ;
+    :hasProjectname :HerpMapper ;
+    :hasSponsoringorg :ub1bL936C21 ;
+    :projectName "HerpMapper" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#HerpMapper%20Advisory%20Committee> ;
+            :name "HerpMapper Advisory Committee" ] .
+
+wp:Higgs_Hunters a :Project ;
+    :began 2014 ;
+    :hasArea :Global ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2014> ;
+    :hasDiscipline wp:Particle_Physics,
+        wp:Physics ;
+    :hasProjectname :Higgs_Hunters ;
+    :hasSponsoringorg :Higgs_Hunters_Classify ;
+    :projectName "Higgs_Hunters" .
+
+wp:Manta_Matcher a :Project ;
+    :began 2012 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2012> ;
+    :hasDiscipline wp:Conservation_Biology,
+        wp:Ecology,
+        wp:Marine_Ecology ;
+    :hasProjectname :Manta_Matcher ;
+    :hasSponsoringorg :ub1bL1118C32,
+        wp:Wild_Me ;
+    :projectName "Manta_Matcher" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Marine%20Megafauna%20Foundation> ;
+            :name "Marine Megafauna Foundation" ] .
+
+wp:Milky_Way_Project a :Project ;
+    :began 2010 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2010> ;
+    :hasDiscipline wp:Astronomy ;
+    :hasProjectname :Milky_Way_Project ;
+    :hasSponsoringorg wp:Adler_Planetarium,
+        wp:Cal_Poly_Pomona,
+        wp:National_Science_Foundation,
+        wp:University_of_Oxford ;
+    :projectName "Milky_Way_Project" .
+
+wp:Monarch_butterfly a :Project ;
+    :hasArea :Canada,
+        :USA ;
+    :hasDiscipline wp:Entomology,
+        wp:Lepidoptera ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Monarch_butterfly%20Health> ;
+    :hasSponsoringorg wp:University_of_Georgia ;
+    :projectName "Monarch_butterfly Health" .
+
+wp:Monarch_butterfly_Larva a :Project ;
+    :hasArea :Canada,
+        :USA ;
+    :hasDiscipline wp:Entomology,
+        wp:Lepidoptera ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Monarch_butterfly%20Larva%20Monitoring%20Project> ;
+    :hasSponsoringorg wp:University_of_Minnesota ;
+    :projectName "Monarch_butterfly Larva Monitoring Project" .
+
+wp:Monarch_butterfly_Watch a :Project ;
+    :began 1992 ;
+    :hasArea :Canada,
+        :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#1992> ;
+    :hasDiscipline wp:Entomology,
+        wp:Lepidoptera ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Monarch_butterfly%20Watch> ;
+    :hasSponsoringorg wp:University_of_Kansas ;
+    :projectName "Monarch_butterfly Watch" .
+
+wp:National_Moth_Week_NMW a :Project ;
+    :began 2012 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2012> ;
+    :hasDiscipline wp:Entomology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#National_Moth_Week%20%28NMW%29> ;
+    :hasSponsoringorg :ub1bL1218C21 ;
+    :projectName "National_Moth_Week (NMW)" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Friends%20of%20the%20East%20Brunswick%20Environmental%20Commission> ;
+            :name "Friends of the East Brunswick Environmental Commission" ] .
+
+wp:Old_Weather_seattle a :Project ;
+    :hasArea :Worldwide ;
+    :hasDiscipline wp:Climatology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Old_Weather%20seattle%20> ;
+    :hasSponsoringorg <https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)> ;
+    :projectName "Old_Weather seattle " .
+
+wp:Planet_Hunters a :Project ;
+    :began 2012 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2012> ;
+    :hasDiscipline wp:Astronomy ;
+    :hasProjectname :Planet_Hunters ;
+    :hasSponsoringorg wp:Yale_University,
+        wp:Zooniverse ;
+    :projectName "Planet_Hunters" .
+
+wp:PressureNET a :Project ;
+    :began 2011 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2011> ;
+    :hasDiscipline wp:Climatology,
+        wp:Meteorology ;
+    :hasProjectname :PressureNET ;
+    :hasSponsoringorg :ub1bL1434C21 ;
+    :projectName "PressureNET" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Cumulonimbus%20Inc.> ;
+            :name "Cumulonimbus Inc." ] .
+
+wp:Project_Dive_Exploration a :Project ;
+    :hasArea :North_America ;
+    :hasDiscipline wp:Decompression_theory ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Project_Dive_Exploration%20%28PDE%29> ;
+    :hasSponsoringorg wp:Divers_Alert_Network ;
+    :projectName "Project_Dive_Exploration (PDE)" .
+
+wp:Public_Lab a :Project ;
+    :began 2010 ;
+    :hasArea :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2010> ;
+    :hasDiscipline wp:Ecology,
+        wp:environmental_science ;
+    :hasProjectname :Public_Lab ;
+    :hasSponsoringorg :ub1bL1483C21 ;
+    :projectName "Public_Lab" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#The%20Public%20Laboratory%20for%20Open%20Technology%20and%20Science> ;
+            :name "The Public Laboratory for Open Technology and Science" ] .
+
+wp:Quantum_Moves a :Project ;
+    :began 2013 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2013> ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Quantum%20Moves> ;
+    :hasSponsoringorg wp:Aarhus_University,
+        wp:Center_for_Community_Driven_Research ;
+    :projectName "Quantum Moves" .
+
+wp:Radio_Galaxy_Zoo a :Project ;
+    :began 2013 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2013> ;
+    :hasDiscipline wp:Radio_Astronomy ;
+    :hasProjectname :Radio_Galaxy_Zoo ;
+    :hasSponsoringorg wp:Zooniverse ;
+    :projectName "Radio_Galaxy_Zoo" .
+
+wp:SETI-at-home a :Project ;
+    :began 1999 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#1999> ;
+    :hasDiscipline wp:Astronomy ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#SETI%40home> ;
+    :hasSponsoringorg :ub1bL1614C49,
+        wp:University_Of_California ;
+    :projectName "SETI@home" ;
+    :sponsoringOrg [ :hasName :_Berkeley ;
+            :name "_Berkeley" ] .
+
+wp:SZTAKI_Desktop_Grid a :Project ;
+    :began 2005 ;
+    :hasArea :Hungary ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2005> ;
+    :hasDiscipline wp:Mathematics ;
+    :hasProjectname :SZTAKI_Desktop_Grid ;
+    :hasSponsoringorg wp:Eötvös_Loránd_University,
+        wp:Institute_for_Computer_Science_and_Control ;
+    :projectName "SZTAKI_Desktop_Grid" .
+
+wp:SciStarter a :Project ;
+    :began 2011 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2011> ;
+    :hasDiscipline di:All_Fields_of_Science ;
+    :hasProjectname :SciStarter ;
+    :hasSponsoringorg :ub1bL1587C21 ;
+    :projectName "SciStarter" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Research%20affiliate%20Arizona_State_University> ;
+            :name "Research affiliate Arizona_State_University" ] .
+
+wp:Solar_Stormwatch a :Project ;
+    :began 2009 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2009> ;
+    :hasDiscipline wp:Astronomy ;
+    :hasProjectname :Solar_Stormwatch ;
+    :hasSponsoringorg wp:University_of_Reading ;
+    :projectName "Solar_Stormwatch" .
+
+wp:Stardust-at-home a :Project ;
+    :began 2006 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2006> ;
+    :hasDiscipline wp:Astronomy ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Stardust%40home> ;
+    :hasSponsoringorg <https://en.wikipedia.org/wiki/University_of_California,_Berkeley> ;
+    :projectName "Stardust@home" .
+
+wp:UBiome a :Project ;
+    :hasArea :USA ;
+    :hasDiscipline wp:Microbiology ;
+    :hasProjectname :UBione ;
+    :hasSponsoringorg wp:uBiome ;
+    :projectName "UBione" .
+
+wp:Wikispecies a :Project ;
+    :began 2004 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2004> ;
+    :hasDiscipline wp:Biodiversity ;
+    :hasProjectname :Wikispecies ;
+    :hasSponsoringorg wp:Wikimedia_Foundation ;
+    :projectName "Wikispecies" .
+
+wp:Wildbook a :Project ;
+    :began 2001 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2001> ;
+    :hasDiscipline wp:Mark-recapture,
+        wp:Population_ecology,
+        wp:Wildlife ;
+    :hasProjectname :Wildbook ;
+    :hasSponsoringorg wp:Wild_Me ;
+    :projectName "Wildbook" .
+
+wp:eBird a :Project ;
+    :began 2002 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2002> ;
+    :hasDiscipline wp:Ornithology ;
+    :hasProjectname :eBird ;
+    :hasSponsoringorg wp:Cornell_Lab_of_Ornithology,
+        wp:National_Audubon_Society ;
+    :projectName "eBird" .
+
+wp:eButterfly a :Project ;
+    :began 2010 ;
+    :hasArea :Canada,
+        :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2010> ;
+    :hasDiscipline wp:Entomology,
+        wp:Lepidoptera ;
+    :hasProjectname :eButterfly ;
+    :hasSponsoringorg :ub1bL690C74,
+        wp:Oregon_State_University,
+        wp:University_of_Ottawa ;
+    :projectName "eButterfly" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Vermont%20Center%20for%20Ecostudies> ;
+            :name "Vermont Center for Ecostudies" ] .
+
+wp:iSpot a :Project ;
+    :began 2009 ;
+    :hasArea :Global ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2009> ;
+    :hasDiscipline wp:Nature ;
+    :hasProjectname :iSpot ;
+    :hasSponsoringorg wp:The_Open_University ;
+    :projectName "iSpot" .
+
+<http://indiabiodiversity.org/> a :Project ;
+    :hasArea :India ;
+    :hasDiscipline wp:Biology,
+        wp:Computer_science,
+        wp:Environmental_science ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#India%20Biodiversity%20Portal> ;
+    :hasSponsoringorg :ub1bL1006C20 ;
+    :projectName "India Biodiversity Portal" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Prabhakar%20/%20Thomas%20Vattakaven> ;
+            :name "Prabhakar / Thomas Vattakaven" ] .
+
+<http://indiabiodiversity.org/group/frog_watch/userGroup/show> a :Project ;
+    :hasArea :India ;
+    :hasDiscipline wp:Biology,
+        wp:Environmental_science,
+        wp:Herpetology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Frog%20Watch> ;
+    :hasSponsoringorg :Community ;
+    :projectName "Frog Watch" .
+
+<http://www.citclops.eu/> a :Project ;
+    :began 2012 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2012> ;
+    :hasDiscipline wp:Environmental_science ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Citclops/%20%3Chttps%3A//www.eyeonwater.org/%3E%20EyeOnWater> ;
+    :hasSponsoringorg wp:European_Commission ;
+    :projectName "Citclops/ <https://www.eyeonwater.org/> EyeOnWater" .
+
+<http://www.mosquitoalert.com/> a :Project ;
+    :began 2013 ;
+    :hasArea :Spain ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2013> ;
+    :hasDiscipline wp:Ecology,
+        wp:Entomology,
+        wp:Public_Health ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Mosquito%20Alert> ;
+    :hasSponsoringorg <http://www.ceab.csic.es/en/>,
+        <http://www.creaf.cat/> ;
+    :projectName "Mosquito Alert" .
+
+<http://www.pierisproject.org/> a :Project ;
+    :began 2014 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2014> ;
+    :hasDiscipline wp:Entomology,
+        wp:Lepidoptera ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Pieris%20Project> ;
+    :hasSponsoringorg :ub1bL1392C21 ;
+    :projectName "Pieris Project" ;
+    :sponsoringOrg [ :hasName :theryanlab.com ;
+            :name "theryanlab.com" ] .
+
+<http://www.urwatair.gr/> a :Project ;
+    :began 2019 ;
+    :hasArea :Greece ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2019> ;
+    :hasDiscipline wp:Air_pollution,
+        wp:Air_quality_index,
+        wp:Hydrology ;
+    :hasProjectname :URwatair ;
+    :hasSponsoringorg <http://en.ellet.gr/>,
+        wp:Aristotle_University_of_Thessaloniki ;
+    :projectName "URwatair" .
+
+<http://xperibird.be/en/home> a :Project ;
+    :began 2016 ;
+    :hasArea :Belgium ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2016> ;
+    :hasDiscipline wp:Ecology,
+        wp:Ornithology ;
+    :hasProjectname :XperiBIRD.be ;
+    :hasSponsoringorg wp:Museum_of_Natural_Sciences ;
+    :projectName "XperiBIRD.be" .
+
+<https://air.net.technion.ac.il/> a :Project ;
+    :hasArea :Israel ;
+    :hasDiscipline wp:Biology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Sensing%20the%20Air> ;
+    :projectName "Sensing the Air" .
+
+<https://en.wikipedia.org/wiki/Safecast_(organization)> a :Project ;
+    :began 2011 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2011> ;
+    :hasDiscipline wp:Air_Quality,
+        wp:Ionizing_radiation ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Safecast_%28organization%29> ;
+    :hasSponsoringorg :ub1bL1580C21 ;
+    :projectName "Safecast_(organization)" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Momoko%20Ito%20Foundation> ;
+            :name "Momoko Ito Foundation" ] .
+
+<https://www.eyeonwater.org/> a :Project ;
+    :began 2017 ;
+    :hasArea :Australia ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2017> ;
+    :hasDiscipline wp:Environmental_science,
+        wp:Water_Colour,
+        wp:Water_Quality ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#EyeOnWater%20Australia> ;
+    :hasSponsoringorg wp:CSIRO ;
+    :projectName "EyeOnWater Australia" .
+
+<https://www.inaturalist.org/projects/city-nature-challenge-2018-ahmedabad-india> a :Project ;
+    :began 2018 ;
+    :hasArea :India ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2018> ;
+    :hasDiscipline wp:Biology,
+        wp:Computer_science,
+        wp:Environmental_science ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#City%20Nature%20Challenge%202018> ;
+    :hasSponsoringorg wp:Ahmedabad_University ;
+    :projectName "City Nature Challenge 2018" .
+
+<https://www.inaturalist.org/projects/city-nature-challenge-2018-hong-kong> a :Project ;
+    :began 2018 ;
+    :hasArea :Hong_Kong,
+        :Tokyo ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2018> ;
+    :hasDiscipline wp:Biology,
+        wp:Computer_science,
+        wp:Environmental_science ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#City%20Nature%20Challenge%202018> ;
+    :hasSponsoringorg :Community,
+        wp:University_of_Tokyo ;
+    :projectName "City Nature Challenge 2018" .
+
+<https://www.inaturalist.org/projects/klang-valley-city-nature-challenge-2018> a :Project ;
+    :began 2018 ;
+    :hasArea :India,
+        :Klang_Valley_Greater_Kuala_Lumpur,
+        :Malaysia ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2018> ;
+    :hasDiscipline wp:Biology,
+        wp:Computer_science,
+        wp:Environmental_science ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#City%20Nature%20Challenge%202018> ;
+    :hasSponsoringorg :ub1bL543C20,
+        wp:Bombay_Natural_History_Society ;
+    :projectName "City Nature Challenge 2018" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#The%20Rimba%20Project%20/%20Rimba%20Ilmu%20Botanic%20Garden> ;
+            :name "The Rimba Project / Rimba Ilmu Botanic Garden" ] .
+
+<https://www.mics.tools/> a :Project ;
+    :began 2019 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2019> ;
+    :hasDiscipline di:Impact_of_citizen_science ;
+    :hasProjectname :MICS ;
+    :hasSponsoringorg :ub1bL1162C21 ;
+    :projectName "MICS" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#European%20Commission> ;
+            :name "European Commission" ] .
+
+<https://www.naturkalender.at> a :Project ;
+    :began 2018 ;
+    :hasArea :Europe ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2018> ;
+    :hasDiscipline wp:Phenology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Nature%27s%20Calendar> ;
+    :hasSponsoringorg :ub1bL1232C20,
+        :ub1bL1232C85 ;
+    :projectName "Nature's Calendar" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Zentralanstalt%20f%C3%BCr%20Meteorologie%20und%20Geodynamik%20%28ZAMG%29> ;
+            :name "Zentralanstalt für Meteorologie und Geodynamik (ZAMG)" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#SPOTTERON%20Collaboration> ;
+            :name "SPOTTERON Collaboration" ] .
+
+<https://www.pilzfinder.at> a :Project ;
+    :began 2019 ;
+    :hasArea :Europe ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2019> ;
+    :hasDiscipline wp:Mycology ;
+    :hasProjectname :Pilzfinder ;
+    :hasSponsoringorg :ub1bL1406C20,
+        :ub1bL1406C58,
+        :ub1bL1406C90 ;
+    :projectName "Pilzfinder" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Austrian%20Mycology%20Society> ;
+            :name "Austrian Mycology Society" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#University%20of%20Vienna> ;
+            :name "University of Vienna" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#SPOTTERON%20collaboration> ;
+            :name "SPOTTERON collaboration" ] .
+
+<https://www.roadkill.at> a :Project ;
+    :began 2015 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2015> ;
+    :hasDiscipline wp:Biodiversity,
+        wp:Transportation ;
+    :hasProjectname :Roadkill ;
+    :hasSponsoringorg :ub1bL1559C100,
+        :ub1bL1559C20,
+        :ub1bL1559C82 ;
+    :projectName "Roadkill" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#SPOTTERON%20Collaboration> ;
+            :name "SPOTTERON Collaboration" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#University%20of%20Natural%20Resources%20and%20Life%20Sciences> ;
+            :name "University of Natural Resources and Life Sciences" ],
+        [ :hasName :Vienna ;
+            :name "Vienna" ] .
+
+<https://www.spotteron.com/brushturkeys> a :Project ;
+    :began 2018 ;
+    :hasArea :Australia ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2018> ;
+    :hasDiscipline wp:City_Ecology,
+        wp:Ornithology ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Brushturkeys%20-%20Birds%20of%20Suburbia> ;
+    :hasSponsoringorg :ub1bL396C45,
+        wp:University_of_Sydney ;
+    :projectName "Brushturkeys - Birds of Suburbia" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#SPOTTERON%20Collaboration> ;
+            :name "SPOTTERON Collaboration" ] .
+
+<https://www.spotteron.com/dreckspotz> a :Project ;
+    :began 2017 ;
+    :hasArea :Europe ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2017> ;
+    :hasDiscipline wp:Environmental_Science,
+        wp:Human_Impact,
+        wp:Pollution,
+        wp:Ressources ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Litterbug%20%28Dreckspotz%29> ;
+    :hasSponsoringorg :ub1bL1076C20,
+        :ub1bL1076C44,
+        :ub1bL1076C72 ;
+    :projectName "Litterbug (Dreckspotz)" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Global%202000> ;
+            :name "Global 2000" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Friends%20of%20Earth> ;
+            :name "Friends of Earth" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#SPOTTERON%20Collaboration> ;
+            :name "SPOTTERON Collaboration" ] .
+
+<https://www.zooniverse.org/projects/ajnorton/superwasp-variable-stars> a :Project ;
+    :began 2018 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2018> ;
+    :hasDiscipline wp:Astronomy ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#SuperWASP%20Variable%20Stars> ;
+    :hasSponsoringorg wp:Asterics ;
+    :projectName "SuperWASP Variable Stars" .
+
+<https://www.zooniverse.org/projects/aprajita/space-warps-hsc> a :Project ;
+    :began 2015 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2015> ;
+    :hasDiscipline wp:Astronomy ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Space%20Warps> ;
+    :hasSponsoringorg wp:Zooniverse ;
+    :projectName "Space Warps" .
+
+<https://www.zooniverse.org/projects/dwright04/muon-hunters-2-dot-0> a :Project ;
+    :began 2017 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2017> ;
+    :hasDiscipline wp:Astronomy ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Muon%20Hunters> ;
+    :hasSponsoringorg wp:Asterics,
+        wp:National_Science_Foundation ;
+    :projectName "Muon Hunters" .
+
+<https://www.zooniverse.org/projects/ianc2/exoplanet-explorers> a :Project ;
+    :began 2017 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2017> ;
+    :hasDiscipline wp:Astronomy ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Exoplanet%20Explorers> ;
+    :hasSponsoringorg wp:BBC_Stargazing_Live ;
+    :projectName "Exoplanet Explorers" .
+
+<https://www.zooniverse.org/projects/ilacerna/variable-star-zoo> a :Project ;
+    :began 2018 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2018> ;
+    :hasDiscipline wp:Astronomy ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Variable%20Star%20Zoo> ;
+    :hasSponsoringorg wp:Instituto_Milenio_de_Astrofíscia ;
+    :projectName "Variable Star Zoo" .
+
+<https://www.zooniverse.org/projects/lcjohnso/local-group-cluster-search> a :Project ;
+    :began 2019 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2019> ;
+    :hasDiscipline wp:Astronomy ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Local%20Group%20Cluster%20Search> ;
+    :hasSponsoringorg wp:Northwestern_University,
+        wp:Panchromatic_Hubble_Andromeda_Treasury,
+        wp:Survey_of_the_MAgellanic_Stellar_History ;
+    :projectName "Local Group Cluster Search" .
+
+<https://www.zooniverse.org/projects/lepnoir/protect-our-planet-from-solar-storms> a :Project ;
+    :began 2018 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2018> ;
+    :hasDiscipline wp:Astronomy ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Protect%20Our%20Planet%20From%20Solar%20Storms> ;
+    :hasSponsoringorg wp:Science_Museum_Group,
+        wp:University_of_Reading ;
+    :projectName "Protect Our Planet From Solar Storms" .
+
+<https://www.zooniverse.org/projects/rswcit/zwickys-quirky-transients> a :Project ;
+    :began 2019 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2019> ;
+    :hasDiscipline wp:Astronomy ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Zwicky%27s%20Quirky%20Transients> ;
+    :hasSponsoringorg wp:Zwicky_Transient_Facility ;
+    :projectName "Zwicky's Quirky Transients" .
+
+<https://www.zooniverse.org/projects/sandorkruk/hubble-asteroid-hunter> a :Project ;
+    :began 2019 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2019> ;
+    :hasDiscipline wp:Astronomy ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Hubble%20Asteroid%20Hunter> ;
+    :hasSponsoringorg wp:European_Space_Astronomy_Centre ;
+    :projectName "Hubble Asteroid Hunter" .
+
+<https://www.zooniverse.org/projects/wkiri/cosmic> a :Project ;
+    :began 2019 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2019> ;
+    :hasDiscipline wp:Astronomy ;
+    :hasProjectname :COSMIC ;
+    :hasSponsoringorg wp:Jet_Propulsion_Laboratory ;
+    :projectName "COSMIC" .
+
+<https://www.zooniverse.org/projects/zooniverse/astronomy-rewind> a :Project ;
+    :began 2017 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2017> ;
+    :hasDiscipline wp:Astronomy,
+        wp:History ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Astronomy%20Rewind> ;
+    :hasSponsoringorg wp:ADS_All_Sky_Survey,
+        wp:Adler_Planetarium,
+        wp:American_Astronomical_Society,
+        wp:Harvard_University,
+        wp:NASA ;
+    :projectName "Astronomy Rewind" .
+
+<https://www.zooniverse.org/projects/zooniverse/gravity-spy> a :Project ;
+    :began 2016 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2016> ;
+    :hasDiscipline wp:Astronomy ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Gravity%20Spy> ;
+    :hasSponsoringorg wp:California_State_University_Fullerton,
+        wp:LIGO_Scientific_Collaboration,
+        wp:National_Science_Foundation,
+        wp:Northwestern_University,
+        wp:Syracuse_University ;
+    :projectName "Gravity Spy" .
+
+<https://www.zooniverse.org/projects/zooniverse/radio-meteor-zoo> a :Project ;
+    :began 2016 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2016> ;
+    :hasDiscipline wp:Astronomy ;
+    :hasProjectname <http://cui.unige.ch/isi/swt/tp2a#Radio%20Meteor%20Zoo> ;
+    :hasSponsoringorg wp:European_Citizen_Science_Association ;
+    :projectName "Radio Meteor Zoo" .
+
+di:Biodesign a :discipline .
+
+di:Cryospheric_science a :discipline .
+
+di:Environmental_Sustainability a :discipline .
+
+di:Health a :discipline .
+
+di:Hydrology a :discipline .
+
+di:Impact_of_citizen_science a :discipline .
+
+di:Infectious_Disease a :discipline .
+
+di:Mapping a :discipline .
+
+di:Marine_Biology_and_Ecology a :discipline .
+
+di:Odonata a :discipline .
+
+di:Plant_Phenology a :discipline .
+
+di:Policy a :discipline .
+
+di:Sex_and_Attraction a :discipline .
+
+di:Tracking a :discipline .
+
+di:species_distribution a :discipline .
+
+: a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#%20NY> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#%7B%7Bill%7CDachverband%20Deutscher%20Avifaunisten%7Cde%7CDachverband%20Deutscher%20Avifaunisten%20%28DDA%29%20e.V.%7D%7D> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#%C3%81rea%20metropolitana%20del%20Valle%20de%20Aburr%C3%A1%7Ces%7C%C3%81rea%20Metropolitana%20del%20Valle%20de%20Aburr%C3%A1%7D%7D%20SIATA> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#1890> a :began .
+
+<http://cui.unige.ch/isi/swt/tp2a#1900> a :began .
+
+<http://cui.unige.ch/isi/swt/tp2a#1970> a :began .
+
+<http://cui.unige.ch/isi/swt/tp2a#1973> a :began .
+
+<http://cui.unige.ch/isi/swt/tp2a#1984> a :began .
+
+<http://cui.unige.ch/isi/swt/tp2a#1990> a :began .
+
+<http://cui.unige.ch/isi/swt/tp2a#1994> a :began .
+
+<http://cui.unige.ch/isi/swt/tp2a#1998> a :began .
+
+<http://cui.unige.ch/isi/swt/tp2a#2000> a :began .
+
+<http://cui.unige.ch/isi/swt/tp2a#2002> a :began .
+
+<http://cui.unige.ch/isi/swt/tp2a#2003> a :began .
+
+<http://cui.unige.ch/isi/swt/tp2a#A%20game%20to%20accelerate%20Alzheimers%20research> a :name .
+
+:AIESEC a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#ARCS%20%28Arenas%20for%20Co-operation%20through%20citizen%20science%29> a :projectName .
+
+:ARTigo a :Project,
+        :projectName ;
+    :began 2007 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2007> ;
+    :hasDiscipline wp:Art_history,
+        wp:Computer_science ;
+    :hasProjectname :ARTigo ;
+    :hasSponsoringorg :ub1bL174C63,
+        wp:Ludwig_Maximilian_University_of_Munich ;
+    :projectName "ARTigo" ;
+    :sponsoringOrg [ :hasName :Germany ;
+            :name "Germany" ] .
+
+:Africa a :area .
+
+:AgeGuess a :Project,
+        :projectName ;
+    :began 2012 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2012> ;
+    :hasDiscipline wp:Aging,
+        wp:Biology ;
+    :hasProjectname :AgeGuess ;
+    :hasSponsoringorg :ub1bL132C20,
+        wp:University_of_Southern_Denmark ;
+    :projectName "AgeGuess" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Center%20for%20Research%20and%20Interdiciplinarity> ;
+            :name "Center for Research and Interdiciplinarity" ] .
+
+<http://cui.unige.ch/isi/swt/tp2a#Agent%20Exoplanet> a :projectName .
+
+:Air_Quality_Eggs a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Amphibian%20Migrations%20and%20Road%20Crossings> a :projectName .
+
+:Anecdata a :Project,
+        :projectName ;
+    :hasArea :Worldwide ;
+    :hasDiscipline wp:Air_Quality,
+        wp:Botany,
+        wp:Ecology,
+        wp:Entomology,
+        wp:Lepidoptera,
+        wp:Ornithology,
+        wp:Phenology,
+        wp:Water_Quality,
+        wp:Zoology ;
+    :hasProjectname :Anecdata ;
+    :hasSponsoringorg wp:MDI_Biological_Laboratory ;
+    :hasYear <http://cui.unige.ch/isi/swt/tp2a#2013> ;
+    :projectName "Anecdata" ;
+    :year 2013 .
+
+:AppEAR a :Project,
+        :projectName ;
+    :began 2015 ;
+    :hasArea :Argentina ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2015> ;
+    :hasDiscipline wp:Ecology,
+        wp:limnology,
+        wp:water_quality ;
+    :hasProjectname :AppEAR ;
+    :projectName "AppEAR" .
+
+<http://cui.unige.ch/isi/swt/tp2a#Aquila%20Project> a :projectName .
+
+:Argentina a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Artportalen%20%28Swedish%20Species%20Observation%20System%29> a :projectName .
+
+:Artsobservasjoner a :Project,
+        :projectName ;
+    :began 2008 ;
+    :hasArea :Norway ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2008> ;
+    :hasDiscipline wp:Botany,
+        wp:Mycology,
+        wp:Phenology,
+        wp:Species_distribution,
+        wp:Zoology ;
+    :hasProjectname :Artsobservasjoner ;
+    :hasSponsoringorg wp:Norwegian_Directorate_for_Nature_Management ;
+    :projectName "Artsobservasjoner" .
+
+<http://cui.unige.ch/isi/swt/tp2a#Asteroid%20Mappers%3A%20Vesta> a :projectName .
+
+:Asteroid_Zoo a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Astronomy%20Rewind> a :projectName .
+
+:Atlas_of_Australian_Birds a :projectName .
+
+:Aurorasaurus a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Aussie%20Backyard%20Bird%20Count> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Australian%20Government%20National%20Landcare%20Programme> a :name .
+
+:Austria a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Austrian%20Mycology%20Society> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#B.C.%20Cetacean%20Sightings%20Network> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Backyard%20Bark%20Beetles> a :projectName .
+
+:Backyard_Worlds a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Bauhinia%20Genome> a :projectName .
+
+:BeeSpotter a :Project,
+        :projectName ;
+    :began 2007 ;
+    :hasArea :OH,
+        :USA_IL_IN_MO ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2007> ;
+    :hasDiscipline wp:Entomology ;
+    :hasProjectname :BeeSpotter ;
+    :hasSponsoringorg wp:University_of_Illinois_at_Urbana_Champaign ;
+    :projectName "BeeSpotter" .
+
+:Belgium a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Big%20Bug%20Hunt> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Big%20Butterfly%20Count> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Big%20Moss%20Map> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#BioBotz%2C%20TTA> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#BioDiversity%20Heritage%20Library%20Flickr%20Image%20Tagging> a :projectName .
+
+:BioRiiDL a :Project,
+        :projectName ;
+    :hasArea :India ;
+    :hasDiscipline wp:Biology,
+        wp:Environmental_science ;
+    :hasProjectname :BioRiiDL ;
+    :hasSponsoringorg :Community ;
+    :projectName "BioRiiDL" .
+
+<http://cui.unige.ch/isi/swt/tp2a#Biotechnology%20and%20Biological%20Sciences%20Research%20Council> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Bird%20Count%20India%20partnership> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#BirdSleuth%20K-12> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Birdcount%20India> a :projectName .
+
+:Birdfeeders.com a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Birdlife%20Australia> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Birds%20and%20Windows%20Project> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Birds-Windows%20Collisions%20Project%20Costa%20Rica> a :projectName .
+
+:Borneo a :area .
+
+:Brazil a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#British%20Columbia%20government> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Brooklyn%20Atlantis> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Brushturkeys%20-%20Birds%20of%20Suburbia> a :projectName .
+
+:Bruyères-le-Châtel a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Budworm%20Tracker%20Program> a :projectName .
+
+:BugGuide a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Bumble%20Bee%20Watch> a :projectName .
+
+:COSMIC a :projectName .
+
+:California a :area .
+
+:Canada_British_Columbia a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Canadian%20National%20Wildlife%20Disease%20Surveillance> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Canadian%20Wildlife%20Health%20Cooperative> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Canberra%20Nature%20Map> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Cape%20Citizen%20Science> a :projectName .
+
+:Carto a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Celebrate%20Urban%20Birds> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Center%20for%20Ecological%20Research%20and%20Forestry%20Applications%20%28CREAF%29> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Center%20for%20Game%20Science> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Center%20for%20Research%20and%20Interdiciplinarity> a :name .
+
+:Christmas_Bird_Count a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Cicada%20Watch%3A%20Brood%20II> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Cidad%C3%A3o%20Cientista> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Citclops/%20%3Chttps%3A//www.eyeonwater.org/%3E%20EyeOnWater> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Cities%20at%20Night> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Citizen%20Seismology> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Citizen_Weather_Observer_Program%20%28CWOP%29> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#City%20Nature%20Challenge%202019> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Ciudadanos%20Cientif%C3%ADcos> a :projectName .
+
+:Climate-KIC a :name .
+
+:Climatological_observers_link a :projectName .
+
+:Clumpy a :Project,
+        :projectName ;
+    :began 2012 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2012> ;
+    :hasDiscipline wp:Biology,
+        wp:Botany ;
+    :hasProjectname :Clumpy ;
+    :hasSponsoringorg wp:University_of_Exeter ;
+    :projectName "Clumpy" .
+
+<http://cui.unige.ch/isi/swt/tp2a#Cochrane%20Crowd> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Community%20Snow%20Observations%20%28CSO%29%3Cref%3E%3Chttp%3A//communitysnowobs.org/%3E%20%3ACommunity%20Snow%20Observations%3A%20Citizen%20Science> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Condor%20Watch> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Cooperative_Observer%20Program> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#CosmoQuest%20is%20sponsored%20by%20wp%3ANASA_in_partnership_with_the_Astrosphere_New_Media_Association%20_the_STEM_Center%20%20UniverseToday%20Astronomers_without_Borders%20the%20Planetary%20Society%20the%20wp%3AYoungstown%20State%20University%23Ward%20Beecher%20Planetarium%20the%20Galileo%20Teachers%20Training%20Program%20Swinburne%20Astronomy%20Online%20Dark%20Skies%20Bright%20Kids%20the%20Canadian%20Astronomy%20Data%20Centre%20and%20its%20member%20organizations%20the%20Galileoscope%20Project%20and%20several%20NASA%20projects> a :desc .
+
+:CosmoQuest.org a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#CosmoQuest.org%3Cref%20%3Aname%20cosmos%20group%3Dnote%20/%3E> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Costa%20Rica%20Distance%20Learning%20University%20UNED> a :name .
+
+:Costa_Rica a :area .
+
+:CrowdWater a :Project,
+        :projectName ;
+    :began 2017 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2017> ;
+    :hasDiscipline di:Hydrology ;
+    :hasProjectname :CrowdWater ;
+    :hasSponsoringorg :ub1bL599C20,
+        :ub1bL599C52 ;
+    :projectName "CrowdWater" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#University%20of%20Zurich> ;
+            :name "University of Zurich" ],
+        [ :hasName :Switzerland ;
+            :name "Switzerland" ] .
+
+:Crowdcrafting a :Project,
+        :projectName ;
+    :began 2011 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2011> ;
+    :hasDiscipline wp:Art,
+        wp:Biology,
+        wp:Conservation_biology,
+        wp:Ecology,
+        wp:Economy,
+        wp:Humanities,
+        wp:Medicine,
+        wp:Physics,
+        wp:Social ;
+    :hasProjectname :Crowdcrafting ;
+    :hasSponsoringorg :ub1bL592C21 ;
+    :projectName "Crowdcrafting" ;
+    :sponsoringOrg [ :hasName :SciFabric ;
+            :name "SciFabric" ] .
+
+:Crowdsourced a :sponsoringOrg .
+
+<http://cui.unige.ch/isi/swt/tp2a#Crowdsourcing%20Landscape%20Change%20Consortium> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Cumulonimbus%20Inc.> a :name .
+
+:CyanoTracker a :Project,
+        :projectName ;
+    :began 2014 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2014> ;
+    :hasDiscipline wp:Algal_Bloom,
+        wp:Water_Quality ;
+    :hasProjectname :CyanoTracker ;
+    :hasSponsoringorg wp:University_of_Georgia ;
+    :projectName "CyanoTracker" .
+
+<http://cui.unige.ch/isi/swt/tp2a#DIY%20BIO%20Hong%20Kong> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Darwin%27s%20Ark> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Department%20of%20Environmental%20Conservation> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Did%20You%20Feel%20It%3F> a :projectName .
+
+:DigiVol a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Digital_Access_to_a_Sky_Century_%40_Harvard> a :projectName .
+
+:Disk_Detective a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Diver%20Safety%20Guardian> a :projectName .
+
+:Dog_Aging_Project a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Doing%20It%20Together%20Science%20DITOs> a :projectName .
+
+:DrugsFromDirt a :Project,
+        :projectName ;
+    :began 2017 ;
+    :hasArea :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2017> ;
+    :hasDiscipline wp:Biology,
+        wp:Ecology,
+        wp:Genetics ;
+    :hasProjectname :DrugsFromDirt ;
+    :hasSponsoringorg :ub1bL676C20,
+        :ub1bL676C81 ;
+    :projectName "DrugsFromDirt" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Laboratory%20of%20Genetically%20Encoded%20Small%20Molecules> ;
+            :name "Laboratory of Genetically Encoded Small Molecules" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#The%20Rockefeller%20University> ;
+            :name "The Rockefeller University" ] .
+
+:EDDMapS a :Project,
+        :projectName ;
+    :began 2005 ;
+    :hasArea :Canada,
+        :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2005> ;
+    :hasDiscipline di:Tracking,
+        wp:Biology,
+        wp:Botany,
+        wp:Entomology,
+        wp:Wildlife,
+        wp:invasive_species ;
+    :hasProjectname :EDDMapS ;
+    :hasSponsoringorg wp:University_of_Georgia_Center_for_Invasive_Species_and_Ecosystem_Health ;
+    :projectName "EDDMapS" .
+
+<http://cui.unige.ch/isi/swt/tp2a#Earth%20Protect> a :name .
+
+:Earthwatch a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Environmental_groups_and_resources_serving_K-12_schools%23Project_BudBurst> a :projectName .
+
+:Europe_and_Africa a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#European%20Commission> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Exoplanet%20Explorers> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Explore%20the%20Seafloor> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#EyeOnWater%20Australia> a :projectName .
+
+:EyeWire a :projectName .
+
+:FL_worldwide a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Floating%20Forests> a :projectName .
+
+:Floodcrowd a :Project,
+        :projectName ;
+    :began 2015 ;
+    :hasArea :UK ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2015> ;
+    :hasDiscipline wp:Floods ;
+    :hasProjectname :Floodcrowd ;
+    :hasSponsoringorg wp:Loughborough_University ;
+    :projectName "Floodcrowd" .
+
+:Flying_ant_survey a :projectName .
+
+:Foldit a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Forest%20Entomology%20lab%20at%20the%20University%20of%20Florida%2C%20Gainesville%2C%20FL> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Fossil%20Atmospheres> a :projectName .
+
+:France a :area .
+
+:France_part a :area .
+
+:Fraxinus a :projectName .
+
+:Fredericton_NB a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#FreshWater%20Watch> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Friends%20of%20Earth> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Friends%20of%20the%20East%20Brunswick%20Environmental%20Commission> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Frog%20Watch> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#FrogWatch%20USA%3Csup%3ETM%3C/sup%3E> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Galaxy%20Explorer> a :projectName .
+
+:Galaxy_Zoo a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Garden%20Wildlife%20Health> a :projectName .
+
+:Genographic_Project a :projectName .
+
+:Geo-wiki a :projectName .
+
+:GeoTag-X a :Project,
+        :projectName ;
+    :began 2012 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2012> ;
+    :hasDiscipline wp:Disaster_risk_reduction ;
+    :hasProjectname :GeoTag-X ;
+    :hasSponsoringorg :ub1bL837C88,
+        wp:Seventh_Framework_Programme,
+        wp:UNOSAT,
+        wp:United_Nations_Institute_for_Training_and_Research ;
+    :projectName "GeoTag-X" ;
+    :sponsoringOrg [ :hasName :_Citizen_Cyberlab ;
+            :name "_Citizen_Cyberlab" ] .
+
+:Georgia a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Georgia%20Adopt-A-Stream> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Global%202000> a :name .
+
+:Globe_at_Night a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Go%20Viral%20Study%20> a :projectName .
+
+:Golden_Gate_Raptor_Observatory a :projectName .
+
+:Goleta_CA a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Gravity%20Spy> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Great%20Backyard%20Bird%20Count> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Great%20World%20Wide%20Star%20Count> a :projectName .
+
+:Great_Cocky_Count a :projectName .
+
+:Greece a :area .
+
+:GrowVeg a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#HERP%20Board%20of%20Trustees> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Habitat%20Network> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Hare%20Survey> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Hazelnut%20Project%2C%20The> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Herbarium%40home> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Herbonauten%20%28Pilot%29> a :projectName .
+
+:HerpMapper a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#HerpMapper%20Advisory%20Committee> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Herpetological%20Education%20and%20Research%20Project> a :projectName .
+
+:Higgs_Hunters a :projectName .
+
+:Higgs_Hunters_Classify a :sponsoringOrg .
+
+<http://cui.unige.ch/isi/swt/tp2a#Hong%20Kong%20Bird%20Watching%20Society> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Hoyt%20Arboretum> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Hubble%20Asteroid%20Hunter> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Human%20Protein%20Atlas%20%28KTH%29> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Hummingbird%20Migration%20Tracker> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Hummingbirds%20at%20Home> a :projectName .
+
+:Hungary a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Hybrid%20Hazelnut%20Consortium> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#IDAH2O%20Master%20Water%20Stewards> a :projectName .
+
+:ISGF a :name .
+
+:IceWatchUSA a :Project,
+        :projectName ;
+    :hasArea :USA ;
+    :hasDiscipline wp:Phenology ;
+    :hasProjectname :IceWatchUSA ;
+    :hasSponsoringorg :ub1bL992C21 ;
+    :projectName "IceWatchUSA" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Nature%20Abounds> ;
+            :name "Nature Abounds" ] .
+
+<http://cui.unige.ch/isi/swt/tp2a#Identify%20animals> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#India%20Biodiversity%20Portal> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Innovate%20UK> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Instant%20Wild> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Institut%20de%20Biologia%20Evolutiva> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Institute%20of%20Marine%20Sciences%20%28ICM-CSIC%29> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#International%20Centre%20for%20Radio%20Astronomy%20Research> a :name .
+
+:Israel a :area .
+
+:Italy a :area .
+
+:Ithaca_NY a :area .
+
+:JCI a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#James%20Cook%20University> a :name .
+
+:Key_Largo a :area .
+
+:Kimberley a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Kinsey%20Reporter> a :projectName .
+
+:Klang_Valley_Greater_Kuala_Lumpur a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Koala%20Count> a :projectName .
+
+:LLC a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Laboratory%20of%20Genetically%20Encoded%20Small%20Molecules> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Landscape%20Watch%20Hampshire> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Landslide%20Reporter> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Las%20Cumbres%20Observatory%20Global%20Telescope%20Network> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Let%27s%20Do%20It%20Foundation> a :name .
+
+:Lingscape a :Project,
+        :projectName ;
+    :began 2016 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2016> ;
+    :hasDiscipline wp:Linguistic_landscape,
+        wp:Sociolinguistics ;
+    :hasProjectname :Lingscape ;
+    :hasSponsoringorg wp:University_of_Luxembourg ;
+    :projectName "Lingscape" .
+
+:Litterati a :Project,
+        :projectName ;
+    :began [ :app_debut 2016 ;
+            :first_photo 2012 ;
+            :hasApp_debut <http://cui.unige.ch/isi/swt/tp2a#2016> ;
+            :hasFirst_photo <http://cui.unige.ch/isi/swt/tp2a#2012> ] ;
+    :hasArea :Worldwide ;
+    :hasBegan :ub1bL1071C13 ;
+    :hasDiscipline wp:Biology,
+        wp:Environmental_Science,
+        wp:Human_Impact,
+        wp:Pollution ;
+    :hasProjectname :Litterati ;
+    :projectName "Litterati" .
+
+<http://cui.unige.ch/isi/swt/tp2a#Litterbug%20%28Dreckspotz%29> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Local%20Environmental%20Observer%20%28LEO%29%20Network> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Local%20Group%20Cluster%20Search> a :projectName .
+
+:Loss_of_the_Night_app a :Project,
+        :projectName ;
+    :began 2013 ;
+    :hasArea :Germany ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2013> ;
+    :hasDiscipline wp:Astronomy,
+        wp:Ecology,
+        wp:Remote_Sensing ;
+    :hasProjectname :Loss_of_the_Night_app ;
+    :hasSponsoringorg wp:Freie_Universität_Berlin,
+        wp:Leibniz_Institute_of_Freshwater_Ecology_and_Inland_Fisheries,
+        <https://en.wikipedia.org/wiki/Federal_Ministry_of_Education_and_Research_(Germany)> ;
+    :projectName "Loss_of_the_Night_app" .
+
+<http://cui.unige.ch/isi/swt/tp2a#Lusheng%20Society> a :name .
+
+:Luxemburg a :area .
+
+:MACHAC a :name .
+
+:MICS a :projectName .
+
+:Maine_USA a :area .
+
+:Malaysia a :area .
+
+:MammalMAP a :Project,
+        :projectName ;
+    :began 2012 ;
+    :hasArea :Africa ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2012> ;
+    :hasDiscipline wp:Mammal_Conservation ;
+    :hasProjectname :MammalMAP ;
+    :hasSponsoringorg wp:Animal_Demography_Unit,
+        wp:Marine_Research_Institute ;
+    :projectName "MammalMAP" .
+
+:MangroveWatch a :Project,
+        :projectName ;
+    :began 2009 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2009> ;
+    :hasDiscipline wp:Ecology,
+        wp:Habitat_conservation,
+        wp:Mangrove,
+        wp:Surveillance,
+        wp:Wetlands ;
+    :hasProjectname :MangroveWatch ;
+    :hasSponsoringorg :ub1bL1111C156,
+        :ub1bL1111C20,
+        :ub1bL1111C200,
+        :ub1bL1111C256,
+        :ub1bL1111C292,
+        :ub1bL1111C54,
+        :ub1bL1111C95 ;
+    :projectName "MangroveWatch" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#The%20Burnett%20Mary%20Regional%20Group> ;
+            :name "The Burnett Mary Regional Group" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#James%20Cook%20University> ;
+            :name "James Cook University" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Queensland%20Department%20of%20Primary%20Industries> ;
+            :name "Queensland Department of Primary Industries" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#OceanWatch%20Australia%20Ltd> ;
+            :name "OceanWatch Australia Ltd" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Earth%20Protect> ;
+            :name "Earth Protect" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#The%20University%20of%20Queensland> ;
+            :name "The University of Queensland" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Australian%20Government%20National%20Landcare%20Programme> ;
+            :name "Australian Government National Landcare Programme" ] .
+
+:Manta_Matcher a :projectName .
+
+:MapIt a :Project,
+        :projectName ;
+    :began 2018 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2018> ;
+    :hasDiscipline wp:Biology,
+        wp:Cartography,
+        wp:Environmental_Science,
+        wp:Human_geography,
+        wp:Pollution,
+        wp:Trash_Blindness ;
+    :hasProjectname :MapIt ;
+    :hasSponsoringorg :ub1bL1125C139,
+        :ub1bL1125C156,
+        :ub1bL1125C172,
+        :ub1bL1125C190,
+        :ub1bL1125C20,
+        :ub1bL1125C42,
+        :ub1bL1125C60,
+        :ub1bL1125C83 ;
+    :projectName "MapIt" ;
+    :sponsoringOrg [ :hasName :ISGF ;
+            :name "ISGF" ],
+        [ :hasName :JCI ;
+            :name "JCI" ],
+        [ :hasName :AIESEC ;
+            :name "AIESEC" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Let%27s%20Do%20It%20Foundation> ;
+            :name "Let's Do It Foundation" ],
+        [ :hasName :Microsoft ;
+            :name "Microsoft" ],
+        [ :hasName :Carto ;
+            :name "Carto" ],
+        [ :hasName :QUALITANCE ;
+            :name "QUALITANCE" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Republic%20of%20Estonia%20Ministry%20of%20Environment> ;
+            :name "Republic of Estonia Ministry of Environment" ] .
+
+<http://cui.unige.ch/isi/swt/tp2a#Marine%20Megafauna%20Foundation> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Marine%20Metres%20Squared> a :projectName .
+
+:Mark2Cure a :Project,
+        :projectName ;
+    :began 2012 ;
+    :hasArea :USA_CA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2012> ;
+    :hasDiscipline wp:Biomedical_research ;
+    :hasLaunch <http://cui.unige.ch/isi/swt/tp2a#2015> ;
+    :hasProjectname :Mark2Cure ;
+    :hasSponsoringorg :ub1bL1139C21 ;
+    :launch 2015 ;
+    :projectName "Mark2Cure" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#The%20Su%20Lab%20at%20Scripps%20Research%20Institute> ;
+            :name "The Su Lab at Scripps Research Institute" ] .
+
+<http://cui.unige.ch/isi/swt/tp2a#Massachusetts%20Herpetological%20Atlas> a :projectName .
+
+:Mediterranean_Sea a :area .
+
+:MeteorITo a :Project,
+        :projectName ;
+    :began 2017 ;
+    :hasArea :Mexico ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2017> ;
+    :hasDiscipline wp:Meteorological_phenomena ;
+    :hasProjectname :MeteorITo ;
+    :hasSponsoringorg :ub1bL1147C21 ;
+    :projectName "MeteorITo" ;
+    :sponsoringOrg [ :hasName :Hacedores ;
+            :name "Hacedores" ] .
+
+:Michigan a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Michigan%20Department%20of%20Natural%20Resources> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Michigan%20Herp%20Atlas%20Project> a :projectName .
+
+:Microsoft a :name .
+
+:Milky_Way_Project a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Ministry%20of%20Natural%20Resources%E2%80%99%20Natural%20Heritage%20Information%20Centre%20%28NHIC%29> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Mitten%20Crab%20Recording%20Project> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Momoko%20Ito%20Foundation> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Monarch_butterfly%20Health> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Monarch_butterfly%20Larva%20Monitoring%20Project> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Monarch_butterfly%20Watch> a :projectName .
+
+:Montenegro a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Moon%20Mappers> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Moors%20for%20the%20Future%20Partnership> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Mosquito%20Alert> a :projectName .
+
+:Mozak a :Project,
+        :projectName ;
+    :began 2016 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2016> ;
+    :hasDiscipline wp:Neuroscience ;
+    :hasProjectname :Mozak ;
+    :hasSponsoringorg :ub1bL1211C21 ;
+    :projectName "Mozak" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Center%20for%20Game%20Science> ;
+            :name "Center for Game Science" ] .
+
+<http://cui.unige.ch/isi/swt/tp2a#Muon%20Hunters> a :projectName .
+
+:NS a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#National%20Science%20Foundation> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#National_Moth_Week%20%28NMW%29> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Nature%20Abounds> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Nature%27s%20Notebook> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#NatureWatch%20%2AFrogWatch%20%2AIceWatch%20%2APlantWatch%20%2AWormWatch> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#NatureWatch%20NZ> a :projectName .
+
+:Natusfera a :Project,
+        :projectName ;
+    :began 2016 ;
+    :hasArea :Europe ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2016> ;
+    :hasDiscipline wp:Biodiversity ;
+    :hasProjectname :Natusfera ;
+    :hasSponsoringorg :ub1bL1260C127,
+        :ub1bL1260C20,
+        :ub1bL1260C50,
+        wp:FECyT ;
+    :projectName "Natusfera" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Institute%20of%20Marine%20Sciences%20%28ICM-CSIC%29> ;
+            :name "Institute of Marine Sciences (ICM-CSIC)" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Spanish%20GBIF%20node> ;
+            :name "Spanish GBIF node" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Center%20for%20Ecological%20Research%20and%20Forestry%20Applications%20%28CREAF%29> ;
+            :name "Center for Ecological Research and Forestry Applications (CREAF)" ] .
+
+<http://cui.unige.ch/isi/swt/tp2a#Neighborhood%20Nestwatch> a :projectName .
+
+:NestWatch a :Project,
+        :projectName ;
+    :began 2008 ;
+    :hasArea <http://cui.unige.ch/isi/swt/tp2a#wp:Americas> ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2008> ;
+    :hasDiscipline wp:Ornithology ;
+    :hasProjectname :NestWatch ;
+    :hasSponsoringorg wp:Cornell_Lab_of_Ornithology ;
+    :projectName "NestWatch" .
+
+<http://cui.unige.ch/isi/swt/tp2a#New%20York%20University> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#New%20Zealand%20Bio-Diversity%20Recording%20Network%20Trust> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#New%20Zealand%20Marine%20Studies%20Centre> a :name .
+
+:New_York a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#North%20American%20Bird%20Phenology%20Program> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#North%20American%20Field%20Herping%20Association> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#North%20American%20field%20herping%20community> a :name .
+
+:Northeastern_America a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Norwegian%20Biodiversity%20Information%20Centre> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Norwegian%20Biodiversity%20Network> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Notes%20from%20Nature> a :projectName .
+
+:OH a :area .
+
+:OR a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#OSIRIS-REx%20asteroid%20sample%20return%20mission> a :name .
+
+:Observation.org a :Project,
+        :projectName ;
+    :hasArea :Worldwide ;
+    :hasDiscipline wp:Botany,
+        wp:Ecology,
+        wp:Entomology,
+        wp:Lepidoptera,
+        wp:Ornithology,
+        wp:Phenology,
+        wp:Zoology ;
+    :hasProjectname :Observation.org ;
+    :projectName "Observation.org" .
+
+<http://cui.unige.ch/isi/swt/tp2a#OceanWatch%20Australia%20Ltd> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Odonata%20Central> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Old_Weather%20seattle%20> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Ontario%20BioBlitz> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Ontario%20Butterfly%20Atlas%20Online> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Ontario%20Reptile%20and%20Amphibian%20Atlas> a :projectName .
+
+:OpenHumans a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Operation%20Wallacea> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Orca%20Game> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Orchids%3ATerrestrial%20Spiranthes%20in%20an%20Urban%20Environment> a :projectName .
+
+:Orchive a :name .
+
+:Oregon a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Ornitho%20Deutschland> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#PARS%20%28Pennsylvania%20Amphibian%20and%20Reptile%20Survey%29> a :projectName .
+
+:Pacific_States a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Painted%20Lady%20Migration%20Project> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Penguin%20Watch> a :projectName .
+
+:Pennsylvania a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Pieris%20Project> a :projectName .
+
+:Pilzfinder a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Pl%40ntNet> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Planet%20Mappers%3A%20Mercury> a :projectName .
+
+:Planet_Hunters a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Plankton%20Project> a :projectName .
+
+:Poland a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Portland%20Urban%20Coyote%20Project> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Prabhakar%20/%20Thomas%20Vattakaven> a :name .
+
+:PressureNET a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Project%20Discovery%20I.> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Project%20Discovery%20II.> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Project%20Roadkill> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Project%20Seagrass> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Project%20Soothe> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Project%20Splatter> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Project_Dive_Exploration%20%28PDE%29> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Protect%20Our%20Planet%20From%20Solar%20Storms> a :projectName .
+
+:Public_Lab a :projectName .
+
+:PurpleAir a :Project,
+        :projectName ;
+    :began 2015 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2015> ;
+    :hasDiscipline wp:Air_quality,
+        wp:environmental_science ;
+    :hasProjectname :PurpleAir ;
+    :projectName "PurpleAir" .
+
+:QUALITANCE a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Quantum%20Moves> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Queensland%20Department%20of%20Primary%20Industries> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Radio%20Meteor%20Zoo> a :projectName .
+
+:Radio_Galaxy_Zoo a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Reading%20Nature%27s%20Library> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Redmap%20%28Range%20Extension%20Database%20and%20Mapping%20Project%29> a :projectName .
+
+:Redmet a :Project,
+        :projectName ;
+    :began 2017 ;
+    :hasArea :Mexico ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2017> ;
+    :hasDiscipline wp:Environmental_Meteorological_Network ;
+    :hasProjectname :Redmet ;
+    :hasSponsoringorg :ub1bL1517C21 ;
+    :projectName "Redmet" ;
+    :sponsoringOrg [ :hasName :Hacedores ;
+            :name "Hacedores" ] .
+
+<http://cui.unige.ch/isi/swt/tp2a#Reef%20Check%20Deutschland> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Reef%20Check%20France> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Reef%20Check%20Italia> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Reef%20Check%20Med> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Reef%20Check%20Worldwide%20Foundation> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Reef%20Environmental%20Education%20Foundation%20%28REEF%29> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Reef%20Life%20Survey%20%28RLS%29> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Report-a-weed%20> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Republic%20of%20Estonia%20Ministry%20of%20Environment> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Research%20affiliate%20Arizona_State_University> a :name .
+
+:Roadkill a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#SETI%40home> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#SIATA%20%C3%81rea%20Metropolitana%20del%20Valle%20de%20Aburr%C3%A1%20> a :name .
+
+:SPLASSH a :Project,
+        :projectName ;
+    :began 2013 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2013> ;
+    :hasDiscipline wp:Pollution,
+        wp:Water_Quality ;
+    :hasProjectname :SPLASSH ;
+    :hasSponsoringorg wp:Kennesaw_State_University ;
+    :projectName "SPLASSH" .
+
+<http://cui.unige.ch/isi/swt/tp2a#SPOTTERON%20collaboration> a :name .
+
+:SZTAKI_Desktop_Grid a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Safecast_%28organization%29> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#SatCam%20> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Save%20Brasil> a :name .
+
+:SciFabric a :name .
+
+:SciStarter a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Science%20Gossip%20Biodiversity%20Heritage%20Library> a :projectName .
+
+:SeagrassSpotter a :Project,
+        :projectName ;
+    :began 2016 ;
+    :hasArea :Worldwide_Marine ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2016> ;
+    :hasDiscipline wp:Seagrass ;
+    :hasProjectname :SeagrassSpotter ;
+    :hasSponsoringorg :ub1bL1594C21 ;
+    :projectName "SeagrassSpotter" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Project%20Seagrass> ;
+            :name "Project Seagrass" ] .
+
+<http://cui.unige.ch/isi/swt/tp2a#Secchi%20Disk> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Secchi%20Disk%20Project> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Sensing%20the%20Air> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Smithsonian%20Transcription%20Center> a :projectName .
+
+:Snowtweets a :Project,
+        :projectName ;
+    :hasArea :Canada ;
+    :hasDiscipline wp:Meteorology ;
+    :hasProjectname :Snowtweets ;
+    :hasSponsoringorg wp:University_of_Waterloo ;
+    :projectName "Snowtweets" .
+
+:Socientize a :Project,
+        :projectName ;
+    :began 2012 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2012> ;
+    :hasDiscipline wp:Life_sciences ;
+    :hasProjectname :Socientize ;
+    :hasSponsoringorg wp:European_Commission ;
+    :projectName "Socientize" .
+
+:Solar_Stormwatch a :projectName .
+
+:South_Africa a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Space%20Warps> a :projectName .
+
+:Spain a :area .
+
+:Spain_part a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Spanish%20GBIF%20node> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Speak%20to%20AI> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Species%20Observations%20System> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Stall%20Catchers> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Stardust%40home> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Striped%20AmBASSadors> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#SuperWASP%20Variable%20Stars> a :projectName .
+
+:Sweden a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Swedish%20Species%20Information%20Centre%20/%20Swedish%20Environmental%20Protection%20Agency> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Taiwan%20Breeding%20Bird%20Survey> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Taiwan%20Roadkill%20Observation%20Network> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Target%20Asteroids%21> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Target%20NEOs%21> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Taxon%20Expeditions> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Taxon%20expeditions> a :projectName .
+
+:Teatime4Science a :Project,
+        :projectName ;
+    :began 2016 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2016> ;
+    :hasDiscipline wp:Botany,
+        wp:Climate_change,
+        wp:Ecology,
+        <https://en.wikipedia.org/wiki/Pedology_(soil_study)> ;
+    :hasProjectname :Teatime4Science ;
+    :hasSponsoringorg :ub1bL1719C20,
+        :ub1bL1719C44 ;
+    :projectName "Teatime4Science" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#The%20TBI%20team> ;
+            :name "The TBI team" ],
+        [ :hasName <http://cui.unige.ch/isi/swt/tp2a#Utrecht%20University> ;
+            :name "Utrecht University" ] .
+
+:Tekiu a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#The%20Astronomical%20League> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#The%20Bird%20Breeding%20Survey%20of%20Taiwan> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#The%20Burnett%20Mary%20Regional%20Group> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#The%20Public%20Laboratory%20for%20Open%20Technology%20and%20Science> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#The%20Rimba%20Project%20/%20Rimba%20Ilmu%20Botanic%20Garden> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#The%20Rockefeller%20University> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#The%20Shore%20Thing%20Project> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#The%20Su%20Lab%20at%20Scripps%20Research%20Institute> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#The%20TBI%20team> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#The%20University%20of%20Queensland> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#The%20Wildsense%20Project> a :name .
+
+:TooLoud a :Project,
+        :projectName ;
+    :hasArea :Bangladesh ;
+    :hasDiscipline wp:Computing,
+        wp:Physics ;
+    :hasProjectname :TooLoud ;
+    :hasSponsoringorg :Community ;
+    :projectName "TooLoud" .
+
+<http://cui.unige.ch/isi/swt/tp2a#Toronto%20Entomologists%E2%80%99%20Association%20> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Track%20My%20Fish> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Track%20a%20Tree> a :projectName .
+
+:TreeSnap a :Project,
+        :projectName ;
+    :began 2017 ;
+    :hasArea :USA ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2017> ;
+    :hasDiscipline wp:Botany,
+        wp:Forestry,
+        wp:Invasive_Species ;
+    :hasProjectname :TreeSnap ;
+    :hasSponsoringorg wp:University_of_Kentucky,
+        wp:University_of_Tennessee ;
+    :projectName "TreeSnap" .
+
+<http://cui.unige.ch/isi/swt/tp2a#Turtle%20Survey%20and%20Analysis%20Tools%20%28TurtleSAT%29> a :projectName .
+
+:UBione a :projectName .
+
+:URwatair a :projectName .
+
+:US a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#USA%20National%20Phenology%20Network> a :name .
+
+:USA_CA a :area .
+
+:USA_IL_IN_MO a :area .
+
+:USA_WI a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#University%20of%20Delaware> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#University%20of%20Edinburgh%20and%20the%20Woodland%20Trust> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#University%20of%20Geneva> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#University%20of%20Surrey> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#University%20of%20Vienna> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#University%20of%20Wisconsin%20-%20Madison> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#University%20of%20Wisconsin-Extension%20and%20Wisconsin%20Department%20of%20Natural%20Resources> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#University%20of%20York> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#University%20of%20Zurich> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Utrecht%20University> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#VT%20Fish%20Diaries> a :projectName .
+
+:Valle_de_Aburrá_Colombia a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Variable%20Star%20Zoo> a :projectName .
+
+:VerbCorner a :Project,
+        :projectName ;
+    :began 2013 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2013> ;
+    :hasDiscipline wp:Linguistics ;
+    :hasProjectname :VerbCorner ;
+    :hasSponsoringorg wp:Massachusetts_Institute_of_Technology ;
+    :projectName "VerbCorner" .
+
+<http://cui.unige.ch/isi/swt/tp2a#Verein%20der%20Freunde%20des%20Botanischen%20Gartens%20und%20Botanischen%20Museums%20Berlin-Dahlem> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Vermont%20Center%20for%20Ecostudies> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Vermont%20Reptile%20%26%20Amphibian%20Atlas> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Volunteer%20Water%20Quality%20Monitoring%20Programs%20%28thousands%29> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Wakame%20Watch> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Water%20Action%20Volunteers> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Weather%20Detective> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#West%20Kimberley%20Rubber%20Vine%20Eradication%20Program> a :name .
+
+:Western_Hemisphere a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#What%20Do%20Birds%20Eat%3F> a :projectName .
+
+:WickedDevices a :name .
+
+:Wikispecies a :projectName .
+
+:Wildbook a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Wildlife%20Spotter> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#WildlifeLog%20%3ACommunity%20Interest%20Company> a :name .
+
+:WildlifeLog.org a :Project,
+        :projectName ;
+    :began 2014 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2014> ;
+    :hasDiscipline wp:Wildlife ;
+    :hasProjectname :WildlifeLog.org ;
+    :hasSponsoringorg :ub1bL1852C21 ;
+    :projectName "WildlifeLog.org" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#WildlifeLog%20%3ACommunity%20Interest%20Company> ;
+            :name "WildlifeLog :Community Interest Company" ] .
+
+<http://cui.unige.ch/isi/swt/tp2a#Wildsense%20Tigers> a :projectName .
+
+:Wisconsin a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Wisconsin%20Department%20of%20Natural%20Resources> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Wisconsin%20Odonata%20Survey> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Wombat%20Survey%20and%20Analysis%20Tools%20%28WomSAT%29> a :projectName .
+
+:Worldwide_Germany a :area .
+
+:XperiBIRD.be a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Yellowhammer%20Dialects> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Zentralanstalt%20f%C3%BCr%20Meteorologie%20und%20Geodynamik%20%28ZAMG%29> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Zerynthia%20Association> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Zikathon%20/%20Mosquito%20Alert> a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#Zoological%20Society%20of%20London> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#Zwicky%27s%20Quirky%20Transients> a :projectName .
+
+:_BeeSpotter a :name .
+
+:_Berkeley a :name .
+
+:_CADIAS a :name .
+
+:_Citizen_Cyberlab a :name .
+
+:_ECSA a :name .
+
+:_Irvine_ a :name .
+
+:_Kersnikova_Institute a :name .
+
+:_London a :name .
+
+:_Medialab_Prado a :name .
+
+:_Meritum a :name .
+
+:eBird a :projectName .
+
+:eButterfly a :projectName .
+
+:eOceans a :Project,
+        :projectName ;
+    :began 2014 ;
+    :hasArea :Global ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2014> ;
+    :hasDiscipline wp:Climate_Change,
+        wp:Marine_Debris,
+        wp:Marine_Ecology,
+        wp:Ornithology ;
+    :hasProjectname :eOceans ;
+    :hasSponsoringorg wp:Private_company ;
+    :projectName "eOceans" .
+
+:eShark a :Project,
+        :projectName ;
+    :began 2005 ;
+    :hasArea :Global ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2005> ;
+    :hasDiscipline wp:Marine_Ecology,
+        wp:Marine_Management,
+        wp:Tourism ;
+    :hasProjectname :eShark ;
+    :hasSponsoringorg wp:Crowd-sourced ;
+    :projectName "eShark" .
+
+:echidnaCSI a :Project,
+        :projectName ;
+    :began 2017 ;
+    :hasArea :Australia ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2017> ;
+    :hasDiscipline wp:Biology,
+        wp:Conservation_biology,
+        wp:Ecology,
+        wp:Genetics ;
+    :hasProjectname :echidnaCSI ;
+    :hasSponsoringorg wp:University_of_Adelaide ;
+    :projectName "echidnaCSI" .
+
+:eutema a :name .
+
+:iNaturalist a :projectName .
+
+:iSeahorse a :Project,
+        :projectName ;
+    :began 2013 ;
+    :hasArea :Global ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2013> ;
+    :hasDiscipline wp:Ecology,
+        wp:Ichthyology,
+        wp:Marine_Biology,
+        wp:Marine_Conservation,
+        wp:Zoology ;
+    :hasProjectname :iSeahorse ;
+    :hasSponsoringorg wp:Guylian_Belgian_Chocolate,
+        wp:John_G._Shedd_Aquarium,
+        wp:Project_Seahorse,
+        wp:The_University_of_British_Columbia,
+        wp:Zoological_Society_of_London,
+        wp:iNaturalist ;
+    :projectName "iSeahorse" .
+
+:iSpot a :projectName .
+
+<http://cui.unige.ch/isi/swt/tp2a#non-profit%20organisation%20VA%20%28Public%20%26%20Science%29.> a :name .
+
+:theSkyNet a :Project,
+        :projectName ;
+    :began 2011 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2011> ;
+    :hasDiscipline wp:Astronomy,
+        wp:Computing ;
+    :hasProjectname :theSkyNet ;
+    :hasSponsoringorg :ub1bL1726C21 ;
+    :projectName "theSkyNet" ;
+    :sponsoringOrg [ :hasName <http://cui.unige.ch/isi/swt/tp2a#International%20Centre%20for%20Radio%20Astronomy%20Research> ;
+            :name "International Centre for Radio Astronomy Research" ] .
+
+:theryanlab.com a :name .
+
+:ub1bL1006C20 a :sponsoringOrg .
+
+:ub1bL1013C21 a :sponsoringOrg .
+
+:ub1bL1041C21 a :sponsoringOrg .
+
+:ub1bL1048C21 a :sponsoringOrg .
+
+:ub1bL1071C13 a :began .
+
+:ub1bL1076C20 a :sponsoringOrg .
+
+:ub1bL1076C44 a :sponsoringOrg .
+
+:ub1bL1076C72 a :sponsoringOrg .
+
+:ub1bL1111C156 a :sponsoringOrg .
+
+:ub1bL1111C20 a :sponsoringOrg .
+
+:ub1bL1111C200 a :sponsoringOrg .
+
+:ub1bL1111C256 a :sponsoringOrg .
+
+:ub1bL1111C292 a :sponsoringOrg .
+
+:ub1bL1111C54 a :sponsoringOrg .
+
+:ub1bL1111C95 a :sponsoringOrg .
+
+:ub1bL1118C32 a :sponsoringOrg .
+
+:ub1bL1125C139 a :sponsoringOrg .
+
+:ub1bL1125C156 a :sponsoringOrg .
+
+:ub1bL1125C172 a :sponsoringOrg .
+
+:ub1bL1125C190 a :sponsoringOrg .
+
+:ub1bL1125C20 a :sponsoringOrg .
+
+:ub1bL1125C42 a :sponsoringOrg .
+
+:ub1bL1125C60 a :sponsoringOrg .
+
+:ub1bL1125C83 a :sponsoringOrg .
+
+:ub1bL1132C21 a :sponsoringOrg .
+
+:ub1bL1139C21 a :sponsoringOrg .
+
+:ub1bL1147C21 a :sponsoringOrg .
+
+:ub1bL1155C21 a :sponsoringOrg .
+
+:ub1bL1162C21 a :sponsoringOrg .
+
+:ub1bL1211C21 a :sponsoringOrg .
+
+:ub1bL1218C21 a :sponsoringOrg .
+
+:ub1bL1232C20 a :sponsoringOrg .
+
+:ub1bL1232C85 a :sponsoringOrg .
+
+:ub1bL1239C21 a :sponsoringOrg .
+
+:ub1bL1253C21 a :sponsoringOrg .
+
+:ub1bL1260C127 a :sponsoringOrg .
+
+:ub1bL1260C20 a :sponsoringOrg .
+
+:ub1bL1260C50 a :sponsoringOrg .
+
+:ub1bL1280C21 a :sponsoringOrg .
+
+:ub1bL1329C21 a :sponsoringOrg .
+
+:ub1bL132C20 a :sponsoringOrg .
+
+:ub1bL1336C39 a :sponsoringOrg .
+
+:ub1bL1343C21 a :sponsoringOrg .
+
+:ub1bL1350C21 a :sponsoringOrg .
+
+:ub1bL1357C21 a :sponsoringOrg .
+
+:ub1bL1364C21 a :sponsoringOrg .
+
+:ub1bL1371C198 a :sponsoringOrg .
+
+:ub1bL1371C20 a :sponsoringOrg .
+
+:ub1bL1378C21 a :sponsoringOrg .
+
+:ub1bL1392C21 a :sponsoringOrg .
+
+:ub1bL139C21 a :sponsoringOrg .
+
+:ub1bL1406C20 a :sponsoringOrg .
+
+:ub1bL1406C58 a :sponsoringOrg .
+
+:ub1bL1406C90 a :sponsoringOrg .
+
+:ub1bL1413C21 a :sponsoringOrg .
+
+:ub1bL1434C21 a :sponsoringOrg .
+
+:ub1bL1441C20 a :sponsoringOrg .
+
+:ub1bL1441C81 a :sponsoringOrg .
+
+:ub1bL1448C20 a :sponsoringOrg .
+
+:ub1bL1448C58 a :sponsoringOrg .
+
+:ub1bL1448C79 a :sponsoringOrg .
+
+:ub1bL1455C20 a :sponsoringOrg .
+
+:ub1bL1455C53 a :sponsoringOrg .
+
+:ub1bL1455C74 a :sponsoringOrg .
+
+:ub1bL146C20 a :sponsoringOrg .
+
+:ub1bL146C45 a :sponsoringOrg .
+
+:ub1bL1483C21 a :sponsoringOrg .
+
+:ub1bL1517C21 a :sponsoringOrg .
+
+:ub1bL1538C114 a :sponsoringOrg .
+
+:ub1bL1538C20 a :sponsoringOrg .
+
+:ub1bL1538C50 a :sponsoringOrg .
+
+:ub1bL1538C85 a :sponsoringOrg .
+
+:ub1bL1552C21 a :sponsoringOrg .
+
+:ub1bL1559C100 a :sponsoringOrg .
+
+:ub1bL1559C20 a :sponsoringOrg .
+
+:ub1bL1559C82 a :sponsoringOrg .
+
+:ub1bL1566C21 a :sponsoringOrg .
+
+:ub1bL1580C21 a :sponsoringOrg .
+
+:ub1bL1587C21 a :sponsoringOrg .
+
+:ub1bL1594C21 a :sponsoringOrg .
+
+:ub1bL1601C21 a :sponsoringOrg .
+
+:ub1bL160C20 a :sponsoringOrg .
+
+:ub1bL160C73 a :sponsoringOrg .
+
+:ub1bL160C88 a :sponsoringOrg .
+
+:ub1bL1614C49 a :sponsoringOrg .
+
+:ub1bL1649C49 a :sponsoringOrg .
+
+:ub1bL1663C20 a :sponsoringOrg .
+
+:ub1bL1663C73 a :sponsoringOrg .
+
+:ub1bL1670C21 a :sponsoringOrg .
+
+:ub1bL1677C20 a :sponsoringOrg .
+
+:ub1bL1677C58 a :sponsoringOrg .
+
+:ub1bL167C21 a :sponsoringOrg .
+
+:ub1bL1684C20 a :sponsoringOrg .
+
+:ub1bL1691C20 a :sponsoringOrg .
+
+:ub1bL1698C21 a :sponsoringOrg .
+
+:ub1bL1705C21 a :sponsoringOrg .
+
+:ub1bL1712C21 a :sponsoringOrg .
+
+:ub1bL1719C20 a :sponsoringOrg .
+
+:ub1bL1719C44 a :sponsoringOrg .
+
+:ub1bL1726C21 a :sponsoringOrg .
+
+:ub1bL1740C21 a :sponsoringOrg .
+
+:ub1bL1747C20 a :sponsoringOrg .
+
+:ub1bL1747C58 a :sponsoringOrg .
+
+:ub1bL174C63 a :sponsoringOrg .
+
+:ub1bL1810C21 a :sponsoringOrg .
+
+:ub1bL1817C20 a :sponsoringOrg .
+
+:ub1bL181C117 a :sponsoringOrg .
+
+:ub1bL1824C21 a :sponsoringOrg .
+
+:ub1bL1831C21 a :sponsoringOrg .
+
+:ub1bL1852C21 a :sponsoringOrg .
+
+:ub1bL1859C20 a :sponsoringOrg .
+
+:ub1bL1859C53 a :sponsoringOrg .
+
+:ub1bL1866C21 a :sponsoringOrg .
+
+:ub1bL188C21 a :sponsoringOrg .
+
+:ub1bL1901C20 a :sponsoringOrg .
+
+:ub1bL202C20 a :sponsoringOrg .
+
+:ub1bL258C20 a :sponsoringOrg .
+
+:ub1bL279C137 a :sponsoringOrg .
+
+:ub1bL279C20 a :sponsoringOrg .
+
+:ub1bL279C40 a :sponsoringOrg .
+
+:ub1bL279C71 a :sponsoringOrg .
+
+:ub1bL321C20 a :sponsoringOrg .
+
+:ub1bL321C70 a :sponsoringOrg .
+
+:ub1bL333C20 a :sponsoringOrg .
+
+:ub1bL354C21 a :sponsoringOrg .
+
+:ub1bL389C128 a :sponsoringOrg .
+
+:ub1bL389C148 a :sponsoringOrg .
+
+:ub1bL396C45 a :sponsoringOrg .
+
+:ub1bL403C21 a :sponsoringOrg .
+
+:ub1bL410C21 a :sponsoringOrg .
+
+:ub1bL438C21 a :sponsoringOrg .
+
+:ub1bL445C21 a :sponsoringOrg .
+
+:ub1bL487C21 a :sponsoringOrg .
+
+:ub1bL543C20 a :sponsoringOrg .
+
+:ub1bL592C21 a :sponsoringOrg .
+
+:ub1bL599C20 a :sponsoringOrg .
+
+:ub1bL599C52 a :sponsoringOrg .
+
+:ub1bL662C133 a :sponsoringOrg .
+
+:ub1bL662C151 a :sponsoringOrg .
+
+:ub1bL662C179 a :sponsoringOrg .
+
+:ub1bL662C213 a :sponsoringOrg .
+
+:ub1bL662C260 a :sponsoringOrg .
+
+:ub1bL662C277 a :sponsoringOrg .
+
+:ub1bL676C20 a :sponsoringOrg .
+
+:ub1bL676C81 a :sponsoringOrg .
+
+:ub1bL690C74 a :sponsoringOrg .
+
+:ub1bL732C20 a :sponsoringOrg .
+
+:ub1bL781C21 a :sponsoringOrg .
+
+:ub1bL802C20 a :sponsoringOrg .
+
+:ub1bL837C88 a :sponsoringOrg .
+
+:ub1bL844C64 a :sponsoringOrg .
+
+:ub1bL865C21 a :sponsoringOrg .
+
+:ub1bL886C20 a :sponsoringOrg .
+
+:ub1bL886C60 a :sponsoringOrg .
+
+:ub1bL886C82 a :sponsoringOrg .
+
+:ub1bL900C21 a :sponsoringOrg .
+
+:ub1bL907C20 a :sponsoringOrg .
+
+:ub1bL921C21 a :sponsoringOrg .
+
+:ub1bL929C21 a :sponsoringOrg .
+
+:ub1bL936C21 a :sponsoringOrg .
+
+:ub1bL964C21 a :sponsoringOrg .
+
+:ub1bL985C21 a :sponsoringOrg .
+
+:ub1bL992C21 a :sponsoringOrg .
+
+<http://cui.unige.ch/isi/swt/tp2a#wp:Americas> a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#wp:Hampshire> a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#wp:Sweden> a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#wp:UK> a :area .
+
+<http://en.ellet.gr/> a :sponsoringOrg .
+
+wp:ADS_All_Sky_Survey a :sponsoringOrg .
+
+wp:Aarhus_University a :sponsoringOrg .
+
+wp:Ageing a :discipline .
+
+wp:Aging a :discipline .
+
+wp:Agronomy a :discipline .
+
+wp:Air_quality a :discipline .
+
+wp:Alaska_Native_Tribal_Health_Consortium a :sponsoringOrg .
+
+wp:Algal_Bloom a :discipline .
+
+wp:Alzheimers a :discipline .
+
+wp:American_Astronomical_Society a :sponsoringOrg .
+
+wp:Animal_Demography_Unit a :sponsoringOrg .
+
+wp:Archives a :discipline .
+
+wp:Aristotle_University_of_Thessaloniki a :sponsoringOrg .
+
+wp:Art a :discipline .
+
+wp:Art_history a :discipline .
+
+wp:Arthropods a :discipline .
+
+wp:Artificial_Intelligence a :discipline .
+
+wp:Association_of_Zoos_and_Aquariums a :sponsoringOrg .
+
+wp:Aurora a :discipline .
+
+wp:Australian_Museum_and_Atlas_of_Living_Australia a :sponsoringOrg .
+
+wp:BBC_Stargazing_Live a :sponsoringOrg .
+
+wp:BBSRC a :sponsoringOrg .
+
+wp:Barcelona_zoo a :sponsoringOrg .
+
+wp:Biodiversity_Heritage_Library a :sponsoringOrg .
+
+wp:Biogeography a :discipline .
+
+wp:Biology_Monte_Carlo_method a :discipline .
+
+wp:Biomedical a :discipline .
+
+wp:Biomedical_research a :discipline .
+
+wp:Bird_migration a :discipline .
+
+wp:Bombay_Natural_History_Society a :sponsoringOrg .
+
+wp:Botanical_Society_of_Britain_and_Ireland a :sponsoringOrg .
+
+wp:British_Ecological_Society a :sponsoringOrg .
+
+wp:British_Trust_for_Ornithology a :sponsoringOrg .
+
+wp:Broad_Institute a :sponsoringOrg .
+
+wp:Butterfly_Conservation a :sponsoringOrg .
+
+wp:CSIRO a :sponsoringOrg .
+
+wp:Cal_Poly_Pomona a :sponsoringOrg .
+
+wp:Cal_State_Monterey_Bay a :sponsoringOrg .
+
+wp:California_Academy_of_Sciences a :sponsoringOrg .
+
+wp:California_State_University_Fullerton a :sponsoringOrg .
+
+wp:Canadian_Wildlife_Federation a :sponsoringOrg .
+
+wp:Cardiff_University a :sponsoringOrg .
+
+wp:Cellular_biology a :discipline .
+
+wp:Center_for_Community_Driven_Research a :sponsoringOrg .
+
+wp:Cetology a :discipline .
+
+wp:Charles_University_in_Prague a :sponsoringOrg .
+
+wp:Chicago_Botanic_Garden a :sponsoringOrg .
+
+wp:Citizen_Journalism a :discipline .
+
+wp:Citizen_Science a :discipline .
+
+wp:City_Ecology a :discipline .
+
+wp:Climate_change a :discipline .
+
+wp:Climate_change_impacts a :discipline .
+
+wp:Clinical_psychology a :discipline .
+
+wp:Commission_for_Environmental_Cooperation a :sponsoringOrg .
+
+wp:Complutense_University_of_Madrid a :sponsoringOrg .
+
+wp:Crowd-sourced a :sponsoringOrg .
+
+<http://en.wikipedia.org/wiki/DAN_Europe_and_wp:DAN_Southern_Africa> a :sponsoringOrg .
+
+wp:DEFRA a :sponsoringOrg .
+
+wp:Disaster_risk_reduction a :discipline .
+
+wp:Divers_Alert_Network a :sponsoringOrg .
+
+wp:Economy a :discipline .
+
+wp:Engineering a :discipline .
+
+wp:Environmental_Conservation a :discipline .
+
+wp:Environmental_Meteorological_Network a :discipline .
+
+wp:Environmental_change a :discipline .
+
+wp:Environmental_protection a :discipline .
+
+wp:European-Mediterranean_Seismological_Centre a :sponsoringOrg .
+
+wp:European_Citizen_Science_Association a :sponsoringOrg .
+
+wp:European_Research_Council a :sponsoringOrg .
+
+wp:European_Space_Astronomy_Centre a :sponsoringOrg .
+
+wp:Evidence-based_medicine a :discipline .
+
+wp:Eötvös_Loránd_University a :sponsoringOrg .
+
+wp:FECyT a :sponsoringOrg .
+
+wp:First_Nations_Health_Authority a :sponsoringOrg .
+
+wp:Fisheries_and_Oceans_Canada a :sponsoringOrg .
+
+wp:Floods a :discipline .
+
+wp:Forestry a :discipline .
+
+wp:Freie_Universität_Berlin a :sponsoringOrg .
+
+wp:Froglife a :sponsoringOrg .
+
+wp:Gatsby_Charitable_Foundation a :sponsoringOrg .
+
+wp:Genomics a :discipline .
+
+wp:Goddard_Space_Flight_Center a :sponsoringOrg .
+
+wp:Golden_Gate_Natl_Parks_Conservancy a :sponsoringOrg .
+
+wp:Guylian_Belgian_Chocolate a :sponsoringOrg .
+
+wp:Habitat_conservation a :discipline .
+
+wp:Harvard-Smithsonian_Center_for_Astrophysics a :sponsoringOrg .
+
+wp:History a :discipline .
+
+wp:Hong_Kong_Bird_Watching_Society a :sponsoringOrg .
+
+wp:Howard_Hughes_Medical_Institute a :sponsoringOrg .
+
+wp:Human_Dimensions_of_Wildlife a :discipline .
+
+wp:Human_geography a :discipline .
+
+wp:Human_well-being a :discipline .
+
+wp:Humanities a :discipline .
+
+wp:Hydrology a :discipline .
+
+wp:IBM a :sponsoringOrg .
+
+wp:IIASA a :sponsoringOrg .
+
+wp:Insect_Research a :discipline .
+
+<http://en.wikipedia.org/wiki/Institut_national_de_la_recherche_agronomique_wp:Inria> a :sponsoringOrg .
+
+wp:Institute_for_Computer_Science_and_Control a :sponsoringOrg .
+
+wp:Instituto_Milenio_de_Astrofíscia a :sponsoringOrg .
+
+wp:International_Dark-Sky_Association a :sponsoringOrg .
+
+wp:Ionizing_radiation a :discipline .
+
+wp:Iowa_State_University a :sponsoringOrg .
+
+wp:Jet_Propulsion_Laboratory a :sponsoringOrg .
+
+wp:John_G._Shedd_Aquarium a :sponsoringOrg .
+
+wp:John_Hughs_Forestry_Center a :sponsoringOrg .
+
+wp:Kelp a :discipline .
+
+wp:Kennesaw_State_University a :sponsoringOrg .
+
+wp:Knowledge_integration a :discipline .
+
+wp:LIGO_Scientific_Collaboration a :sponsoringOrg .
+
+wp:Land_cover_validation a :discipline .
+
+wp:Leibniz_Institute_of_Freshwater_Ecology_and_Inland_Fisheries a :sponsoringOrg .
+
+wp:Life_sciences a :discipline .
+
+wp:Light_Pollution a :discipline .
+
+wp:Light_pollution a :discipline .
+
+wp:Linguistic_landscape a :discipline .
+
+wp:List_of_life_sciences a :discipline .
+
+wp:Loughborough_University a :sponsoringOrg .
+
+wp:Ludwig_Maximilian_University_of_Munich a :sponsoringOrg .
+
+wp:MDI_Biological_Laboratory a :sponsoringOrg .
+
+wp:Machine_Learning a :discipline .
+
+wp:Malacology a :discipline .
+
+wp:Mammal_Conservation a :discipline .
+
+wp:Mammalogy a :discipline .
+
+wp:Manchester_Museum a :sponsoringOrg .
+
+wp:Mangrove a :discipline .
+
+wp:Marie_Skłodowska-Curie_Actions a :sponsoringOrg .
+
+wp:Marine_Conservation a :discipline .
+
+wp:Marine_Debris a :discipline .
+
+wp:Marine_Management a :discipline .
+
+wp:Marine_Research_Institute a :sponsoringOrg .
+
+wp:Marine_conservation a :discipline .
+
+wp:Mark-recapture a :discipline .
+
+wp:Mathematics a :discipline .
+
+wp:Max_Planck_Society a :sponsoringOrg .
+
+wp:Meteorological_phenomena a :discipline .
+
+wp:Microbiology a :discipline .
+
+wp:Minerals a :discipline .
+
+wp:Montréal_Insectarium a :sponsoringOrg .
+
+wp:Moors_for_the_Future a :sponsoringOrg .
+
+wp:NASA_Goddard a :sponsoringOrg .
+
+wp:National_Arbor_Day_Foundation a :sponsoringOrg .
+
+wp:National_Earth_Science_Teachers_Association a :sponsoringOrg .
+
+wp:National_Geographic a :sponsoringOrg .
+
+wp:National_Institute_on_Aging a :sponsoringOrg .
+
+wp:National_Institutes_of_Health a :sponsoringOrg .
+
+wp:National_Optical_Astronomy_Observatory a :sponsoringOrg .
+
+wp:Natural_History a :discipline .
+
+wp:Natural_History_Museum a :sponsoringOrg .
+
+wp:Natural_hazards a :discipline .
+
+wp:Nature a :discipline .
+
+wp:Nature_Canada a :sponsoringOrg .
+
+wp:Nature_Conservancy_of_Canada a :sponsoringOrg .
+
+wp:New_York_University_Polytechnic_School_of_Engineering a :sponsoringOrg .
+
+wp:Non-profit_organization a :sponsoringOrg .
+
+wp:Norwegian_Directorate_for_Nature_Management a :sponsoringOrg .
+
+wp:Odonata a :discipline .
+
+wp:Panchromatic_Hubble_Andromeda_Treasury a :sponsoringOrg .
+
+wp:Particle_Physics a :discipline .
+
+wp:Peatlands a :discipline .
+
+wp:Phytoplankton a :discipline .
+
+wp:Plant_Disease a :discipline .
+
+wp:Population_Change a :discipline .
+
+wp:Population_ecology a :discipline .
+
+wp:Population_genetics a :discipline .
+
+wp:Portland_State_University a :sponsoringOrg .
+
+wp:Private_company a :sponsoringOrg .
+
+wp:Project_Seahorse a :sponsoringOrg .
+
+wp:Psychotherapy a :discipline .
+
+wp:Public_Health a :discipline .
+
+wp:Radio_Astronomy a :discipline .
+
+wp:Research a :discipline .
+
+wp:Ressources a :discipline .
+
+wp:Road_Safety a :discipline .
+
+wp:Robotics a :discipline .
+
+wp:Royal_Ontario_Museum a :sponsoringOrg .
+
+wp:Royal_Society_for_the_Protection_of_Birds a :sponsoringOrg .
+
+wp:Rutgers_University a :sponsoringOrg .
+
+wp:Sainsbury_Laboratory a :sponsoringOrg .
+
+wp:Science_Museum_Group a :sponsoringOrg .
+
+wp:Seagrass a :discipline .
+
+wp:Seventh_Framework_Programme a :sponsoringOrg .
+
+wp:Smithsonian_Migratory_Bird_Center a :sponsoringOrg .
+
+wp:Social a :discipline .
+
+wp:Society_of_Biology a :sponsoringOrg .
+
+wp:Sociolinguistics a :discipline .
+
+wp:Space_physics a :discipline .
+
+wp:Species_Diversity a :discipline .
+
+wp:Surveillance a :discipline .
+
+wp:Survey_of_the_MAgellanic_Stellar_History a :sponsoringOrg .
+
+wp:Swedish_University_of_Agricultural_Sciences a :sponsoringOrg .
+
+wp:Syracuse_University a :sponsoringOrg .
+
+wp:Tagging a :discipline .
+
+wp:The_Kinsey_Institute a :sponsoringOrg .
+
+wp:The_Nature_Conservancy_and_the_Cornell_Lab_of_Ornithology a :sponsoringOrg .
+
+wp:The_Open_University a :sponsoringOrg .
+
+wp:The_University_of_British_Columbia a :sponsoringOrg .
+
+wp:Toronto_Zoo a :sponsoringOrg .
+
+wp:Toronto_and_Region_Conservation_Authority a :sponsoringOrg .
+
+wp:Tourism a :discipline .
+
+wp:Transportation a :discipline .
+
+wp:Trash_Blindness a :discipline .
+
+wp:UCLA a :sponsoringOrg .
+
+wp:UNOSAT a :sponsoringOrg .
+
+wp:US_Environmental_Protection_Agency a :sponsoringOrg .
+
+wp:Umeå_University a :sponsoringOrg .
+
+wp:United_Nations_Institute_for_Training_and_Research a :sponsoringOrg .
+
+wp:University_College_London a :sponsoringOrg .
+
+wp:University_Of_California a :sponsoringOrg .
+
+wp:University_of_Adelaide a :sponsoringOrg .
+
+wp:University_of_Alberta a :sponsoringOrg .
+
+wp:University_of_California a :sponsoringOrg .
+
+wp:University_of_Edinburgh a :sponsoringOrg .
+
+wp:University_of_Exeter a :sponsoringOrg .
+
+wp:University_of_Geneva a :sponsoringOrg .
+
+wp:University_of_Georgia_Center_for_Invasive_Species_and_Ecosystem_Health a :sponsoringOrg .
+
+wp:University_of_Gloucestershire a :sponsoringOrg .
+
+wp:University_of_Idaho a :sponsoringOrg .
+
+wp:University_of_Illinois_at_Urbana_Champaign a :sponsoringOrg .
+
+wp:University_of_Kansas a :sponsoringOrg .
+
+wp:University_of_Kentucky a :sponsoringOrg .
+
+wp:University_of_Luxembourg a :sponsoringOrg .
+
+wp:University_of_Manchester a :sponsoringOrg .
+
+wp:University_of_Massachusetts_Amherst a :sponsoringOrg .
+
+wp:University_of_Massachusetts_Boston a :sponsoringOrg .
+
+wp:University_of_Massachusetts_Medical_School a :sponsoringOrg .
+
+wp:University_of_Minnesota a :sponsoringOrg .
+
+wp:University_of_Nebraska-Lincoln a :sponsoringOrg .
+
+wp:University_of_Oxford a :sponsoringOrg .
+
+wp:University_of_Pretoria a :sponsoringOrg .
+
+wp:University_of_Southern_Denmark a :sponsoringOrg .
+
+wp:University_of_Tennessee a :sponsoringOrg .
+
+wp:University_of_Waterloo a :sponsoringOrg .
+
+wp:University_of_Western_Sydney a :sponsoringOrg .
+
+wp:Université_Paris_Descartes a :sponsoringOrg .
+
+wp:Vancouver_Aquarium a :sponsoringOrg .
+
+wp:Veterinary a :discipline .
+
+wp:Victoria_University_of_Wellington a :sponsoringOrg .
+
+wp:Waag_Society a :sponsoringOrg .
+
+wp:Water_Colour a :discipline .
+
+wp:Wetlands a :discipline .
+
+wp:Wikimedia_Foundation a :sponsoringOrg .
+
+wp:Wildlife_Preservation_Canada a :sponsoringOrg .
+
+wp:Wildlife_conservation a :discipline .
+
+wp:Windows_to_the_Universe a :sponsoringOrg .
+
+wp:WomSAT.org.au a :sponsoringOrg .
+
+wp:Woodland_Trust a :sponsoringOrg .
+
+wp:Xerces_Society a :sponsoringOrg .
+
+wp:Yale_University a :sponsoringOrg .
+
+wp:Zwicky_Transient_Facility a :sponsoringOrg .
+
+wp:art a :discipline .
+
+wp:atmospheric_science a :discipline .
+
+wp:biodiversity a :discipline .
+
+wp:climate_change a :discipline .
+
+wp:iNaturalist a :Project,
+        :sponsoringOrg ;
+    :began 2008 ;
+    :hasArea :Global ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2008> ;
+    :hasDiscipline wp:Botany,
+        wp:Ecology,
+        wp:Entomology,
+        wp:Lepidoptera,
+        wp:Ornithology,
+        wp:Phenology,
+        wp:Zoology ;
+    :hasProjectname :iNaturalist ;
+    :hasSponsoringorg wp:California_Academy_of_Sciences ;
+    :projectName "iNaturalist" .
+
+wp:invasive_species a :discipline .
+
+wp:libraries a :discipline .
+
+wp:limnology a :discipline .
+
+wp:meteorology a :discipline .
+
+wp:paleontology a :discipline .
+
+wp:protein a :discipline .
+
+wp:uBiome a :sponsoringOrg .
+
+wp:water_quality a :discipline .
+
+<http://www.ceab.csic.es/en/> a :sponsoringOrg .
+
+<http://www.creaf.cat/> a :sponsoringOrg .
+
+<https://en.wikipedia.org/wiki/Cochrane_(organisation)> a :sponsoringOrg .
+
+<https://en.wikipedia.org/wiki/Federal_Ministry_of_Education_and_Research_(Germany)> a :sponsoringOrg .
+
+<https://en.wikipedia.org/wiki/National_Zoological_Park_(United_States)> a :sponsoringOrg .
+
+<https://en.wikipedia.org/wiki/Pedology_(soil_study)> a :discipline .
+
+<https://en.wikipedia.org/wiki/Texas_A&M_University> a :sponsoringOrg .
+
+<https://en.wikipedia.org/wiki/University_of_California,_Berkeley> a :sponsoringOrg .
+
+di:All_Fields_of_Science a :discipline .
+
+<http://cui.unige.ch/isi/swt/tp2a#1969> a :began .
+
+<http://cui.unige.ch/isi/swt/tp2a#1995> a :began .
+
+<http://cui.unige.ch/isi/swt/tp2a#1996> a :began .
+
+<http://cui.unige.ch/isi/swt/tp2a#2001> a :began .
+
+<http://cui.unige.ch/isi/swt/tp2a#Acadia%20University> a :name .
+
+:Bangladesh a :area .
+
+:BioNote a :Project,
+        :name,
+        :projectName ;
+    :began 2016 ;
+    :hasArea :Worldwide ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2016> ;
+    :hasDiscipline wp:Biogeography,
+        wp:Biology,
+        wp:Botany,
+        wp:Zoology,
+        <https://en.wikipedia.org/wiki/Taxonomy_(biology)> ;
+    :hasProjectname :BioNote ;
+    :hasSponsoringorg :ub1bL321C20,
+        :ub1bL321C70,
+        wp:European_Research_Council,
+        wp:University_of_Gothenburg ;
+    :projectName "BioNote" ;
+    :sponsoringOrg [ :hasName :BioNote ;
+            :name "BioNote" ],
+        [ :hasName :Climate-KIC ;
+            :name "Climate-KIC" ] .
+
+<http://cui.unige.ch/isi/swt/tp2a#CCP%20Games> a :name .
+
+:Hacedores a :name .
+
+:ISeeChange a :Project,
+        :name,
+        :projectName ;
+    :began 2012 ;
+    :hasArea :Global ;
+    :hasBegan <http://cui.unige.ch/isi/swt/tp2a#2012> ;
+    :hasDiscipline wp:Citizen_Journalism,
+        wp:Climatology,
+        wp:Ecology,
+        wp:Meteorology,
+        wp:Phenology,
+        wp:Remote_Sensing ;
+    :hasProjectname :ISeeChange ;
+    :hasSponsoringorg :ub1bL985C21 ;
+    :projectName "ISeeChange" ;
+    :sponsoringOrg [ :hasName :ISeeChange ;
+            :name "ISeeChange" ] .
+
+:MMOS a :name .
+
+:Mexico a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Nature%27s%20Calendar> a :projectName .
+
+:NatureMapr a :name .
+
+:North_America a :area .
+
+:Norway a :area .
+
+:Portland a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Striped%20Bass%20Research%20Team> a :name .
+
+:Switzerland a :area,
+        :name .
+
+:Taiwan a :area .
+
+:Tokyo a :area .
+
+:USA_VT a :area .
+
+:United_States a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#University%20of%20Natural%20Resources%20and%20Life%20Sciences> a :name .
+
+:Vienna a :name .
+
+:Western_Australia a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#Whistler%20Biodiversity%20Project> a :name,
+        :projectName .
+
+:Worldwide_Marine a :area .
+
+wp:Adler_Planetarium a :sponsoringOrg .
+
+wp:Ahmedabad_University a :sponsoringOrg .
+
+wp:Air_pollution a :discipline .
+
+wp:Air_quality_index a :discipline .
+
+wp:Asterics a :sponsoringOrg .
+
+wp:Bioacoustics a :discipline .
+
+wp:BirdLife_Australia a :sponsoringOrg .
+
+wp:Cartography a :discipline .
+
+wp:Computing a :discipline .
+
+wp:Decompression_theory a :discipline .
+
+wp:European_Commission a :sponsoringOrg .
+
+wp:Harvard_University a :sponsoringOrg .
+
+wp:Human_Impact a :discipline .
+
+wp:Ichthyology a :discipline .
+
+wp:Institute_for_Marine_and_Antarctic_Studies a :sponsoringOrg .
+
+wp:Linguistics a :discipline .
+
+wp:Marine_Science a :discipline .
+
+wp:Massachusetts_Institute_of_Technology a :sponsoringOrg .
+
+wp:Medicine a :discipline .
+
+wp:Museum_of_Natural_Sciences a :sponsoringOrg .
+
+wp:National_Geographic_Society a :sponsoringOrg .
+
+wp:National_Weather_Service a :sponsoringOrg .
+
+wp:Neuroscience a :discipline .
+
+wp:Northwestern_University a :sponsoringOrg .
+
+wp:Ontario_Nature a :sponsoringOrg .
+
+wp:Oregon_State_University a :sponsoringOrg .
+
+wp:Remote_Sensing a :discipline .
+
+wp:Seismology a :discipline .
+
+wp:Species_distribution a :discipline .
+
+wp:United_States_Geological_Survey a :sponsoringOrg .
+
+wp:University_of_Georgia a :sponsoringOrg .
+
+wp:University_of_Gothenburg a :sponsoringOrg .
+
+wp:University_of_Ottawa a :sponsoringOrg .
+
+wp:University_of_Reading a :sponsoringOrg .
+
+wp:University_of_Sydney a :sponsoringOrg .
+
+wp:University_of_Tasmania a :sponsoringOrg .
+
+wp:University_of_Tokyo a :sponsoringOrg .
+
+wp:University_of_Washington a :sponsoringOrg .
+
+wp:Wild_Me a :sponsoringOrg .
+
+wp:Zoological_Society_of_London a :sponsoringOrg .
+
+wp:climatology a :discipline .
+
+wp:environmental_science a :discipline .
+
+wp:hydrology a :discipline .
+
+<https://en.wikipedia.org/wiki/Conservation_(ethic)> a :discipline .
+
+<https://en.wikipedia.org/wiki/Taxonomy_(biology)> a :discipline .
+
+<http://cui.unige.ch/isi/swt/tp2a#1992> a :began .
+
+<http://cui.unige.ch/isi/swt/tp2a#1999> a :began .
+
+:Canada_Ontario a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#City%20Nature%20Challenge%202018> a :projectName .
+
+:Germany a :area,
+        :name .
+
+wp:Air_Quality a :discipline .
+
+wp:Conservation_Biology a :discipline .
+
+wp:Fisheries a :discipline .
+
+wp:Genetics a :discipline .
+
+wp:Geography a :discipline .
+
+wp:Marine_Biological_Association_of_the_United_Kingdom a :sponsoringOrg .
+
+wp:Marine_biology a :discipline .
+
+wp:Mycology a :discipline .
+
+wp:Physics a :discipline .
+
+wp:Smithsonian_Institution a :sponsoringOrg .
+
+wp:Zooniverse a :sponsoringOrg .
+
+<http://cui.unige.ch/isi/swt/tp2a#2005> a :began .
+
+<http://cui.unige.ch/isi/swt/tp2a#2006> a :began .
+
+<http://cui.unige.ch/isi/swt/tp2a#National%20Science%20Week%20Australia> a :name .
+
+:New_Zealand a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#SPOTTERON%20Collaboration> a :name .
+
+<http://cui.unige.ch/isi/swt/tp2a#wp:North_America> a :area .
+
+wp:Australian_Broadcasting_Corporation a :sponsoringOrg .
+
+wp:Climate_Change a :discipline .
+
+wp:Health a :discipline .
+
+wp:Marine_Biology a :discipline .
+
+wp:NASA a :sponsoringOrg .
+
+wp:National_Audubon_Society a :sponsoringOrg .
+
+:Europe a :area .
+
+wp:Cornell_Lab_of_Ornithology a :sponsoringOrg .
+
+wp:Environmental_Science a :discipline .
+
+wp:Invasive_Species a :discipline .
+
+wp:Marine_Ecology a :discipline .
+
+wp:National_Science_Foundation a :sponsoringOrg .
+
+<http://cui.unige.ch/isi/swt/tp2a#2004> a :began .
+
+<http://cui.unige.ch/isi/swt/tp2a#2007> a :began .
+
+<http://cui.unige.ch/isi/swt/tp2a#2009> a :began .
+
+:Hong_Kong a :area .
+
+wp:Computer_science a :discipline .
+
+wp:Planetary_science a :discipline .
+
+wp:Pollution a :discipline .
+
+:Community a :sponsoringOrg .
+
+:India a :area .
+
+wp:Climatology a :discipline .
+
+<http://cui.unige.ch/isi/swt/tp2a#2008> a :began .
+
+<http://cui.unige.ch/isi/swt/tp2a#2010> a :began .
+
+wp:Biodiversity a :discipline .
+
+wp:Meteorology a :discipline .
+
+wp:Water_Quality a :discipline .
+
+<https://en.wikipedia.org/wiki/Zooniverse_(citizen_science_project)> a :sponsoringOrg .
+
+wp:Conservation_biology a :discipline .
+
+:Global a :area .
+
+<http://cui.unige.ch/isi/swt/tp2a#2018> a :began .
+
+wp:Lepidoptera a :discipline .
+
+wp:Wildlife a :discipline .
+
+wp:Zoology a :discipline .
+
+<http://cui.unige.ch/isi/swt/tp2a#2011> a :began .
+
+<http://cui.unige.ch/isi/swt/tp2a#2019> a :began .
+
+wp:Herpetology a :discipline .
+
+:Canada a :area .
+
+wp:Phenology a :discipline .
+
+<http://cui.unige.ch/isi/swt/tp2a#2017> a :began .
+
+:Australia a :area .
+
+:UK a :area .
+
+wp:Environmental_science a :discipline .
+
+<http://cui.unige.ch/isi/swt/tp2a#2016> a :app_debut,
+        :began .
+
+<http://cui.unige.ch/isi/swt/tp2a#2015> a :began,
+        :launch .
+
+wp:Botany a :discipline .
+
+<http://cui.unige.ch/isi/swt/tp2a#2012> a :began,
+        :first_photo .
+
+<http://cui.unige.ch/isi/swt/tp2a#2013> a :began,
+        :year .
+
+<http://cui.unige.ch/isi/swt/tp2a#2014> a :began .
+
+wp:Entomology a :discipline .
+
+wp:Astronomy a :discipline .
+
+wp:Ornithology a :discipline .
+
+wp:Biology a :discipline .
+
+:USA a :area,
+        :name .
+
+wp:Ecology a :discipline .
+
+:Worldwide a :area,
+        :name .
+
