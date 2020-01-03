@@ -1,0 +1,18 @@
+<h1>Search Results</h1>
+{% if view.query %}
+  Showing search results for: {{view.query}}
+  <ul>
+    {% for binding in view.query_result.bindings %}
+      <li>
+        {{ binding }}
+      </li>
+    {% empty %}
+    <li> No Results :(</li>
+    {% endfor %}
+  </ul>
+{% endif%}
+{{view.ret}}
+
+
+{#<pre> {% filter force_escape %} {% debug %} {% endfilter %} </pre> #}
+
