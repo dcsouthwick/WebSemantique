@@ -7,9 +7,19 @@
 <h1>Citizen Science Search</h1>
 
 <form action="{% url 'search_results' %}" method="get">
-    <label for="q">Search Query:</label>
-    <input name="q" id="q" type="text" size="60" placeholder="SELECT * WHERE { ?s ?p ?o. }">
-    <button type="submit">Search</button>
+    <label for="q">Search:</label>
+    <input name="s" id="s" type="text" length="60" placeholder="Project"></input>
+    <br>
+    <br>
+    PREFIX : http://cui.unige.ch/isi/swt/tp2c#
+    <br>
+    PREFIX rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+    <br>
+    PREFIX owl: http://www.w3.org/2002/07/owl#
+    <br>
+    <label for="q">SPARQL Query:</label>
+    <textarea widget=forms.Textarea, name="q" id="q" type="text" cols="60" rows="4" placeholder="SELECT * WHERE { ?s ?p ?o. }"></textarea>
+    <button type="submit">Query</button>
 </form>
 <br>
 Example search: "SELECT * WHERE { ?s ?p ?o. } limit 10"

@@ -9,10 +9,13 @@
 {% if view.query %}
   Showing search results for: {{view.query}}
 
+  {% render_table view.query_result %}
+{% else %}
+  No results :(
 {% endif%}
 {{view.ret}}
 
-{% render_table view.query_result %}
+
 
 {# Django Debug line, remove comment braces to view #}
 {#<pre> {% filter force_escape %} {% debug %} {% endfilter %} </pre> #}

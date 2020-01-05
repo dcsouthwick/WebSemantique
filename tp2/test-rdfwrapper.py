@@ -9,7 +9,7 @@ print(type(ret))
 print(ret.variables)  
 print(ret.fullResult)
 print()
-print(ret.bindings)
+print(ret.bindings.getValues())
 # this is an array consisting of "subj" and "prop"
 #for binding in ret.bindings :
     # each binding is a dictionary. Let us just print the results
