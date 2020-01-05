@@ -9,3 +9,5 @@ pylint = "*"
 [packages]
 django = "*"
 sparqlwrapper = "*"
+requests = "*"
+django-tables2 = "*"
