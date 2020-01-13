@@ -2502,7 +2502,7 @@ Renewed every year, "Le comptage des oiseaux des jardins" includes, every last w
    :name  """Clicnat""";
    :website  <http://obs.picardie-nature.org/>;
    :contact  """This e-mail address has been removed for personal data protection. Please go to the project website for other means of contact.""";
-   :briefDescription  """Picardie Nature has developed "Clicnat to improve knowledge about nature and share it, in an aim to improve nature conservation. It developed  a free software that allows all inhabitants of the Picardie region to enter and manage their own wildlife obersvations (mammals, molluscs, birds, butterflies) online and to consult this information and species distribution maps.  """;
+   :briefDescription  """Picardie Nature has developed \"Clicnat to improve knowledge about nature and share it, in an aim to improve nature conservation. It developed  a free software that allows all inhabitants of the Picardie region to enter and manage their own wildlife obersvations (mammals, molluscs, birds, butterflies) online and to consult this information and species distribution maps.  """;
    :geographicalExtent  """Regional""";
    :geographicCoverage  """France""";
    :leadOrganisationName  """Picardie Nature """;
@@ -8569,7 +8569,7 @@ System of observation of submarine parameters in continuous and in real time, wh
    :name  """Pericopsis""";
    :website  <http://pericopsis.org>;
    :contact  """http://pericopsis.org/trees/mess.php""";
-   :briefDescription  """Pericopsis" is a free and collaborative database for the localization and identification of trees """;
+   :briefDescription  """Pericopsis\" is a free and collaborative database for the localization and identification of trees """;
    :geographicalExtent  """Global""";
    :geographicCoverage  """World""";
    :leadOrganisationName  """Institute of Tropical Forestry and Forest Products """;
