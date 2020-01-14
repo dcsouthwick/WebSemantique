@@ -18,6 +18,8 @@ To run, navigate to `Docker/`
 
 Visit the webpage at `http://localhost:8000`
 
+**N.B.**: For persistent storage, the graphDB data is mounted to the docker instance at runtime. If the graphDB instance (`http://localhost:7200`) has problems connecting to the database, there is likely permission errors on mounting. SElinux has been known to cause this; an easy fix is to disable it is `# setenforce 0`.
+
 
 **Running with your own graphDB instance**
 Locate your RDFstore (graphDB connection string) and put it into
