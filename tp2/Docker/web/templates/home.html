@@ -8,40 +8,21 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Citizen Science Search</h1>
-
     <div class="container">
         <div class="row justify-content-center">
           <div class="col-8">
-            <h1 class="mt-2">Search</h1>
+            <h1 class="mt-2">Citizen Science Search</h1>
             <hr class="mt-0 mb-4">
             {% load crispy_forms_tags %}
             {% block content %}
             <form action="{% url 'search_results' %}" method="get">
-                <label for="q">Search:</label>
                 {% csrf_token %}           
-                {{ form.search|as_crispy_field }}
-                {{ form.query|as_crispy_field }}
-                
-                {#<input name="s" id="s" type="text" length="60" placeholder="Project"></input>#}
-                <br>
-                <br>
-                PREFIX : http://cui.unige.ch/isi/swt/tp2c#
-                <br>
-                PREFIX rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
-                <br>
-                PREFIX owl: http://www.w3.org/2002/07/owl#
-                <br>
-                <label for="q">SPARQL Query:</label>
-                {#<textarea widget=forms.Textarea, name="q" id="q" type="text" cols="60" rows="4" placeholder="SELECT * WHERE { ?s ?p ?o. }"></textarea>#}
-                <button type="submit" class="btn btn-success">Query</button>
+                {{ form|crispy }}
+                <button type="submit" class="btn btn-success">Query</button>               
             </form>
             {% endblock %}
-    <br>
-</div>
-</div>
-</div>
-    Example search: "SELECT * WHERE { ?s ?p ?o. } limit 10"
-
+            </div>
+        </div>
+    </div>
 </body>
 </html>

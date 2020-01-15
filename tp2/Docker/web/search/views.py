@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView, FormView
 from SPARQLWrapper import JSON, SPARQLWrapper2
 from requests import Timeout
 import django_tables2 as tables
@@ -9,7 +9,7 @@ from search.forms import SearchForm
 sparql = SPARQLWrapper2("http://graphDB:7200/repositories/swoogle")
 sparql.setTimeout(2)
 
-class HomePageView(TemplateView):
+class HomePageView(FormView):
     template_name = 'home.html'
     form_class = SearchForm
 
