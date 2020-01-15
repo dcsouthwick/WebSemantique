@@ -11,9 +11,9 @@
 @base <http://cui.unige.ch/isi/swt/tp2#> .
 
 <http://cui.unige.ch/isi/swt/tp2#> rdf:type owl:Ontology ;
-                                    owl:imports <file:////wsl$/Ubuntu/home/dsouthwi/WebSemantique/tp2/jrc-list-parsed.ttl> ,
-                                                <file:////wsl$/Ubuntu/home/dsouthwi/WebSemantique/tp2/wpCSP-parsed.ttl> ,
-                                                <file:////wsl$/Ubuntu/home/dsouthwi/WebSemantique/tp2/zoo-parsed.ttl> .
+                                    owl:imports <file:/home/dsouthwi/WebSemantique/tp2/jrc-list-parsed.ttl> ,
+                                                <file:/home/dsouthwi/WebSemantique/tp2/wpCSP-parsed.ttl> ,
+                                                <file:/home/dsouthwi/WebSemantique/tp2/zoo-parsed.ttl> .
 
 #################################################################
 #    Object Properties
@@ -23,11 +23,17 @@
 :hasName rdf:type owl:ObjectProperty ;
          owl:equivalentProperty tp2a:hasName ,
                                 tp2b:hasName ,
-                                tp2c:hasName .
+                                tp2c:hasName ;
+         rdf:type owl:FunctionalProperty .
 
 
 ###  http://cui.unige.ch/isi/swt/tp2a#hasArea
 tp2a:hasArea owl:equivalentProperty tp2b:hasGeographiccoverage .
+
+
+###  http://cui.unige.ch/isi/swt/tp2a#hasDesc
+tp2a:hasDesc owl:equivalentProperty tp2b:hasBriefdescription ,
+                                    tp2c:hasDesc .
 
 
 ###  http://cui.unige.ch/isi/swt/tp2a#hasDiscipline
@@ -37,13 +43,19 @@ tp2a:hasDiscipline owl:equivalentProperty tp2b:hasPrimaryenvironmentalfield ,
 
 ###  http://cui.unige.ch/isi/swt/tp2a#hasName
 tp2a:hasName owl:equivalentProperty tp2b:hasName ,
-                                    tp2c:hasName .
+                                    tp2c:hasName ;
+             rdf:type owl:FunctionalProperty .
+
+
+###  http://cui.unige.ch/isi/swt/tp2b#hasBriefdescription
+tp2b:hasBriefdescription owl:equivalentProperty tp2c:hasDesc .
 
 
 ###  http://cui.unige.ch/isi/swt/tp2b#hasGeographiccoverage
 
 ###  http://cui.unige.ch/isi/swt/tp2b#hasName
-tp2b:hasName owl:equivalentProperty tp2c:hasName .
+tp2b:hasName owl:equivalentProperty tp2c:hasName ;
+             rdf:type owl:FunctionalProperty .
 
 
 ###  http://cui.unige.ch/isi/swt/tp2b#hasPrimaryenvironmentalfield
@@ -52,7 +64,11 @@ tp2b:hasPrimaryenvironmentalfield owl:equivalentProperty tp2c:hasCategory .
 
 ###  http://cui.unige.ch/isi/swt/tp2c#hasCategory
 
+###  http://cui.unige.ch/isi/swt/tp2c#hasDesc
+
 ###  http://cui.unige.ch/isi/swt/tp2c#hasName
+tp2c:hasName rdf:type owl:FunctionalProperty .
+
 
 #################################################################
 #    Classes
@@ -72,7 +88,8 @@ tp2b:hasPrimaryenvironmentalfield owl:equivalentProperty tp2c:hasCategory .
       owl:equivalentClass tp2a:name ,
                           tp2b:name ,
                           tp2c:name ;
-      rdfs:subClassOf owl:Thing .
+      rdfs:subClassOf owl:Thing ;
+      rdfs:comment "Names an entity" .
 
 
 ###  http://cui.unige.ch/isi/swt/tp2a#Project
@@ -80,9 +97,17 @@ tp2a:Project owl:equivalentClass tp2b:Project ,
                                  tp2c:Project .
 
 
-###  http://cui.unige.ch/isi/swt/tp2a#discipline
-tp2a:discipline owl:equivalentClass tp2b:primaryEnvironmentalField ,
-                                    tp2c:category .
+###  http://cui.unige.ch/isi/swt/tp2a#area
+tp2a:area owl:equivalentClass tp2b:geographicCoverage .
+
+
+###  http://cui.unige.ch/isi/swt/tp2a#began
+tp2a:began owl:equivalentClass tp2b:startYear .
+
+
+###  http://cui.unige.ch/isi/swt/tp2a#desc
+tp2a:desc owl:equivalentClass tp2b:briefDescription ,
+                              tp2c:desc .
 
 
 ###  http://cui.unige.ch/isi/swt/tp2a#name
@@ -94,6 +119,12 @@ tp2a:name owl:equivalentClass tp2b:name ,
 tp2b:Project owl:equivalentClass tp2c:Project .
 
 
+###  http://cui.unige.ch/isi/swt/tp2b#briefDescription
+tp2b:briefDescription owl:equivalentClass tp2c:desc .
+
+
+###  http://cui.unige.ch/isi/swt/tp2b#geographicCoverage
+
 ###  http://cui.unige.ch/isi/swt/tp2b#name
 tp2b:name owl:equivalentClass tp2c:name .
 
@@ -101,6 +132,8 @@ tp2b:name owl:equivalentClass tp2c:name .
 ###  http://cui.unige.ch/isi/swt/tp2b#primaryEnvironmentalField
 tp2b:primaryEnvironmentalField owl:equivalentClass tp2c:category .
 
+
+###  http://cui.unige.ch/isi/swt/tp2b#startYear
 
 ###  http://cui.unige.ch/isi/swt/tp2c#Project
 tp2c:Project rdfs:subClassOf [ rdf:type owl:Restriction ;
@@ -110,6 +143,8 @@ tp2c:Project rdfs:subClassOf [ rdf:type owl:Restriction ;
 
 
 ###  http://cui.unige.ch/isi/swt/tp2c#category
+
+###  http://cui.unige.ch/isi/swt/tp2c#desc
 
 ###  http://cui.unige.ch/isi/swt/tp2c#name
 

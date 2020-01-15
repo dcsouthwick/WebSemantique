@@ -4,12 +4,14 @@ from SPARQLWrapper import JSON, SPARQLWrapper2
 from requests import Timeout
 import django_tables2 as tables
 from nltk import PorterStemmer
+from search.forms import SearchForm
 
 sparql = SPARQLWrapper2("http://graphDB:7200/repositories/swoogle")
 sparql.setTimeout(2)
 
 class HomePageView(TemplateView):
     template_name = 'home.html'
+    form_class = SearchForm
 
 class SearchResultsView(TemplateView):
     template_name = 'search_results.html'
@@ -29,7 +31,7 @@ class SearchResultsView(TemplateView):
 
 
     def query_result(self):
-        prefix = "PREFIX : <http://cui.unige.ch/isi/swt/tp2c#>  "
+        prefix = "PREFIX : <http://cui.unige.ch/isi/swt/tp2#>  "
         query = prefix+self.query()
         sparql.setQuery(query)
     

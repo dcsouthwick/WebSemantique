@@ -11,7 +11,7 @@ import os
 
 g = Graph()
 inputfiles = {'zoo.ttl', 'wpCSP.ttl', 'jrc-list'}
-TTLfile = "wpCSP-small.ttl"
+TTLfile = "zoo.ttl"
 file_base=TTLfile.split('.')[0]
 g.parse(os.getcwd()+"/data-sources/"+TTLfile, format="turtle")
 
